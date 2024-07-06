@@ -10,7 +10,7 @@
 {"NPCName": "Dolll",
   "Reactions": [
 
-{"LogName":"谁的电影对话关于小树苗",
+{"LogName":"玩偶的电影对话关于小树苗",
   "Tag": "spring_movie_0",
   "Response": "like",
   "Whitelist": [],
@@ -29,7 +29,7 @@
   "Text": "{{i18n:Dolll.AfterMovie7}}"}},
   "ID": "reaction_2"},
 
-{"LogName":"谁的电影对话关于草原之王",
+{"LogName":"玩偶的电影对话关于草原之王",
   "Tag": "summer_movie_0",
   "Response": "like",
   "Whitelist": [],
@@ -48,7 +48,7 @@
   "Text": "{{i18n:Dolll.AfterMovie3}}"}},
   "ID": "reaction_3"},
 
-{"LogName":"谁的电影对话关于神秘事迹",
+{"LogName":"玩偶的电影对话关于神秘事迹",
   "Tag": "fall_movie_0",
   "Response": "dislike",
   "Whitelist": [],
@@ -67,7 +67,7 @@
   "Text": "{{i18n:Dolll.AfterMovie9}}"}},
   "ID": "reaction_4"},
 
-{"LogName":"谁的电影对话关于牧场奇迹",
+{"LogName":"玩偶的电影对话关于牧场奇迹",
   "Tag": "winter_movie_0",
   "Response": "dislike",
   "Whitelist": [],
@@ -86,7 +86,7 @@
   "Text": "{{i18n:Dolll.AfterMovie9}}"}},
   "ID": "reaction_5"},
 
-{"LogName":"谁的电影对话关于探索世界",
+{"LogName":"玩偶的电影对话关于探索世界",
   "Tag": "spring_movie_1",
   "Response": "dislike",
   "Whitelist": [],
@@ -105,7 +105,7 @@
   "Text": "{{i18n:Dolll.AfterMovie9}}"}},
   "ID": "reaction_6"},
 
-{"LogName":"谁的电影对话关于温不斯",
+{"LogName":"玩偶的电影对话关于温不斯",
   "Tag": "summer_movie_1",
   "Response": "love",
   "Whitelist": [],
@@ -124,7 +124,7 @@
   "Text": "{{i18n:Dolll.AfterMovie7}}"}},
   "ID": "reaction_7"},
 
-{"LogName":"谁的电影对话关于雨中嚎叫",
+{"LogName":"玩偶的电影对话关于雨中嚎叫",
   "Tag": "fall_movie_1",
   "Response": "hate",
   "Whitelist": [],
@@ -143,7 +143,7 @@
   "Text": "{{i18n:Dolll.AfterMovie8}}"}},
   "ID": "reaction_8"},
 
-{"LogName":"谁的电影对话关于特快列车",
+{"LogName":"玩偶的电影对话关于特快列车",
   "Tag": "winter_movie_1",
   "Response": "dislike",
   "Whitelist": [],

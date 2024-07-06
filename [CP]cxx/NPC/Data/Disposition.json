@@ -1,7 +1,7 @@
 {"Changes":[
 
 
-{"LogName":"枫的角色信息",
+{"LogName":"唐枫",
   "Action": "EditData",
   "Target": "Data/Characters",
   "Entries": 
@@ -51,18 +51,9 @@
 {"MapAsset": "cxx.SpousePatios",
   "MapSourceRect": { "X": 8, "Y": 4, "Width": 4, "Height": 4 }}}}},
   
+  
 
-
-
-
-
-
-
-
-
-
-
-{"LogName":"玩偶的角色信息",
+{"LogName":"玩偶",
   "Action": "EditData",
   "Target": "Data/Characters",
   "Entries": {

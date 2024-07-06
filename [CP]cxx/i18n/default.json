@@ -42,6 +42,14 @@
 "Tangf.NeuGift":"啊,谢谢",
 //日常
 
+///长乐的翻译
+"Ancl.name":"长乐",
+//杂项
+
+//礼物
+
+//日常
+
 ///玩偶的翻译
 "Doll.name":"玩偶",
 "Doll.Introduction":"%你看到了一个小小的木制人偶,精致,但没什么特别的#$b#......",
@@ -56,7 +64,7 @@
 "Doll.DisGift":"%它的脑袋歪了歪,似乎是不太理解",
 "Doll.HateGift":"%它一点反应都没做出",
 "Doll.NeuGift":"%它只扬起脑袋看了你一眼",
-"Doll.AcceptBirthdayGift_Loved":"...$1#$b$%它朝你行了个礼,,木制的身体发出咯吱咯吱的摩擦声,看来是很喜欢这份礼物了",
+"Doll.AcceptBirthdayGift_Loved":"...$1#$b$%它木制的身体发出咯吱咯吱的摩擦声,看来是很喜欢这份礼物了",
 "Doll.AcceptBirthdayGift_Liked":"...$1#$b$%它从你手里接过礼物,轻轻的放进了小箱子里",
 "Doll.AcceptBirthdayGift_Hated":"%它一动不动,似乎完全不想做出反应",
 "Doll.AcceptBirthdayGift_Disliked":"...#$b#%它把脑袋转了过去",
@@ -68,7 +76,7 @@
 "Doll.AfterMovie9":"%它抱住了你的腿,似乎是因为无聊完全不想动了",
 "Doll.BeforeMovie8":"%它站在海报前看了很久的介绍",
 "Doll.DuringMovie8":"......#$b#%它看起来有点心神不宁",
-"Doll.AfterMovie8":"%它在纸上慢慢写着什么#$b#*没有生命的东西动起来,是很可怕的吗?*$2",
+"Doll.AfterMovie8":"%它在纸上慢慢写着什么#$b#*我也是,怪物,看到我,会害怕吗?*$2",
 "Doll.BeforeMovie7":"%它盯着海报上的绿色小人,似乎很是感兴趣",
 "Doll.DuringMovie7":"...$1#$b#%它朝着你换出了开心的表情",
 "Doll.AfterMovie7":"*喜...欢*$1#$b#%能从歪歪扭扭的字迹里看出它真的很喜欢这部电影",
