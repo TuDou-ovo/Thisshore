@@ -1,0 +1,716 @@
+
+1、spring13【蛋蛋节】
+2、spring24【花舞节】
+3、summer11【夏日汤节】
+4、summer28【月下水母节】
+5、fall16【展览和迷你游戏节】
+6、fall27【万圣（灵）节】
+7、winter8【冰钓节】
+8、winter25【圣诞节】
+
+1215 520 001 事件
+1215 521 001 信件
+
+
+地图制作////////////////
+
+TileData           对象图层固定名字
+Warp               地图坐标 跳转地图 跳转坐标
+整体地图属性
+Outdoors T--------------------------------设置为室外属性
+Passable T--------------------------------设置水面图层为可通过的桥梁{用于空气墙属性图层}
+Passable T--------------------------------设置为允许通过{用于空气墙属性图层}
+ViewportFollowPlayer T--------------------把视角固定在玩家角色 选择bool，然后输入ViewportFollowPlayer 可以改成打对号的属性
+TreatAsOutdoors T-------------------------用于室内，该地图会被视为户外，其目的是为了生成除了光源以外的paths图层，并且让玩家打爆石头之后会生产煤矿
+Bed T-------------------------------------设置为上床睡觉点
+Diggable T--------------------------------设置为耕地
+NoFishing T-------------------------------设置为不允许钓鱼
+NoFurniture T-----------------------------设置为不允许放置家具
+NoSpawn All-------------------------------设置为不允许生成杂草树木{用于室外属性地图}
+NoSpawn True------------------------------设置为不允许生成杂草树木{用于室外属性地图}
+NPCBarrier T------------------------------设置为不允许NPC行走
+Water T-----------------------------------设置为水面
+WaterSource T-----------------------------设置为能用水壶装水
+Fish 鱼id 上钩率100百分比------------------设置为钓鱼
+AmbientLight r g b------------------------为地图提供亮度，AmbientLight 255 255 255为白色，默认室内亮度为AmbientLight 95 95 95（个人感觉偏暗，需要灯光）r是红，g是绿，b是蓝）
+BrookSounds x y type----------------------用于户外环境音效 type有四种为0【河流的卟鲁声】，1为【火的声音】，2为【引擎声】，3为【蟋蟀声】）
+DayTiles 图层名字 x y 添加的图块id---------用在任何地方，在早上6点至下午7点添加图块，室内的添加图块是256, 288, 405, 469, 或者1224，你可以一次性搞出一堆）
+NightTiles 图层名字 x y 添加的图块id-------和DayTiles相反的东西，下午7点之后召唤指定图块
+Doors x y 1 120---------------------------用于室内，设置门，坐标放在第二格的门口Building图层
+Light x y type----------------------------在地图里添加光源，type为：1 (灯)、2 (窗户)、4 (壁灯，这个亮度相等于里面有两个蜡烛的灯)、5 (锅炉)、6 (室内窗户)、7 (放映机)
+WindowLight x y type----------------------添加只有在晚上和下雨才会亮起来的光源 type为：1 (灯)、2 (窗户)、4 (壁灯，这个亮度相等于里面有两个蜡烛的灯)、5 (锅炉)、6 (室内窗户)、7 (放映机)
+Music 音乐字-------------------------------玩家进入地图会触发的BGM
+Music 时间起点 时间终点--------------------音乐名字（玩家进入地图后触发的BGM，不过有时间限制，使用24小时制）【例子：Music 800 1200 MarlonsTheme】
+ProduceArea x y 图块宽度 图块高度----------设定一个能够生成动物的鸡舍或者牛棚的地方，用在鸡舍和牛棚
+ScreenshotRegion <int left> <int top> <int right> <int bottom>（给地图设置玩家使用截图功能时会截图到的范围，基本上默认从左上角截到右下角，如果不想让玩家透视某些地图场景，这个可以用）【例子为ScreenshotRegion 0 27 69 61】
+Stumps x y 3------------------------------每天固定生成大树桩，秘密森林和森林农场有使用
+Trees x y type----------------------------生成树木，任何地图都可以，type为1: 橡树, 2: 枫树, 3: 松树, 6: 橄榄树（沙漠的椰树）, 7: 蘑菇 和paths图块的树木没区别
+UniquePortrait 角色名英文名----------------当指定角色在此地图会切换立绘，需要把Portraits里面添加“角色名字”_“地图”，可以多次使用
+UniqueSprite 角色英文名--------------------切换行走图，从Characters里面读取“角色名字”_"地图"，可以多次使用 在角色的贴图名字加上地图名字就行 这个代码只需要写角色名字
+Warp x y----------------------------------传送过去的地图名字 x y  传送指令
+Type <type>-------------------------------改变脚步声，<type>有Dirt, Stone, Grass, 和Wood
+
+TouchAction 词条-交互触发属性 
+WomensLocker------------------------------设置为女性通过 搭配WarpWomensLocker使用
+MensLocker--------------------------------设置为男性通过 搭配WarpWomensLocker使用
+Bus---------------------------------------开动前往沙漠的巴士，和Action BusTicket一样的功能
+PoolEntrance------------------------------玩家进入游泳状态
+PoolExit----------------------------------玩家脱离游泳状态
+ChangeIntoSwimsuit------------------------把玩家的衣服换成泳装并禁止跑动
+ChangeOutOfSwimsuit-----------------------把玩家的泳装换回原本的衣服并允许跑动
+DesertBus---------------------------------开动在沙漠里的巴士并回到镇上
+Emote 角色名 $ ----------------------------NPC名字和<int emoteID>里的id显示对应反应【请转到155楼的表情id~】
+FacingDirection 角色名 数字----------------NPC名字和数字显示对应的面部朝向，0:上, 1: 右, 2: 下, 3: 左）
+legendarySword----------------------------当玩家拿着五彩石站在那边会变成银河剑
+MagicWarp 地图名称x y---------------------传送到指定位置并发出MagicWarp的音效，如果[string prerequisite]是有特殊条件的，则根据Game1.player.mailReceived来判定是否开启传送点）
+Sleep-------------------------------------玩家结束一天
+
+Action 词条-交互触发属性
+LockedDoorWarp x y 地图名称 时间开始 时间结束 *角色名称 好感度250是一颗心--------固定时间的传送门,好感度不是必要项
+AdventureShop------------------------------------------------------------------开启冒险工会的商店界面
+Arcade_Prairie-----------------------------------------------------------------开启草原之王小游戏
+Arcade_Minecart----------------------------------------------------------------开启祝尼魔矿车小游戏
+BuyBackpack--------------------------------------------------------------------开启购买背包的界面
+Billboard----------------------------------------------------------------------开启日历
+Blacksmith---------------------------------------------------------------------开启克林特铁匠的商店界面
+BrokenBeachBridge--------------------------------------------------------------询问是否修护海滩断桥
+BusTicket----------------------------------------------------------------------开启询问你是否购买车票的界面，和TouchAction Bus搭配使用
+BuyQiCoins---------------------------------------------------------------------询问你是否购买100 Qi币的界面
+ColaMachine--------------------------------------------------------------------询问玩家是否购买Joja可乐
+EnterSewer---------------------------------------------------------------------如果你拥有钥匙，那么地下室的传送点会打开
+EvilShrineLeft-----------------------------------------------------------------询问你是否用五彩石把你的孩子变成鸽子
+EvilShrineCenter---------------------------------------------------------------询问你是否消除前任的记忆
+EvilShrineRight----------------------------------------------------------------询问你是否让农场生成怪物
+Garbage <ID>-------------------------------------------------------------------翻辣鸡桶的动作，ID作用不明，不过我拆了地图发现是这样的，Garbage 0为山姆家的，Garbage 1为艾米丽姐妹家的，Garbage 2为村长家的，Garbage 3为博物馆的，Garbage 4为克林特铁匠家的，Garbage 5为酒吧的，Garbage 6为亚历克斯家的，Garbage 7为Joja的，如果有需要的人，可以试一下，不过sve都没有搞，我也不知道会不会有Bug）
+Gunther------------------------------------------------------------------------开启捐赠宝物的界面
+HMGTF--------------------------------------------------------------------------当你拿着超级海参的时候会给你？？HMGTF？？的雕像
+IceCreamStand------------------------------------------------------------------夏天的时候出现贩卖冰淇淋的界面，除了夏天以外的季节会显示不开店
+JojaShop-----------------------------------------------------------------------开启Joja商店的界面
+Jukebox------------------------------------------------------------------------开启选择音乐点唱机的界面
+kitchen------------------------------------------------------------------------开启烹饪的界面
+Letter <string text>-----------------------------------------------------------开启信件的界面，像是村长家的信、皮皮家的信，<string text>可以从Data\mail.xnb读取，或者直接在这里把信件打出来，比如Action Letter 哈喽!^我最近多了好多木头……我觉得你会需要用到的！请好好使用它！ ^ -罗宾 %item object 388 50 %%）
+LuauSoup-----------------------------------------------------------------------询问你要丢什么材料进入汤里
+MagicInk-----------------------------------------------------------------------添加魔法墨汁到你的钱包里
+Mailbox------------------------------------------------------------------------开启信箱里的信件，如果没有收到信件就是不会打开，你家的信箱就是用这个指令的
+Material-----------------------------------------------------------------------显示玩家已经储存的木头和石头数量，意义不明的东西
+Message <string messageKey>----------------------------------------------------从Content\Strings\StringsFromMaps.xnb读取指定信息，比如在节日上那些没有立绘的NPC说话时用到的是这个指令
+MessageOnce 事件id <string message>--------------------------------------------如果玩家没有触发到指定的事件ID，它将会为玩家标记为“已触发”并显示其内容，这个无法解析dialogue格式
+MineSign 对话id----------------------------------------------------------------显示小对话，无法解析dialogue格式
+MinecartTransport--------------------------------------------------------------显示是否乘坐矿车的界面，如果没有解锁则显示矿车没修好的信息
+MineElevator-------------------------------------------------------------------出现电梯传送点界面，每一次下到5层增加一个传送点，否则没有
+NextMineLevel------------------------------------------------------------------把玩家传送到下一层，如果玩家不在矿坑里则传送至地一层，就是楼梯的概念
+Notes <int noteID>-------------------------------------------------------------玩家拥有指定字条会触发的信息，并且标记玩家已触发，第二次将不会出现
+NPCMessage <str name> "<str dialogueKey>"--------------------------------------如果指定NPC在这里触碰，就会触发指定对话，比如，Action NPCMessage Abigail "Strings\\StringsFromCSFiles:Event.cs.1022"从Strings/StringsFormCS里面的代码读取，这里的Event.cs.1022是"真是太丢脸了……对不起。$s"
+playSound <str cueName>--------------------------------------------------------根据代码触发指定音效或者音乐
+QiCoins------------------------------------------------------------------------如果玩家没有的话，显示询问玩家购买10Qi币，否则显示玩家拥有多少Qi币
+SandDragon---------------------------------------------------------------------用于齐先生的任务
+TownMailbox <ID>---------------------------------------------------------------显示镇上的邮箱，基本上就是告诉你这个不是你的邮箱，不过我们用不上
+Warp x y 地图名字--------------------------------------------------------------设置一个传送点到指定地图的指定坐标，不过我们一般上不会写在图层里，后面我介绍地图属性会有的
+WarpCommunityCenter------------------------------------------------------------如果能进入社区中心将会把玩家传送至社区中心，除此之外会显示被锁了
+WarpGreenhouse-----------------------------------------------------------------如果玩家已经修护温室将会把玩家传送至温室，除此之外会显示崩塌温室的信息
+WizardBook---------------------------------------------------------------------如果解锁了，你可以在这里购买法师塔的东西，比如祝尼魔小屋
+WizardHatch--------------------------------------------------------------------如果你和法师好感度够了，你就会传送至地下室，否则会显示被锁了
+WizardShrine-------------------------------------------------------------------开启改变玩家外观的界面，和法师塔那边一毛一样的界面
+
+
+//////////////////电影零食
+
+苹果脆片----------"Apple Slices",-----------------又脆又甜的薄片
+黑甘草糖----------"Black Licorice",---------------一种有强烈刺鼻味道的耐嚼糖果
+卡布奇诺慕斯蛋糕--"Cappuccino Mousse Cake",-------涂有卡布奇诺慕斯的小块巧克力蛋糕
+巧克力爆米花------"Chocolate Popcorn",------------就是普通的爆米花……但是有巧克力涂层。
+棉花糖------------"Cotton CandyCotton Candy",----一大块由拔丝糖组成的粉色云朵。
+薯条--------------"Fries",-----------------------将切成薄片的土豆高温油炸，然后撒上少许盐
+鹰嘴豆泥小吃包----"Hummus Snack Pack",------------它吃起来松脆又健康。
+冰淇淋三明治------"Ice Cream Sandwich",-----------在两块巧克力饼干间夹着香草冰淇淋。
+茉莉花茶---------"Jasmine Tea",-------------------用芳香的茉莉花调味的绿茶。
+大糖球-----------"Jawbreaker",--------------------这是一颗又大又硬的糖果，够你舔一整部电影的时间！
+Joja可乐---------"Joja Cola",---------------------一份超大杯的Joja招牌汽水。
+Joja玉米---------:JojaCorn",----------------------Joja公司拥有专利的玉米食品，涂有大量的黄油酱。
+羽衣甘蓝汁--------"Kale SmoothieKale Smoothie",----它富含维生素和纤维。
+芝士玉米片--------"Nachos",------------------------在新鲜的油炸玉米片上涂满黏黏的、辣辣的起司。
+意式面包沙拉------"Panzanella Salad",--------------用面包和西红柿做的夏季沙拉。
+个人披萨----------"Personal Pizza",---------------小到可以当做甜点享用的披萨。
+爆米花------------"Popcorn",----------------------爆开的玉米粒，撒上少许盐，淋上黄油。
+糖冰棍------------"Rock Candy",-------------------香甜的糖晶体依附在一根简单的棍子上。
+鲑鱼汉堡----------"Salmon Burger",----------------一块厚实的三文鱼放在一个轻微烘烤过的芝麻籽小圆面包上。	
+盐渍花生----------"Salted Peanuts",--------------经典的咸味零食。	
+酸味史莱姆--------"Sour Slimes",-----------------小的颜色各异的史莱姆软糖。
+星形饼干----------"Star Cookie",-----------------撒有彩虹糖针的星形酥脆饼干。	
+星之果实冰糕------"Stardrop Sorbet",-------------一滴星之果实的精华让这冰糕有非凡的滋味
+松露爆米花--------"Truffle Popcorn",--------------传家宝手艺制作的爆米花撒上松露盐。	
+
+//////////////////////////////////////////////////////
+
+NPC的礼物口味需要放置在 Data/NPCGiftTastes.这个模组只会改变对话的反应，但不会改变NPC喜欢或不喜欢的物品。而且这个模组不影响友谊点数。这仍然是在“手中”的NPCGiftTastes资产在SDV！
+
+添加自定义礼物对话是非常容易的。只需添加到游戏内容Characters/Dialogue/<NpcName>中，并使用这些可能的键添加行：
+
+GiftReaction_物品英文-----------------------------他们会为这个物品说一段对话 对象名称中的空格必须替换为下划线_。
+GiftReactionTag_<contextTag> -根据上下文标签对物品进行反应对话（游戏资产Data/ObjectContextTags）。如果您想列出对象持有的上下文标记，请在控制台中键入debug listtags。
+GiftReactionCategory_类别id -对所有具体类别的对象的反应。
+GiftReactionPreserved_<preserveType> -按保存类型（或任何）对保存项（如果它被保存）的反应。可用的保存类型：
+Any,
+Wine,
+Jelly,
+Pickle,
+Juice,
+Roe,
+AgedRoe
+任何
+葡萄酒
+果冻
+泡菜，
+果汁
+鱼子
+老年Roe
+在上面的key之后，你也可以添加这些后缀：
+
+_Birthday -自定义反应的项目，如果这个项目是在NPC的生日礼物。
+_SecretSanta -自定义反应的项目，如果这个项目是作为礼物的秘密圣诞老人在冬星节。
+注意：这些后缀不适用于显示对话！
+
+自定义礼物对话工具现在支持显示对话。这些对话是可以揭示某些秘密的特殊对话。有2.5%的机会揭示对话将显示，如果它的定义为一个全国人大。
+
+Reveal_<targetNpcName>[<hearts>] -一个关于另一个NPC的对话，被问到的NPC可以说。你可以影响需要多少红心与另一个NPC都需要说这句揭示对话行。
+Reveal -定义了关于任何事情的一般显示对话。如果未定义目标分隔缝线，这也是该线的回退。
+<NpcName>（在内容资产名称中）是您想要为其添加自定义礼物反应对话行的NPC的名称。 您也可以添加一些替代线的礼物项目后添加后缀~<number>对话键。（仅适用于礼物反应对话） 随机后缀可以与反应对话后缀组合，如_birthday等。
+
+注意：国防部寻求具体的礼物对象对话第一，然后为对象类别。也就是说，如果你为种子类别（ID号-74，对话键GiftReactionCategory_-74）和对象防风草种子（GiftReaction_Parsnip_Seeds）指定反应，那么如果你将防风草种子赠送给你的具体NPC，那么你会看到防风草种子的对话。如果你赠送其他种子，你会看到种子类别的对话。 关于显示对话框的说明：如果你在NPC处置文件中为你的NPC定义了亲属，通常你可以看到原始的普通SDV显示对话，尽管你的自定义显示对话行已经定义。如果你想避免原件，不要在NPC处理文件中定义亲属。
+
+如何添加自定义礼物反应对话的最简单方法是使用Content Patcher：
+
+{
+  "Format": "1.24.0",
+  "Changes": [
+    {
+      // Custom gift reaction for Chocolate Cake with some randomized alternatives gifted to Abigail
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "GiftReaction_Chocolate_Cake": "I love chocolate cake, thank you so much, @!$h",
+        "GiftReaction_Chocolate_Cake~1": "How are you know I'm hungry? This cake looks delicious, Thank you!$h",
+        "GiftReaction_Chocolate_Cake~2": "Looks really tasty, thanks$l",
+        "GiftReaction_Chocolate_Cake~3": "It's shame I wanted to eat a rock for today's lunch.#$b#Just kidding, it looks really delicious! Thank you, @.$h",
+        "GiftReaction_Chocolate_Cake_Birthday": "This is the best birthday gift, really!$h",
+      }
+    },
+    {
+      // Custom gift reaction for an object category with exception for object Parsnip Seeds gifted to Lewis
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "GiftReaction_Parsnip_Seeds": "A dialogue for parsnip seeds",
+        "GiftReactionCategory_-74": "A dialogue for general seeds", // -74 is seeds category id
+        "GiftReactionPreserved_Wine": "A wine reaction text."
+      }
+    }
+  ]
+}
+
+
+
+ift tastes for NPCs are needed to place in Data/NPCGiftTastes. This mod changes only the dialogue of the reaction, but not if the NPC likes or dislikes an item. Also this mod doesn't affect friendship points. This is still in "hands" of NPCGiftTastes asset in SDV!
+
+Add custom gift dialogues is very easy. Just add into game content Characters/Dialogue/<NpcName> and add lines with these possible keys:
+GiftReaction_<ObjectName> - Reaction dialogue for concrete gifted item. The <ObjectName> is a name of an object for which your NPC speaks a dialogue when this item was gifted to them. Spaces in the object name must be replaced with underscore _ in the dialogue line key.
+GiftReactionTag_<contextTag> - Reaction dialogue for item by their context tag (game asset Data/ObjectContextTags). If you want to list object held context tags, type debug listtags in console.
+GiftReactionCategory_<CategoryNumber> - Reaction for all object of concrete category.
+GiftReactionPreserved_<preserveType> - Reaction to a preserved item (if it is preserved) by the preservation type (or any). Available preservation types:
+
+Also after key above you can add these suffixes:
+_Birthday - Custom reaction to an item if this item was gifted on NPC's birthday.
+_SecretSanta - Custom reaction to an item if this item was gifted as secret santa during winterstar festival.
+NOTE: These suffixes are not applicable for reveal dialogues!
+Custom Gift Dialogue utility now supports reveal dialogues. These dialogues are specials which can reveal some secrets about something. There is a 2,5% chance the reveal dialogue will be shown if it's defined for an NPC.
+Reveal_<targetNpcName>[<hearts>] - A reveal dialogue about another NPC which the asked NPC can say. You can affect how much hearts are required with the another NPC are required to say this reveal dialogue line.
+Reveal - A general reveal dialogue about anything is defined. Also this is a fallback for the targeted reveal line if that line is not defined.
+The <NpcName> (in the content asset name) is a name of NPC for which you want add custom gift reaction dialogue lines. Also you can add some alternate lines for gifted item by adding suffix ~<number> after the dialogue key. (Works only for gift reaction dialogues) Random suffix can be combined with reaction dialogue suffix like _birthday and etc.
+NOTE: Mod seeks for concrete gift object dialogue first, then for an object category. That means if you specify reaction for seeds category (id number -74, dialogue key GiftReactionCategory_-74) and for object Parsnip Seeds (GiftReaction_Parsnip_Seeds), then if you gift Parsnip Seeds to your concrete NPC, then you see dialogue for Pasrsnip Seeds. If you gift other seeds, you see dialogue for seeds category. NOTE ABOUT REVEAL DIALOGUES: If you have defined relatives for your NPCs in the NPC disposition file, often you can see original vanilla SDV reveal dialogue despite your custom reveal dialogue lines are defined. If you want to avoid the originals, don't define relatives in NPC disposition file.
+Most simple way how to add custom gift reaction dialogues is do it with Content Patcher:
+{
+  "Format": "1.24.0",
+  "Changes": [
+    {
+      // Custom gift reaction for Chocolate Cake with some randomized alternatives gifted to Abigail
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "GiftReaction_Chocolate_Cake": "I love chocolate cake, thank you so much, @!$h",
+        "GiftReaction_Chocolate_Cake~1": "How are you know I'm hungry? This cake looks delicious, Thank you!$h",
+        "GiftReaction_Chocolate_Cake~2": "Looks really tasty, thanks$l",
+        "GiftReaction_Chocolate_Cake~3": "It's shame I wanted to eat a rock for today's lunch.#$b#Just kidding, it looks really delicious! Thank you, @.$h",
+        "GiftReaction_Chocolate_Cake_Birthday": "This is the best birthday gift, really!$h",
+      }
+    },
+    {
+      // Custom gift reaction for an object category with exception for object Parsnip Seeds gifted to Lewis
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "GiftReaction_Parsnip_Seeds": "A dialogue for parsnip seeds",
+        "GiftReactionCategory_-74": "A dialogue for general seeds", // -74 is seeds category id
+        "GiftReactionPreserved_Wine": "A wine reaction text."
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+//////////////////////////////////////////行程
+
+spring，summer，fall，winter
+Mon，Tue，Wed，Thus，Fri，Sat，Sun
+2 4 6 8 10
+spring               只写这个就是每一个月的
+季节                  季节行程
+季节_日期             季节里哪一天的行程
+季节_星期             季节里哪星期
+季节_星期_好感度             季节里哪星期多少好感度
+星期                  星期几的行程
+星期_好感度           星期几好感度的行程
+日期                  每个月的哪一天
+日期_好感度           每个月的哪一个的多少好感度
+rain2                雨天百分之50概率触发
+rain                 雨天的行程
+bus                  需要用车的npc来判断车修好没
+
+婚后行程没有雨天的
+marriageJob  婚后工作  那些需要开商店才能用到
+marriage_星期          婚后行程 只有星期几
+
+关于动作
+0123 上0下2左3右1 不填默认是下 {朝下就是角色面对着你}
+时间 地图 x y 动作 这个”是到这个地方之后会触发的对话
+然后行程前面最好加个 610 出生地 坐标 面向 可以防止你的角色大早上面壁思过
+////////////////////////////////////////p
+0-7（都是NPC的路径，0是上和右，1是右和下，2是左和下，3是上和左，4是四个方向，5是左右，6是上下，7是NPC会停下来站着的位置）【设置路径也不用太讲究，因为NPCFixed前置会帮你解决这个问题，所以没关系】
+8（光源，需要搭配Light指令使用，只能用在室内和节日）
+9（固定生成橡树，砍了后每天有50%进入下一阶段的成长，只能用在户外）
+10（固定生成枫树，情况同上）
+11（固定生成松树，情况同上）
+12（固定生成棕榈树/椰树，情况同上）
+13-15（生成杂草，会随着季节改变材质，春天重新生成，只用于户外）
+16-17（生成石头，情况同上）
+18（生成树枝，网卡同上）
+19（当农场被制作出来时，生成大木头，只限农场）
+20（当农场被制作出来时，生成大石头，只限农场）
+21（当农场被制作出来时，生成大树桩且每天生成，只限农场）
+22（当农场被制作出来时，生成草丛（就是用镰刀割了会有牧草的），在这个范围生成或者没了之后生成，户外使用）
+23（随机生成橡树/枫树/松树，并且是第二或第三成长阶段）
+24（生成大灌木丛，不会生成果子，户外使用）
+25（生成中灌木丛，能生成果子，户外使用）
+26（生成小灌木丛，不会生成果子，户外使用）
+27（指定范围有河流声，需要搭配BrookSounds指令使用，户外使用）
+28（生成蠕虫……每天有33%机会生成，除了地图上已经有50个虫子，使用在地下道的虫巢穴）
+29（生成多人游戏小屋，屋子比较贴近，需要搭配Order指令使用，只限农场）
+30（生成多人游戏小屋，屋子有一定距离，需要搭配Order指令使用，只限农场）
+
+/////////////////////////////////////////对话
+
+spring，summer，fall，winter
+Mon，Tue，Wed，Thus，Fri，Sat，Sun
+2 4 6 8 10
+地图_x_y------------------------在地图的指定坐标的对话
+地图----------------------------指定地图的对话
+地图好感度----------------------在地图的多少好感度
+季节地图名字_x_y----------------在季节地图指定坐标的对话
+季节_星期-----------------------在季节指定星期的对话
+季节_日期-----------------------在季节的几号
+季节_星期好感度------------------在季节的星期多少好感度
+星期----------------------------在星期几触发
+星期好感度----------------------在星期的多少好感度
+星期好感度_1--------------------在第一年的星期几多少好感度
+星期好感度_2--------------------在第一年之后星期几多少好感度
+日期_1---------------------------在第一年的每个月第几天
+日期_2--------------------------在第一年的每个月第几天
+saloon--------------------------酒吧对话
+saloon好感度--------------------酒吧多少好感度
+cc_ 社区修复的会话 就公交车那些
+
+dumped_Girls---------------------女性修罗场
+
+/////////////////////////////////////////////婚后对话
+每种对话最多五个 0 1 2 3 4
+Day 白天 Night 晚上
+
+季节_日期  固定日期的对话
+
+jobLeave_0   工作对话
+jobReturn_0   下班对话
+
+"patio_0": "这是配偶露台",
+
+"spouseRoom_0": "这是配偶房间",
+
+"Rainy_Day_0": "这是下雨白天",
+"Rainy_Night_0": "这是下雨晚上",
+
+"Indoor_Day_0": "这是晴天白天",
+"Indoor_Night_0": "这是晴天晚上",
+
+"Outdoor_0": "这是门口的对话",
+
+"OneKid_0": "这是一个孩子",
+
+"TwoKids_0":"这是两个孩子"
+
+以下的最多十个 0
+
+Good_0    10心以上
+Good_1
+
+
+Neutral_0      心数够了但是没触发good就触发这个
+Neutral_1
+
+Bad_0         9心以下
+
+//////////////////////////////////////////////////////对话里面的符号
+
+@ 名字
+^ 切换性别对话
+# 算是间隔符号吧 分开不同的操作   例子--喊了名字的第一句话@$0#$b#%一个没有肖像的第二句话  先调用表情 然后分段话语
+% 不显示肖像
+
+%farm/pet/kid1/kid2     农场-宠物-俩孩子名字
+%revealtasteLewis物品id 对话之后在礼物日志里面加上这个
+[物品id]  npc塞给你的礼物 [1 2 3] 随机给 [1][2] 同时给
+
+#$b#  一次发起对话时候的分段
+#$e#   需要再次发起对话的分段
+#$c.1-9#  随机说话的分段 数字是概率 不加数字放最后 是保底段落
+$y问题 _回答1 _反应1 _回答2 _反应2
+
+
+问题格式
+$q 回答id/另一个回答id 问题题目#问题内容#$p 回答id 好感度数字/-好感度数字 回答标签#答案#$r 另一个回答id 好感度数字/-好感度数字 另一个回答标签#另一个答案”，
+“回答标签”:“答案”，
+“另一个回答标签”：“另一个答案”，
+“问题题目”：“答案的反应”|“另一个答案的反应”，
+
+
+关于设置动作
+开始动作  持续动作  结束动作
+持续动作1重复7次左右差不多是正常那种挥挥手的感觉 固定是120毫秒1帧
+"动作名字":1/2/1     后面加个/silent做这个动作就不能互动了 写了这个就不能写动作对话了哦
+然后动作对话就是
+动作名字 对话  就行了
+
+
+///////////////////////////////////////////////////////符号
+"When":{ 是检测触发条件的
+例子
+"Language":"语言类型"                   必须是当下的语言类型才会触发
+"Day":"日期"                            只有这个日期触发
+"DayOfWeek":"星期几"                    只有这个星期重复
+"HasCaughtFish":"鱼王id"                钓到之后触发
+"FarmhouseUpgrade":"2,3"                房子升级过2或者3 次
+"IsOutdoors":true                       室内触发
+"Season":"季节"                         季节触发
+"PreferredPet":"Dog"                    宠物是狗时触发
+"HasWalletItem":"SkullKey"              有骷髅钥匙触发
+"PlayerGender":"Female"                 女玩家触发
+"Weather":"晴雨"                        晴天或者雨天触发
+"Query:{{DaysPlayed}}>=数字":true       游戏内之后多少天才能触发
+"Query:{{DailyLuck}}<0":true            运气小于0触发
+"Query:{{Hearte:角色名}}><=数字":true     谁多少好感度触发
+
+;true  室外触发
+
+             ＜0         运气小于0触发  
+             "":""
+      ’Hearts;角色‘ 大于或者小于 好感度；ture  触发
+      "":""
+       ‘Hearts;角色’；好感度     触发
+
+
+事件  -为非必填////////////////////////////////////////////////////////////////////////////////
+事件id最大是10位数  不能和其他模组重复 一般是用你的n网id
+可以用生日什么的 搜搜你生日对应mod是什么 
+1215 520 201 生日 占位符 好感度 事件数量
+这还能重复只能说时运不济了
+
+这一节是事件触发条件  "事件触发条件":"事件内容"
+事件专属ID---------------------------不能和其他模组重复
+f-----------------------------------不是节日-
+U 数字------------------------------多少天内没有节日-
+d Mon Tue Wed Thu Fri Sat Sun-------不是哪些天-
+r 0.x-------------------------------事件发生概率 1是百分百-
+v 角色名----------------------------指定NPC不可见无论是否在屏幕范围内-
+w rainy sunny-----------------------雨天或者晴天-
+y 数字------------------------------填1就是必须第一年,其他数字一定要比1大-
+z spring summer fall winter---------不是哪个季节-
+N 数字------------------------------找到的金核桃数量-
+B-----------------------------------已婚-
+D 角色名----------------------------正在和谁约会-
+J-----------------------------------joja流完成-
+L-----------------------------------农舍已升级至少两次-
+M 数字------------------------------玩家身上有多少钱-
+O 角色名----------------------------和谁结婚中-
+S 秘密笔记的id----------------------看过哪个秘密笔记-
+a x y------------------------------只有在哪个坐标进地图的时候触发-
+b 数字------------------------------去过矿井底部的次数-
+c 数字------------------------------背包有多少空位-
+e 事件id----------------------------已经看过这一个事件-
+e 事件id 事件id---------------------看过其中一个-
+e 事件id/e 事件id-------------------看过所有-
+f 角色名 好感度---------------------需要谁的多少好感度 可以多写-
+g male female-----------------------玩家性别是男/女-
+h cat dog---------------------------当玩家还没有猫或者狗{开局选的那个}-
+i 物品id----------------------------物品栏里有指定物品时-
+j 数字-------------------------------已经游玩超过多少天时-
+k 事件id----------------------------没看过哪个事件时{可以是多个}-
+l 邮件id----------------------------没收到哪个邮件时-
+m 数字------------------------------总收入达到多少时-
+n 邮件id----------------------------收到哪个邮件时-
+o 角色名----------------------------没和谁结婚时-
+p 角色名----------------------------哪个角色和自己在同一个地图-
+q 对话id---------------------------在这个对话的时候选的答案,多个id要全选一遍-
+s 物品id 数量-----------------------出货箱卖了身上有多少这个东西-
+t 600 2600-------------------------时间 在这俩数字之间-
+u 数字-----------------------------是这个季节的哪一天 可以多个-
+x 信件id----------------------------看完这个事件明天给发个信
+x 信件id true------------------------看完直接发信
+
+多人模式 
+H房主
+C玩家
+C -------------------玩家没有完成献祭，或者没有看到社区重开的剧情
+H --------------------当前玩家为房主
+Hl 邮件id--------------房主没有收到邮件
+Hn 邮件id-------------房主已经收到邮件
+*l 邮件id-------------房主和其他玩家还没有收到邮件
+*n 邮件id-------------房主和其他玩家已经收到了邮件
+
+
+事件必须的三项
+
+音乐id                              
+进行事件播放的音乐   
+playMusic Poppy  要播放歌曲时
+stopMusic   停止播放
+none       没音乐 
+continue    继续播放当前音乐
+
+x y                                 
+事件开始的时候视角的坐标
+
+角色名 坐标 动作0123上下左右或者你设置的动作
+角色一开始的位置
+
+action：load，
+“target”：character/dialogue/你的NPC
+“formfile”：你的dialogue位置
+
+
+
+之后的可以写
+addBigProp x y 物品id--------------------------------TileSheets\Craftables.png在指定位置添加这个路径的东西
+addConversationTopic id 数字-------------------------这条一般用不到，数字设置为0就是仅当天 不设置是4天 这个词条大概就是 前面一段之后多少天到下面一段
+addCookingRecipe 食谱名字----------------------------给玩家添加指定食谱
+addCraftingRecipe 配方名字---------------------------给玩家添加指定配方
+ddFloorProp 物品id x y（固体宽度）（固体高度）（显示高度）-------------这个是读取LooseSprites\Cursors的东西，通常这些东西都是非固体的物品（指不能碰到）（通常都是节日的东西）（比如 据Cursors.png 亚历克斯的八音盒事件有用到母亲图片）固体宽度和高度固定为1
+addLantern（某材质的第几行）（x轴）（y轴）（灯光照亮范围）----------添加暂时性的光源在特定图片(从LooseSprite读取)这里看得我有点懵（比如，阿比晚上在坟场练剑事件用到LooseSprite\temporary_sprites_1的油灯，然后把光源打在油灯那边）
+addMailReceived （信件id）------------------------------------------------设定某个信件为被接收
+ddObject（x轴）（y轴）（物品图片数字）（图层）----------------------------放置指定物品（从Maps\springobjects.png读取）话说图层完全没说明是什么耶……
+addProp（物品数字）（x轴）（y轴）（固体宽度）（固体高度）（显示高度）    和第5条相似，但这个是读取固体的东西（比如 莉亚的艺术展作品）
+addQuest（任务id）                                                    我傻了……这个才是把任务加进去你的任务栏
+addTemporaryActor（NPC名字）（行走图宽度）（行走图高度）（坐标x轴）（坐标y轴）（面向方向）（布尔值……true和false）（NPC|动物|怪物）（动物名字（只限动物））妈耶这是啥，我看秘密森林的熊出场用的是这个命令，好像是暂时性的角色（剧情结束后消失）
+addToTable（x轴）（y轴）（物品id）                                      放置物品在家具的上面，如果是在你家里，物品就会放置在初始桌面
+addTool（剑|魔杖）                                                    给予玩家受虐的剑（？？？）或者返回法杖，受虐的剑没有在游戏里面，它是为完成品（不明觉厉）
+advancedMove （NPC）（循环（True为开启循环，否为关闭））（坐标）        ……设定NPC的多次移动（比如/advancedMove Robin false 0 3 2 0 0 2 -2 0 0 -2 2 0/ 罗宾就会去坐标（0，3）之后是（2,0）然后（0,2）(-2,0)（0，-2）（2,0）……（True的情况像海莉14心举办的交换蛋糕活动，NPC在转圈圈的那个）
+ambientLight（r）（g）（b）【红，绿，蓝】（RGB值）范围为从0到255,输入数字之后，它会【减少】你现在环境的颜色（比如 海莉10心事件，在说完“等一下”之后，她会关灯，使场景变暗（命令为/ambientLight 255 180 180/））
+animalNaming 跳出为动物命名的界面，这个我们无视
+animate（演员（指有行走图的角色/动物/怪物））（翻转（true/false）这个会让你的角色会转身）（循环播放直到你使用stopAnimation的命令（true/false））（帧数时长，几毫秒一帧）（帧数图片，和95楼的animation一样做法）
+attachCharacterToTempSprite（演员）-----------------------------------------------靠近离ta最近的暂时性Sprite（指人物）
+awardFestivalPrize 用于节日奖励胜利的玩家（比如 蛋蛋节或冰钓比赛）
+awardFestivalPrize 给玩家特殊物品，目前有rod【钓鱼竿】，sword【剑】，pan【平底锅？】，sculpture【雕像】，hero【这个应该是社区中心修护的剧情里村长给你的奖品】，joja【无限可乐机，Joja流的奖励】，smileegg【史莱姆蛋】，emilyClothes【艾米丽14心送你的礼物】和jukebox【唱片机】
+broadcastEvent                                                             不清楚什么东西，无视
+catQuestion                                      问你要不要领养宠物的问题
+cave                                              触发洞穴类型问题（蘑菇洞和蝙蝠洞）
+changeLocation （地点）                              切换地点并延续event
+changeMapTile （图层）（x轴）（y轴）（地点指数）                         把指定坐标变成特定数值（不知道用在哪）
+changePortrait （NPC）（立绘）                         改变指定NPC的立绘（格式为Portraits/（NPC）_(立绘）
+changeSprite（演员）（行走图）                         改变指定NPC的行走图（格式为Characters/（演员）_（行走图））
+changeYSourceRectOffset（NPC）（抵消）                         抵消掉原本NPC的行走图，并显示ta的样子从左开始展现，这个只用在艾米丽的服装改造事件（在村长家举办的）来显示各种各样的服装（怎么运行的我就不知道了）
+characterSelect                                                   目前看来没有用处，无视
+cutscene （过场）                         触发过场动画/游戏，比如阿比的草原之王游戏，玛鲁的10心事件里机械人剧情
+doAction（x轴）（y轴）                         这个非常复杂，这个能让玩家在鼠标点击的坐标位置会触发特定动作，一般上是用在事件里开门的动作，如果你用在玩家与NPC对话又刚好玩家手上拿着物品就会送给NPC，当doAction这个命令触发时会触发到主游戏世界（指Event以外的“游戏真正位置”）所以和NPC互动会非常棘手，而且ta们的反应会根据玩家给的东西作出回馈
+（开门例子比如：哈维的2心事件等等，至于复杂的地方我真的不会
+dump （girls/？？？）                         这个是触发修罗场事件和七天后的原谅你真香事件，妹子的是girls，男的是guys，修罗场事件id为dumped_Girls 或 dumped_Guys（7天），原谅你的真香事件为secondChance_Girls 或 secondChance_Guys（14天）
+elliotbooktalk                                                   艾利欧特的书展事件
+emote （演员）（表情id）                                                  这个是指定角色会在头上显示指定表情（Y键的表情泡泡）（从Content\TileSheets\emotes.xnb读取）
+2、4，洒水壶没水了
+3、8，问号
+4、12，生气
+5、16，混乱
+6、20，爱心
+7、24，睡觉
+8、28，伤心/流汗
+9、32，快乐猫猫嘴
+10、36，××
+11、40，点点点
+12、44，废案，看起来是钓鱼？
+13、48，废案，对不起我是弟弟我看不懂这是什么鬼
+14、52，玩游戏
+15、56，音乐符号（此时我耳里传出了符文工房的音效“噔~噔！”）
+16、60，撇嘴什么的
+end                                                   结束事件，如字面上一样，并且玩家会回到游戏主世界（指玩家可以正常行动），结束之后，玩家的位置是刚刚玩家进来地图的传送点
+end bed                                                   和上面一样，结束事件，但是玩家的坐标会变成离玩家最近的床，这个并不会把玩家传送到农场家里的床
+end beginGame                                                   结束事件，这个用于开场动画（Intro）结束事件，这会把玩家传送到坐标（9,9）（床），结束事件，并开始新的一天
+end credits                                                   不是用于正常事件，这个是玩家开启工作人员名单（Credits）会用到的，所以无视
+end dialogue （NPC）（下一句谈话）                         和end差不多，但是多了结束事件前的人物对话（比如海莉10心事件的最后会黑屏然后来一句“真不错”）是在事件结束“之后”玩家与特定NPC（可复数）添加事后对话，比如威利的螃蟹事件出现了格斯、镇长和威利的对话，并且是最优先显示的对话（当然坐标对话还是最大
+end dialogueWarpOut （NPC）（下一句谈话）                         同时使用对话结束事件并且读取你从哪个坐标进来，然后把你送过去（莉亚用最多次了……进屋触发事件然后把你踢到门口）
+end invisible （NPC）                                                  结束事件，并且把指定的NPC变隐形，此NPC在当天事件结束之后不能进行互动直到第二天（比如 谢恩雨天在悬崖边的事件）
+end invisibleWarpOut                                                   （由invisible和wrapout组合，第6则由dialogue和wrapout组成）结束事件，把指定NPC隐藏起来，最后再把你传送到进来地图之前的传送点
+end newDay，                                                  同时结束事件与结算一天（指玩家睡在床上、出现贩卖面板、储存游戏）
+end position（x轴）（y轴）                                                  结束事件，然后根据设置的坐标为玩家结束后的位置
+end warpOut                                                   结束事件，并传送玩家到进入地图触发事件之前的坐标（莉亚事件为多）
+end wedding                                                   结束婚礼，只用于结婚婚礼事件，事件结束后把你传送到家里
+extendSourceRect （演员）reset，重设角色行走图
+extendSourceRect （演员）（第几横）（第几行）（ignoreUdates）                         extendSourceRect是横向或者竖向扩大角色选定范围，默认是两格高一格宽
+eyes（眼睛）（眨眼）                         调整玩家眼睛（半眯，亲嘴眯眼什么的）（比如 潘妮10心事件有用到）
+faceDirection （演员）（方向）（继续）                         如果[continue]没有任何参数，游戏会暂停，【true/ 】
+fade [褪色]，                         类似转场，画面逐渐变暗，如果[unfade]没有任何参数，那么就是黑色
+farmerAnimation（anim）                         显示玩家的动作，只用于原版事件
+farmerEat （物品id）                         让玩家吃东西
+fork（事件id）（答复）                         分叉型事件，根据特定事件所问的问题，再依照玩家的回答（req，可以是信件id或者回答id）来作出变化，如果没有，将会读取已经设定好的specialEventVariable1，新的剧本命令和普通的事件剧本一样，只是少了强制性三个初始文件
+friendship（NPC）                         （总数，一颗爱心为250点数）增加指定角色的好感度
+globalFade [速度]                      据设定的速度（默认为0.007）把场景色调逐渐变成黑色，如果没有设置任何速度，那么事件会马上进行下去，相反地，fade会持续暗下来直到结束（当这个命令完成之后，fade会马上消失，为了避免提前看到场景，要一起搭配viewpoint命令把视角调到地图外，这里作者直接把视角调成-1000 -1000）
+globalFadeToClear[速度]                 据设定速度（默认为0.007）把fade逐渐消除，如果不设定速度，事件会马上进行下去，相反地，fade会慢慢被消除
+glowr r g b true/false                使你的画面根据设置的RGB而变色，（hold）如果是true会永久保持设置的颜色，直到你使用stopGlowing这个命令让它停止（比如……著名的艾米丽表演跳舞事件……）
+grandpaCandles                         召唤爷爷坟头的蜡烛
+grandpaEvaluation                        召唤爷爷对你的评价
+grandpaEvaluation2------------------------------------------召唤爷爷对你的评价（用钻石召唤的）
+halt 停止全部人的动作（砸瓦鲁多！！！……咳咳，抱歉串场了）
+hospitaldeath 意义不明
+itemAboveHead（物品种类）让玩家拿着指定物品，（比如，你获得雕像会高举雕像表现你拿到物品【噔楞楞~】）物品种类有"pan", "hero", "sculpture", "joja", "slimeEgg", "rod", "sword", 或 "ore"
+【淘金盆，英雄奖品，雕像，Joja可乐机，史莱姆蛋，鱼竿，剑，矿物】如果[type]没有输入任何东西，玩家会“拿着”空气在头上？
+jump（演员）（强度（高度？））让指定角色跳起来，默认高度为8
+loadActors（图层）------------------------------------------读取地图里带有指定演员的图层（比如某些节日的人物是从地图读取的，所以他们没有立绘）
+mail（信件id）----------------------------------------------寄出指定信件在第二天的邮箱里，从Content\Data\mail.xnb读取（我还没教如何自制信件，过后再说）
+message\"对话\"--------------------------------------------显示对话但是没有说话者（比如 莉亚10心事件的情敌对话）
+minedeath -------------------------------------------不详，和上面的hospitaldeath一样，可能是用于别的命令而不是事件
+move（演员）（x轴）（y轴）（面对方向）（继续）----------------------------------让指定角色移动到指定位置（一次性只能横向或直向，要斜线移动就重复使用move这个命令）[continue]是默认（空白）的话，角色会暂停事件，如果是true，角色会进行非同步移动并同时进行其他事件命令【这里要扯到编程的asynchronous（非同步）是怎么运行的，asynchronous（简称Async）是接收需求之后，不需要等待需求完成再执行其他需求（所以情况为true，我们的角色正在移动时，我们可以输入别的命令，（如山姆6心事件，村长走路遇到山姆玩滑板））】
+pause（时长）------------------------------------------------------------暂停游戏，时长单位是毫秒（用于表示动画使用，比如移动角色，播放角色动作等等）
+playMusic （音乐）--------------------------------------------------------播放指定背景音乐，如果是samBand，那么会根据之前选择的音乐种类改变（76-79，这个是你在山姆2心回答乐团要什么风格的答案id）
+playSound（音效）--------------------------------------------------------播放音效，根据你给的音效id播放指定音效（不知道作者把音效和BGM放在哪）
+playerControl ----------------------------------------------------------------------------把玩家控制权还给玩家（不过结束event不需要这个命令，目前使用的是海莉的6心事件，玩家在剧情途中可以移动找手镯）
+posotionOffst（演员）（x轴）（y轴）-------------------------------------------------------把指定演员偏移到指定坐标，这个会马上发生，而且不会有走路的动作（通常用在拥抱，亲亲，靠近，这些小移动的动作）
+proceedPosition （演员）-----------------------------------------------------------------不明，不知道什么东西，目前只看到作者用在孩子们在研究地下水道的剧情
+question null "(问题)#(答案1)#(答案2)"----------------------------------------------------在剧情里问你问题，并且全部答案都不会有任何影响（和dialogue的问问题不一样，dialogue有答案id并且根据玩家选择的答案而开启/关闭对应对话）
+question fork（答案变量，比如Question0） "<问题>#<答案0>#<答案1>#..."----------------------------------------这个也有跟编程有关系……不过我直接给出例子就行了
+【question fork1 \"#没错，我什么都听到了。#没有……怎么了？\"/fork didntHear/】【这里是问题，“fork didntHear”是第二个回答的id】pause 500（省略）\【"我不太喜欢说这个话题，但是我还是解释一下吧……$s\"】【这个是选择了“没错，我什么都听到了。”】（省略）
+【事件结束】
+【"didntHear":（省略）\"哦……我在和小灰说话。#$b#他和我其实有很多共同点。$s\"】【第二个答案的回答】（省略）
+【事件结束】
+例子2：
+【/question fork0 \"你想让我告诉他们是你出的钱吗？#是，当然！#不，我希望保持匿名\"/fork choseToBeKnown_pennySpouse/】【/fork choseToBeKnown_pennySpouse为第二答案id】（省略）\"你好，邻居们...你们这里多了一间漂亮的新房子！$4\"（省略）\"我不能说...他们坚持要匿名。$5\"（省略）
+【事件结束】
+【"choseToBeKnown_pennySpouse"】:【第二个答案的回答】 "pause 200/addConversationTopic pamHouseUpgrade/speak Robin \"好吧...让我们一起去。\"（省略）/speak Penny \"@？你在这里做什么？\"/speak Robin \"什么，你没有告诉你的妻子这件事，@？$u\"（省略）speak Robin \"@提出了这个想法，并为整件事买了单！\"（省略）\"这肯定花了好多钱，@...$s#$b#...说实话，这有点令人尴尬。我该如何报答你呢？$4\"/pause 300/【question fork1 \"...#你是我的“妈妈”！不需要还钱！#你可以从对潘妮好一点开始...\"/fork itsagift_pennySpouse/】【问第二个问题，“fork itsagift_pennySpouse”为第二问题的另一个答案】（省略）【speak Pam \"...对不起。$s\"/pause 500/speak Pam \"我会按你说的做...$s\"】【第二问题的第一个答案】（省略）
+【事件结束】
+【"itsagift_pennySpouse"】:【第二问题的第二答案】 "pause 200/pause 500/faceDirection Pam 2/showFrame Pam 25/pause 250/faceDirection Penny 2/speak Pam \"然后...我只需忍辱负重...\"/pause 500/speak Pam \"*啊哈* ...谢谢，@。$s\"/pause 500/speak Penny \"妈妈...$s\"/faceDirection Pam 0/speak Penny \"别担心，妈妈...我们只是想让你开心。鹈鹕镇没有人会因为我们穷而看不起我们。$s\"/faceDirection Robin 1/pause 500/speak Pam \"...我不再“穷”了，孩子...别把这个想法留在脑子里！#$b#从现在开始，我们会像一个真正的家庭...听见了吗？#$b#我再也不想过得如此苦了...$s#$b#我会努力改变自己的生活...\"
+【事件结束】
+可以看到的是我们用到了“question fork”【这一楼第8个】和“fork（事件id）【第164楼第6个】”来作出分支答案和分支事件，第二个情况更为复杂，假设第一个问题是“A”，第一个答案为“0”，那么我们的路径为“A0”，“A0”没有第二个问题，所以到这里事件就结束了
+第二个答案为“A1”，途中有“B0”和“B1”分歧点，所以会有“A1B0”的剧情或“A1B1”的剧情
+总结：
+这个事件最终有三个分歧，分别是“A0”，“A1B0”和“A1B1”
+screenFlash （0到1）------------------------------------------------------------------快速地闪一下画面，从0到1是闪光亮度，1是白的
+setRunning --------------------------------------------------------------------------设定玩家正在跑
+shake （演员）（时长）----------------------------------------------------------------摇晃指定角色，时长单位是毫秒
+showFrame farmer flip ---------------------------------------------------------------把玩家在y轴翻转，和第152楼第一个的flip差不多概念，然而用在玩家身上会变怪？
+showFrame （演员）（帧数id）帧数id是从0开始（从左到右，上到下）计算，从Content\Characters\（NPC）.xnb读取，然而不能用在玩家身上，会发生灵异事件，比如 只剩手臂，只剩脚，只剩身体没有头等等情况，如果要让玩家能够显示，命令为faceDirection farmer （0/1/2/3/），“farmer”这一词可以省略，写成showFrame （帧数id）都可以
+showRivalFrame （帧数id）为这个特殊角色“情敌”做的显示帧数设定
+skippable 设定为可以跳过事件（最好是记得放这个命令下去）
+speak（NPC名字）“（对话内容）”，双引号内容格式和dialogue一样（请到86楼看格式）
+specificTemporarySprite （行走图）（其他参数）显示暂时性的sprite（比如，我们上面提到的莉亚摘果子的事件，这个是添加进去的，而171楼第5个是移除）
+splitSpeak （演员）“（对话内容）”对话，但是是根据玩家选择的答案给的内容（这个我不知道用在哪）
+startJittering --------------------------------------------------------------让玩家开始抖动
+stopAdvancedMoves 停止AdvancedMoves的行为（150楼第5个）
+stopAnimation farmer 停止玩家当前动画
+stopAnimation （演员）（最后结束的帧数）-------------------------------------停止指定NPC的动画【不适用于玩家】
+stopGlowing 停止屏幕变色（glow为165楼第3个）
+stopJittering 停止玩家抖动
+stopMusic 停止当前所有BGM
+stopRunning 停止玩家跑动
+stopSwimming （演员）停止指定演员游泳（指进入浴室泡澡的动作，潘妮10心有使用）
+swimming （演员）让指定演员游泳
+switchEvent （事件id）---------------------------------------------------切换当前事件（指事件命令）为指定事件（比如 潘妮的8心事件，根据你选择要说的话变成指定分支，比question那边容易）
+taxvote 触发投票或者有3%的运输税（在游戏里似乎没有作用？）
+temporarySprite （x轴）（y轴）（第几排）（动画长度）（动画间隔）（翻转）（图层深度）创造一个根据指定参数的暂时性sprite（用在初次进入社区中心剧情里的祝尼魔）
+textAboveHead （演员）“（对话内容）”----------------------------------------在指定角色头上出现对话泡泡
+tutorialMenu --------------------------------------------------------------唤出新手教学界面，情况为如果没有其他菜单被唤出
+updateMinigame （事件数据）------------------------------------------------添加事件在当前迷你游戏里（目前不知道用在哪个事件里）
+viewport move（x轴）（y轴）（时长）-----------------------------------------移动视角，时长单位是毫秒，x轴负数移左边，正数为右，y轴负数为移下，正数为上
+例子：
+"viewport move 2 -1 5000"五秒内向右移2格和向下移动一格
+viewport （x轴）（y轴）[true unfreeze] | clamp [true unfreeze] ------------即刻复位视角为指定坐标（只看到用于处理festival【节日】类型的事件）
+waitForKey （关键）（达成后信息）（不明）
+waitForOtherPlayers 等待其他玩家（用于多人游戏连接）
+warp（演员）（x轴）（y轴）----------------------------------------------------把角色传送到指定坐标，可以超出地图外（比如 艾利欧特8心事件，上一秒还是很多人，黑屏之后，把角色都传送到地图外（-1000 -1000）作者也是够狠的）
+weddingSprite （帧数）-------------------------------------------------------设置角色结婚礼服
+
+tt
+/move Lewis 0 -16 0 true/move Sam 6 -27 0/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

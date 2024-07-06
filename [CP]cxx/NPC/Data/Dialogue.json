@@ -1,0 +1,18 @@
+{"Changes":[
+  
+
+{"LogName": "Load Empty",
+  "Action": "Load",
+  "Target": "Characters/Dialogue/Tangf,Characters/Dialogue/Dolll,",
+  "FromFile": "NPC/Data/Empty.json"},
+   
+
+{"LogName": "角色对话文件",
+  "Action": "Include",
+  "FromFile": "NPC/Dialogue/Tangf.json,NPC/Dialogue/Dolll.json,"}  
+   
+   
+
+
+
+]}

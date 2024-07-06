@@ -1,0 +1,18 @@
+{"Changes":[
+
+
+{"LongName": "枫临时住处的交互对话",
+  "Action": "EditData",
+  "Target": "Strings/StringsFromMaps",
+  "Entries":
+
+{"TangfHome1.1":"一个破旧的空箱子",
+  "TangfHome1.2":"一个古旧的瓶子",
+  "RES3.1":"{{i18n:RES3.1}}",
+  "RES1.1":"{{i18n:RES1.1}}"}}
+
+
+
+
+
+ ]}

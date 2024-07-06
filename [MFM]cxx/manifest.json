@@ -1,0 +1,21 @@
+{"Name":"此岸",
+ "Author": "土豆",
+ "Version": "1.0.1",
+ "Description": "模组内容均为作者个人设计的世界观内容~该文件夹是mfm前置下的内容~",
+ "UniqueID": "potato.cxxmfm",
+ "UpdateKeys": ["Nexus: "],
+
+ "ContentPackFor": 
+{"UniqueID": "DIGUS.MailFrameworkMod"},
+
+ "Dependenies":[
+{"UniqueID":"",
+ "IsRequired":true}]
+
+
+
+
+
+
+
+}

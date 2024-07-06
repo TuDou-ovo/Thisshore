@@ -1,0 +1,12 @@
+{"Changes": [
+
+
+{"LogName": "怪物贴图",
+  "Action": "Load",
+  "Target": "Characters/Monsters/怪物英文名",
+  "FromFile": "assets/Monsters/贴图名字.png"},
+
+
+
+ 
+]}

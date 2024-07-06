@@ -1,0 +1,32 @@
+{"Changes": [
+
+  
+{"LogName":"果树贴图位置",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/FruitTrees",
+  "FromFile": "assets/Objects/FruitTrees.png"},
+
+
+{"LogName":"蛇果果树作物",
+  "Action": "EditData",
+  "Target": "Data/FruitTrees",
+  "Entries": 
+{"cxxSnakefruitBasic":
+{"DisplayName": "cxxSnakefruitBasic",
+  "Seasons": ["fall"],
+  "Fruit": [{
+  "Id": "Default",
+  "ItemId": "(O)cxxSnakefruit"}],
+  "Texture": "Mods/potato.cxxcp/FruitTrees",
+  "TextureSpriteRow": 0}}}
+
+
+
+
+
+
+
+
+
+
+]}

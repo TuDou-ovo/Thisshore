@@ -1,0 +1,25 @@
+{"Changes": [
+
+
+{"LogName": "复活节角色对话",
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "Entries": 
+
+{"cxxTangf": "看起来好有趣,但是好多人...",
+ "cxxTangf_spouse": "想和@一起玩..."}},
+
+
+{"LogName": "花舞节角色对话",
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring24",
+  "Entries": 
+
+{"cxxTangf": "我会不太会跳舞,而且,好多人...",
+ "cxxTangf_spouse": "我,我会努力的,要一起吗"}}
+
+
+             
+
+
+]}

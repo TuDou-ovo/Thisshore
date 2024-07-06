@@ -1,0 +1,27 @@
+{"Changes": [
+
+
+{"LogName": "作物贴图位置",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/Crops",
+  "FromFile": "assets/Objects/Crops.png"},
+
+
+{"LogName": "天星花作物",
+  "Action": "EditData",
+  "Target": "Data/Crops",
+  "Entries": 
+{"cxxTianxinghuaseed":
+{"DaysInPhase": [1,2,3,4],
+  "Seasons": ["summer","fall"],
+  "RegrowDays": -1,
+  "IsRaised": false,
+  "HarvestItemId": "cxxTianxinghua",
+  "HarvestMethod": "0",
+  "Texture": "Mods/potato.cxxcp/Crops",
+  "SpriteIndex": 0}}}
+
+
+
+
+]}

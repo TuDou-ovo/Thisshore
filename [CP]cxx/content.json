@@ -1,0 +1,172 @@
+{"Format": "2.0.0",
+ "Changes":[
+
+
+{"LogName": "链接·人物节庆位置",
+  "Action": "Include",
+  "FromFile": "NPC/Festivals/station.json"},
+	 
+
+{"LogName": "链接·人物节庆对话",
+  "Action": "Include",
+  "FromFile": "NPC/Festivals/Dialogue.json"},
+	 
+
+{"LogName": "链接·人物设定",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Disposition.json"},
+	 
+
+{"LogName": "链接·人物喜好",
+  "Action": "Include",
+  "FromFile": "NPC/Data/NPCGiftTastes.json"},
+
+
+{"LogName": "链接·人物动作",
+  "Action": "Include",
+  "FromFile": "NPC/Data/NPCanimation.json"},
+	 
+
+{"LogName": "链接·人物肖像",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Portraits.json"},
+	 
+
+{"LogName": "链接·人物行走图",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Sprites.json"},
+	 
+
+{"LogName": "链接·人物对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Dialogue.json"},
+	 
+
+{"LogName": "链接·人物婚后对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/MarriageDialogue.json"},
+	 
+
+{"LogName": "链接·人物行程",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Schedules.json"},
+
+
+{"LogName": "链接·人物电影对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Movies.json"},
+
+
+{"LogName": "链接·人物电影零食喜好",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Movieslove.json"},
+
+
+{"LogName": "链接·事件",
+  "Action": "Include",
+  "FromFile": "assets/Data/Events.json"},
+
+
+{"LogName": "链接·任务",
+  "Action": "Include",
+  "FromFile": "assets/Data/Quests.json"},
+
+
+{"LogName": "链接·地图数据",
+  "Action": "Include",
+  "FromFile": "map/AA/Maps.json"},
+
+
+{"LogName": "链接·地图传送点",
+  "Action": "Include",
+  "FromFile": "map/AA/Mapsadd.json"},
+
+
+{"LogName": "链接·地图配偶房",
+  "Action": "Include",
+  "FromFile": "map/AA/SpouseRooms.json"},
+
+
+{"LogName": "链接·地图交互点",
+  "Action": "Include",
+  "FromFile": "map/AA/MapsMessage.json"},
+
+
+{"LogName": "链接·物品-杂项",
+  "Action": "Include",
+  "FromFile": "assets/Items/Objects.json"},
+
+
+{"LogName": "链接·物品-鱼类",
+  "Action": "Include",
+  "FromFile": "assets/Items/FishData.json"},
+
+
+{"LogName": "链接·物品-帽子",
+  "Action": "Include",
+  "FromFile": "assets/Items/Hats.json"},
+
+
+{"LogName": "链接·物品-武器",
+  "Action": "Include",
+  "FromFile": "assets/Items/Weapons.json"},
+
+
+{"LogName": "链接·物品-作物植物类",
+  "Action": "Include",
+  "FromFile": "assets/Items/ObjectsCrops.json"}, 
+
+
+{"LogName": "链接·物品-作物植物类",
+  "Action": "Include",
+  "FromFile": "assets/Items/ObjectsCropss.json",
+  "When": 
+{"Cropss": "true"}},
+
+
+{"LogName": "链接·配方-料理",
+  "Action": "Include",
+  "FromFile": "assets/Items/CookingRecipes.json"},
+
+
+{"LogName": "链接·配方-物品",
+  "Action": "Include",
+  "FromFile": "assets/Items/CraftingRecipes.json"},
+
+
+{"LogName": "链接·植株",
+  "Action": "Include",
+  "FromFile": "assets/Items/Crops.json"},
+
+
+{"LogName": "链接·鱼塘",
+  "Action": "Include",
+  "FromFile": "assets/Items/FishPond.json"},
+
+
+{"LogName": "链接·果树",
+  "Action": "Include",
+  "FromFile": "assets/Items/FruitTrees.json"},
+
+{"LogName": "链接-怪物",
+  "Action": "Include",
+  "FromFile": "assets/Data/Monsters.json"},
+
+
+{"LogName": "链接-商店",
+  "Action": "Include",
+  "FromFile": "assets/Data/Shop.json"},
+
+    
+{"ConfigSchema": 
+  {"Cropss": 
+  {"AllowValues": "true, false",
+    "Default": "false",
+    "Section": "Content",
+    "Description": "是否开启角色料理的特殊配方?默认为否(此选项为单纯娱乐,灵感来自n网8116,请了解后酌情开启)"}}}
+
+   
+
+
+
+]}

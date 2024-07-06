@@ -1,0 +1,66 @@
+{"Changes":[
+
+
+{"Action": "EditData",
+  "Target": "Characters/Dialogue/Doll",
+  "Entries": 
+  
+{"Introduction": "{{i18n:Dolll.Introduction}}",
+
+  "GreenRain":"{{i18n:Dolll.GreenRain}}",
+  "MovieInvitation": "{{i18n:Dolll.MovieInvitation}}",
+  "AcceptBirthdayGift_Loved": "{{i18n:Dolll.AcceptBirthdayGift_Loved}}",
+  "AcceptBirthdayGift_Liked": "{{i18n:Dolll.AcceptBirthdayGift_Liked}}",
+  "AcceptBirthdayGift_Neutral": "{{i18n:Dolll.4heart}}",
+  "AcceptBirthdayGift_Disliked": "{{i18n:Dolll.AcceptBirthdayGift_Disliked}}",
+  "AcceptBirthdayGift_Hated": "{{i18n:Dolll.AcceptBirthdayGift_Hated}}",
+  "AcceptGift_(O)StardropTea": "{{i18n:Dolll.AcceptGift_(O)StardropTea}}",
+  
+  "Mon": "..",
+  "Mon2": "....",
+  "Mon4": "{{i18n:Dolll.4heart}}",
+  "Mon6": "{{i18n:Dolll.6heart}}",
+  "Mon8": "{{i18n:Dolll.8heart}}",
+  "Mon10": "{{i18n:Dolll.10heart}}",
+  "Tue": "..",
+  "Tue2": "....",
+  "Tue4": "{{i18n:Dolll.4heart}}",
+  "Tue6": "{{i18n:Dolll.6heart}}",
+  "Tue8": "{{i18n:Dolll.8heart}}",
+  "Tue10": "{{i18n:Dolll.10heart}}",
+  "Wed": "..",
+  "Wed2": "..",
+  "Wed4": "{{i18n:Dolll.4heart}}",
+  "Wed6": "{{i18n:Dolll.6heart}}",
+  "Wed8": "{{i18n:Dolll.8heart}}",
+  "Wed10": "{{i18n:Dolll.10heart}}",
+  "Thu": "..",
+  "Thu2": "....",
+  "Thu4": "{{i18n:Dolll.4heart}}",
+  "Thu6": "{{i18n:Dolll.6heart}}",
+  "Thu8": "{{i18n:Dolll.8heart}}",
+  "Thu10": "{{i18n:Dolll.10heart}}",
+  "Fri": "..",
+  "Fri2": "....",
+  "Fri4": "{{i18n:Dolll.4heart}}",
+  "Fri6": "{{i18n:Dolll.6heart}}",
+  "Fri8": "{{i18n:Dolll.8heart}}",
+  "Fri10": "{{i18n:Dolll.10heart}}",
+  "Sat": "..",
+  "Sat2": "....",
+  "Sat4": "{{i18n:Dolll.4heart}}",
+  "Sat6": "{{i18n:Dolll.6heart}}",
+  "Sat8": "{{i18n:Dolll.8heart}}",
+  "Sat10": "{{i18n:Dolll.10heart}}",
+  "Sun": "..",
+  "Sun2": "....",
+  "Sun4": "{{i18n:Dolll.4heart}}",
+  "Sun6": "{{i18n:Dolll.6heart}}",
+  "Sun8": "{{i18n:Dolll.8heart}}",
+  "Sun10": "{{i18n:Dolll.10heart}}"
+  
+  
+  
+  
+  
+}}]}

@@ -1,0 +1,21 @@
+{"Name":"此岸",
+ "Author": "土豆",
+ "Version": "1.0.1",
+ "Description": "模组内容均为作者个人设计的世界观内容~该文件夹是大部分主要内容所在~",
+ "UniqueID": "potato.cxxcp",
+ "UpdateKeys": ["Nexus: "],
+
+ "ContentPackFor": 
+{"UniqueID": "Pathoschild.ContentPatcher"},
+
+ "Dependenies":[
+{"UniqueID":"",
+ "IsRequired":true}]
+
+
+
+
+
+
+
+}

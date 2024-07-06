@@ -1,0 +1,64 @@
+{
+
+
+
+    //玩偶的翻译语句
+    "cxx.Doll.name":"玩偶",
+    "cxx.Doll.Introduction":"%你看到了一个小小的木制人偶,精致,但没什么特别的#$b#......",
+    "cxx.Doll.4heart":"%小小的玩偶摆动了一下,算是对你的回应",
+    "cxx.Doll.6heart":"%它木制的手臂向着你轻轻挥动了几下",
+    "cxx.Doll.8heart":"......$1#$b#%它用笑脸对着你,似乎想让你感受到它的善意",
+    "cxx.Doll.10heart":"%它的身体因为动作嘎吱作响,似乎是对你来看望它感到很高兴",
+    "cxx.Doll.GreenRain":"......#$b#%它抬头望着窗外绿色的雨滴,似乎是有些好奇",
+    
+    "cxx.Doll.LoveGift":"%它的身体咯吱作响,对你行了个礼#$b$......$1",
+    "cxx.Doll.LikeGift":"%它木制的手臂缓缓对着你挥动了几下#$b#...$1",
+    "cxx.Doll.DisGift":"%它的脑袋歪了歪,似乎是不太理解",
+    "cxx.Doll.HateGift":"%它一点反应都没做出",
+    "cxx.Doll.NeuGift":"%它只扬起脑袋看了你一眼",
+    "cxx.Doll.AcceptBirthdayGift_Loved":"...$1#$b$%它朝你行了个礼,,木制的身体发出咯吱咯吱的摩擦声,看来是很喜欢这份礼物了",
+    "cxx.Doll.AcceptBirthdayGift_Liked":"...$1#$b$%它从你手里接过礼物,轻轻的放进了小箱子里",
+    "cxx.Doll.AcceptBirthdayGift_Hated":"%它一动不动,似乎完全不想做出反应",
+    "cxx.Doll.AcceptBirthdayGift_Disliked":"...#$b#%它把脑袋转了过去",
+    "cxx.Doll.AcceptGift_(O)StardropTea":"...!$1#$b#%它看起来很开心,但给一只玩偶送茶水真的没问题吗?",
+    
+    "cxx.Doll.MovieInvitation":"...?#$b#%它似乎不太理解你为什么要邀请一个玩偶去电影院,但依旧把电影票好好的收了起来",
+    "cxx.Doll.BeforeMovie9":"%它观察着盆栽",
+    "cxx.Doll.DuringMovie9":"%它盯着幕布上的人物",
+    "cxx.Doll.AfterMovie9":"%它抱住了你的腿,似乎是因为无聊完全不想动了",
+    "cxx.Doll.BeforeMovie8":"%它站在海报前看了很久的介绍",
+    "cxx.Doll.DuringMovie8":"......#$b#%它看起来有点心神不宁",
+    "cxx.Doll.AfterMovie8":"%它在纸上慢慢写着什么#$b#*没有生命的东西动起来,是很可怕的吗?*$2",
+    "cxx.Doll.BeforeMovie7":"%它盯着海报上的绿色小人,似乎很是感兴趣",
+    "cxx.Doll.DuringMovie7":"...$1#$b#%它朝着你换出了开心的表情",
+    "cxx.Doll.AfterMovie7":"*喜...欢*$1#$b#%能从歪歪扭扭的字迹里看出它真的很喜欢这部电影",
+    "cxx.Doll.BeforeMovie6":"%它垂头站在一边,似乎兴致缺缺",
+    "cxx.Doll.DuringMovie6":"......#$b$%它看起来安静的像是个普通娃娃",
+    "cxx.Doll.BeforeMovie5":"%它观察着娃娃机",
+    "cxx.Doll.BeforeMovie4":"%它观察着其他的路人",
+    "cxx.Doll.BeforeMovie3":"%它观察着爆米花机",
+    "cxx.Doll.DuringMovie3":"%它的眼睛随着人物移动着,比起候场时显然更感兴趣了",
+    "cxx.Doll.AfterMovie3":"%它的手比划着,似乎是在学习电影主角的动作",
+    "cxx.Doll.BeforeMovie2":"%它观察着海报上那个笑的灿烂的小树苗",
+    "cxx.Doll.DuringMovie2":"%它看着幕布上的小树苗,很专注",
+    
+    //枫的翻译语句
+    "cxx.Tangf.name":"枫",
+    "cxx.Tangf.cccc":"可以,不和别人太亲近吗",
+    "cxx.Tangf.Introduction":"暂时住在这里应该不会太显眼吧...",
+    "cxx.Tangf.danceRejection":"不,不了吧,这里人还挺多的...",
+    "cxx.Tangf.divorced":"......#$b#还有,什么事么...",
+    "cxx.Tangf.breakUp":"唔...我,我先走了...",
+    "cxx.Tangf.DumpsterDiveComment":"?",
+    "cxx.Tangf.GreenRain":"啊...是苔藓雨不是酸雨啊",
+    "cxx.Tangf.MovieInvitation":"唔?电影?谢谢你邀请我呀",
+    
+    "cxx.Tangf.AcceptBirthdayGift_Loved":"嗯嗯?谢谢哎,我好喜欢...#$b#嘿嘿...",
+    "cxx.Tangf.LoveGift":"喜欢的东西...谢谢你",
+    "cxx.Tangf.LikeGift":"漂亮,谢谢",
+    "cxx.Tangf.DisGift":"这是什么?",
+    "cxx.Tangf.HateGift":"...不喜欢",
+    "cxx.Tangf.NeuGift":"啊,谢谢",
+    
+    
+    }

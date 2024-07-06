@@ -1,0 +1,91 @@
+{"Changes":[
+    
+
+{"LogName":"枫临时住处入口传送点",
+  "Action":"EditMap",
+  "Target":"Maps/Mountain",
+  "AddWarps":["1 10 cxxmap.TangfHome1 7 14"],
+  "MapProperties":
+{"NPCWarp":"1 10 cxxmap.TangfHome1 7 14"}},
+
+
+{"LogName":"枫临时住处传送点",
+  "Action":"EditData",
+  "Target":"Data/Locations",
+  "Entries":
+{"cxxmap.TangfHome1":
+{"CreateOnLoad":
+{"MapPath":"Maps/cxxmap.TangfHome1"},
+  "FormerLocationNames":["Custom_cxxmap.TangfHome1"]}},
+  "MapProperties":
+{"NPCWarp":"7 17 Mountain 1 12 8 17 Mountain 1 12 5 2 cxxmap.RES5 10 53"}},
+
+
+{"LogName":"玩偶住处传送点",
+  "Action":"EditData",
+  "Target":"Data/Locations",
+  "Entries":
+{"cxxmap.DollHome":
+{"CreateOnLoad":
+{"MapPath":"Maps/cxxmap.DollHome"},
+  "FormerLocationNames":["Custom_cxxmap.DollHome"]}},
+  "MapProperties":
+{"NPCWarp":"3 13 cxxmap.RES5 70 41"}},
+
+
+{"LogName":"边缘区传送点",
+  "Action":"EditData",
+  "Target":"Data/Locations",
+  "Entries":
+{"cxxmap.RES5":
+{"CreateOnLoad":
+{"MapPath":"Maps/cxxmap.RES5"},
+  "FormerLocationNames":["Custom_cxxmap.RES5"]}},
+  "MapProperties":
+{"NPCWarp":"11 55 cxxmap.TangfHome1 5 3 70 39 cxxmap.DollHome 3 11 61 -1 cxxmap.RES3 29 78"}},
+
+
+{"LogName":"实验区传送点",
+  "Action":"EditData",
+  "Target":"Data/Locations",
+  "Entries":
+{"cxxmap.RES3":
+{"CreateOnLoad":
+{"MapPath":"Maps/cxxmap.RES3"},
+  "FormerLocationNames":["Custom_cxxmap.RES3"]}},
+  "MapProperties":
+{"NPCWarp":"29 80 cxxmap.RES5 30 1 -1 8 cxxmap.RES1 44 98"}},
+
+
+{"LogName":"主区传送点",
+  "Action":"EditData",
+  "Target":"Data/Locations",
+  "Entries":
+{"cxxmap.RES1":
+{"CreateOnLoad":
+{"MapPath":"Maps/cxxmap.RES1"},
+  "FormerLocationNames":["Custom_cxxmap.RES1"]}},
+  "MapProperties":
+{"NPCWarp":"44 100 cxxmap.RES3 1 6"}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]}

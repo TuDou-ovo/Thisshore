@@ -1,0 +1,18 @@
+{"Changes": [
+
+
+{"LogName": "Load Empty",
+  "Action": "Load",
+  "Target": "Characters/Schedules/Tangf,Characters/Schedules/Dolll,",
+  "FromFile": "NPC/Data/Empty.json"},
+	
+
+{"LogName":"角色行程",
+  "Action": "Include",
+  "FromFile":"NPC/Schedules/Tangf.json,NPC/Schedules/Dolll.json,"}
+
+
+
+
+
+]}

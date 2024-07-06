@@ -1,0 +1,72 @@
+{"Changes":[
+
+
+{"Action": "EditData",
+  "Target": "Characters/Dialogue/cxxTangf",
+  "Entries": 
+  
+{"Introduction": "{{i18n:Tangf.Introduction}}",
+  "danceRejection": "{{i18n:Tangf.danceRejection}}",
+  "divorced": "{{i18n:Tangf.divorced}}",
+  "breakUp": "{{i18n:Tangf.breakUp}}",
+  "DumpsterDiveComment": "{{i18n:Tangf.DumpsterDiveComment}}",
+  "GreenRain":"{{i18n:Tangf.GreenRain}}",
+  "MovieInvitation": "{{i18n:Tangf.MovieInvitation}}",
+      
+  "AcceptBirthdayGift_Loved": "{{i18n:Tangf.AcceptBirthdayGift_Loved}}",
+  "AcceptBirthdayGift_Liked": "{{i18n:Tangf.}}喜好",
+  "AcceptBirthdayGift_Neutral": "{{i18n:Tangf.}}一般",
+  "AcceptBirthdayGift_Disliked": "{{i18n:Tangf.}}不喜欢",
+  "AcceptBirthdayGift_Hated": "{{i18n:Tangf.}}讨厌",
+  
+  "AcceptGift_(O)StardropTea": "{{i18n:Tangf.}}星茶",
+  "AcceptGift_(O)Seeds":"是很有生命力的小家伙呢..谢谢你",
+  "AcceptGift_(O)cxxTianxinghua":"啊,熟悉的...",
+
+  "Mon": "{{i18n:Tangf.}}",
+  "Mon4": "{{i18n:Tangf.}}",
+  "Mon6": "{{i18n:Tangf.}}",
+  "Mon8": "{{i18n:Tangf.}}",
+  "Mon10": "{{i18n:Tangf.}}",
+  "Tue": "{{i18n:Tangf.}}",
+  "Tue2": "{{i18n:Tangf.}}",
+  "Tue4": "{{i18n:Tangf.}}",
+  "Tue6": "{{i18n:Tangf.}}",
+  "Tue8": "{{i18n:Tangf.}}",
+  "Tue10": "{{i18n:Tangf.}}",
+  "Wed": "{{i18n:Tangf.}}",
+  "Wed2": "{{i18n:Tangf.}}",
+  "Wed4": "{{i18n:Tangf.}}",
+  "Wed6": "{{i18n:Tangf.}}",
+  "Wed8": "{{i18n:Tangf.}}",
+  "Wed10": "{{i18n:Tangf.}}",
+  "Thu": "{{i18n:Tangf.}}",
+  "Thu2": "{{i18n:Tangf.}}",
+  "Thu4": "{{i18n:Tangf.}}",
+  "Thu6": "{{i18n:Tangf.}}",
+  "Thu8": "{{i18n:Tangf.}}",
+  "Thu10": "{{i18n:Tangf.}}",
+  "Fri": "{{i18n:Tangf.}}",
+  "Fri2": "{{i18n:Tangf.}}",
+  "Fri4": "{{i18n:Tangf.}}",
+  "Fri6": "{{i18n:Tangf.}}",
+  "Fri8": "{{i18n:Tangf.}}",
+  "Fri10": "{{i18n:Tangf.}}",
+  "Sat": "{{i18n:Tangf.}}",
+  "Sat2": "{{i18n:Tangf.}}",
+  "Sat4": "{{i18n:Tangf.}}",
+  "Sat6": "{{i18n:Tangf.}}",
+  "Sat8": "{{i18n:Tangf.}}",
+  "Sat10": "{{i18n:Tangf.}}",
+  "Sun": "{{i18n:Tangf.}}",
+  "Sun2": "{{i18n:Tangf.}}",
+  "Sun4": "{{i18n:Tangf.}}",
+  "Sun6": "{{i18n:Tangf.}}",
+  "Sun8": "{{i18n:Tangf.}}",
+  "Sun10": "{{i18n:Tangf.}}"
+      
+      
+      
+      
+      
+    }}]}

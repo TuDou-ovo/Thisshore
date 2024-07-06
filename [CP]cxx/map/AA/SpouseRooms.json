@@ -1,0 +1,18 @@
+{"Changes":[
+
+
+{"LogName": "配偶房",
+  "Action": "Load",
+  "Target": "Maps/cxx.SpouseRooms",
+  "FromFile": "map/SpouseRooms.tmx"},
+
+
+{"LogName": "配偶露台",
+  "Action": "Load",
+  "Target": "Maps/cxx.SpousePatios",
+  "FromFile": "map/SpousePatios.tmx"}
+
+
+
+
+]}

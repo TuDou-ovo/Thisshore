@@ -1,0 +1,653 @@
+
+插入地图
+
+{"LogName": "替换",
+  "Action": "EditMap",
+  "Target": "Maps/替换的地图",
+  "FromFile": "map/文件名字.tmx",
+  "ToArea":{"X":左上角,"Y":左上角,"Width":宽,"Height":高},
+  "Update": "OnLocationChange"},
+ 
+{"LogName": "传送点",
+  "Action": "EditMap",
+  "Target": "Maps/地图名字",
+  "AddWarps":["1 10 cxxmap.TangfHome1 7 14"],
+
+ "MapProperties":
+{"NPCWarp": "1 10 cxxmap.TangfHome1 7 14"}}
+
+加载地图
+
+{"LogName": "加载",
+  "Action": "Load",
+  "Target": "Maps/cxxmap.地图名字",
+  "FromFile": "map/文件名.tmx"},  
+
+{"LogName": "传送点",
+  "Action": "EditData",
+  "Target": "Data/Locations",
+  "Entries":
+
+{"cxxmap.地图名字":
+{"CreateOnLoad": 
+{"MapPath":"Maps/cxxmap.地图名字"},
+ "FormerLocationNames":["Custom_cxxmap.地图名字"]}},
+
+ "MapProperties":
+{"NPCWarp": "3 13 cxxmap.RES5 70 41"}},
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+最爱love 喜好like 不喜欢dis 讨厌hate 一般neu
+
+喜好设定
+"角色英文名": "{{i18n:角色英文名.LoveGift}}/id/{{i18n:角色英文名.LikeGift}}/id/{{i18n:角色英文名.DisGift}}/id/{{i18n:角色英文名.HateGift}}/id/{{i18n:角色英文名.NeuGift}}/id/"
+
+{"LogName": "低好感喜好对话",
+  "Action": "EditData",
+  "Target": "Data/NPCGiftTastes",
+  "Entries": 
+  
+{"角色英文名": "{{i18n:角色英文名.LoveGift0}}/id/{{i18n:角色英文名.LikeGift0}}/id/{{i18n:角色英文名.DisGift0}}/id/{{i18n:角色英文名.HateGift0}}/id/{{i18n:角色英文名.NeuGift0}}/id/"},
+ "When": {"Hearts:角色英文名": "0,1,2"}},
+
+{"LogName": "高好感喜好对话",
+  "Action": "EditData",
+  "Target": "Data/NPCGiftTastes",
+  "Entries": 
+  
+{"角色英文名": "{{i18n:角色英文名.LoveGift1}}/id/{{i18n:角色英文名.LikeGift1}}/id/{{i18n:角色英文名.DisGift1}}/id/{{i18n:角色英文名.HateGift1}}/id/{{i18n:角色英文名.NeuGift1}}/id/"},
+ "When": {"Hearts:角色英文名": "3,4,5,6,7,8,9,10"}}
+-------------------------------------------------------------------------------------------
+{"LogName":"婚后对话",
+  "Action": "Load",
+  "Target": "Characters/Dialogue/MarriageDialogue角色英文名",
+  "FromFile":"NPC/Dialogue/MarriageDialogue/角色英文名.json"},
+   
+{"LogName":"吃醋对话",
+  "Action": "EditData",
+  "Target": "Strings/StringsFromCSFiles",
+  "Entries": 
+
+{"NPC.cs.3985": "{{i18n:角色英文名.cccc}}"},
+ "When":
+{"Relationship:角色英文名":"Engaged, Married"}}
+-------------------------------------------------------------------------------------------
+{"LogName": "电影对话",
+  "Action": "EditData",
+  "Target": "Data/MoviesReactions",
+  "Entries": 
+  
+{"角色英文名": 
+{"NPCName": "角色英文名",
+ "Reactions": [
+
+{"LogName": "谁的电影对话关于小树苗",
+  "Tag": "spring_movie_0",
+  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Whitelist": [],
+
+"SpecialResponses": {
+"BeforeMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.BeforeMovie2}}"},
+"DuringMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.DuringMovie2}}"},
+"AfterMovie":  {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.AfterMovie2}}"}},
+"ID": "reaction_2"},
+
+{"LogName": "谁的电影对话关于草原之王",
+  "Tag": "summer_movie_0",
+  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Whitelist": [],
+
+"SpecialResponses": {
+"BeforeMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.BeforeMovie3}}"},
+"DuringMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.DuringMovie3}}"},
+"AfterMovie":  {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.AfterMovie3}}"}},
+"ID": "reaction_3"},
+
+{"LogName": "谁的电影对话关于神秘事迹",
+  "Tag": "fall_movie_0",
+  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Whitelist": [],
+
+"SpecialResponses": {
+"BeforeMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.BeforeMovie4}}"},
+"DuringMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.DuringMovie4}}"},
+"AfterMovie":  {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.AfterMovie4}}"}},
+"ID": "reaction_4"},
+
+{"LogName":"谁的电影对话关于牧场奇迹",
+  "Tag": "winter_movie_0",
+  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Whitelist": [],
+
+"SpecialResponses": {
+"BeforeMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.BeforeMovie5}}"},
+"DuringMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.DuringMovie5}}"},
+"AfterMovie":  {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.AfterMovie5}}"}},
+"ID": "reaction_5"},
+
+{"LogName":"谁的电影对话关于探索世界",
+  "Tag": "spring_movie_1",
+  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Whitelist": [],
+
+"SpecialResponses": {
+"BeforeMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.BeforeMovie6}}"},
+"DuringMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.DuringMovie6}}"},
+"AfterMovie":  {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.AfterMovie6}}"}},
+"ID": "reaction_6"},
+
+{"LogName": "谁的电影对话关于温不斯",
+  "Tag": "summer_movie_1",
+  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Whitelist": [],
+
+"SpecialResponses": {
+"BeforeMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.BeforeMovie7}}"},
+"DuringMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.DuringMovie7}}"},
+"AfterMovie":  {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.AfterMovie7}}"}},
+"ID": "reaction_7"},
+
+{"LogName": "谁的电影对话关于雨中嚎叫",
+  "Tag": "fall_movie_1",
+  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Whitelist": [],
+
+"SpecialResponses": {
+"BeforeMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.BeforeMovie8}}"},
+"DuringMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.DuringMovie8}}"},
+"AfterMovie":  {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.AfterMovie8}}"}},
+"ID": "reaction_8"},
+
+{"LogName": "谁的电影对话关于特快列车",
+  "Tag": "winter_movie_1",
+  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Whitelist": [],
+
+"SpecialResponses": {
+"BeforeMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.BeforeMovie9}}"},
+"DuringMovie": {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.DuringMovie9}}"},
+"AfterMovie":  {"ResponsePoint": null,"Script": "",
+                "Text": "{{i18n:角色英文名.AfterMovie9}}"}},
+"ID": "reaction_9"}]}}},
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "电影零食喜好",
+  "Action": "EditData",
+  "Target": "Data/ConcessionTastes",
+  "Entries": 
+  
+{"角色英文名": 
+{"Name": "角色英文名",
+  "LovedTags": [ "最爱的" ],
+  "LikedTags": [ "喜欢的" ],
+  "DislikedTags": [ "讨厌的" ]}}},
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "角色信息",
+  "Action": "EditData",
+  "Target": "Data/Characters",
+  "Entries": 
+  
+{"角色英文名": 
+{"DisplayName": "{{i18n:角色英文名.name}}",
+  "BirthSeason": 0123,//春夏秋冬
+  "BirthDay": 日期,
+  "HomeRegion": "小镇Town/沙漠Desert/其他Other",
+  "Language": 0,
+  "Gender": 男0女1其他2,
+  "Age": 0成人1青少年2小孩,
+  "Manner": "礼貌polite/中立neutral/粗鲁rude",
+  "SocialAnxiety": "外向outgoing/中立neutral/内向shy",
+  "Optimism": "积极positive/中立neutral/消极negative",
+  "IsDarkSkinned": false,//黑皮改true
+  "CanBeRomanced": true,//婚
+  "LoveInterest": "官配名字",
+  "Calendar": "0",//初见前显示？
+  "SocialTab": "0",//初见前显示？
+  "CanSocialize": true,//对话
+  "CanReceiveGifts": true,//送礼
+  "CanGreetNearbyCharacters": false,//问候附近的角色
+  "CanCommentOnPurchasedShopItems": false,//评论已购买的商品
+  "SocializeConditions": null,//初见条件
+  "CanVisitIsland": true,//姜岛
+  "CanVisitIslandCondition": null,//姜岛条件
+  "ExcludeFromIntroductionsQuest": false,//排除在介绍任务之外
+  "ExcludeFromPerfectionScore": false,//从完美分数中排除
+  "EndSlideShow": 1,//结束幻灯片放映
+  "FriendsAndFamily": {},//朋友和家人
+  "UnlockConditions": null,//解锁条件
+  "SpawnIfMissing": true,//如果丢失则繁殖
+
+ "Home": [
+{"Id": "Default",
+  "Location": "cxxmap.地图名字",
+  "Tile": {"X": 坐标,"Y": 坐标},
+  "Direction": "上0下2左3右1"}],
+  "TextureName": null,
+  "Size": {"X": 16,"Y": 32},
+  "Breather": true,
+  "HiddenProfileEmoteSound": null,
+  "HiddenProfileEmoteDuration": -1,
+  "HiddenProfileEmoteStartFrame": 16,
+  "HiddenProfileEmoteFrameCount": 4,
+  "HiddenProfileEmoteFrameDuration": 200.0,
+  "FestivalVanillaActorIndex": 0,
+  "CustomFields": {},
+
+ "SpouseRoom":
+{"MapAsset": "cxx.SpouseRooms",
+ "MapSourceRect":{ "X": 0, "Y": 0, "Width": 6, "Height": 9 }},//起始坐标
+				
+ "SpousePatio": 
+{"MapAsset": "cxx.SpousePatios",
+ "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 }}}}},//起始坐标
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "行走图",
+  "Action": "Load",
+  "Target": "Characters/角色英文名",
+  "FromFile": "NPC/Sprites/文件名.png"}
+
+{"LogName": "季节性行走图",
+  "Action": "Load",
+  "Target": "Characters/角色英文名",
+  "FromFile": "NPC/Sprites/另一个文件名.png"}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "怪物",
+  "Action": "EditData",
+  "Target": "Data/Monsters",
+  "Entries":
+
+{"怪物英文名": "血量/攻击/最小硬币下降0/最大硬币下降0/飞行怪物false-true/随机运动持续时间1000/要删除的对象766 .75 766 .05 153 .1 66 .015 92 .15 96 .005 99 .001/防御1/神经过敏？？.01/仇恨距离格4/速度2/攻击机会缺失.00/无论是“矿怪”true/战斗经验3/{{i18n:怪物英文名.name}}"}}
+
+-------------------------------------------------------------------------------------------
+{"LogName": "物品配方",
+  "Action": "EditData",
+  "Target": "Data/CraftingRecipes",
+  "Entries": 
+
+{"物品英文名": "物品id 数量 物品英文名 数量/Home/物品英文名/false-不可拆解/Foraging 数量/{{i18n:物品英文名.name}}",//开局解锁
+ "物品英文名": "物品id 数量 物品英文名 数量/Home/物品英文名/false-不可拆解/Foraging 数量/{{i18n:物品英文名.name}}"}}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "料理配方",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "Entries":
+
+{"英文名": "物品id 数量 物品英文名 数量/10 10/英文名/l 11/f 角色英文名 好感度心级/中文名",//好感度解锁//绑定信件
+ "英文": "物品id 数量 物品英文名 数量/10 10/英文/l 11//中文名",}}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "商店",
+  "Action": "EditData",
+  "Target": "Data/Shops",
+  "Entries": 
+ 
+{"商店英文名": 
+{"Owners": [
+
+{"Name": "店主英文名",
+ "Dialogues": [
+{"Id": "商店英文名Open",
+ "Dialogue": "{{i18n:商店英文名.de}}"}]},
+
+{"Name": "None是没角色",
+ "ClosedMessage": "{{i18n:商店英文名.cde}}"}],
+
+ "Items": [
+{"Id": "物品id",
+  "Price": 价格,
+  "ItemId": "(O)物品id",
+  "Condition": "SEASON 春spring夏summer秋fall冬winter"},
+
+{"Id": "id",
+  "Price": 500,
+  "ItemId": "(O)id",
+  "IsRecipe": true}]}}}//是配方
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "鱼",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+ 
+{"鱼英文名": 
+{"Name": "鱼英文名",
+  "DisplayName": "{{i18n:鱼英文名.name}}",
+  "Description": "{{i18n:鱼英文名.de}}",
+  "Type": "Fish",
+  "Category": -4,//类别
+  "Price": 0,//价格
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": "0",//贴图位置
+  "Edibility": 0}}}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "鱼数据",
+  "Action": "EditData",
+  "Target": "Data/Fish",
+  "Entries":
+
+{"鱼英文名": "鱼英文名/频率15-100/小游戏浮标行为mixed、smooth、floater、sinker,dart/最小尺寸*2.54是厘米/最大尺寸*2.54是厘米/可以钓的600 2400/季节春spring夏summer秋fall冬winter/晴雨天both*rainy/这一串是概率什么的要算有点辅助还是看wiki吧690 .4 685 .1/4/.3/.5/0最低捕鱼水平出现",
+ "鱼英文名": "鱼英文名/频率15-100/小游戏浮标行为mixed、smooth、floater、sinker,dart/最小尺寸*2.54是厘米/最大尺寸*2.54是厘米/可以钓的600 2400/季节春spring夏summer秋fall冬winter/晴雨天both*rainy/这一串是概率什么的要算有点辅助还是看wiki吧690 .4 685 .1/4/.3/.5/0最低捕鱼水平出现",}},
+ -------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------
+{"LogName": "鱼刷新位置",
+  "Action": "EditData",
+  "Target": "Data/Locations",
+  "Fields": 
+
+{"地图名字": {
+  "Fish": [
+{"ItemId": "鱼王英文名",
+  "Condition": "SEASON 春spring夏summer秋fall冬winter",//季节
+  "CatchLimit": 1,//最大可以钓多少只
+  "Precedence": -200,//优先级
+  "IsBossFish": true,//是不是鱼王
+  "MinFishingLevel": 10,//钓鱼等级
+  "BobberPosition": {"X": 0,"Y": 0,"Width": 宽,"Height": 高}},//在哪个区域甩钩
+{"ItemId": "鱼英文名",
+ "Condition": "SEASON 春spring夏summer秋fall冬winter"},//带条件的
+{"ItemId": "鱼英文名"},//不带条件的
+{"ItemId": "152海草"},//想钓什么写什么，垃圾家具都行
+{"ItemId": "153绿澡"},
+{"ItemId": "157白澡"},
+{"ItemId": "172报纸"},
+{"ItemId": "171cd"},
+{"ItemId": "170眼镜"},
+{"ItemId": "169浮木"},
+{"ItemId": "167可乐"},
+{"ItemId": "168垃圾"}]}}}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "鱼塘",
+  "Action": "EditData",
+  "Target": "Data/FishPondData",
+  "Entries":
+  
+{"鱼英文名":
+{"RequiredTags": ["item_鱼英文名"],
+  "Precedence": 0,//优先级
+  "SpawnTime": -1,//繁殖时间
+
+ "ProducedItems": [//产出物品
+{"RequiredPopulation": 10,//鱼塘鱼数量
+  "Chance": 0.00,//概率
+  "ItemID": 物品id,
+  "MinQuantity": 最小数量,
+  "MaxQuantity": 最大数量},
+{"RequiredPopulation": 6,
+  "Chance": 0.10,//概率
+  "ItemID": 物品id,
+  "MinQuantity": 最小数量,
+  "MaxQuantity": 最大数量},
+{"RequiredPopulation": 3,
+  "Chance": 0.20,//概率
+  "ItemID": 物品id,
+  "MinQuantity": 最小数量,
+  "MaxQuantity": 最大数量},
+{"RequiredPopulation": 0,
+  "Chance": 0.30,//概率
+  "ItemID": 物品id,
+  "MinQuantity": 最小数量,
+  "MaxQuantity": 最大数量}],
+
+ "PopulationGates": 
+{"2": ["id 数量"],
+ "4": ["id 数量"],
+ "8": ["id 数量"]}}}}//升级需要的物品
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "作物",
+ "Action": "EditData",
+ "Target": "Data/Crops",
+ "Entries":
+
+{"种子英文名":
+{"DaysInPhase": [1,1,1,1],//阶段生长天数
+  "Seasons": ["春spring夏summer秋fall冬winter"],//季节
+  "RegrowDays": -1,//-单次收获 1收获间隔天数
+  "IsRaised": false,//是不是拦路的
+  "HarvestItemId": "作物英文名",
+  "HarvestMethod": "手0镰刀1",//收获方式
+  "Texture": "Mods/potato.cxxcp/Crops",//贴图文件名
+  "SpriteIndex": 0},}},//位置
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "果树",
+  "Action": "EditData",
+  "Target": "Data/FruitTrees",
+  "Entries":
+
+{"树苗英文名":
+{"DisplayName": "树苗英文名",
+  "Seasons": ["春spring夏summer秋fall冬winter"],
+ "Fruit": [
+{"Id": "Default",
+  "ItemId": "(O)作物英文名"}],
+  "Texture": "Mods/potato.cxxcp/FruitTrees",//贴图
+  "TextureSpriteRow": 0}}}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "物品",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+ 
+{"物品英文名":
+{"Name": "物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "菜品",//有buff的食物 没buff还是用物品
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+
+{"菜品英文名":
+{"Name": "菜品英文名", 
+  "Displayname": "{{i18n:菜品英文名.name}}",
+  "Description": "{{i18n:菜品英文名.de}}",
+  "Type": "objects/Basic",//有蓝底/没有
+  "Category": 0,//物品标签
+  "Price": 0,//价格
+  "Edibility": 50,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+
+{"Id": "Food",//类别
+  "BuffId": null,
+  "Duration": 0,//持续时间/游戏内时间
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+  "CustomAttributes": {
+  "FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 0,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 0}}},
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "地图名字地图事件",
+  "Action": "Load",
+  "Target": "Data/Events/地图名字",
+  "FromFile": "assets/Events/ev/地图名字.json"},
+
+{"LogName": "地图名字地图事件",
+  "Action": "Load",
+  "Target": "Data/Events/地图名字",
+  "FromFile": "assets/Events/ev/地图名字.json"}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "信件",
+  "Action": "EditData",
+  "Target": "Data/mail",
+  "Entries":
+ 
+{"信件id": "{{i18n:信件id.1}}^{{i18n:信件id.2}}^^{{i18n:信件id.3}}^{{i18n:信件id.npc}}[#]{{i18n:信件id.name}}",
+  "信件id": "第一句话^前面是换行符号^^几个符号换几行^——署名%item cookingRecipe食谱/object物品/quest任务/conversationTopic主动性事件的话题 id 数量%%[#]这是一封给予单个物品信件的标题",
+  "信件id": "第一句话^前面是换行符号^^几个符号换几行^——署名%item object物品 id 数量 id 数量%%[#]这是一封给予随机物品信件的标题"     }}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "任务",
+  "Action": "EditData",
+  "Target": "Data/Quests",
+  "Entries": 
+
+{"任务id": "Basic/{{i18n:任务id.name}}/{{i18n:任务id.de}}/{{i18n:任务id.cc}}/-1/-1/0/-1/true"}}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "帽子",
+  "Action": "EditData",
+  "Target": "Data/Hats",
+  "Entries":
+ 
+{"帽子英文名": "帽子英文名/{{i18n:帽子英文名.de}}/false/true//{{i18n:帽子英文名.name}}/0贴图位置/cxx\\Objects\\Hats"}}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+{"LogName": "武器",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+
+{"武器英文名":
+{"Name": "武器英文名",
+  "DisplayName": "{{i18n:武器英文名.name}}",
+  "Description": "{{i18n:武器英文名.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 1匕首2锤3剑,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 0}}}
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+翻译
+--电影的
+"英文名.MovieInvitation":"",
+"英文名.BeforeMovie9":"",
+"英文名.DuringMovie9":"",
+"英文名.AfterMovie9":"",
+"英文名.BeforeMovie8":"",
+"英文名.DuringMovie8":"",
+"英文名.AfterMovie8":"",
+"英文名.BeforeMovie7":"",
+"英文名.DuringMovie7":"",
+"英文名.AfterMovie7":"",
+"英文名.BeforeMovie6":"",
+"英文名.DuringMovie6":"",
+"英文名.AfterMovie6":"",
+"英文名.BeforeMovie5":"",
+"英文名.DuringMovie5":"",
+"英文名.AfterMovie5":"",
+"英文名.BeforeMovie4":"",
+"英文名.DuringMovie4":"",
+"英文名.AfterMovie4":"",
+"英文名.BeforeMovie3":"",
+"英文名.DuringMovie3":"",
+"英文名.AfterMovie3":"",
+"英文名.BeforeMovie2":"",
+"英文名.DuringMovie2":"",
+"英文名.AfterMovie2":"",
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+byd好麻烦跟代码爆了
+]

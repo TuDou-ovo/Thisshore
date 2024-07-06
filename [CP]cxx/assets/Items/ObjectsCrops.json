@@ -1,0 +1,80 @@
+{"Changes": [
+
+
+{"LogName": "新物品贴图",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/Objects",
+  "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"},
+
+
+{"LogName":"蛇果",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxxSnakefruit": 
+{"Name": "cxxSnakefruit", 
+  "Displayname": "{{i18n:cxxSnakefruit.name}}",
+  "Description": "{{i18n:cxxSnakefruit.de}}",
+  "Type": "Basic",
+  "Category": -79,
+  "Price": 120,
+  "Edibility": 60,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 0}}},
+
+
+{"LogName":"蛇果树苗",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxxSnakefruitBasic": 
+{"Name": "cxxSnakefruitBasic", 
+  "Displayname": "{{i18n:cxxSnakefruitBasic.name}}",
+  "Description": "{{i18n:cxxSnakefruitBasic.de}}",
+  "Type": "Objects",
+  "Category": -74,
+  "Price": 1200,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 1}}},
+
+
+{"LogName":"天星花",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxxTianxinghua": 
+{"Name": "cxxTianxinghua", 
+  "Displayname": "{{i18n:cxxTianxinghua.name}}",
+  "Description": "{{i18n:cxxTianxinghua.de}}",
+  "Type": "Basic",
+  "Category": -80,
+  "Price": 100,
+  "Edibility": 10,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 2}}},
+
+
+{"LogName":"天星花种子",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxxTianxinghuaseed": 
+{"Name": "cxxTianxinghuaseed", 
+  "Displayname": "{{i18n:cxxTianxinghuaseed.name}}",
+  "Description": "{{i18n:cxxTianxinghuaseed.de}}",
+  "Type": "Basic",
+  "Category": -74,
+  "Price": 50,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 3}}}
+
+
+
+
+
+]}

@@ -1,0 +1,25 @@
+{"Changes":[
+
+
+{"LogName": "角色喜好",
+  "Action": "EditData",
+  "Target": "Data/NPCGiftTastes",
+  "Entries": 
+ 
+{"Universal_Love": "0",
+  "Universal_Like": "cxxSnakefruit",
+  "Universal_Neutral": "0",
+  "Universal_Dislike": "0",
+  "Universal_Hate": "0",
+  "Tangf": "{{i18n:Tangf.LoveGift}}/id/{{i18n:Tangf.LikeGift}}/id/{{i18n:Tangf.DisGift}}/id/{{i18n:Tangf.HateGift}}/id/{{i18n:cxx.Tangf.NeuGift}}/id/",
+  "Dolll": "{{i18n:Dolll.LoveGift}}/id/{{i18n:Dolll.LikeGift}}/id/{{i18n:Dolll.DisGift}}/id/{{i18n:Dolll.HateGift}}/id/{{i18n:cxx.Dolll.NeuGift}}/id/"}}
+
+
+
+
+
+ 
+
+
+
+]}

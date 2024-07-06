@@ -1,0 +1,26 @@
+{"Changes":[
+	  
+  
+{"LogName":"角色动作",
+  "Action": "EditData",
+  "Target": "Data/animationDescriptions",
+  "Entries":
+  
+{"T1": "19/19 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 18 18/18"//趴趴
+}},
+  
+
+{"LogName":"动作交互对话",
+  "Action": "EditData",
+  "Target": "Strings/animationDescriptions",
+  "Entries": 
+
+{"T1": "你好...",
+  "Tangf_p2": "有什么事么",
+  "Tangf_p3": "再见"}}
+
+
+
+
+              
+]}

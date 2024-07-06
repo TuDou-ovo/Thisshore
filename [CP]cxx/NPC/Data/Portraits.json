@@ -1,0 +1,20 @@
+{"Changes":[
+
+
+{"LogName":"枫角色肖像",
+  "Action": "Load",
+  "Target": "Portraits/Tangf",
+  "FromFile": "NPC/Portraits/Tangf.png"},
+
+ 
+{"LogName":"玩偶角色肖像",
+  "Action": "Load",
+  "Target": "Portraits/Dolll",
+  "FromFile": "NPC/Portraits/Dolll.png"}
+
+
+
+
+  
+
+]}

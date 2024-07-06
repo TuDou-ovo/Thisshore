@@ -1,0 +1,56 @@
+{"Changes":[
+
+  
+{"LogName": "替换出枫临时住处的门",
+  "Action": "EditMap",
+  "Target": "Maps/Mountain",
+  "FromFile": "map/TangfHomeBackwoods.tmx",
+  "ToArea":{"X":0,"Y":8,"Width":3,"Height":4},
+  "Update": "OnLocationChange"},
+ 
+
+{"LogName": "枫的临时住处",
+  "Action": "Load",
+  "Target": "Maps/cxxmap.TangfHome1",
+  "FromFile": "map/TangfHome1.tmx"},
+
+
+{"LogName": "玩偶的住处",
+  "Action": "Load",
+  "Target": "Maps/cxxmap.DollHome",
+  "FromFile": "map/DollHome.tmx"},  
+
+
+{"LogName": "研究院边缘区",
+  "Action": "Load",
+  "Target": "Maps/cxxmap.RES5",
+  "FromFile": "map/RES5.tmx"},
+  
+
+{"LogName": "研究院实验区",
+  "Action": "Load",
+  "Target": "Maps/cxxmap.RES3",
+  "FromFile": "map/RES3.tmx"},
+
+
+{"LogName": "研究院主区",
+  "Action": "Load",
+  "Target": "Maps/cxxmap.RES1",
+  "FromFile": "map/RES1.tmx"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]}

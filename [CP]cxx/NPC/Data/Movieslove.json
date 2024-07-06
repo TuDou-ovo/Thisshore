@@ -1,0 +1,30 @@
+{"Changes": [
+
+
+{"LogName":"枫的电影零食喜好",
+  "Action": "EditData",
+  "Target": "Data/ConcessionTastes",
+  "Entries":
+{"Tangf":
+{"Name": "Tangf",
+  "LovedTags": [ "最爱的" ],
+  "LikedTags": [ "喜欢的" ],
+  "DislikedTags": [ "讨厌的" ]}}},
+
+ 
+{"LogName":"玩偶的电影零食喜好",
+  "Action": "EditData",
+  "Target": "Data/ConcessionTastes",
+  "Entries": 
+{"Dolll":
+{"Name": "Dolll",
+  "LovedTags": [ "Apple Slices","Chocolate Popcorn","Fries","Nachos","Popcorn","Star Cookie","Truffle Popcorn" ],
+  "LikedTags": [ "Black Licorice","Cappuccino Mousse Cake","Cotton Candy","Hummus Snack Pack","Jawbreaker","Panzanella Salad","Personal Pizza","Rock Candy","Salmon Burger","Salted Peanuts","Sour Slimes," ],
+  "DislikedTags": [ "Jasmine Tea","Joja Cola","SmoothieKale","Ice Cream Sandwich","JojaCorn","Stardrop Sorbet" ]}}}
+
+
+
+
+
+
+]}

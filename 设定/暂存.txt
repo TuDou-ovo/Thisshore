@@ -1,0 +1,179 @@
+Loading a simple Letter that will show for the player if not read before, and will not be be delivered again after being opened by the player:
+MailRepository.SaveLetter(
+new Letter(
+"LetterUniqueId"
+,"Letter custom text."
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+           ,(l)=>Game1.player.mailReceived.Add(l.Id)
+)
+);
+
+
+Loading a simple Letter as before, but with 5 Emerald annexed:
+MailRepository.SaveLetter(
+  new Letter(
+"LetterUniqueId"
+,"Letter custom text."
+,new List<Item> { new StardewValley.Object(60,5) }
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+,(l)=>Game1.player.mailReceived.Add(l.Id)
+  )
+);
+
+The player will not receive the same item, but a copy returned from the getOne() method.
+
+Loading a simple Letter that will teach a cooking recipe, it will be delivered if the player doesn't know the recipe. The mod automatically teaches the recipes when the player loads, no need for a callback here:
+MailRepository.SaveLetter(
+  new Letter(
+"LetterUniqueId"
+, "Letter custom text."
+, "RecipeUniqueName"
+, (l) => !Game1.player.cookingRecipes.ContainsKey(l.Recipe)
+  )
+);
+
+The "RecipeUniqueName" must be the same as stored on "Data//CookingRecipes" or "Data//CraftingRecipes".
+
+Loading a simple Letter with different text and background:
+MailRepository.SaveLetter(
+  new Letter(
+"LetterUniqueId"
+,"Letter custom text."
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+,(l)=>Game1.player.mailReceived.Add(l.Id)
+1
+  ){TextColor=8}
+);
+
+
+Loading a simple Letter with custom background:
+MailRepository.SaveLetter(
+  new Letter(
+"LetterUniqueId"
+,"Letter custom text."
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+,Game1.player.mailReceived.Add(l.Id)
+1
+  ){
+LetterTexture=helper.Content.Load<Texture2D>("CustomLetterBG.png")
+,TextColor=4
+  }
+);
+Where CustomLetterBG.png is a image file that follows the same structure as "LooseSprites//letterBG"
+
+Loading a simple Letter with translation for text and title.
+MailRepository.SaveLetter(
+new Letter(
+"LetterUniqueId"
+,"myletter.translation.key.text"
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+           ,(l)=>Game1.player.mailReceived.Add(l.Id)
+){
+﻿Title = "myletter.translation.key.title",
+I18N = helper.Translation
+    }
+);
+
+
+
+
+
+
+
+
+
+
+
+加载一封简单的信件，如果之前没有读过，将显示给玩家，并且在玩家打开后不会再次发送：
+
+MailRepository.SaveLetter(
+new Letter(
+"LetterUniqueId"
+,"Letter custom text."
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+           ,(l)=>Game1.player.mailReceived.Add(l.Id)
+)
+);
+
+
+加载一个简单的信像以前一样，但与5绿宝石附件：
+
+MailRepository.SaveLetter(
+  new Letter(
+"LetterUniqueId"
+,"Letter custom text."
+,new List<Item> { new StardewValley.Object(60,5) }
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+,(l)=>Game1.player.mailReceived.Add(l.Id)
+  )
+);
+
+播放器不会收到相同的项目，而是从getOne（）方法返回的副本。
+
+加载一个简单的信，将教烹饪食谱，它将被交付，如果玩家不知道的食谱。当播放器加载时，mod会自动教授食谱，不需要在这里回调：
+
+MailRepository.SaveLetter(
+  new Letter(
+"LetterUniqueId"
+, "Letter custom text."
+, "RecipeUniqueName"
+, (l) => !Game1.player.cookingRecipes.ContainsKey(l.Recipe)
+  )
+);
+
+“RecipeUniqueName”必须与“Data//CookingRecipes”或“Data//CraftingRecipes”中存储的相同。
+
+加载一个简单的字母与不同的文本和背景：
+
+MailRepository.SaveLetter(
+  new Letter(
+"LetterUniqueId"
+,"Letter custom text."
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+,(l)=>Game1.player.mailReceived.Add(l.Id)
+1
+  ){TextColor=8}
+);
+
+
+加载带有自定义背景的简单信函：
+
+MailRepository.SaveLetter(
+  new Letter(
+"LetterUniqueId"
+,"Letter custom text."
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+,Game1.player.mailReceived.Add(l.Id)
+1
+  ){
+LetterTexture=helper.Content.Load<Texture2D>("CustomLetterBG.png")
+,TextColor=4
+  }
+);
+其中CustomLetterBG.png是一个图像文件，其结构与“LooseSprites//letterBG”相同。
+
+加载一个简单的信件与翻译的文本和标题。
+
+MailRepository.SaveLetter(
+new Letter(
+"LetterUniqueId"
+,"myletter.translation.key.text"
+,(l)=>!Game1.player.mailReceived.Contains(l.Id)
+           ,(l)=>Game1.player.mailReceived.Add(l.Id)
+){
+﻿Title = "myletter.translation.key.title",
+I18N = helper.Translation
+    }
+);
+
+
+
+
+
+{"LogName": "链接·配置",
+  "Action": "Include",
+  "FromFile": "assets/Data/ConfigSchema.json"},
+
+  {
+    "Cropss": "true"
+  }

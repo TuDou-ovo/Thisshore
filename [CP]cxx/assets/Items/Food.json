@@ -1,0 +1,16 @@
+{"Changes": [
+
+
+{"LogName": "食物贴图",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/Objects",
+  "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"},
+
+
+
+
+
+
+
+
+]}

@@ -1,0 +1,13 @@
+{"Changes": [
+
+
+{"LogName": "武器贴图",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/Objects/Weapons",
+  "FromFile": "assets/Objects/Weapons.png"},
+
+
+
+
+
+]}

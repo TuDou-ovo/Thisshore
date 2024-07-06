@@ -1,0 +1,18 @@
+{"Changes":[
+
+   
+{"LogName":"枫行走图",
+  "Action": "Load",
+  "Target": "Characters/Tangf",
+  "FromFile": "NPC/Sprites/Tangf.png"},
+
+
+{"LogName":"玩偶行走图",
+  "Action": "Load",
+  "Target": "Characters/Dolll",
+  "FromFile": "NPC/Sprites/Dolll.png"}
+
+
+
+
+]}
