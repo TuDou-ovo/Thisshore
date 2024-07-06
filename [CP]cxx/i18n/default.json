@@ -2,16 +2,16 @@
 ///////物品相关
 
 ///作物
-"Snakefruit.name":"蛇果",
-"Snakefruit.name1":"蛇的果",
-"Snakefruit.de":"一种和苹果很像的水果",
-"SnakefruitBasic.name":"蛇果树苗",
-"SnakefruitBasic.de":"28天成熟为成年蛇果树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
+"cxxSnakefruit.name":"蛇果",
+"cxxSnakefruit.name1":"蛇的果",
+"cxxSnakefruit.de":"一种和苹果很像的水果",
+"cxxSnakefruitBasic.name":"蛇果树苗",
+"cxxSnakefruitBasic.de":"28天成熟为成年蛇果树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
 
-"Tianxinghua.name":"天星花",
-"Tianxinghua.de":"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
-"Tianxinghuaseed.name":"天星花种子",
-"Tianxinghuaseed.de":"夏天和秋天播种,10天成熟",
+"cxxTianxinghua.name":"天星花",
+"cxxTianxinghua.de":"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
+"cxxTianxinghuaseed.name":"天星花种子",
+"cxxTianxinghuaseed.de":"夏天和秋天播种,10天成熟",
 //物品
 
 

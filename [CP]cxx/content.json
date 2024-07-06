@@ -2,6 +2,14 @@
  "Changes":[
 
 
+{"ConfigSchema": 
+{"Cropss": 
+{"AllowValues": "true, false",
+  "Default": "false",
+  "Section": "Content",
+  "Description": "是否开启角色料理的特殊配方?默认为否(此选项为单纯娱乐,灵感来自n网8116,请了解后酌情开启)"}}},
+
+
 {"LogName": "链接·人物节庆位置",
   "Action": "Include",
   "FromFile": "NPC/Festivals/station.json"},
@@ -92,14 +100,9 @@
   "FromFile": "map/AA/MapsMessage.json"},
 
 
-{"LogName": "链接·物品-杂项",
+{"LogName": "链接·物品",
   "Action": "Include",
   "FromFile": "assets/Items/Objects.json"},
-
-
-{"LogName": "链接·物品-鱼类",
-  "Action": "Include",
-  "FromFile": "assets/Items/FishData.json"},
 
 
 {"LogName": "链接·物品-帽子",
@@ -110,18 +113,6 @@
 {"LogName": "链接·物品-武器",
   "Action": "Include",
   "FromFile": "assets/Items/Weapons.json"},
-
-
-{"LogName": "链接·物品-作物植物类",
-  "Action": "Include",
-  "FromFile": "assets/Items/ObjectsCrops.json"}, 
-
-
-{"LogName": "链接·物品-作物植物类",
-  "Action": "Include",
-  "FromFile": "assets/Items/ObjectsCropss.json",
-  "When": 
-{"Cropss": "true"}},
 
 
 {"LogName": "链接·配方-料理",
