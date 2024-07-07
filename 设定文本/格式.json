@@ -579,17 +579,70 @@
   "SpriteIndex": 0}}}
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
+ftm
+在农场里繁殖草料和再生现有的树桩
+"ForageSpawnEnabled": true,
+"LargeObjectSpawnEnabled": true,
+
+在农场随机产生新的原木和巨石
+"LargeObjectSpawnEnabled": true,
+
+"Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Log", "Boulder"
+        ],
+        "FindExistingObjectLocations": false,
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": ["Grass", "Dirt", "Diggable"],
 
 
+在Cindersap Forest的特定区域内繁殖矿石
+"OreSpawnEnabled": true,
+
+"Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeCoordinates": [ "65,22/74,27" ],
+
+在农场里繁殖大量的草料，但不要在房子附近繁殖
+"ForageSpawnEnabled": true,
+
+"Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 9999,
+        "MaximumSpawnsPerDay": 9999,
+        "IncludeTerrainTypes": [ "All" ],
+        "ExcludeCoordinates": [ "69,17;57,10" ]
 
 
+产卵 改良植物 上 支持mod的summit，但只有在雨天之后，而且只有在第1年之后
+"ForageSpawnEnabled": true,
 
-
-
-
-
-
-
+"Forage_Spawn_Settings": {
+  "Areas": [
+    {
+      "SpringItemIndex": [ "Mint", "Juniper" ],
+      "SummerItemIndex": [ "Mint", "Juniper" ],
+      "FallItemIndex": [ "Mint", "Juniper" ],
+      "WinterItemIndex": [],
+      "MapName": "Summit",
+      "MinimumSpawnsPerDay": 4,
+      "MaximumSpawnsPerDay": 8,
+      "IncludeTerrainTypes": [
+        "All"
+      ],
+      "ExtraConditions": {
+        "Years": [ "2+" ],
+        "WeatherYesterday": [ "Rain", "Storm" ],
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
