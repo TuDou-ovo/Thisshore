@@ -370,8 +370,8 @@
   "Target": "Data/Locations",
   "Fields": 
 
-{"地图名字": {
-  "Fish": [
+{"地图名字": 
+{"Fish": [
 {"ItemId": "鱼王英文名",
   "Condition": "SEASON 春spring夏summer秋fall冬winter",//季节
   "CatchLimit": 1,//最大可以钓多少只

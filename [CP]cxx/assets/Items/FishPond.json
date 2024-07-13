@@ -1,7 +1,42 @@
 {"Changes": [
 
 
-
+{"LogName": "纸袋水母-鱼塘",
+  "Action": "EditData",
+  "Target": "Data/FishPondData",
+  "Entries":
+    
+{"cxxzhidaishuimu":
+{"RequiredTags": ["item_cxxzhidaishuimu"],
+  "Precedence": 0,
+  "SpawnTime": -1,
+  
+ "ProducedItems": [
+{"RequiredPopulation": 10,
+  "Chance": 0.20,
+  "ItemID": 60,
+  "MinQuantity": 1,
+  "MaxQuantity": 3},
+{"RequiredPopulation": 6,
+    "Chance": 0.50,
+    "ItemID": 766,
+    "MinQuantity": 6,
+    "MaxQuantity": 10},
+{"RequiredPopulation": 3,
+    "Chance": 0.40,
+    "ItemID": 428,
+    "MinQuantity": 2,
+    "MaxQuantity": 5},
+{"RequiredPopulation": 0,
+    "Chance": 0.50,
+    "ItemID": 766,
+    "MinQuantity": 3,
+    "MaxQuantity": 5}],
+  
+ "PopulationGates": 
+{"2": ["766 5"],
+ "4": ["428 2"],
+ "8": ["60 2"]}}}}
 
 
 

@@ -54,7 +54,7 @@
   "Price": 100,
   "Edibility": 10,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 2}}},
+  "SpriteIndex": 48}}},
 
 
 {"LogName":"天星花种子",
@@ -71,7 +71,30 @@
   "Edibility": -300,
   "IsDrink": false,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 3}}}
+  "SpriteIndex": 49}}},
+
+
+{"LogName": "纸袋水母",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxxzhidaishuimu":
+{"Name": "cxxzhidaishuimu", 
+  "Displayname": "{{i18n:cxxzhidaishuimu.name}}",
+  "Description": "{{i18n:cxxzhidaishuimu.de}}",
+  "Type": "objects",
+  "Category": -4,
+  "Price": 200,
+  "Edibility": 50,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 96}}},
+
+
+
+
+
+
+
 
 
 
