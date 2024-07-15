@@ -5,7 +5,7 @@
   "Action": "EditData",
   "Target": "Data/Characters",
   "Entries": 
-{"Tangf": 
+{"cxx.Tangf": 
 {"DisplayName": "{{i18n:Tangf.name}}",
   "BirthSeason": 0,
   "BirthDay": 14,
@@ -57,7 +57,7 @@
   "Action": "EditData",
   "Target": "Data/Characters",
   "Entries": {
-  "Dolll": {
+  "cxx.Dolll": {
   "DisplayName": "{{i18n:Dolll.name}}",
   "HomeRegion": "Other",
   "Language": 0,

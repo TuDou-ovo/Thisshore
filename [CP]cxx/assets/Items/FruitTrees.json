@@ -11,12 +11,12 @@
   "Action": "EditData",
   "Target": "Data/FruitTrees",
   "Entries": 
-{"cxxSnakefruitBasic":
-{"DisplayName": "cxxSnakefruitBasic",
+{"cxx.SnakefruitBasic":
+{"DisplayName": "cxx.SnakefruitBasic",
   "Seasons": ["fall"],
   "Fruit": [{
   "Id": "Default",
-  "ItemId": "(O)cxxSnakefruit"}],
+  "ItemId": "(O)cxx.Snakefruit"}],
   "Texture": "Mods/potato.cxxcp/FruitTrees",
   "TextureSpriteRow": 0}}},
 
@@ -31,7 +31,7 @@
  "Fruit": [
 {"Id": "Default",
   "ItemId": "(O)cxx.persimmon"}],
-  "Texture": "Mods/potato.cxxcp/FruitTrees",//贴图
+  "Texture": "Mods/potato.cxxcp/FruitTrees",
   "TextureSpriteRow": 1}}}
 
 

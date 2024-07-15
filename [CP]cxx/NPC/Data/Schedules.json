@@ -3,7 +3,7 @@
 
 {"LogName": "Load Empty",
   "Action": "Load",
-  "Target": "Characters/Schedules/Tangf,Characters/Schedules/Dolll,",
+  "Target": "Characters/Schedules/cxx.Tangf,Characters/Schedules/cxx.Dolll,",
   "FromFile": "NPC/Data/Empty.json"},
 	
 

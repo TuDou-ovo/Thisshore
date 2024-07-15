@@ -11,12 +11,12 @@
   "Action": "EditData",
   "Target": "Data/Crops",
   "Entries": 
-{"cxxTianxinghuaseed":
+{"cxx.Tianxinghuaseed":
 {"DaysInPhase": [1,2,3,4],
   "Seasons": ["summer","fall"],
   "RegrowDays": -1,
   "IsRaised": false,
-  "HarvestItemId": "cxxTianxinghua",
+  "HarvestItemId": "cxx.Tianxinghua",
   "HarvestMethod": "0",
   "Texture": "Mods/potato.cxxcp/Crops",
   "SpriteIndex": 0}}}

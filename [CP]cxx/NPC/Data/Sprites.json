@@ -3,13 +3,13 @@
    
 {"LogName":"枫行走图",
   "Action": "Load",
-  "Target": "Characters/Tangf",
+  "Target": "Characters/cxx.Tangf",
   "FromFile": "NPC/Sprites/Tangf.png"},
 
 
 {"LogName":"玩偶行走图",
   "Action": "Load",
-  "Target": "Characters/Dolll",
+  "Target": "Characters/cxx.Dolll",
   "FromFile": "NPC/Sprites/Dolll.png"}
 
 

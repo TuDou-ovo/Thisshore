@@ -1,0 +1,34 @@
+{"Changes": [
+
+
+{"LogName": "茶水台",
+  "Action": "EditData",
+  "Target": "Data/BigCraftables",
+  "Entries": {},
+ "机器id": 
+{"Name": "机器id",
+ "DisplayName": "{{i18n:机器id.name}}",
+ "Description": "{{i18n:机器id.de}}",
+ "Price": 600,//价格
+ "CanBePlacedOutDoors": true,//可以放在户外
+ "CanBePlacedIndoors": true,//可以放在室内
+ "Texture": "Mods/potato.cxxcp/animation",
+ "SpriteIndex": 0}},//贴图位置
+
+
+
+{"LogName":"家具贴图",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/BigCraftables",
+  "FromFile": "assets/Objects/BigCraftables.png"},
+
+{"LogName":"机器动画",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/animation",
+  "FromFile": "assets/Objects/animation.png"}
+
+
+
+
+
+]}

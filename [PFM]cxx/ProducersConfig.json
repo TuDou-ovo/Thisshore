@@ -1,0 +1,23 @@
+[
+
+
+
+{"ProducerQualifiedItemId": "(BC)机器英文名", 
+  "AlternateFrameProducing": false, //交替帧
+  "AlternateFrameWhenReady": false,//准备就绪时的备用帧
+  "DisableBouncingAnimationWhileWorking": false, //工作时禁用反弹动画
+
+ "ProducingAnimation": //制作动画
+{"RelativeFrameIndex": [1], //开始帧
+ "FrameInterval": 30 },  //帧间隔
+ 
+ "ReadyAnimation"://就绪动画
+{"RelativeFrameIndex": [7]}},//结束帧
+
+
+
+
+
+
+	
+]

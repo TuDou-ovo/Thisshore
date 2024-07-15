@@ -5,8 +5,8 @@
   "Action": "EditData",
   "Target": "Data/ConcessionTastes",
   "Entries":
-{"Tangf":
-{"Name": "Tangf",
+{"cxx.Tangf":
+{"Name": "cxx.Tangf",
   "LovedTags": ["Apple Slices","Cotton CandyCotton Candy","Fries","Jawbreaker","Popcorn","Rock Candy","Sour Slimes","Star Cookie","Stardrop Sorbet","Truffle Popcorn"],
   "LikedTags": ["Black Licorice","Hummus Snack Pack","Jasmine Tea","Kale SmoothieKale Smoothie","Panzanella Salad","Personal Pizza","Salmon Burger","Salted Peanuts"],
   "DislikedTags": ["Cappuccino Mousse Cake","Chocolate Popcorn","Ice Cream Sandwich","Joja Cola","JojaCorn","Nachos"]}}},
@@ -16,8 +16,8 @@
   "Action": "EditData",
   "Target": "Data/ConcessionTastes",
   "Entries": 
-{"Dolll":
-{"Name": "Dolll",
+{"cxx.Dolll":
+{"Name": "cxx.Dolll",
   "LovedTags": [ "Apple Slices","Chocolate Popcorn","Fries","Nachos","Popcorn","Star Cookie","Truffle Popcorn" ],
   "LikedTags": [ "Black Licorice","Cappuccino Mousse Cake","Cotton Candy","Hummus Snack Pack","Jawbreaker","Panzanella Salad","Personal Pizza","Rock Candy","Salmon Burger","Salted Peanuts","Sour Slimes," ],
   "DislikedTags": [ "Jasmine Tea","Joja Cola","SmoothieKale","Ice Cream Sandwich","JojaCorn","Stardrop Sorbet" ]}}}

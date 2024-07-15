@@ -12,10 +12,10 @@
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries":
-{"cxxSnakefruit": 
-{"Name": "cxxSnakefruit", 
-  "Displayname": "{{i18n:cxxSnakefruit.name}}",
-  "Description": "{{i18n:cxxSnakefruit.de}}",
+{"cxx.Snakefruit": 
+{"Name": "cxx.Snakefruit", 
+  "Displayname": "{{i18n:cxx.Snakefruit.name}}",
+  "Description": "{{i18n:cxx.Snakefruit.de}}",
   "Type": "Basic",
   "Category": -79,
   "Price": 120,
@@ -29,10 +29,10 @@
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries": 
-{"cxxSnakefruitBasic": 
-{"Name": "cxxSnakefruitBasic", 
-  "Displayname": "{{i18n:cxxSnakefruitBasic.name}}",
-  "Description": "{{i18n:cxxSnakefruitBasic.de}}",
+{"cxx.SnakefruitBasic": 
+{"Name": "cxx.SnakefruitBasic", 
+  "Displayname": "{{i18n:cxx.SnakefruitBasic.name}}",
+  "Description": "{{i18n:cxx.SnakefruitBasic.de}}",
   "Type": "Objects",
   "Category": -74,
   "Price": 1200,
@@ -113,10 +113,10 @@
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries": 
-{"cxxTianxinghua": 
-{"Name": "cxxTianxinghua", 
-  "Displayname": "{{i18n:cxxTianxinghua.name}}",
-  "Description": "{{i18n:cxxTianxinghua.de}}",
+{"cxx.Tianxinghua": 
+{"Name": "cxx.Tianxinghua", 
+  "Displayname": "{{i18n:cxx.Tianxinghua.name}}",
+  "Description": "{{i18n:cxx.Tianxinghua.de}}",
   "Type": "Basic",
   "Category": -80,
   "Price": 100,
@@ -129,10 +129,10 @@
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries": 
-{"cxxTianxinghuaseed": 
-{"Name": "cxxTianxinghuaseed", 
-  "Displayname": "{{i18n:cxxTianxinghuaseed.name}}",
-  "Description": "{{i18n:cxxTianxinghuaseed.de}}",
+{"cxx.Tianxinghuaseed": 
+{"Name": "cxx.Tianxinghuaseed", 
+  "Displayname": "{{i18n:cxx.Tianxinghuaseed.name}}",
+  "Description": "{{i18n:cxx.Tianxinghuaseed.de}}",
   "Type": "Basic",
   "Category": -74,
   "Price": 50,
@@ -147,10 +147,10 @@
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries":
-{"cxxzhidaishuimu":
-{"Name": "cxxzhidaishuimu", 
-  "Displayname": "{{i18n:cxxzhidaishuimu.name}}",
-  "Description": "{{i18n:cxxzhidaishuimu.de}}",
+{"cxx.zhidaishuimu":
+{"Name": "cxx.zhidaishuimu", 
+  "Displayname": "{{i18n:cxx.zhidaishuimu.name}}",
+  "Description": "{{i18n:cxx.zhidaishuimu.de}}",
   "Type": "objects",
   "Category": -4,
   "Price": 200,

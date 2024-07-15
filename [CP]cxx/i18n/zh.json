@@ -1,115 +1,163 @@
 {
-    ///////物品相关
-    
-    ///作物
-    "cxxSnakefruit.name":"蛇果",
-    "cxxSnakefruit.name1":"蛇的果",
-    "cxxSnakefruit.de":"一种和苹果很像的水果",
-    "cxxSnakefruitBasic.name":"蛇果树苗",
-    "cxxSnakefruitBasic.de":"28天成熟为成年蛇果树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
-    
-    "cxxTianxinghua.name":"天星花",
-    "cxxTianxinghua.de":"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
-    "cxxTianxinghuaseed.name":"天星花种子",
-    "cxxTianxinghuaseed.de":"夏天和秋天播种,10天成熟",
-    
-    ///鱼
-    "cxxzhidaishuimu.name":"纸袋水母",
-    "cxxzhidaishuimu.de":"无论外观和手感都只像是一个从水里捞出来的普通纸袋,但倒过来看里面会发现外面的纸壳也是身体的一部分...",
-    //物品
-    
-    
-    ///////地图相关
-    ///交互点
-    "RES3.1":"远远的好像能看到奇怪的生物在游荡...",
-    "RES1.1":"普通的花坛植物,叶片圆圆的",
-    
-    
-    ///////角色相关
-    ///枫的翻译
-    "Tangf.name":"枫",
-    //杂项
-    "Tangf.cccc":"可以,不和别人太亲近吗",
-    "Tangf.Introduction":"暂时住在这里应该不会太显眼吧...",
-    "Tangf.danceRejection":"不,不了吧,这里人还挺多的...",
-    "Tangf.divorced":"......#$b#还有,什么事么...",
-    "Tangf.breakUp":"唔...我,我先走了...",
-    "Tangf.DumpsterDiveComment":"?",
-    "Tangf.GreenRain":"啊...是苔藓雨不是酸雨啊",
-    "Tangf.MovieInvitation":"唔?电影?谢谢你邀请我呀",
-    //礼物
-    "Tangf.AcceptBirthdayGift_Loved":"嗯嗯?谢谢哎,我好喜欢...#$b#嘿嘿...",
-    "Tangf.LoveGift":"喜欢的东西...谢谢你",
-    "Tangf.LikeGift":"漂亮,谢谢",
-    "Tangf.DisGift":"这是什么?",
-    "Tangf.HateGift":"...不喜欢",
-    "Tangf.NeuGift":"啊,谢谢",
-    //日常
-    
-    ///长乐的翻译
-    "Ancl.name":"长乐",
-    //杂项
-    
-    //礼物
-    
-    //日常
-    
-    ///玩偶的翻译
-    "Doll.name":"玩偶",
-    "Doll.Introduction":"%你看到了一个小小的木制人偶,精致,但没什么特别的#$b#......",
-    "Doll.4heart":"%小小的玩偶摆动了一下,算是对你的回应",
-    "Doll.6heart":"%它木制的手臂向着你轻轻挥动了几下",
-    "Doll.8heart":"......$1#$b#%它用笑脸对着你,似乎想让你感受到它的善意",
-    "Doll.10heart":"%它的身体因为动作嘎吱作响,似乎是对你来看望它感到很高兴",
-    "Doll.GreenRain":"......#$b#%它抬头望着窗外绿色的雨滴,似乎是有些好奇",
-    
-    "Doll.LoveGift":"%它的身体咯吱作响,对你行了个礼#$b$......$1",
-    "Doll.LikeGift":"%它木制的手臂缓缓对着你挥动了几下#$b#...$1",
-    "Doll.DisGift":"%它的脑袋歪了歪,似乎是不太理解",
-    "Doll.HateGift":"%它一点反应都没做出",
-    "Doll.NeuGift":"%它只扬起脑袋看了你一眼",
-    "Doll.AcceptBirthdayGift_Loved":"...$1#$b$%它木制的身体发出咯吱咯吱的摩擦声,看来是很喜欢这份礼物了",
-    "Doll.AcceptBirthdayGift_Liked":"...$1#$b$%它从你手里接过礼物,轻轻的放进了小箱子里",
-    "Doll.AcceptBirthdayGift_Hated":"%它一动不动,似乎完全不想做出反应",
-    "Doll.AcceptBirthdayGift_Disliked":"...#$b#%它把脑袋转了过去",
-    "Doll.AcceptGift_(O)StardropTea":"...!$1#$b#%它看起来很开心,但给一只玩偶送茶水真的没问题吗?",
-    
-    "Doll.MovieInvitation":"...?#$b#%它似乎不太理解你为什么要邀请一个玩偶去电影院,但依旧把电影票好好的收了起来",
-    "Doll.BeforeMovie9":"%它观察着盆栽",
-    "Doll.DuringMovie9":"%它盯着幕布上的人物",
-    "Doll.AfterMovie9":"%它抱住了你的腿,似乎是因为无聊完全不想动了",
-    "Doll.BeforeMovie8":"%它站在海报前看了很久的介绍",
-    "Doll.DuringMovie8":"......#$b#%它看起来有点心神不宁",
-    "Doll.AfterMovie8":"%它在纸上慢慢写着什么#$b#*我也是,怪物,看到我,会害怕吗?*$2",
-    "Doll.BeforeMovie7":"%它盯着海报上的绿色小人,似乎很是感兴趣",
-    "Doll.DuringMovie7":"...$1#$b#%它朝着你换出了开心的表情",
-    "Doll.AfterMovie7":"*喜...欢*$1#$b#%能从歪歪扭扭的字迹里看出它真的很喜欢这部电影",
-    "Doll.BeforeMovie6":"%它垂头站在一边,似乎兴致缺缺",
-    "Doll.DuringMovie6":"......#$b$%它看起来安静的像是个普通娃娃",
-    "Doll.BeforeMovie5":"%它观察着娃娃机",
-    "Doll.BeforeMovie4":"%它观察着其他的路人",
-    "Doll.BeforeMovie3":"%它观察着爆米花机",
-    "Doll.DuringMovie3":"%它的眼睛随着人物移动着,比起候场时显然更感兴趣了",
-    "Doll.AfterMovie3":"%它的手比划着,似乎是在学习电影主角的动作",
-    "Doll.BeforeMovie2":"%它观察着海报上那个笑的灿烂的小树苗",
-    "Doll.DuringMovie2":"%它看着幕布上的小树苗,很专注",
-    
-    
-    ///////其他相关
-    ///剧情翻译
-    "1215520001.1":"",
-    "1215520001.2":"",
-    "1215520001.3":"",
-    "1215520001.4":"",
-    "1215520001.5":"",
-    "1215520001.6":"",
-    "1215520001.7":"",
-    "1215520001.8":""
-    
-    ///信件翻译
-    
-    ///任务翻译
-    
-    ///商店翻译
-    
-    }
+///////物品相关
+
+///配方
+"cxxp.shibing.name":"柿饼配方",
+"cxxp.tanghl.name":"糖葫芦配方",
+
+///作物
+"cxx.Snakefruit.name":"蛇果",
+"cxx.Snakefruit.de":"一种和苹果很像的水果",
+"cxx.SnakefruitBasic.name":"蛇果树苗",
+"cxx.SnakefruitBasic.de":"28天成熟为成年蛇果树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
+
+"cxx.hawthorn.name":"山楂",
+"cxx.hawthorn.de":"红色的水果,直接吃很酸,推荐做成糖葫芦",
+"cxx.hawthornseed.name":"山楂树苗",
+"cxx.hawthornseed.de":"28天成熟为山楂树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
+
+"cxx.persimmon.name":"柿子",
+"cxx.persimmon.de":"橙色的水果,可以做成好吃的柿饼",
+"cxx.persimmonseed.name":"柿子树苗",
+"cxx.persimmonseed.de":"28天成熟为成年柿子树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
+
+
+"cxx.Tianxinghua.name":"天星花",
+"cxx.Tianxinghua.de":"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
+"cxx.Tianxinghuaseed.name":"天星花种子",
+"cxx.Tianxinghuaseed.de":"夏天和秋天播种,10天成熟",
+
+///鱼
+"cxx.zhidaishuimu.name":"纸袋水母",
+"cxx.zhidaishuimu.de":"无论外观和手感都只像是一个从水里捞出来的普通纸袋,但倒过来看里面会发现外面的纸壳也是身体的一部分...",
+"cxx.dayan.name":"大眼鱼",
+"cxx.dayan.de":"这东西...看起来不太聪明",
+"cxx.haituz.name":"海兔子",
+"cxx.haituz.de":"和另一个物种同名,不过这个在外观上就完全契合名字呢...它真的是海洋生物吗?",
+
+//物品
+
+//菜品
+"cxx.toast.name":"一片吐司",
+"cxx.toast.de":"只是一片普通的吐司,没有夹心,没有配料,只是静静的站在那里,当然,倒下也不会把你压扁",
+"cxx.Pineapplebun.name":"食堂特供点心菠萝包",
+"cxx.Pineapplebun.de":"每周会在食堂出售两天的饭后小甜点,想尝尝的话要早点去排队了",
+"cxx.hudiejiu.name":"蝴蝶酿",
+"cxx.hudiejiu.de":"虽然某个人说了这是酒,但是喝下去倒是不会感觉醉呢",
+"cxx.sugartea.name":"全糖不加料奶茶",
+"cxx.sugartea.de":"甜过头了,但是不由自主的想起了某个很喜欢甜食的家伙",
+"cxx.blacktea.name":"*红茶*",
+"cxx.blacktea.de":"长乐每天都在喝的东西,据她所说只是稍微加了些对身体好的成分,但味道......",
+"cxx.capsule.name":"能量胶囊",
+"cxx.capsule.de":"如果不想吃饭的话可以去领一颗,完全够身体机能正常维持,但...隔壁就是打餐窗口哦?",
+"cxx.yaya.name":"流心鸭鸭",
+"cxx.yayade.de":"外观是很可爱的小鸭子,里面是芒果酱,不快点吃掉就会融化了鸭",
+"cxx.PUFF.name":"奶油泡芙",
+"cxx.PUFF.de":"小巧可爱的泡芙,适合一口炫了",
+"cxx.condensedmilk.name":"一罐炼乳",
+"cxx.condensedmilk.de":"虽然都用来作为原料,但也不是不能直接喝",
+"cxx.tanghl.name":"糖葫芦",
+"cxx.tanghl.de":"山楂串起来裹上糖浆,酸酸甜甜的",
+"cxx.shibing.name":"柿饼",
+"cxx.shibing.de":"草柿饼什么味来着好久没吃了先放着",
+"cxx.SWISSROLL.name":"瑞士卷",
+"cxx.SWISSROLL.de":"顶上是草莓奶油,还放了颗樱桃,可爱又美味!",
+"cxx.nmrldg.name":"柠檬乳酪蛋糕",
+"cxx.nmrldg.de":"1",
+
+
+
+///////地图相关
+///交互点
+"RES3.1":"远远的好像能看到奇怪的生物在游荡...",
+"RES1.1":"普通的花坛植物,叶片圆圆的",
+
+
+///////角色相关
+///枫的翻译
+"Tangf.name":"枫",
+//杂项
+"Tangf.cccc":"可以,不和别人太亲近吗",
+"Tangf.Introduction":"暂时住在这里应该不会太显眼吧...",
+"Tangf.danceRejection":"不,不了吧,这里人还挺多的...",
+"Tangf.divorced":"......#$b#还有,什么事么...",
+"Tangf.breakUp":"唔...我,我先走了...",
+"Tangf.DumpsterDiveComment":"?",
+"Tangf.GreenRain":"啊...是苔藓雨不是酸雨啊",
+"Tangf.MovieInvitation":"唔?电影?谢谢你邀请我呀",
+//礼物
+"Tangf.AcceptBirthdayGift_Loved":"嗯嗯?谢谢哎,我好喜欢...#$b#嘿嘿...",
+"Tangf.LoveGift":"喜欢的东西...谢谢你",
+"Tangf.LikeGift":"漂亮,谢谢",
+"Tangf.DisGift":"这是什么?",
+"Tangf.HateGift":"...不喜欢",
+"Tangf.NeuGift":"啊,谢谢",
+//日常
+
+///长乐的翻译
+"Ancl.name":"长乐",
+//杂项
+
+//礼物
+
+//日常
+
+///玩偶的翻译
+"Dolll.name":"玩偶",
+"Dolll.Introduction":"%你看到了一个小小的木制人偶,精致,但没什么特别的#$b#......",
+"Dolll.4heart":"%小小的玩偶摆动了一下,算是对你的回应",
+"Dolll.6heart":"%它木制的手臂向着你轻轻挥动了几下",
+"Dolll.8heart":"......$1#$b#%它用笑脸对着你,似乎想让你感受到它的善意",
+"Dolll.10heart":"%它的身体因为动作嘎吱作响,似乎是对你来看望它感到很高兴",
+"Dolll.GreenRain":"......#$b#%它抬头望着窗外绿色的雨滴,似乎是有些好奇",
+
+"Dolll.LoveGift":"%它的身体咯吱作响,对你行了个礼#$b$......$1",
+"Dolll.LikeGift":"%它木制的手臂缓缓对着你挥动了几下#$b#...$1",
+"Dolll.DisGift":"%它的脑袋歪了歪,似乎是不太理解",
+"Dolll.HateGift":"%它一点反应都没做出",
+"Dolll.NeuGift":"%它只扬起脑袋看了你一眼",
+"Dolll.AcceptBirthdayGift_Loved":"...$1#$b$%它木制的身体发出咯吱咯吱的摩擦声,看来是很喜欢这份礼物了",
+"Dolll.AcceptBirthdayGift_Liked":"...$1#$b$%它从你手里接过礼物,轻轻的放进了小箱子里",
+"Dolll.AcceptBirthdayGift_Hated":"%它一动不动,似乎完全不想做出反应",
+"Dolll.AcceptBirthdayGift_Disliked":"...#$b#%它把脑袋转了过去",
+"Dolll.AcceptGift_(O)StardropTea":"...!$1#$b#%它看起来很开心,但给一只玩偶送茶水真的没问题吗?",
+
+"Dolll.MovieInvitation":"...?#$b#%它似乎不太理解你为什么要邀请一个玩偶去电影院,但依旧把电影票好好的收了起来",
+"Dolll.BeforeMovie9":"%它观察着盆栽",
+"Dolll.DuringMovie9":"%它盯着幕布上的人物",
+"Dolll.AfterMovie9":"%它抱住了你的腿,似乎是因为无聊完全不想动了",
+"Dolll.BeforeMovie8":"%它站在海报前看了很久的介绍",
+"Dolll.DuringMovie8":"......#$b#%它看起来有点心神不宁",
+"Dolll.AfterMovie8":"%它在纸上慢慢写着什么#$b#*我也是,怪物,看到我,会害怕吗?*$2",
+"Dolll.BeforeMovie7":"%它盯着海报上的绿色小人,似乎很是感兴趣",
+"Dolll.DuringMovie7":"...$1#$b#%它朝着你换出了开心的表情",
+"Dolll.AfterMovie7":"*喜...欢*$1#$b#%能从歪歪扭扭的字迹里看出它真的很喜欢这部电影",
+"Dolll.BeforeMovie6":"%它垂头站在一边,似乎兴致缺缺",
+"Dolll.DuringMovie6":"......#$b$%它看起来安静的像是个普通娃娃",
+"Dolll.BeforeMovie5":"%它观察着娃娃机",
+"Dolll.BeforeMovie4":"%它观察着其他的路人",
+"Dolll.BeforeMovie3":"%它观察着爆米花机",
+"Dolll.DuringMovie3":"%它的眼睛随着人物移动着,比起候场时显然更感兴趣了",
+"Dolll.AfterMovie3":"%它的手比划着,似乎是在学习电影主角的动作",
+"Dolll.BeforeMovie2":"%它观察着海报上那个笑的灿烂的小树苗",
+"Dolll.DuringMovie2":"%它看着幕布上的小树苗,很专注",
+
+
+///////其他相关
+///剧情翻译
+"1215520001.1":"",
+"1215520001.2":"",
+"1215520001.3":"",
+"1215520001.4":"",
+"1215520001.5":"",
+"1215520001.6":"",
+"1215520001.7":"",
+"1215520001.8":""
+
+///信件翻译
+
+///任务翻译
+
+///商店翻译
+
+}

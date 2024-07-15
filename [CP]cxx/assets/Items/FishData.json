@@ -6,7 +6,7 @@
   "Target": "Data/Fish",
   "Entries":
 
-{"cxxzhidaishuimu": "cxxzhidaishuimu/15/mixed/18/40/600 2400/spring/both/690 .4 685 .1/4/.3/.5/0"}},
+{"cxx.zhidaishuimu": "cxx.zhidaishuimu/15/mixed/18/40/600 2400/spring/both/690 .4 685 .1/4/.3/.5/0"}},
 
 
 {"LogName": "临时钓鱼点",
@@ -16,7 +16,7 @@
 
 {"cxxmap.RES5": 
 {"Fish": [
-{"ItemId": "cxxzhidaishuimu"},
+{"ItemId": "cxx.zhidaishuimu"},
 {"ItemId": "153"}]}}}
 
 ]}

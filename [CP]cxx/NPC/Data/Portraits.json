@@ -3,13 +3,13 @@
 
 {"LogName":"枫角色肖像",
   "Action": "Load",
-  "Target": "Portraits/Tangf",
+  "Target": "Portraits/cxx.Tangf",
   "FromFile": "NPC/Portraits/Tangf.png"},
 
  
 {"LogName":"玩偶角色肖像",
   "Action": "Load",
-  "Target": "Portraits/Dolll",
+  "Target": "Portraits/cxx.Dolll",
   "FromFile": "NPC/Portraits/Dolll.png"}
 
 

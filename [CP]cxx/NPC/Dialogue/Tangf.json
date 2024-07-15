@@ -2,7 +2,7 @@
 
 
 {"Action": "EditData",
-  "Target": "Characters/Dialogue/cxxTangf",
+  "Target": "Characters/Dialogue/cxx.Tangf",
   "Entries": 
   
 {"Introduction": "{{i18n:Tangf.Introduction}}",

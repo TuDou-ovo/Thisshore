@@ -3,7 +3,7 @@
 
 {"LogName":"枫婚后对话",
   "Action": "Load",
-  "Target": "Characters/Dialogue/MarriageDialogueTangf",
+  "Target": "Characters/Dialogue/MarriageDialoguecxx.Tangf",
   "FromFile":"NPC/Dialogue/MarriageDialogue/Tangf.json"},
    
 {"LogName":"枫吃醋对话",
