@@ -9,17 +9,17 @@
 "cxx.Snakefruit.name":"蛇果",
 "cxx.Snakefruit.de":"一种和苹果很像的水果",
 "cxx.SnakefruitBasic.name":"蛇果树苗",
-"cxx.SnakefruitBasic.de":"28天成熟为成年蛇果树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
+"cxx.SnakefruitBasic.de":"28天成熟为成年蛇果树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
 "cxx.hawthorn.name":"山楂",
 "cxx.hawthorn.de":"红色的水果,直接吃很酸,推荐做成糖葫芦",
 "cxx.hawthornseed.name":"山楂树苗",
-"cxx.hawthornseed.de":"28天成熟为山楂树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
+"cxx.hawthornseed.de":"28天成熟为山楂树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
 "cxx.persimmon.name":"柿子",
 "cxx.persimmon.de":"橙色的水果,可以做成好吃的柿饼",
 "cxx.persimmonseed.name":"柿子树苗",
-"cxx.persimmonseed.de":"28天成熟为成年柿子树.3天结果.只有在附近8块地块都空置的情况下才会成长.",
+"cxx.persimmonseed.de":"28天成熟为成年柿子树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
 
 "cxx.Tianxinghua.name":"天星花",
@@ -36,6 +36,25 @@
 "cxx.haituz.de":"和另一个物种同名,不过这个在外观上就完全契合名字呢...它真的是海洋生物吗?",
 
 //物品
+"cxx.species.name":"金币",
+"cxx.species.de":"云杉抛给你的金币,随意的像是丢出了一块石头",
+"cxx.MetalRose.name":"铜制玫瑰",
+"cxx.MetalRose.de":"铜锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose1.name":"铁制玫瑰",
+"cxx.MetalRose1.de":"铁锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose2.name":"金制玫瑰",
+"cxx.MetalRose2.de":"金锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose3.name":"依玫瑰",
+"cxx.MetalRose3.de":"依锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.antea.name":"长乐的特制茶包",
+"cxx.antea.de":"外观...很难说这东西是和茶有关的,是联想到对方的性格会忍不住觉得她是故意做成这种样子的程度...",
+"cxx.crystal.name":"水晶",
+"cxx.crystal.de":"一颗半透明的水晶",
+
+
+//家具
+"cxx.Teatable.name":"茶水台",
+"cxx.Teatable.de":"木制的柜子上放着蓝色的茶台,把茶叶放进去可以泡出茶,试试长乐给你寄来的茶叶吧",
 
 //菜品
 "cxx.toast.name":"一片吐司",
@@ -64,6 +83,8 @@
 "cxx.SWISSROLL.de":"顶上是草莓奶油,还放了颗樱桃,可爱又美味!",
 "cxx.nmrldg.name":"柠檬乳酪蛋糕",
 "cxx.nmrldg.de":"1",
+"cxx.Chocolatecoins.name":"金币巧克力",
+"cxx.Chocolatecoins.de":"金...等等,这个是巧克力...怪不得他要把手里那个塞回口袋...",
 
 
 

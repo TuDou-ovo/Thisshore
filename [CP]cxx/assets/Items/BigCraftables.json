@@ -4,16 +4,17 @@
 {"LogName": "茶水台",
   "Action": "EditData",
   "Target": "Data/BigCraftables",
-  "Entries": {},
- "机器id": 
-{"Name": "机器id",
- "DisplayName": "{{i18n:机器id.name}}",
- "Description": "{{i18n:机器id.de}}",
- "Price": 600,//价格
- "CanBePlacedOutDoors": true,//可以放在户外
- "CanBePlacedIndoors": true,//可以放在室内
+  "Entries": {
+ "cxx.Teatable": 
+{"Name": "cxx.Teatable",
+ "DisplayName": "{{i18n:cxx.Teatable.name}}",
+ "Description": "{{i18n:cxx.Teatable.de}}",
+ "Price": 500,
+ "CanBePlacedOutDoors": true,
+ "CanBePlacedIndoors": true,
  "Texture": "Mods/potato.cxxcp/animation",
- "SpriteIndex": 0}},//贴图位置
+ "SpriteIndex": 0}}},
+
 
 
 

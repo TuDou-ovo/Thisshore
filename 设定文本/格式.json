@@ -479,7 +479,6 @@
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 {"LogName": "菜品",
-
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries":
@@ -498,8 +497,8 @@
   "Duration": 0,//持续时间/游戏内时间
   "IsDebuff": false,//是负面buff
   "GlowColor": null,//发光颜色
-  "CustomAttributes": {
-  "FarmingLevel": 0,//耕种
+ "CustomAttributes": 
+{"FarmingLevel": 0,//耕种
   "FishingLevel": 0,//钓鱼
   "MiningLevel": 0,//挖掘
   "LuckLevel": 0,//幸运
@@ -577,6 +576,141 @@
   "SpriteIndex": 0}}}
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
+机器
+ //需要燃料的单向产出
+ {"ProducerQualifiedItemId": "(BC)机器id",
+ "InputIdentifier": "原料id", 
+ "InputStack": 1,//输入数量
+ "FuelIdentifier": "-6",//燃料id
+ "FuelStack": 1,//燃料数量
+ "MinutesUntilReady": 600,//时间
+ "OutputIdentifier": "(O)产品id", 
+ "OutputPriceIncrement": 114,//产出价格增长
+ "Sounds": [ "thudStep" ]},//声音
+
+
+//多原料
+{"ProducerQualifiedItemId": "(BC)机器id", 
+ "InputIdentifier": "原料id", 
+ "InputStack": 1,
+ "FuelIdentifier": "400",
+ "FuelStack": 1,
+"AdditionalFuel": //附加材料
+{"附件id": 1,
+ "附件2i": 1},
+ "MinutesUntilReady": 0000,//时间
+ "OutputIdentifier": "(O)产出id", 
+ "OutputPriceIncrement": 114,//产出价格增长
+ "Sounds": [ "thudStep" ]},
+
+
+
+ {"ProducerQualifiedItemId": "(BC)机器英文名", 
+  "AlternateFrameProducing": false, //交替帧
+  "AlternateFrameWhenReady": false,//准备就绪时的备用帧
+  "DisableBouncingAnimationWhileWorking": false, //工作时禁用反弹动画
+
+ "ProducingAnimation": //制作动画
+{"RelativeFrameIndex": [1], //开始帧
+ "FrameInterval": 30 },  //帧间隔
+ 
+ "ReadyAnimation"://就绪动画
+{"RelativeFrameIndex": [7]}},//结束帧
+
+
+
+[
+{"ProducerName": "ProducerName", //机器名字
+  "AdditionalProducerNames": [ "ProducerName2", "PrucerName3" ], ////生产商的其他名称。配置将完全复制到列表中的生产者名称中。
+  "AlternateFrameProducing": true, //工作的时候使用替代帧
+  "AlternateFrameWhenReady": true, //完成的时候使用替代帧
+  "DisableBouncingAnimationWhileWorking": false, //工作的时候缩放
+  "NoInputStartMode": "Placement", //无输入启动模式 安置/每日更新[Placement|DayUpdate] //如果计算机具有此属性的值，则它只能有一个没有InputIdentifier的ProducerRule。
+
+ "IncrementStatsOnOutput": //"stats:object"成对的“stats:object”，用于标识应该递增的内容。
+{"GoatCheeseMade": "Goat Cheese", //山羊奶酪 第一个值是要递增的统计数据，第二个值是应该为要递增的数据生成哪个输出。标识符可以是输出的索引、名称、类别或上下文标签。将按堆栈的数量递增统计值。
+ "CheeseMade": null}, //如果标识符为空，则任何输出都将匹配。
+
+ "IncrementStatsLabelOnOutput": //成对的“statsLabel:object”，用于标识应该递增的内容。您可以添加自己的自定义统计标签。MFM还支持条件的统计标签。默认值为空。
+{"timesEnchanted": "Magic Bait", },//第一个值是要递增的统计标签，第二个值是应该为要递增的数据生成哪个输出。标识符可以是输出的索引、名称、类别或上下文标签。将统计标签增加堆栈的数量
+
+ "MultipleStatsIncrement": true, //如果所有匹配的统计数据都应该递增。如果为false，则只会增加第一场比赛。默认值为false。
+
+ "LightSource": //光源系统 定义生产者工作时应使用的光源。默认值为空。
+{"TextureIndex": 4, // 光源的形状。所有香草机都使用“sconceLight”。1=灯笼，2=窗户灯，4=聚光灯，5=大锅灯，6=室内窗户灯，7=投影仪灯。默认值为4。
+  "Radius": 1.5, // 光源的实际大小取决于所使用的纹理。默认值为1.5（具有sconceLight纹理的炉光源的大小）
+  "OffsetX": 0, // 与生产者图块中心的水平偏移。默认值为0。
+  "OffsetY": 0, // 与生产者瓷砖顶部的垂直偏移。默认值为0。
+  "ColorType": "DefinedColor", // [ObjectColor|ObjectDyeColor|DefinedColor] 如果ObjectColor和输出是彩色对象，则将使用输出的颜色。如果ObjectDyeColor和输出具有染料颜色，则将使用此颜色。如果DefinedColor或它在其他选项中找不到颜色，它将根据红色、绿色和蓝色值创建颜色。
+  "ColorRed": 255, // 灯光颜色的红色值。默认值为255。
+  "ColorGreen": 255, // 灯光颜色的绿色值。默认值为255。
+  "ColorBlue": 255, // 灯光颜色的蓝色值。默认值为255。
+  "ColorAlpha": 255, // 灯光颜色的透明度值。0是完全透明的，255是完全不透明的。默认值为255。
+  "ColorFactor": 0.75, // 将所有其他颜色参数相乘的因子。默认值为1。
+  "AlwaysOn": true },// 如果为true，即使不生产，光源也会点亮。默认值为false。
+
+"WorkingTime": //定时启动    如果定义了一个值，机器将仅在此期间生产。在此期间，生产将暂停。默认值随时可用。
+{"Begin": 600, //格式[HHmm]。机器开始生产的时间。默认值为0
+ "End": 1800}, //格式[HHmm]。机器结束生产的时间。默认值为0
+
+"WorkingWeather": [ "Rainy", "Stormy" ], // [Sunny|Rainy|Stormy|Snowy|Windy] 机器工作的天气。默认设置在任何天气下都有效。
+"WorkingLocation": [ "Barn", "Big Barn", "Deluxe Barn" ], // 机器工作的位置。可以是任何建筑地图。默认值在任何位置都有效。
+"WorkingOutdoors": true, // [true|false|null] 如果是true，机器只能在室外工作。如果为假，机器将仅在室内工作。如果该行被删除或值为空，则它将在这两种位置上都有效。
+"WorkingSeason": [ "spring", "summer", "fall" ], // 机器工作的季节。与其他条件不同，如果在非工作季节，请在一天开始时对机器进行季节性清洁。默认设置适用于任何季节。
+"OverrideMod": [ "IdOfTheMod.ToOverride" ], //如果已定义，此配置可以覆盖列表中mods中同一生产者的配置。否则，将使用第一个加载的。
+
+"ProducingAnimation":  // 设置用于设置机器生产状态动画的配置。默认值为空。
+{"RelativeFrameIndex": [ 2, 3, 4, 5, 6, 7 ], //应用于动画的帧的索引和顺序。索引从零开始，即非生产状态的基本框架和索引。额外帧是该帧中的内容。可以使用JsonAssets或Content-Patcher添加额外的帧。
+ "FrameInterval": 10, // 帧之间的游戏滴答数。默认值为10
+ "AdditionalAnimations":  ////应根据机器内部的对象播放的动画。一对输出标识符和帧列表。标识符可以是名称、索引或类别。默认值为空。
+{"Salmon": [ 8, 9, 10 ],
+ "131": [ 8, 11, 12 ],
+ "-4": [ 8, 13, 14 ]}},
+"ReadyAnimation": null }//设置用于设置机器就绪状态动画的配置。配置格式与WorkingAnimation相同。默认值为空。
+  ]
+
+
+ -------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------
+{"LogName": "机器名",
+ "Action": "EditData",
+ "Target": "Data/BigCraftables",
+ "Entries": {
+"家具id": 
+{"Name": "家具id",
+"DisplayName": "{{i18n:家具id.name}}",
+"Description": "{{i18n:家具id.de}}",
+"Price": 500,//价格
+"CanBePlacedOutDoors": true,//户外
+"CanBePlacedIndoors": true,//室内
+"Texture": "Mods/potato.cxxcp/animation",
+"SpriteIndex": }}},
+
+
+ -------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------
+
+
+
+ -------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------
+
+
+
+ -------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------
+
+
+
+ -------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------
+
+
+
+ -------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------
+
+
 ftm
 在农场里繁殖草料和再生现有的树桩
 "ForageSpawnEnabled": true,

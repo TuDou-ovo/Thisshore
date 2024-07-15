@@ -1,31 +1,15 @@
 [
   
- //需要燃料的单向产出
-{"ProducerQualifiedItemId": "(BC)机器id",
-  "InputIdentifier": "原料id", 
-  "InputStack": 1,//输入数量
-  "FuelIdentifier": "-6",//燃料id
-  "FuelStack": 1,//燃料数量
-  "MinutesUntilReady": 600,//时间
-  "OutputIdentifier": "(O)产品id", 
-  "OutputPriceIncrement": 114,//产出价格增长
-  "Sounds": [ "thudStep" ]},//声音
-
-
-//多原料
-{"ProducerQualifiedItemId": "(BC)机器id", 
-  "InputIdentifier": "原料id", 
+ //*红茶*
+{"ProducerQualifiedItemId": "(BC)cxx.Teatable",
+  "InputIdentifier": "815", 
   "InputStack": 1,
-  "FuelIdentifier": "400",
+  "FuelIdentifier": "cxx.antea",
   "FuelStack": 1,
- "AdditionalFuel": //附加材料
-{"附件id": 1,
-  "附件2i": 1},
-  "MinutesUntilReady": 0000,//时间
-  "OutputIdentifier": "(O)产出id", 
-  "OutputPriceIncrement": 114,//产出价格增长
-  "Sounds": [ "thudStep" ]},
-
+  "MinutesUntilReady": 600,
+  "OutputIdentifier": "(O)cxx.blacktea", 
+  "OutputPriceIncrement": 528,
+  "Sounds": [ "thudStep" ]}
 
 
 
