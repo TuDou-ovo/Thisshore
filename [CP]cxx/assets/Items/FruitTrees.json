@@ -7,7 +7,7 @@
   "FromFile": "assets/Objects/FruitTrees.png"},
 
 
-{"LogName":"蛇果果树作物",
+{"LogName":"蛇果果树",
   "Action": "EditData",
   "Target": "Data/FruitTrees",
   "Entries": 
@@ -18,11 +18,21 @@
   "Id": "Default",
   "ItemId": "(O)cxxSnakefruit"}],
   "Texture": "Mods/potato.cxxcp/FruitTrees",
-  "TextureSpriteRow": 0}}}
+  "TextureSpriteRow": 0}}},
 
 
-
-
+{"LogName": "柿子果树",
+  "Action": "EditData",
+  "Target": "Data/FruitTrees",
+  "Entries":
+{"cxx.persimmonseed":
+{"DisplayName": "cxx.persimmonseed",
+  "Seasons": ["fall"],
+ "Fruit": [
+{"Id": "Default",
+  "ItemId": "(O)cxx.persimmon"}],
+  "Texture": "Mods/potato.cxxcp/FruitTrees",//贴图
+  "TextureSpriteRow": 1}}}
 
 
 

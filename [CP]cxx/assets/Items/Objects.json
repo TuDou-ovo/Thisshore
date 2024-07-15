@@ -6,6 +6,7 @@
   "Target": "Mods/potato.cxxcp/Objects",
   "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"},
 
+//果树
 
 {"LogName":"蛇果",
   "Action": "EditData",
@@ -41,6 +42,73 @@
   "SpriteIndex": 1}}},
 
 
+{"LogName":"山楂",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.hawthorn": 
+{"Name": "cxx.hawthorn", 
+  "Displayname": "{{i18n:cxx.hawthorn.name}}",
+  "Description": "{{i18n:cxx.hawthorn.de}}",
+  "Type": "Basic",
+  "Category": -79,
+  "Price": 100,
+  "Edibility": 50,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 2}}},
+
+
+{"LogName":"山楂树苗",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.hawthornseed": 
+{"Name": "cxx.hawthornseed", 
+  "Displayname": "{{i18n:cxx.hawthornseed.name}}",
+  "Description": "{{i18n:cxx.hawthornseed.de}}",
+  "Type": "Basic",
+  "Category": -74,
+  "Price": 1000,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 3}}},
+
+
+{"LogName":"柿子",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.persimmon": 
+{"Name": "cxx.persimmon", 
+  "Displayname": "{{i18n:cxx.persimmon.name}}",
+  "Description": "{{i18n:cxx.persimmon.de}}",
+  "Type": "Basic",
+  "Category": -79,
+  "Price": 80,
+  "Edibility": 50,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 4}}},
+
+
+{"LogName":"柿子树苗",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.persimmonseed": 
+{"Name": "cxx.persimmonseed", 
+  "Displayname": "{{i18n:cxx.persimmonseed.name}}",
+  "Description": "{{i18n:cxx.persimmonseed.de}}",
+  "Type": "Basic",
+  "Category": -74,
+  "Price": 800,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 5}}},
+
+//作物
+
 {"LogName":"天星花",
   "Action": "EditData",
   "Target": "Data/Objects",
@@ -73,6 +141,7 @@
   "Texture": "Mods/potato.cxxcp/Objects",
   "SpriteIndex": 49}}},
 
+//鱼
 
 {"LogName": "纸袋水母",
   "Action": "EditData",
@@ -88,6 +157,478 @@
   "Edibility": 50,
   "Texture": "Mods/potato.cxxcp/Objects",
   "SpriteIndex": 96}}},
+
+
+{"LogName": "大眼鱼",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.dayan": 
+{"Name": "cxx.dayan",
+  "DisplayName": "{{i18n:cxx.dayan.name}}",
+  "Description": "{{i18n:cxx.dayan.de}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 250,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": "97",
+  "Edibility":50}}},
+
+
+{"LogName": "海兔子",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.haituz": 
+{"Name": "cxx.haituz",
+  "DisplayName": "{{i18n:cxx.haituz.name}}",
+  "Description": "{{i18n:cxx.haituz.de}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": "98",
+  "Edibility": 50}}},
+
+//物品
+
+
+//菜品
+
+{"LogName": "一片吐司",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.toast":
+{"Name": "cxx.toast", 
+  "Displayname": "{{i18n:cxx.toast.name}}",
+  "Description": "{{i18n:cxx.toast.de}}",
+  "Type": "Basic",
+  "Category": -7,
+  "Price": 100,
+  "Edibility": 100,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 288}}},
+
+
+{"LogName": "菠萝包",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Pineapplebun":
+{"Name": "cxx.Pineapplebun", 
+  "Displayname": "{{i18n:cxx.Pineapplebun.name}}",
+  "Description": "{{i18n:cxx.Pineapplebun.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 200,
+  "Edibility": 150,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 500,
+  "IsDebuff": false,
+  "GlowColor": null,
+  "CustomAttributes": {
+  "FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": 1,
+  "ForagingLevel": 0,
+  "MaxStamina": 0,
+  "MagneticRadius": 0,
+  "Speed": 1,
+  "Defense": 0,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 289}}},
+
+
+{"LogName": "蝴蝶酿",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.hudiejiu":
+{"Name": "cxx.hudiejiu", 
+  "Displayname": "{{i18n:cxx.hudiejiu.name}}",
+  "Description": "{{i18n:cxx.hudiejiu.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 400,
+  "Edibility": 150,
+  "IsDrink": true,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 1800,
+  "IsDebuff": false,
+  "GlowColor": null,
+  "CustomAttributes": {
+  "FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": 1,
+  "ForagingLevel": 2,
+  "MaxStamina": 0,
+  "MagneticRadius": 0,
+  "Speed": 1,
+  "Defense": 0,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 290}}},
+
+
+{"LogName": "全糖不加料奶茶",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.sugartea":
+{"Name": "cxx.sugartea", 
+  "Displayname": "{{i18n:cxx.sugartea.name}}",
+  "Description": "{{i18n:cxx.sugartea.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 500,
+  "Edibility": 150,
+  "IsDrink": true,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 3600,
+  "IsDebuff": false,
+  "GlowColor": null,
+  "CustomAttributes": {
+  "FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": 0,
+  "ForagingLevel": 0,
+  "MaxStamina": 0,
+  "MagneticRadius": 0,
+  "Speed": 2,
+  "Defense": 0,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 291}}},
+
+
+{"LogName": "*红茶*",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.blacktea":
+{"Name": "cxx.blacktea", 
+  "Displayname": "{{i18n:cxx.blacktea.name}}",
+  "Description": "{{i18n:cxx.blacktea.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 1528,
+  "Edibility": 100,
+  "IsDrink": true,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 360,
+  "IsDebuff": false,
+  "GlowColor": null,
+  "CustomAttributes": {
+  "FarmingLevel": 1,
+  "FishingLevel": 0,
+  "MiningLevel": 1,
+  "LuckLevel": 0,
+  "ForagingLevel": 1,
+  "MaxStamina": 30,
+  "MagneticRadius": 0,
+  "Speed": 0,
+  "Defense": 2,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 292}}},
+
+
+{"LogName": "能量胶囊",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.capsule":
+{"Name": "cxx.capsule", 
+  "Displayname": "{{i18n:cxx.capsule.name}}",
+  "Description": "{{i18n:cxx.capsule.de}}",
+  "Type": "Basic",
+  "Category": -7,
+  "Price": 1000,
+  "Edibility": 400,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 1000,
+  "IsDebuff": true,
+  "GlowColor": null,
+  "CustomAttributes": {
+  "FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": -1,
+  "ForagingLevel": 0,
+  "MaxStamina": 0,
+  "MagneticRadius": -1,
+  "Speed": -1,
+  "Defense": 0,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 293}}},
+
+
+{"LogName": "流心鸭鸭",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.yaya":
+{"Name": "cxx.yaya", 
+  "Displayname": "{{i18n:cxx.yaya.name}}",
+  "Description": "{{i18n:cxx.yaya.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 1200,
+  "Edibility": 200,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 800,
+  "IsDebuff": false,
+  "GlowColor": null,
+  "CustomAttributes": {
+  "FarmingLevel": 0,//耕种
+  "FishingLevel": 2,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 1,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 1,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 294}}},
+
+
+{"LogName": "奶油泡芙",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.PUFF":
+{"Name": "cxx.PUFF", 
+  "Displayname": "{{i18n:cxx.PUFF.name}}",
+  "Description": "{{i18n:cxx.PUFF.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 500,
+  "Edibility": 250,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 800,
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+  "CustomAttributes": {
+  "FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 1,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 295}}},
+
+
+{"LogName": "一罐炼乳",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.condensedmilk":
+{"Name": "cxx.condensedmilk", 
+  "Displayname": "{{i18n:cxx.condensedmilk.name}}",
+  "Description": "{{i18n:cxx.condensedmilk.de}}",
+  "Type": "objects",
+  "Category": -26,//物品标签
+  "Price": 700,
+  "Edibility": 200,//可食性
+  "IsDrink": true,//是饮料
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 600,//持续时间
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+  "CustomAttributes": {
+  "FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 30,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 0,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 296}}},
+
+
+{"LogName": "糖葫芦",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.tanghl":
+{"Name": "cxx.tanghl", 
+  "Displayname": "{{i18n:cxx.tanghl.name}}",
+  "Description": "{{i18n:cxx.tanghl.de}}",
+  "Type": "Basic",//有蓝底/没有
+  "Category": -7,//物品标签
+  "Price": 400,
+  "Edibility": 150,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 600,
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+  "CustomAttributes": {
+  "FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 1,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 1,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 297}}},
+
+
+{"LogName": "柿饼",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.shibing":
+{"Name": "cxx.shibing", 
+  "Displayname": "{{i18n:cxx.shibing.name}}",
+  "Description": "{{i18n:cxx.shibing.de}}",
+  "Type": "Basic",
+  "Category": -7,
+  "Price": 150,
+  "Edibility": 50,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 800,
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+  "CustomAttributes": {
+  "FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 1,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 298}}},
+
+
+{"LogName": "瑞士卷",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.SWISSROLL":
+{"Name": "cxx.SWISSROLL", 
+  "Displayname": "{{i18n:cxx.SWISSROLL.name}}",
+  "Description": "{{i18n:cxx.SWISSROLL.de}}",
+  "Type": "objects",
+  "Category": -7,//物品标签
+  "Price": 1500,
+  "Edibility": 250,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 600,
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+  "CustomAttributes": {
+  "FarmingLevel": 2,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 1,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 299}}},
+
+
+{"LogName": "柠檬乳酪蛋糕",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.nmrldg":
+{"Name": "cxx.nmrldg", 
+  "Displayname": "{{i18n:cxx.nmrldg.name}}",
+  "Description": "{{i18n:cxx.nmrldg.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 800,
+  "Edibility": 230,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 600,
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+  "CustomAttributes": {
+  "FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 1,//速度
+  "Defense": 2,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 300}}}
 
 
 

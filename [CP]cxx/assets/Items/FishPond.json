@@ -36,7 +36,85 @@
  "PopulationGates": 
 {"2": ["766 5"],
  "4": ["428 2"],
- "8": ["60 2"]}}}}
+ "8": ["60 2"]}}}},
+
+
+{"LogName": "大眼鱼-鱼塘",
+  "Action": "EditData",
+  "Target": "Data/FishPondData",
+  "Entries":
+  
+{"cxx.dayan":
+{"RequiredTags": ["item_cxx.dayan"],
+  "Precedence": 0,//优先级
+  "SpawnTime": -1,//繁殖时间
+
+ "ProducedItems": [//产出物品
+{"RequiredPopulation": 10,//鱼塘鱼数量
+  "Chance": 0.30,//概率
+  "ItemID": 62,
+  "MinQuantity": 1,
+  "MaxQuantity": 3},
+{"RequiredPopulation": 6,
+  "Chance": 0.40,//概率
+  "ItemID": 536,
+  "MinQuantity": 1,
+  "MaxQuantity": 6},
+{"RequiredPopulation": 3,
+  "Chance": 0.50,//概率
+  "ItemID": 258,
+  "MinQuantity": 2,
+  "MaxQuantity": 5},
+{"RequiredPopulation": 0,
+  "Chance": 0.80,
+  "ItemID": 167,
+  "MinQuantity": 1,
+  "MaxQuantity": 8}],
+
+ "PopulationGates": 
+{"2": ["167 5"],
+ "4": ["536 2"],
+ "8": ["62 2"]}}}},
+
+
+{"LogName": "海兔子-鱼塘",
+  "Action": "EditData",
+  "Target": "Data/FishPondData",
+  "Entries":
+  
+{"cxx.haituz":
+{"RequiredTags": ["item_cxx.haituz"],
+  "Precedence": 0,//优先级
+  "SpawnTime": -1,//繁殖时间
+
+ "ProducedItems": [//产出物品
+{"RequiredPopulation": 10,//鱼塘鱼数量
+  "Chance": 0.50,//概率
+  "ItemID": 466,
+  "MinQuantity": 2,
+  "MaxQuantity": 8},
+{"RequiredPopulation": 6,
+  "Chance": 0.40,//概率
+  "ItemID": 466,
+  "MinQuantity": 1,
+  "MaxQuantity": 3},
+{"RequiredPopulation": 3,
+  "Chance": 0.80,//概率
+  "ItemID": 595,
+  "MinQuantity": 2,
+  "MaxQuantity": 10},
+{"RequiredPopulation": 0,
+  "Chance": 0.60,//概率
+  "ItemID": 595,
+  "MinQuantity": 1,
+  "MaxQuantity": 5}],
+
+ "PopulationGates": 
+{"2": ["595 2"],
+ "4": ["78 5"],
+ "8": ["466 2"]}}}}
+
+
 
 
 
