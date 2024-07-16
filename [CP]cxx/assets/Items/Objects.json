@@ -6,7 +6,7 @@
   "Target": "Mods/potato.cxxcp/Objects",
   "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"},
 
-//果树
+//作物类 id 0-100
 
 {"LogName":"蛇果",
   "Action": "EditData",
@@ -107,7 +107,7 @@
   "Texture": "Mods/potato.cxxcp/Objects",
   "SpriteIndex": 5}}},
 
-//作物
+//作物 id 50-100
 
 {"LogName":"天星花",
   "Action": "EditData",
@@ -122,7 +122,7 @@
   "Price": 100,
   "Edibility": 10,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 48}}},
+  "SpriteIndex": 50}}},
 
 
 {"LogName":"天星花种子",
@@ -139,9 +139,9 @@
   "Edibility": -300,
   "IsDrink": false,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 49}}},
+  "SpriteIndex": 51}}},
 
-//鱼
+//鱼 id 101-200
 
 {"LogName": "纸袋水母",
   "Action": "EditData",
@@ -151,12 +151,12 @@
 {"Name": "cxx.zhidaishuimu", 
   "Displayname": "{{i18n:cxx.zhidaishuimu.name}}",
   "Description": "{{i18n:cxx.zhidaishuimu.de}}",
-  "Type": "objects",
+  "Type": "Fish",
   "Category": -4,
   "Price": 200,
   "Edibility": 50,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 96}}},
+  "SpriteIndex": 101}}},
 
 
 {"LogName": "大眼鱼",
@@ -170,9 +170,9 @@
   "Type": "Fish",
   "Category": -4,
   "Price": 250,
+  "Edibility":50,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": "97",
-  "Edibility":50}}},
+  "SpriteIndex": "102"}}},
 
 
 {"LogName": "海兔子",
@@ -186,11 +186,11 @@
   "Type": "Fish",
   "Category": -4,
   "Price": 300,
+  "Edibility": 50,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": "98",
-  "Edibility": 50}}},
+  "SpriteIndex": "103"}}},
 
-//物品
+//物品 id 201-300
 
 {"LogName": "金币",
   "Action": "EditData",
@@ -205,7 +205,7 @@
   "Price": 5000,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 192}}},
+  "SpriteIndex": 201}}},
 
 
 {"LogName": "铜玫瑰",
@@ -221,7 +221,7 @@
   "Price": 100,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 193}}},
+  "SpriteIndex": 202}}},
 
 
 {"LogName": "铁玫瑰",
@@ -237,7 +237,7 @@
   "Price": 180,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 194}}},
+  "SpriteIndex": 203}}},
 
 
 {"LogName": "金玫瑰",
@@ -253,7 +253,7 @@
   "Price": 300,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 195}}},
+  "SpriteIndex": 204}}},
 
 
 {"LogName": "依玫瑰",
@@ -269,7 +269,7 @@
   "Price": 1500,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 196}}},
+  "SpriteIndex": 205}}},
 
 
 {"LogName": "长乐的茶包",
@@ -285,7 +285,7 @@
   "Price": 10,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 197}}},
+  "SpriteIndex": 206}}},
 
 
 {"LogName": "水晶",
@@ -301,10 +301,10 @@
   "Price": 10,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 198}}},
+  "SpriteIndex": 207}}},
   
 
-//菜品
+//菜品 id 301-400
 
 {"LogName": "一片吐司",
   "Action": "EditData",
@@ -319,7 +319,7 @@
   "Price": 100,
   "Edibility": 100,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 288}}},
+  "SpriteIndex": 301}}},
 
 
 {"LogName": "菠萝包",
@@ -354,7 +354,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 289}}},
+  "SpriteIndex": 302}}},
 
 
 {"LogName": "蝴蝶酿",
@@ -389,7 +389,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 290}}},
+  "SpriteIndex": 303}}},
 
 
 {"LogName": "全糖不加料奶茶",
@@ -424,7 +424,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 291}}},
+  "SpriteIndex": 304}}},
 
 
 {"LogName": "*红茶*",
@@ -459,7 +459,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 292}}},
+  "SpriteIndex": 305}}},
 
 
 {"LogName": "能量胶囊",
@@ -494,7 +494,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 293}}},
+  "SpriteIndex": 306}}},
 
 
 {"LogName": "流心鸭鸭",
@@ -529,7 +529,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 294}}},
+  "SpriteIndex": 307}}},
 
 
 {"LogName": "奶油泡芙",
@@ -564,7 +564,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 295}}},
+  "SpriteIndex": 308}}},
 
 
 {"LogName": "一罐炼乳",
@@ -599,7 +599,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 296}}},
+  "SpriteIndex": 309}}},
 
 
 {"LogName": "糖葫芦",
@@ -634,7 +634,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 297}}},
+  "SpriteIndex": 310}}},
 
 
 {"LogName": "柿饼",
@@ -669,7 +669,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 298}}},
+  "SpriteIndex": 311}}},
 
 
 {"LogName": "瑞士卷",
@@ -704,7 +704,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 299}}},
+  "SpriteIndex": 312}}},
 
 
 {"LogName": "柠檬乳酪蛋糕",
@@ -739,7 +739,7 @@
   "Attack": 0},
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 300}}},
+  "SpriteIndex": 313}}},
 
 
 {"LogName": "金币巧克力",
@@ -755,8 +755,31 @@
   "Price": 100,
   "Edibility": 50,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 301}}},
+  "SpriteIndex": 314}}},
 
+//其他 id 401-500
+
+{"LogName":"土豆戒指",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.potatoRing": 
+{"Name": "cxx.potatoRing",
+  "DisplayName": "{{i18n:cxx.potatoRing.name}}",
+  "Description": "{{i18n:cxx.potatoRing.de}}",
+  "Type": "Ring",
+  "Category": -96,
+  "Price": 1215,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 401,
+  "Buffs": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": true,
+  "ExcludeFromRandomSale": true,
+ "CustomFields": 
+{"PeacefulEnd.CustomCompanions/Companions/Variety": 1,
+  "PeacefulEnd.CustomCompanions/Companions/0/Id": "PotatoCat",
+  "PeacefulEnd.CustomCompanions/Companions/0/NumberToSummon": 1}}}}
 
 
 

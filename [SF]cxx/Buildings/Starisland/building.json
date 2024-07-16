@@ -1,0 +1,59 @@
+{
+"Name": "璨星岛方尖碑",
+"Description": "将你传送到璨星岛",
+"DrawShadow": false,
+"SourceRect": "0 0 48 128",
+
+"Size": {"X": 3,"Y": 2},
+"FadeWhenBehind": true,
+
+"BuildCost": 5,
+"Builder": "Wizard",
+"MagicalConstruction": true,
+"BuildMaterials": [
+{"ItemID": "cxx.species", "Amount": 1},
+{"ItemID": "cxx.species", "Amount": 1},
+{"ItemID": "cxx.species", "Amount": 1}],
+
+"ActionTiles": [
+{"Tile": {"X": 0,"Y": 0},
+"SpecialAction": 
+{"Warp": 
+{"Map": "cxxmap.RES1",
+"DestinationTile": 
+{"X": 0,"Y": 0}}}},
+
+{"Tile": {"X": 1,"Y": 0},
+"SpecialAction": 
+{"Warp": 
+{"Map": "cxxmap.RES1",
+"DestinationTile": 
+{"X": 0,"Y": 0}}}},
+
+{"Tile": {"X": 2,"Y": 0},
+"SpecialAction": 
+{"Warp": 
+{"Map": "cxxmap.RES1",
+"DestinationTile": 
+{"X": 0,"Y": 0}}}},
+
+{"Tile": {"X": 0,"Y": 1},
+"SpecialAction": 
+{"Warp": 
+{"Map": "cxxmap.RES1",
+"DestinationTile": 
+{"X": 0,"Y": 0}}}},
+
+{"Tile": {"X": 1,"Y": 1},
+"SpecialAction": 
+{"Warp": 
+{"Map": "cxxmap.RES1",
+"DestinationTile": 
+{"X": 0,"Y": 0}}}},
+
+{"Tile": {"X": 2,"Y": 1},
+"SpecialAction": 
+{"Warp": 
+{"Map": "cxxmap.RES1",
+"DestinationTile": 
+{"X": 0,"Y": 0}}}}]}

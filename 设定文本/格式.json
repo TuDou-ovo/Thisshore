@@ -532,7 +532,34 @@
 {"信件id": "{{i18n:信件id.1}}^{{i18n:信件id.2}}^^{{i18n:信件id.3}}^{{i18n:信件id.npc}}[#]{{i18n:信件id.name}}",
   "信件id": "第一句话^前面是换行符号^^几个符号换几行^——署名%item cookingRecipe食谱/object物品/quest任务/conversationTopic主动性事件的话题 id 数量%%[#]这是一封给予单个物品信件的标题",
   "信件id": "第一句话^前面是换行符号^^几个符号换几行^——署名%item object物品 id 数量 id 数量%%[#]这是一封给予随机物品信件的标题"     }}
--------------------------------------------------------------------------------------------
+
+
+
+
+  {"Id": "信件id",
+  "GroupID": "信件id",
+  "Title": "标题",
+  "Text": "内容",
+  "Attachments"（附加物，如果没有就把从这段开始到Stack的地方删除）: [
+  {"Type": "(种类为Object物品，BigCraftable制造物，Tool工具，Ring戒指）",
+  "Name": "（物品名字，可在此添加MOD的东西）"
+  },
+  {"Type": "（情况和上面一样）",
+  "Index": （基数，如果是原版游戏没有，就无视）,
+  "Stack": （堆积数，默认为1）
+  }
+  ],
+  "Recipe": "（食谱）",
+  "LetterBG": "（信件背景的图片.png，如果你有自制信件的图片，就打，没有就是默认）",
+  "UpperRightCloseButton": null, 按钮
+  "Date": "（日期 季节 第几年，必须到了或过了这个日子才有信）",
+  "Days": [日期]（必须为指定日期，没有就删了这里）,
+  "Seasons": [ "季节"（可以多个季节，记得都是小写）],
+  "Repeatable": false,（重复性，一般上是给工匠做好工具送过来用的，基本上我们是false）
+  "FriendshipConditions"://好感情况）
+  [{ "NpcName": "（NPC名字）", "FriendshipLevel": （几颗心） }]}
+
+  -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 {"LogName": "任务",
   "Action": "EditData",
@@ -690,7 +717,28 @@
  -------------------------------------------------------------------------------------------
  -------------------------------------------------------------------------------------------
 
-
+ {"LogName":"跟随戒指",
+ "Action": "EditData",
+ "Target": "Data/Objects",
+ "Entries": 
+{"戒指id": 
+{"Name": "戒指id",
+ "DisplayName": "{{i18n:戒指id.name}}",
+ "Description": "{{i18n:戒指id.de}}",
+ "Type": "Ring",
+ "Category": 0,//标签
+ "Price": 0,//价格
+ "Texture": "Mods/potato.cxxcp/Objects",//贴图
+ "SpriteIndex": 0,
+ "Buffs": null,
+ "ExcludeFromFishingCollection": true,//从钓鱼收藏中排除
+ "ExcludeFromShippingCollection": true,//从发货收款中排除
+ "ExcludeFromRandomSale": true,//从随机销售中排除
+"CustomFields": 
+{"PeacefulEnd.CustomCompanions/Companions/Variety": 2,//最大数量
+ "PeacefulEnd.CustomCompanions/Companions/0/Id": "ExampleAuthor.ExamplePack.ExampleFlyingCompanion",//这应该是companion.json的Name属性的值。
+ "PeacefulEnd.CustomCompanions/Companions/0/NumberToSummon": 1,//这应该是该类型召唤的同伴数量。
+ }}}}
 
  -------------------------------------------------------------------------------------------
  -------------------------------------------------------------------------------------------

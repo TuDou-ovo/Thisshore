@@ -1,17 +1,82 @@
 春1-2-3 夏4-5-6 秋7-8-9 冬10-11-12 
 
+模组全物品
 
-蛇果-------cxxSnakefruit--------水果---------------------------名字和外形跟苹果相似的水果
-蛇果树苗---cxxSnakefruitBasic---果树------秋--------------------28天成熟为成年蛇果树.3天结果.只有在附近8块地块都空置的情况下才会成长.
+//果树
+"cxx.Snakefruit-----"蛇果""一种和苹果很像的水果",
+"cxx.SnakefruitBasic"蛇果树苗""28天成熟为成年蛇果树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
-木天蓼
-木天蓼树苗
+"cxx.hawthorn"山楂""红色的水果,直接吃很酸,推荐做成糖葫芦",
+"cxx.hawthornseed"山楂树苗"cxx.hawthornseed"28天成熟为山楂树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
-天星花-----cxxTianxinghua--------花-----------------------------如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效
-天星花种子-cxxTianxinghuaseed----种植-----夏秋--10天--单次收获---夏秋播种,10天成熟
+"cxx.persimmon"柿子"cxx.persimmon"橙色的水果,可以做成好吃的柿饼",
+"cxx.persimmonseed"柿子树苗"cxx.persimmonseed"28天成熟为成年柿子树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
-荆芥
-荆芥种子
+//作物
+"cxx.Tianxinghua"天星花"cxx.Tianxinghua"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
+"cxx.Tianxinghuaseed"天星花种子"cxx.Tianxinghuaseed"夏天和秋天播种,10天成熟",
+
+///鱼
+"cxx.zhidaishuimu"纸袋水母"cxx.zhidaishuimu"无论外观和手感都只像是一个从水里捞出来的普通纸袋,但倒过来看里面会发现外面的纸壳也是身体的一部分...",
+"cxx.dayan"大眼鱼"cxx.dayan"这东西...看起来不太聪明",
+"cxx.haituz"海兔子"cxx.haituz"和另一个物种同名,不过这个在外观上就完全契合名字呢...它真的是海洋生物吗?",
+
+//物品
+"cxx.species"金币"cxx.species"云杉抛给你的金币,随意的像是丢出了一块石头",
+"cxx.MetalRose"铜制玫瑰"cxx.MetalRose"铜锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose1"铁制玫瑰"cxx.MetalRose1"铁锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose2"金制玫瑰"cxx.MetalRose2"金锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose3"依玫瑰"cxx.MetalRose3"依锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.antea"长乐的特制茶包"cxx.antea"外观...很难说这东西是和茶有关的,是联想到对方的性格会忍不住觉得她是故意做成这种样子的程度...",
+"cxx.crystal"水晶"cxx.crystal"一颗半透明的水晶",
+
+//其他
+"cxx.potatoRing"土豆戒指",
+"cxx.potatoRing"可以召唤猫猫形态的作者...意义不明",
+
+//家具
+"cxx.Teatable"茶水台",
+"cxx.Teatable"木制的柜子上放着蓝色的茶台,把茶叶放进去可以泡出茶,试试长乐给你寄来的茶叶吧",
+
+//菜品
+"cxx.toast"一片吐司",
+"cxx.toast"只是一片普通的吐司,没有夹心,没有配料,只是静静的站在那里,当然,倒下也不会把你压扁",
+"cxx.Pineapplebun"食堂特供点心菠萝包",
+"cxx.Pineapplebun"每周会在食堂出售两天的饭后小甜点,想尝尝的话要早点去排队了",
+"cxx.hudiejiu"蝴蝶酿",
+"cxx.hudiejiu"虽然某个人说了这是酒,但是喝下去倒是不会感觉醉呢",
+"cxx.sugartea"全糖不加料奶茶",
+"cxx.sugartea"甜过头了,但是不由自主的想起了某个很喜欢甜食的家伙",
+"cxx.blacktea"*红茶*",
+"cxx.blacktea"长乐每天都在喝的东西,据她所说只是稍微加了些对身体好的成分,但味道......",
+"cxx.capsule"能量胶囊",
+"cxx.capsule"如果不想吃饭的话可以去领一颗,完全够身体机能正常维持,但...隔壁就是打餐窗口哦?",
+"cxx.yaya"流心鸭鸭",
+"cxx.yayade"外观是很可爱的小鸭子,里面是芒果酱,不快点吃掉就会融化了鸭",
+"cxx.PUFF"奶油泡芙",
+"cxx.PUFF"小巧可爱的泡芙,适合一口炫了",
+"cxx.condensedmilk"一罐炼乳",
+"cxx.condensedmilk"虽然都用来作为原料,但也不是不能直接喝",
+"cxx.tanghl"糖葫芦",
+"cxx.tanghl"山楂串起来裹上糖浆,酸酸甜甜的",
+"cxx.shibing"柿饼",
+"cxx.shibing"草柿饼什么味来着好久没吃了先放着",
+"cxx.SWISSROLL"瑞士卷",
+"cxx.SWISSROLL"顶上是草莓奶油,还放了颗樱桃,可爱又美味!",
+"cxx.nmrldg"柠檬乳酪蛋糕",
+"cxx.nmrldg"1",
+"cxx.Chocolatecoins"金币巧克力",
+"cxx.Chocolatecoins"金...等等,这个是巧克力...怪不得他要把手里那个塞回口袋...",
+蛇果-------cxx.Snakefruit--------水果---------------------------名字和外形跟苹果相似的水果
+蛇果树苗---cxx.SnakefruitBasic---果树------秋--------------------28天成熟为成年蛇果树.3天结果.只有在附近8块地块都空置的情况下才会成长.
+"cxx.hawthorn"山楂",
+"cxx.hawthorn"红色的水果,直接吃很酸,推荐做成糖葫芦",
+"cxx.hawthornseed"山楂树苗",
+"cxx.hawthornseed"28天成熟为山楂树,3天结果,只有在附近8块地块都空置的情况下才会成长",
+
+天星花-----cxx.Tianxinghua--------花-----------------------------如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效
+天星花种子-cxx.Tianxinghuaseed----种植-----夏秋--10天--单次收获---夏秋播种,10天成熟
+
 
 
 

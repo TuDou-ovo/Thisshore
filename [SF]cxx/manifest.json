@@ -1,0 +1,10 @@
+{"Name": "此岸-大型建筑",
+ "Author": "土豆",
+ "Version": "1.1.0",
+ "Description": "模组内容均为作者个人设计的世界观内容~该文件夹是sf前置内容所在~",
+ "UniqueID": "potato.cxxsf",
+ "MinimumApiVersion": "3.14.1",
+ "UpdateKeys": ["Nexus:"],
+ "ContentPackFor": {
+ "UniqueID": "PeacefulEnd.SolidFoundations",
+ "MinimumVersion": "1.16.0"}}
