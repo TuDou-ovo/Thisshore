@@ -46,8 +46,35 @@
 {"Id": "Default",
   "ItemId": "(O)cxx.persimmon"}],
   "Texture": "Mods/potato.cxxcp/FruitTrees",
-  "TextureSpriteRow": 2}}}
+  "TextureSpriteRow": 2}}},
 
+
+{"LogName": "流月树",
+  "Action": "EditData",
+  "Target": "Data/FruitTrees",
+  "Entries":
+{"cxx.FlowingMoonseed":
+{"DisplayName": "cxx.FlowingMoonseed",
+  "Seasons": ["fall"],
+ "Fruit": [
+{"Id": "Default",
+  "ItemId": "(O)cxx.FlowingMoon"}],
+  "Texture": "Mods/potato.cxxcp/FruitTrees",
+  "TextureSpriteRow": 3}}},
+
+
+{"LogName": "酒蝶树",
+  "Action": "EditData",
+  "Target": "Data/FruitTrees",
+  "Entries":
+{"cxx.WineButterflyseed":
+{"DisplayName": "cxx.WineButterflyseed",
+  "Seasons": ["summer"],
+ "Fruit": [
+{"Id": "Default",
+  "ItemId": "(O)cxx.WineButterfly"}],
+  "Texture": "Mods/potato.cxxcp/FruitTrees",
+  "TextureSpriteRow": 4}}}
 
 
 
