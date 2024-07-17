@@ -21,6 +21,20 @@
   "TextureSpriteRow": 0}}},
 
 
+{"LogName": "山楂果树",
+  "Action": "EditData",
+  "Target": "Data/FruitTrees",
+  "Entries":
+{"cxx.hawthornseed":
+{"DisplayName": "cxx.hawthornseed",
+  "Seasons": ["fall"],
+ "Fruit": [
+{"Id": "Default",
+  "ItemId": "(O)cxx.hawthorn"}],
+  "Texture": "Mods/potato.cxxcp/FruitTrees",
+  "TextureSpriteRow": 1}}},
+
+
 {"LogName": "柿子果树",
   "Action": "EditData",
   "Target": "Data/FruitTrees",
@@ -32,7 +46,7 @@
 {"Id": "Default",
   "ItemId": "(O)cxx.persimmon"}],
   "Texture": "Mods/potato.cxxcp/FruitTrees",
-  "TextureSpriteRow": 1}}}
+  "TextureSpriteRow": 2}}}
 
 
 

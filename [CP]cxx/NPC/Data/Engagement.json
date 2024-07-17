@@ -1,0 +1,40 @@
+{"Changes": [
+
+
+{"LogName": "订婚后对话",
+ "Action": "EditData",
+ "Target": "Data/EngagementDialogue",
+ "Entries":
+{"cxx.Tangf0": "对话1",
+ "cxx.Tangf1": "对话2"}},
+
+
+{"LogName":"吃醋对话",
+  "Action": "EditData",
+  "Target": "Strings/StringsFromCSFiles",
+  "Entries": 
+{"NPC.cs.3985": "{{i18n:Tangf.3985}}"},
+ "When":
+{"Relationship:Tangf":"Engaged, Married"}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]}

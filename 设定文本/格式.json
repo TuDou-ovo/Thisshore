@@ -240,7 +240,9 @@
   "ExcludeFromIntroductionsQuest": false,//排除在介绍任务之外
   "ExcludeFromPerfectionScore": false,//从完美分数中排除
   "EndSlideShow": 1,//结束幻灯片放映
-  "FriendsAndFamily": {},//朋友和家人
+  "WinterStarParticipant": false,//冬日星礼物参与者
+ "FriendsAndFamily": 
+{"亲友英文名":"{{i18n:角色英文名.family}}"},//朋友和家人
   "UnlockConditions": null,//解锁条件
   "SpawnIfMissing": true,//如果丢失则繁殖
 
@@ -251,7 +253,7 @@
   "Direction": "上0下2左3右1"}],
   "TextureName": null,
   "Size": {"X": 16,"Y": 32},
-  "Breather": true,
+  "Breather": true,//呼吸
   "HiddenProfileEmoteSound": null,
   "HiddenProfileEmoteDuration": -1,
   "HiddenProfileEmoteStartFrame": 16,
@@ -267,6 +269,44 @@
  "SpousePatio": 
 {"MapAsset": "cxx.SpousePatios",
  "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 }}}}},//起始坐标
+
+ -------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+{"LogName":"添加室友物品",
+  "Action": "EditData",
+  "Target": "Data/ObjectContextTags",
+ "TextOperations": [
+
+{"Operation": "Append",
+ "Target": ["Entries","物品id"],
+ "Value": "propose_roommate_角色英文名",
+ "Delimiter": ", ",
+ "When": {条件}}]},
+
+
+{"LogName": "室友邀请对话",
+ "Action": "EditData",
+ "Target": "Data/EngagementDialogue",
+ "Entries":
+{"角色Roommate0": "对话1",
+ "角色Roommate1": "对话2"}},
+   
+{"LogName":"室友邀请对话",
+  "Action": "EditData",
+  "Target": "Strings/StringsFromCSFiles",
+  "Entries":
+{"英文名_EngagedRoommate": "对话11"}},
+
+ -------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+when条件
+"When": 
+{
+"HasSeenEvent |contains=事件id": "true",
+"配置名": "false"
+      }
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 {"LogName": "行走图",
@@ -827,16 +867,190 @@ ftm
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
+spring，summer，fall，winter
+Mon，Tue，Wed，Thus，Fri，Sat，Sun
+2 4 6 8 10
+地图_x_y------------------------在地图的指定坐标的对话
+地图----------------------------指定地图的对话
+地图好感度----------------------在地图的多少好感度
+季节地图名字_x_y----------------在季节地图指定坐标的对话
+季节_星期-----------------------在季节指定星期的对话
+季节_日期-----------------------在季节的几号
+季节_星期好感度------------------在季节的星期多少好感度
+星期----------------------------在星期几触发
+星期好感度----------------------在星期的多少好感度
+星期好感度_1--------------------在第一年的星期几多少好感度
+星期好感度_2--------------------在第一年之后星期几多少好感度
+日期_1---------------------------在第一年的每个月第几天
+日期_2--------------------------在第一年的每个月第几天
+saloon--------------------------酒吧对话
+saloon好感度--------------------酒吧多少好感度
+cc_ 社区修复的会话 就公交车那些
 
 
+{"LogName":"日常对话",
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/英文名",
+ "Entries": {
 
+"Introduction": "{{i18n:英文名.Introduction}}",//初见
+"danceRejection": "{{i18n:英文名.danceRejection}}",//跳舞
+"DumpsterDiveComment": "{{i18n:英文名.DumpsterDiveComment}}",//垃圾桶
+"GreenRain":"{{i18n:英文名.GreenRain}}",//绿雨
+"MovieInvitation": "{{i18n:英文名.MovieInvitation}}",//电影邀请
+"SpouseStardrop": "{{i18n:英文名.SpouseStardrop}}",//14心
 
+"AcceptBouquet": "{{i18n:英文名.AcceptBouquet}}",//约会
+"give_pendant": "{{i18n:英文名.give_pendant}}",//订婚
+"divorced": "{{i18n:英文名.divorced}}",//分手
+"breakUp": "{{i18n:英文名.breakUp}}",//离婚
+"rejectNPCA": "{{i18n:英文名.rejectNPCA}}",//拒绝约会
+"rejectNPCB": "{{i18n:英文名.rejectNPCB}}",
+"reject_two_heartA": "{{i18n:英文名.reject_two_heartA}}",//带好感度的拒绝
+"reject_two_heartB": "{{i18n:英文名.reject_two_heartB}}",
+"reject_four_heartA": "{{i18n:英文名.reject_four_heartA}}",
+"reject_four_heartB": "{{i18n:英文名.reject_four_heartB}}",
+"engageA": "{{i18n:英文名.engageA}}",//拒绝订婚
+"engageB": "{{i18n:英文名.engageB}}",
+"marriedA": "{{i18n:英文名.marriedA}}",//婚后求婚
+"marriedB": "{{i18n:英文名.marriedB}}",  
+"refusal_knownA": "{{i18n:英文名.refusal_knownA}}",//不可婚
+"refusal_knownB": "{{i18n:英文名.refusal_knownB}}",
+"refusal_botherA": "{{i18n:英文名.refusal_botherA}}",
+"refusal_botherB": "{{i18n:英文名.refusal_botherB}}",
+"refusal_no_heartsA": "{{i18n:英文名.refusal_no_heartsA}}",
+"refusal_no_heartsB": "{{i18n:英文名.refusal_no_heartsB}}",
 
+"AcceptBirthdayGift_Loved": "{{i18n:英文名.AcceptBirthdayGift_Loved}}",//最爱
+"AcceptBirthdayGift_Liked": "{{i18n:英文名.AcceptBirthdayGift_Liked}}",//喜欢
+"AcceptBirthdayGift_Neutral": "{{i18n:英文名.AcceptBirthdayGift_Neutral}}",//一般
+"AcceptBirthdayGift_Disliked": "{{i18n:英文名.AcceptBirthdayGift_Disliked}}",//不喜欢
+"AcceptBirthdayGift_Hated": "{{i18n:英文名.AcceptBirthdayGift_Hated}}",//讨厌
+"AcceptGift_(O)StardropTea": "{{i18n:英文名.StardropTea}}",//星茶
+"AcceptGift_(O)物品":"{{i18n:英文名.物品}}",
 
+"Resort": "{{i18n:英文名.Resort}}",//姜岛
+"Resort_Bar": "{{i18n:英文名.Resort_Bar}}",//酒吧
+"Resort_Chair": "{{i18n:英文名.Resort_Chair}}",//椅子
+"Resort_Dance": "{{i18n:英文名.Resort_Dance}}",//跳舞
+"Resort_Entering": "{{i18n:英文名.Resort_Entering}}",//上船
+"Resort_Leaving": "{{i18n:英文名.Resort_Leaving}}",//回家
+"Resort_Shore": "{{i18n:英文名.Resort_Shore}}",//海边
+"Resort_Towel": "{{i18n:英文名.Resort_Towel}}",//毛巾
+"Resort_Umbrella": "{{i18n:英文名.Resort_Umbrella}}",//太阳伞
+"Resort_Wander": "{{i18n:英文名.Resort_Wander}}",//逛街
+
+"map"           //指定地图 
+"map2"          //地图 好感度
+"map_x_y"       //地图 坐标
+"springmap_x_y" //季节地图 坐标
+
+"spring"        //季节 *单写个春季就是每个月全是这个
+"spring_1"      //季节 日期 
+"spring_Mon"    //季节 星期
+"spring_Mon2"   //季节 星期 好感度
+
+"Mon"           //星期
+"Mon4"          //星期好感度
+"Mon_1"         //星期 *第一年
+"Mon4_1"        //星期好感度 *第一年
+"Mon_2"         //星期 *第一年之后
+"Mon4_2"        //星期好感度 *第一年之后
+
+"1"             //日期
+"1_1"           //日期 *第一年
+"1_2"           //日期 *第一年之后
+
+"saloon"        //酒吧
+"saloon2"       //酒吧好感度
+
+"cc_词条"       //献祭事件
+//spring，summer，fall，winter
+//Mon，Tue，Wed，Thus，Fri，Sat，Sun
+//2 4 6 8 10
+
+"Mon": "{{i18n:英文名.}}",
+"Mon4": "{{i18n:英文名.}}",
+"Mon6": "{{i18n:英文名.}}",
+"Mon8": "{{i18n:英文名.}}",
+"Mon10": "{{i18n:英文名.}}",
+"Tue": "{{i18n:英文名.}}",
+"Tue2": "{{i18n:英文名.}}",
+"Tue4": "{{i18n:英文名.}}",
+"Tue6": "{{i18n:英文名.}}",
+"Tue8": "{{i18n:英文名.}}",
+"Tue10": "{{i18n:英文名.}}",
+"Wed": "{{i18n:英文名.}}",
+"Wed2": "{{i18n:英文名.}}",
+"Wed4": "{{i18n:英文名.}}",
+"Wed6": "{{i18n:英文名.}}",
+"Wed8": "{{i18n:英文名.}}",
+"Wed10": "{{i18n:英文名.}}",
+"Thu": "{{i18n:英文名.}}",
+"Thu2": "{{i18n:英文名.}}",
+"Thu4": "{{i18n:英文名.}}",
+"Thu6": "{{i18n:英文名.}}",
+"Thu8": "{{i18n:英文名.}}",
+"Thu10": "{{i18n:英文名.}}",
+"Fri": "{{i18n:英文名.}}",
+"Fri2": "{{i18n:英文名.}}",
+"Fri4": "{{i18n:英文名.}}",
+"Fri6": "{{i18n:英文名.}}",
+"Fri8": "{{i18n:英文名.}}",
+"Fri10": "{{i18n:英文名.}}",
+"Sat": "{{i18n:英文名.}}",
+"Sat2": "{{i18n:英文名.}}",
+"Sat4": "{{i18n:英文名.}}",
+"Sat6": "{{i18n:英文名.}}",
+"Sat8": "{{i18n:英文名.}}",
+"Sat10": "{{i18n:英文名.}}",
+"Sun": "{{i18n:英文名.}}",
+"Sun2": "{{i18n:英文名.}}",
+"Sun4": "{{i18n:英文名.}}",
+"Sun6": "{{i18n:英文名.}}",
+"Sun8": "{{i18n:英文名.}}",
+"Sun10": "{{i18n:英文名.}}"
+        
+        
+        
+        
+        
+      }}]}
 
 
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
+
+每种对话最多五个 0 1 2 3 4
+Day 白天 Night 晚上
+
+季节_日期  固定日期的对话
+
+"jobLeave_0":   工作对话
+"jobReturn_0":   下班对话
+
+"patio_0": "这是配偶房间",
+
+"Rainy_Day_0": "这是下雨白天",
+"Rainy_Night_0": "这是下雨晚上",
+
+"Indoor_Day_0": "这是晴天白天",
+"Indoor_Night_0": "这是晴天晚上",
+
+"Outdoor_0": "这是门口的对话",
+
+"OneKid_0": "这是一个孩子",
+
+"TwoKids_0":"这是两个孩子"
+
+以下的最多十个 0-9
+"Good_0"    10心以上
+Good_1"
+
+Neutral_0"      心数够了但是没触发good就触发这个
+Neutral_1"
+
+Bad_0"         9心以下
 
 
 

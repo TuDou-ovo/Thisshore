@@ -1,4 +1,10 @@
 {
+
+//////配置菜单
+"confing1":"i18n描述",
+
+
+    
 ///////物品相关
 
 ///配方
@@ -21,11 +27,26 @@
 "cxx.persimmonseed.name":"柿子树苗",
 "cxx.persimmonseed.de":"28天成熟为成年柿子树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
+"cxx.FlowingMoon.name":"流月果",
+"cxx.FlowingMoon.de":"紫色的月牙形果子，坠着几缕金丝",
+"cxx.FlowingMoonseed.name":"流月树树苗",
+"cxx.FlowingMoonseed.de":"28天成熟为成年流月树,3天结果,只有在附近8块地块都空置的情况下才会成长",
+
+"cxx.WineButterfly.name":"酒蝶",
+"cxx.WineButterfly.de":"虽然名字是蝴蝶，其实也就是长得像蝴蝶的水果而已",
+"cxx.WineButterflyseed.name":"酒蝶树树苗",
+"cxx.WineButterflyseed.de":"28天成熟为成年酒蝶树,3天结果,只有在附近8块地块都空置的情况下才会成长",
+
 
 "cxx.Tianxinghua.name":"天星花",
 "cxx.Tianxinghua.de":"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
 "cxx.Tianxinghuaseed.name":"天星花种子",
 "cxx.Tianxinghuaseed.de":"夏天和秋天播种,10天成熟",
+
+"cxx.rosey.name":"涸玫",
+"cxx.rosey.de":"阿月培育的特殊品种玫瑰，虽然不知道这个名字是什么意思，但确实好看",
+"cxx.roseyseed.name":"涸玫种子",
+"cxx.roseyseed.de":"冬天播种,15天成熟，可以长成巨大作物",
 
 ///鱼
 "cxx.zhidaishuimu.name":"纸袋水母",
@@ -34,6 +55,8 @@
 "cxx.dayan.de":"这东西...看起来不太聪明",
 "cxx.haituz.name":"海兔子",
 "cxx.haituz.de":"和另一个物种同名,不过这个在外观上就完全契合名字呢...它真的是海洋生物吗?",
+"cxx.eel.name":"悬灯鳗鳗",
+"cxx.eel.de":"挂着一个几乎和身体同样大小的灯，鱼身用处不大，但脑袋上的灯是好东西",
 
 //物品
 "cxx.species.name":"金币",
@@ -50,6 +73,16 @@
 "cxx.antea.de":"外观...很难说这东西是和茶有关的,是联想到对方的性格会忍不住觉得她是故意做成这种样子的程度...",
 "cxx.crystal.name":"水晶",
 "cxx.crystal.de":"一颗半透明的水晶",
+"cxx.Pocketwatch.name":"星竹的怀表",
+"cxx.Pocketwatch.de":"......",
+"cxx.snowball.name":"雪球",
+"cxx.snowball.de":"只是一个雪团成的圆球，又白又圆",
+"cxx.Mengcui.name":"梦萃",
+"cxx.Mengcui.de":"看起来像珍珠的光泽，却一触即破",
+"cxx.Yanjing.name":"炎晶",
+"cxx.Yanjing.de":"红叶兽体内的东西，怪不得长着一副植物的样子却是用火的呢",
+"cxx.eeld.name":"鳗鳗灯丝",
+"cxx.eeld.de":"每次看到这东西都觉得悬灯鳗鳗的构造真的很神奇，灯居然是可以一整个抽出来的...",
 
 //其他
 "cxx.potatoRing.name":"土豆戒指",
@@ -58,6 +91,10 @@
 //家具
 "cxx.Teatable.name":"茶水台",
 "cxx.Teatable.de":"木制的柜子上放着蓝色的茶台,把茶叶放进去可以泡出茶,试试长乐给你寄来的茶叶吧",
+"cxx.mortar.name":"魔法研钵",
+"cxx.mortar.de":"放进原料就会自己运作起来，方便且省事",
+"cxx.compress.name":"液压器",
+"cxx.compress.de":"能把原料压缩，话说脑袋上那个像兔儿一样的东西为什么会动？",
 
 //菜品
 "cxx.toast.name":"一片吐司",
@@ -101,7 +138,8 @@
 ///枫的翻译
 "Tangf.name":"枫",
 //杂项
-"Tangf.cccc":"可以,不和别人太亲近吗",
+"Tangf.3985":"可以,不和别人太亲近吗",
+
 "Tangf.Introduction":"暂时住在这里应该不会太显眼吧...",
 "Tangf.danceRejection":"不,不了吧,这里人还挺多的...",
 "Tangf.divorced":"......#$b#还有,什么事么...",

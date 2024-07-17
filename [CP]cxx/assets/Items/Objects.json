@@ -1,10 +1,10 @@
 {"Changes": [
 
-  
 {"LogName": "物品贴图",
   "Action": "Load",
   "Target": "Mods/potato.cxxcp/Objects",
   "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"},
+
 
 //作物类 id 0-100
 
@@ -107,6 +107,72 @@
   "Texture": "Mods/potato.cxxcp/Objects",
   "SpriteIndex": 5}}},
 
+
+{"LogName":"流月果",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.FlowingMoon": 
+{"Name": "cxx.FlowingMoon", 
+  "Displayname": "{{i18n:cxx.FlowingMoon.name}}",
+  "Description": "{{i18n:cxx.FlowingMoon.de}}",
+  "Type": "Basic",
+  "Category": -79,
+  "Price": 200,
+  "Edibility": 50,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 6}}},
+
+
+{"LogName":"流月树树苗",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.FlowingMoonseed": 
+{"Name": "cxx.FlowingMoonseed", 
+  "Displayname": "{{i18n:cxx.FlowingMoonseed.name}}",
+  "Description": "{{i18n:cxx.FlowingMoonseed.de}}",
+  "Type": "Basic",
+  "Category": -74,
+  "Price": 2000,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 7}}},
+
+
+{"LogName":"酒蝶",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.WineButterfly": 
+{"Name": "cxx.WineButterfly", 
+  "Displayname": "{{i18n:cxx.WineButterfly.name}}",
+  "Description": "{{i18n:cxx.WineButterfly.de}}",
+  "Type": "Basic",
+  "Category": -79,
+  "Price": 150,
+  "Edibility": 50,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 8}}},
+
+
+{"LogName":"酒蝶树树苗",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.WineButterflyseed": 
+{"Name": "cxx.WineButterflyseed", 
+  "Displayname": "{{i18n:cxx.WineButterflyseed.name}}",
+  "Description": "{{i18n:cxx.WineButterflyseed.de}}",
+  "Type": "Basic",
+  "Category": -74,
+  "Price": 1500,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 9}}},
+
 //作物 id 50-100
 
 {"LogName":"天星花",
@@ -140,6 +206,39 @@
   "IsDrink": false,
   "Texture": "Mods/potato.cxxcp/Objects",
   "SpriteIndex": 51}}},
+
+
+{"LogName":"涸玫",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.rosey": 
+{"Name": "cxx.rosey", 
+  "Displayname": "{{i18n:cxx.rosey.name}}",
+  "Description": "{{i18n:cxx.rosey.de}}",
+  "Type": "Basic",
+  "Category": -80,
+  "Price": 100,
+  "Edibility": 10,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 52}}},
+
+
+{"LogName":"涸玫种子",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.roseyseed": 
+{"Name": "cxx.roseyseed", 
+  "Displayname": "{{i18n:cxx.roseyseed.name}}",
+  "Description": "{{i18n:cxx.roseyseed.de}}",
+  "Type": "Basic",
+  "Category": -74,
+  "Price": 50,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 53}}},
 
 //鱼 id 101-200
 
@@ -189,6 +288,22 @@
   "Edibility": 50,
   "Texture": "Mods/potato.cxxcp/Objects",
   "SpriteIndex": "103"}}},
+
+
+{"LogName": "悬灯鳗鳗",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.eel": 
+{"Name": "cxx.eel",
+  "DisplayName": "{{i18n:cxx.eel.name}}",
+  "Description": "{{i18n:cxx.eel.de}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 500,
+  "Edibility": 30,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": "104"}}},
 
 //物品 id 201-300
 
@@ -302,8 +417,87 @@
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
   "SpriteIndex": 207}}},
+
+
+{"LogName": "星竹的怀表",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Pocketwatch":
+{"Name": "cxx.Pocketwatch", 
+  "Displayname": "{{i18n:cxx.Pocketwatch.name}}",
+  "Description": "{{i18n:cxx.Pocketwatch.de}}",
+  "Type": "Objects",
+  "Category": -17,
+  "Price": 0,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 208}}},
   
 
+{"LogName": "雪球",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.snowball":
+{"Name": "cxx.snowball", 
+  "Displayname": "{{i18n:cxx.snowball.name}}",
+  "Description": "{{i18n:cxx.snowball.de}}",
+  "Type": "Basic",
+  "Category": -26,
+  "Price": 50,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 209}}},
+  
+
+{"LogName": "梦萃",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Mengcui":
+{"Name": "cxx.Mengcui", 
+  "Displayname": "{{i18n:cxx.Mengcui.name}}",
+  "Description": "{{i18n:cxx.Mengcui.de}}",
+  "Type": "Objects",
+  "Category": -17,
+  "Price": 1000,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 210}}},
+
+
+{"LogName": "炎晶",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Yanjing":
+{"Name": "cxx.Yanjing", 
+  "Displayname": "{{i18n:cxx.Yanjing.name}}",
+  "Description": "{{i18n:cxx.Yanjing.de}}",
+  "Type": "Basic",
+  "Category": -28,
+  "Price": 200,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 211}}},
+
+
+{"LogName": "鳗鳗灯丝",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.eeld":
+{"Name": "cxx.eeld", 
+  "Displayname": "{{i18n:cxx.eeld.name}}",
+  "Description": "{{i18n:cxx.eeld.de}}",
+  "Type": "Objects",
+  "Category": -26,
+  "Price": 800,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 212}}},
+  
 //菜品 id 301-400
 
 {"LogName": "一片吐司",

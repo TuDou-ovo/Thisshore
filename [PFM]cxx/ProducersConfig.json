@@ -14,6 +14,33 @@
  "ReadyAnimation":
 {"RelativeFrameIndex": [7]}},
 
+//魔法研钵
+{"ProducerQualifiedItemId": "(BC)cxx.mortar", 
+  "AlternateFrameProducing": true, 
+  "AlternateFrameWhenReady": false,
+  "DisableBouncingAnimationWhileWorking": true, 
+
+ "ProducingAnimation": 
+{"RelativeFrameIndex": [1,2,3,4,5,6], 
+ "FrameInterval": 30 },
+ 
+ "ReadyAnimation":
+{"RelativeFrameIndex": [7]}},
+
+
+//液压器
+{"ProducerQualifiedItemId": "(BC)cxx.compress", 
+  "AlternateFrameProducing": true, 
+  "AlternateFrameWhenReady": false,
+  "DisableBouncingAnimationWhileWorking": true, 
+
+ "ProducingAnimation": 
+{"RelativeFrameIndex": [0,1,2,3,4,5,6], 
+ "FrameInterval": 35 },
+ 
+ "ReadyAnimation":
+{"RelativeFrameIndex": [7]}},
+
 
 
 

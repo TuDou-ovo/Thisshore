@@ -9,6 +9,30 @@
   "MinutesUntilReady": 600,
   "OutputIdentifier": "(O)cxx.blacktea", 
   "OutputPriceIncrement": 528,
+  "Sounds": [ "thudStep" ]},
+
+
+//魔法研钵 贴图测试
+{"ProducerQualifiedItemId": "(BC)cxx.mortar",
+  "InputIdentifier": "815", 
+  "InputStack": 1,
+  "FuelIdentifier": "815",
+  "FuelStack": 1,
+  "MinutesUntilReady": 200,
+  "OutputIdentifier": "(O)815", 
+  "OutputPriceIncrement": 528,
+  "Sounds": [ "thudStep" ]},
+
+
+//液压器 贴图测试
+{"ProducerQualifiedItemId": "(BC)cxx.compress",
+  "InputIdentifier": "815", 
+  "InputStack": 1,
+  "FuelIdentifier": "815",
+  "FuelStack": 1,
+  "MinutesUntilReady": 200,
+  "OutputIdentifier": "(O)815", 
+  "OutputPriceIncrement": 528,
   "Sounds": [ "thudStep" ]}
 
 

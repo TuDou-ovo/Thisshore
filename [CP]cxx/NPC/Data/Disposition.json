@@ -95,6 +95,12 @@
  "HiddenProfileEmoteFrameCount": 4,
  "HiddenProfileEmoteFrameDuration": 200.0,
  "FestivalVanillaActorIndex": 0,
- "CustomFields": {}}}}
+ "CustomFields": {},
+ "SpouseRoom":
+{"MapAsset": "cxx.SpouseRooms",
+  "MapSourceRect":{ "X": 0, "Y": 9, "Width": 6, "Height": 9 }},
+ "SpousePatio": 
+{"MapAsset": "cxx.SpousePatios",
+  "MapSourceRect": { "X": 8, "Y": 4, "Width": 4, "Height": 4 }}}}}
 
 ]}

@@ -112,10 +112,45 @@
  "PopulationGates": 
 {"2": ["595 2"],
  "4": ["78 5"],
- "8": ["466 2"]}}}}
+ "8": ["466 2"]}}}},
 
 
+{"LogName": "悬灯鳗鳗-鱼塘",
+  "Action": "EditData",
+  "Target": "Data/FishPondData",
+  "Entries":
+  
+{"cxx.eel":
+{"RequiredTags": ["item_cxx.eel"],
+  "Precedence": 0,
+  "SpawnTime": -1,
 
+ "ProducedItems": [
+{"RequiredPopulation": 10,
+  "Chance": 0.50,
+  "ItemID": "cxx.eeld",
+  "MinQuantity": 2,
+  "MaxQuantity": 4},
+{"RequiredPopulation": 6,
+  "Chance": 0.40,
+  "ItemID": "Moss",
+  "MinQuantity": 4,
+  "MaxQuantity": 10},
+{"RequiredPopulation": 3,
+  "Chance": 0.80,
+  "ItemID": 595,
+  "MinQuantity": 2,
+  "MaxQuantity": 10},
+{"RequiredPopulation": 0,
+  "Chance": 0.60,
+  "ItemID": "Moss",
+  "MinQuantity": 1,
+  "MaxQuantity": 3}],
+
+ "PopulationGates": 
+{"2": ["Moss 2"],
+ "4": ["Moss 5"],
+ "8": ["595 2"]}}}}
 
 
 

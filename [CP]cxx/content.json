@@ -1,6 +1,31 @@
-{"Format": "2.0.0",
- "Changes":[
+{
+"Format": "2.0.0",
 
+"ConfigSchema": {
+  
+ "Cropss": //选项名字
+{"AllowValues": "true, false",//开关
+ "Default": "false",//默认
+ "Section": "这是不同选项的分割线",
+ "Description": "?"},
+  
+ "选项名字":
+{"AllowValues": "选择1, 选择2",
+ "Default": "默认",
+ "Description": "描述2"},
+  
+ "选项名":
+{"AllowValues": "true, false",
+ "Default": "false",
+ "AllowBlank": false,//允许空白
+ "Description": "描述"}
+  
+
+  
+},
+
+
+ "Changes":[
 
 
 {"LogName": "链接·人物节庆位置",
@@ -61,6 +86,11 @@
 {"LogName": "链接·人物电影零食喜好",
   "Action": "Include",
   "FromFile": "NPC/Data/Movieslove.json"},
+
+
+{"LogName": "链接·特殊对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Engagement.json"},
 
 
 {"LogName": "链接·事件",
@@ -145,17 +175,6 @@
 {"LogName": "链接-商店",
   "Action": "Include",
   "FromFile": "assets/Data/Shop.json"},
-
-    
-{"ConfigSchema": 
-  {"Cropss": 
-  {"AllowValues": "true, false",
-    "Default": "false",
-    "Section": "Content",
-    "Description": "是否开启角色料理的特殊配方?默认为否(此选项为单纯娱乐,灵感来自n网8116,请了解后酌情开启)"}}}
-
-   
-
 
 
 ]}

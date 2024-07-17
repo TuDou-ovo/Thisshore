@@ -16,6 +16,36 @@
  "SpriteIndex": 0}}},
 
 
+{"LogName": "研磨",
+  "Action": "EditData",
+  "Target": "Data/BigCraftables",
+  "Entries": {
+ "cxx.mortar": 
+{"Name": "cxx.mortar",
+ "DisplayName": "{{i18n:cxx.mortar.name}}",
+ "Description": "{{i18n:cxx.mortar.de}}",
+ "Price": 500,
+ "CanBePlacedOutDoors": true,
+ "CanBePlacedIndoors": true,
+ "Texture": "Mods/potato.cxxcp/animation",
+ "SpriteIndex": 8}}},
+
+
+{"LogName": "液压",
+  "Action": "EditData",
+  "Target": "Data/BigCraftables",
+  "Entries": {
+ "cxx.compress": 
+{"Name": "cxx.compress",
+ "DisplayName": "{{i18n:cxx.compress.name}}",
+ "Description": "{{i18n:cxx.compress.de}}",
+ "Price": 500,
+ "CanBePlacedOutDoors": true,
+ "CanBePlacedIndoors": true,
+ "Texture": "Mods/potato.cxxcp/animation",
+ "SpriteIndex": 16}}},
+
+
 
 
 {"LogName":"家具贴图",

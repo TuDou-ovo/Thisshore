@@ -4,15 +4,8 @@
 {"LogName":"枫婚后对话",
   "Action": "Load",
   "Target": "Characters/Dialogue/MarriageDialoguecxx.Tangf",
-  "FromFile":"NPC/Dialogue/MarriageDialogue/Tangf.json"},
+  "FromFile":"NPC/Dialogue/MarriageDialogue/Tangf.json"}
    
-{"LogName":"枫吃醋对话",
-  "Action": "EditData",
-  "Target": "Strings/StringsFromCSFiles",
-  "Entries": 
-{"NPC.cs.3985": "{{i18n:Tangf.cccc}}"},
- "When":
-{"Relationship:Tangf":"Engaged, Married"}}
 
 
 
