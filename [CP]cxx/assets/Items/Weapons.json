@@ -7,6 +7,380 @@
   "FromFile": "assets/Objects/Weapons.png"},
 
 
+{"LogName": "伊华岁的贝斯",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.YihsBass":
+{"Name": "cxx.YihsBass",
+  "DisplayName": "{{i18n:cxx.YihsBass.name}}",
+  "Description": "{{i18n:cxx.YihsBass.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 2,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 0}}},
+
+
+{"LogName": "姬月的匕首",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Jiydagger":
+{"Name": "cxx.Jiydagger",
+  "DisplayName": "{{i18n:cxx.Jiydagger.name}}",
+  "Description": "{{i18n:cxx.Jiydagger.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 1,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 1}}},
+
+
+{"LogName": "云瑜的另一把刀",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Yunyknife":
+{"Name": "cxx.Yunyknife",
+  "DisplayName": "{{i18n:cxx.Yunyknife.name}}",
+  "Description": "{{i18n:cxx.Yunyknife.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 2}}},
+
+
+{"LogName": "白巧颜的*法杖*",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Baiqystaff":
+{"Name": "cxx.Baiqystaff",
+  "DisplayName": "{{i18n:cxx.Baiqystaff.name}}",
+  "Description": "{{i18n:cxx.Baiqystaff.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 3}}},
+
+
+{"LogName": "狸奴的翡翠算盘",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.catabacus":
+{"Name": "cxx.catabacus",
+  "DisplayName": "{{i18n:cxx.catabacus.name}}",
+  "Description": "{{i18n:cxx.catabacus.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 4}}},
+
+
+{"LogName": "未央的伞",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Weiyumbrella":
+{"Name": "cxx.Weiyumbrella",
+  "DisplayName": "{{i18n:cxx.Weiyumbrella.name}}",
+  "Description": "{{i18n:cxx.Weiyumbrella.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 5}}},
+
+
+{"LogName": "蜜酒的针管",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Mijneedle":
+{"Name": "cxx.Mijneedle",
+  "DisplayName": "{{i18n:cxx.Mijneedle.name}}",
+  "Description": "{{i18n:cxx.Mijneedle.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 1,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 6}}},
+
+
+{"LogName": "莫优优的唐刀",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.yoyoknife":
+{"Name": "cxx.yoyoknife",
+  "DisplayName": "{{i18n:cxx.yoyoknife.name}}",
+  "Description": "{{i18n:cxx.yoyoknife.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 7}}},
+
+
+{"LogName": "夏真籁的麦克风",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Xiaozlmicrophone":
+{"Name": "cxx.Xiaozlmicrophone",
+  "DisplayName": "{{i18n:cxx.Xiaozlmicrophone.name}}",
+  "Description": "{{i18n:cxx.Xiaozlmicrophone.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 2,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 8}}},
+
+
+{"LogName": "秋生生的萝卜锤",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Qiusshammer":
+{"Name": "cxx.Qiusshammer",
+  "DisplayName": "{{i18n:cxx.Qiusshammer.name}}",
+  "Description": "{{i18n:cxx.Qiusshammer.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 2,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 9}}},
+
+
+{"LogName": "伊斯的金属塔罗牌",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.IssTarot":
+{"Name": "cxx.IssTarot",
+  "DisplayName": "{{i18n:cxx.IssTarot.name}}",
+  "Description": "{{i18n:cxx.IssTarot.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 10}}},
+
+
+{"LogName": "柳清源的长剑",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Liuqysword":
+{"Name": "cxx.Liuqysword",
+  "DisplayName": "{{i18n:cxx.Liuqysword.name}}",
+  "Description": "{{i18n:cxx.Liuqysword.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 11}}},
+
+
+{"LogName": "尚茯苓的拂尘",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.ShangflDusting":
+{"Name": "cxx.ShangflDusting",
+  "DisplayName": "{{i18n:cxx.ShangflDusting.name}}",
+  "Description": "{{i18n:cxx.ShangflDusting.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 12}}},
+
+
+{"LogName": "莫邪的扇子",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Moyfan":
+{"Name": "cxx.Moyfan",
+  "DisplayName": "{{i18n:cxx.Moyfan.name}}",
+  "Description": "{{i18n:cxx.Moyfan.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 13}}},
+
+
+{"LogName": "元晞的画笔",
+  "Action": "EditData",
+  "Target": "Data/Weapons",
+  "Entries":
+{"cxx.Yuanxpen":
+{"Name": "cxx.Yuanxpen",
+  "DisplayName": "{{i18n:cxx.Yuanxpen.name}}",
+  "Description": "{{i18n:cxx.Yuanxpen.de}}",
+  "MinDamage": 1,//最小伤害
+  "MaxDamage": 2,//最大伤害
+  "Knockback": 1,//击退数值
+  "Speed": 1,//速度
+  "Precision": 0,//精确
+  "Defense": 1,//防御
+  "Type": 3,
+  "MineBaseLevel": 0,
+  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
+  "AreaOfEffect": 3,//攻击范围
+  "CritChance": 0.6,//暴击概率
+  "CritMultiplier": 3.0,//爆伤
+  "CanBeLostOnDeath": true,//死亡会不会掉落
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "SpriteIndex": 14}}}
+
 
 
 

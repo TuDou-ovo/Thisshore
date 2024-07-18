@@ -1,17 +1,43 @@
 [
 
+
+{"Id": "cxx.hi",
+ "GroupID": "cxx.hi",
+ "Title": "亲爱的...",
+ "Text": "亲爱的：^你想过，海洋的背面是什么吗？^地心....还是另一个世界的天空？^去看看吧，你或许会感兴趣的^以及，珍惜你所见到的当下的景色吧^因为，此岸的未来早已注定^^——清雪",
+ "Repeatable": false,
+ "LetterBG": "cxx.png",
+ "UpperRightCloseButton": null},
+
+
+{"Id": "cxx.welcome",
+ "GroupID": "cxx.welcome",
+ "Title": "亲爱的...",
+ "Text": "啊啊...亲爱的，你准备好了么^那些相似的，不同的，从未见过的^属于此岸的人，事，物^去吧，去吧，看看那个在崩溃边缘的切片^那个为了让你看见，而拼凑出来的世界^记住，未来早已注定，把一切，都当成镜花水月的一场幻梦吧^^——清#%",
+ "Repeatable": false,
+ "LetterBG": "cxx.png",
+ "UpperRightCloseButton": null},
+
+
 {"Id": "1215521001",
  "GroupID": "1215521001",
  "Title": "来自昨天少女的信",
- "Text": "^^你,你好...^抱歉打扰了,我是昨天那位^很抱歉突然消失,因为这样好像不太礼貌所以,想请你来一趟我暂时待的地方^...为了感谢帮助^啊,位置在山上,那个堵住的地方旁边,如果没时间的话不来也是可以的...^^^——唐枫",
+ "Text": "你,你好...^抱歉打扰了,我是昨天那位^很抱歉突然消失,因为这样好像不太礼貌所以,想请你来一趟我暂时待的地方^...为了感谢帮助^啊,位置在山上,那个堵住的地方旁边,如果没时间的话不来也是可以的...^^——唐枫",
  "Repeatable": false,
  "LetterBG": "Tangf.png",
+ "UpperRightCloseButton": null},
+
+
+{"Id": "cxx.Jiy4",
+ "GroupID": "cxx.Jiy4",
+ "Title": "花种...",
+ "Text": "小可爱...^你应该对花也是感兴趣的吧^收下这个吧，是我精心培育的品种，一定能给你一个惊喜的^呵呵...养大后记得带它来找我哟^^——姬月",
+ "Repeatable": false,
+ "LetterBG": "cxx.png",
  "UpperRightCloseButton": null}
 
-
-
  
- 
+
 
  
         

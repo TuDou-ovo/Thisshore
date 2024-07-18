@@ -575,29 +575,104 @@ when条件
 
 
 
+{"Id": "信件id", 
+ "GroupId": "信件id", //具有相同组id的信件不会在同一天送达 首先注册的具有优先权，除非组id以“.Random”结尾 选择一个随机字母 默认空
+ "Title": "信件标题", 
+ "Text": "信件内容", 
+ 
+ "Attachments": [
+{"Type": "QualifiedItemId", //任何支持的项目
+ "Index": "(0)78", // 项目的合格项目Id。
+ "Stack": 10, //数量 默认为1。
+ "Quality": 2 },//星级 0=无，1=银，2=金，4=铱 默认为0
 
-  {"Id": "信件id",
-  "GroupID": "信件id",
-  "Title": "标题",
-  "Text": "内容",
-  "Attachments"（附加物，如果没有就把从这段开始到Stack的地方删除）: [
-  {"Type": "(种类为Object物品，BigCraftable制造物，Tool工具，Ring戒指）",
-  "Name": "（物品名字，可在此添加MOD的东西）"
-  },
-  {"Type": "（情况和上面一样）",
-  "Index": （基数，如果是原版游戏没有，就无视）,
-  "Stack": （堆积数，默认为1）
-  }
-  ],
-  "Recipe": "（食谱）",
-  "LetterBG": "（信件背景的图片.png，如果你有自制信件的图片，就打，没有就是默认）",
-  "UpperRightCloseButton": null, 按钮
-  "Date": "（日期 季节 第几年，必须到了或过了这个日子才有信）",
-  "Days": [日期]（必须为指定日期，没有就删了这里）,
-  "Seasons": [ "季节"（可以多个季节，记得都是小写）],
-  "Repeatable": false,（重复性，一般上是给工匠做好工具送过来用的，基本上我们是false）
-  "FriendshipConditions"://好感情况）
-  [{ "NpcName": "（NPC名字）", "FriendshipLevel": （几颗心） }]}
+{"Type": "Object", // [Object物品|BigCraftable家具|Ring戒指|Furniture|Weapon武器|Boots|DGA|FullId]物品类型
+ "Name": "Cave Carrot物品英文名", //物品英文名 自定义物品用的 默认值为空
+ "Index": "(0)78", //物品id 不写就用上面那个 没有id就删掉这个
+ "Stack": 1, //数量 默认为1。
+ "Quality": 2}, //星级 0=无，1=银，2=金，4=铱 默认值为0
+ 
+{"Type": "Tool", //这个词条只能给以下工具
+ "Name": "Axe", //可用的工具名 [Axe|Hoe|Watering Can|Pickaxe|Scythe|Golden Scythe|Milk Pail|Shears|Fishing Rod|Pan|Return Scepter]
+ "UpgradeLevel": 1}, //工具级别 0=石头，1=铜，2=钢，3=金，4=铱。鱼竿：0=竹竿，1=训练竿，2=玻璃纤维竿，3=铱竿 默认为0
+
+{"Type": "DGA", //DGA item
+ "Name": "spacechase0.DynamicGameAssets.Example/My Custom Item", // 使用完整的DGA ID。必填。
+ "Stack": 10, //堆叠 默认为            
+ "Quality": 2 }],//星级 0=无，1=银，2=金，4=铱 默认为0
+
+"Recipe": "Recipe Name", //不附食谱 删除该行 只有当邮件中没有其他附件时才有效 对于DGA配方，仅使用ID部分（去掉ModID）
+"AdditionalMailReceived": ["MyMod.AnotherMailId", "VANILLA_FLAG"], // 使用此选项可将其他文本添加到“已接收邮件”列表中。可用于添加香草旗或其他MFM字母ID。
+"LetterBG": "CustomLetterBG.png", //自定义背景 为空或被删除则游戏默认
+"WhichBG": 0, //按钮。0=经典，1=记事本，2=金字塔
+"TextColor": -1, //文字颜色 删除此行以使用默认颜色。如果设置了CustomTextColor，则将被忽略-1=深红色，0=黑色，1=天蓝色，2=红色，3=蓝紫色，4=白色，5=橙红色，6=灰绿色，7=青色，8=最深灰色
+"CustomTextColorName": "White", //文本的颜色。[http://www.foszor.com/blog/xna-color-chart/]默认情况下将使用文本颜色属性。
+"UpperRightCloseButton": "CustomCloseButton.png", //自定义按钮 它应该是12 x 12。如果为null或已删除，则将使用默认按钮。
+
+ "ReplyConfig":// 如果你想让玩家在阅读信件后发送回复。它将显示回复选项，这些选项将根据玩家的答案添加一个或多个“已接收邮件”。与回复相关的任何其他逻辑都需要根据添加的已接收邮件来实现。
+{"QuestionKey": "MyMod.MyMailId.Question", //识别您问题的关键。它只有内部用途，但在您的内容包中应该是唯一的，以避免回复之间的冲突。
+ "QuestionDialog": "Send a reply choosing your reward:", //您的问题或文本将显示在回复选项上。如果提供了翻译文件，您应该在此处放置翻译密钥。 "Replies": [
+{"ReplyKey": "MyMod.MyMailId.Reply1", //问题答复之间必须是唯一的。
+ "ReplyOptionDialog": "I want seeds.", //将在回复列表中显示的选项文本。如果提供了翻译文件，您应该在此处放置翻译密钥。
+ "MailReceivedToAdd": [ "MyMod.MyMailId.PlayerSeedOption" ], // 要添加到MailReceived列表的文本。这可用于触发新邮件、事件、香草标志，停止发送其他MFM邮件。。。
+ "ReplyResponseDialog": "Your letter requesting seeds was sent." //选择此回复选项后将显示的文本。如果提供了翻译文件，您应该在此处放置翻译密钥。
+}},
+
+"Repeatable": false, // 如果为true，mod将不会检查它，因为信件Id已经送达。默认值为false。
+"AutoOpen": false, // 如果为真，mod将在条件满足后的第二天开始打开信件。字母id将被标记为已读，如果有食谱集，它将被学习。由于信件永远不会显示，因此标题、文本、背景等视觉属性。。。永远不会使用，以及附件。
+//发送条件
+//以下是条件。如果你不想检查这种情况，请删除任何一条线。
+"Date": "10 spring Y1", // 必须是该日期或之后 格式为"[1-28] [spring|summer|fall|winter] Y[1-999]".
+"Days": [7,14,21,28], // 某一天
+"Seasons": ["fall"], // 季节[spring|summer|fall|winter]
+"Weather": "sunny", // 天气格式为"[sunny|rainy]".
+"HouseUpgradeLevel": 2, // 房屋升级级别必须等于或高于所定义的级别。0-starter house（没有理由使用这个，只需拆除线路），1-厨房，2-二楼，3-地窖。
+"DeepestMineLevel": 80, // 最深的矿井水位必须等于或高于定义的水位。120是矿井的最后一层，121是头骨洞穴的第一层。
+"CurrentMoney": 10000, // 流动资金必须等于或高于所定义的金额。
+"TotalMoneyEarned": 500000, // 总收入必须等于或高于定义值。
+"FriendshipConditions": [//名单上的每个NPC都必须检查所有条件。
+{"NpcName": "角色英文名", 
+ "FriendshipLevel": 8, // NPC的友谊心水平必须等于或高于所定义的水平。默认值为0。
+ "FriendshipStatus": ["Dating","Engaged","Married"] // [Friendly|Dating|Engaged|Married|Divorced]  要求NPC友谊状态为列表中的一个。删除以不需要状态。
+}],
+ "SkillConditions":[ //列表中的每个技能都必须有一个等于或高于定义的级别。可以使用香草游戏中的所有编码技能，包括运气。无法使用自定义技能。
+{"SkillName": "Farming", "SkillLevel": 1 }],
+ "StatsConditions":[// 列表中的每个统计数据都必须具有等于或高于定义值的值。选择统计信息名称或统计信息标签
+{"StatsName": "CheeseMade", //[SeedsSown|ItemsShipped|ItemsCooked|ItemsCrafted|ChickenEggsLayed|DuckEggsLayed|CowMilkProduced|GoatMilkProduced|RabbitWoolProduced|SheepWoolProduced|CheeseMade|GoatCheeseMade|TrufflesFound|StoneGathered|RocksCrushed|DirtHoed|GiftsGiven|TimesUnconscious|AverageBedtime|TimesFished|FishCaught|BouldersCracked|StumpsChopped|StepsTaken|MonstersKilled|DiamondsFound|PrismaticShardsFound|OtherPreciousGemsFound|CaveCarrotsFound|CopperFound|IronFound|CoalFound|CoinsFound|GoldFound|IridiumFound|BarsSmelted|BeveragesMade|PreservesMade|PiecesOfTrashRecycled|MysticStonesCrushed|DaysPlayed|WeedsEliminated|SticksChopped|NotesFound|QuestsCompleted|StarLevelCropsShipped|CropsShipped|ItemsForaged|SlimesKilled|GeodesCracked|GoodFriends|IndividualMoneyEarned] Default is null.
+ "StatsLabel": "Name", // 统计标签[exMemoriesWiped|childrenTurnedToDoves|trashCansChecked|boatRidesToIsland|beachFarmSpawns|hardModeMonstersKilled|timesEnchanted] This are the current game stats that are identified by label, if more are added, they should also be supported. It will also identify custom stats labels added by other mods. Default is null.
+ "Amount": 1 // 状态的金额应等于或大于条件有效的金额。
+}],
+ "CollectionConditions":[ // 列表的每个收集条件的值必须等于或高于定义的金额。
+{"Collection": "Shipped", //收集[Shipped|Fish|Artifacts|Minerals|Cooking|Crafting] Required.
+ "Name": "Oil", //弃用，改用Id。“Crafting”集合的对象或配方的名称。如果不是一个制作集合，它将在对象列表中查找该名称以查找索引。如果找不到该名称，则忽略该字母。将与其他属性结合。默认值为空。
+ "Index": 211, //弃用，改用Id。对象的索引。将与其他属性结合。默认值为空。
+ "Ids": [ "282", "MossSoup" ], //物品ID或制作配方名称。将与其他属性结合。将这些金额相加，以便与“金额”属性进行比较。
+ "Amount": 10 //集合中对象的总量应等于或大于条件的有效值。
+}],
+
+ "SpecialDateCondition": //必须是那个日期或之后。
+{"SpecialDate": "ChildBirth", //[Wedding|ChildBirth] Required
+ "YearsSince": 1, //自日期发生以来的年数。0将匹配实际日期，1匹配下一年。默认值为0。
+ "WhichChild": 1 //如果Special Date属性是Child Birth，它将引用哪个chield。默认值为1；
+},
+
+"ExpandedPrecondition": "d Mon Fri/HasItem Pink Cake/!JojaMartComplete/!w rainy", //需要扩展的先决条件实用程序模块。请参阅mod文档以了解其工作原理。如果未加载mod，信件将无法送达。
+"ExpandedPreconditions": [ "!z spring/t 600 1000", "f Linus 1000/w rainy/z spring", "f Linus 2500" ], //需要扩展的先决条件实用程序模块。请参阅mod文档以了解其工作原理。如果未加载mod，信件将无法送达。
+"RandomChance": 0.25, //mod将检查0到1之间的随机数是否低于给定的数字。同样的保存，在同一天对同一封信总是会有同样的结果，以避免作弊。
+"Buildings": ["Coop","Big Coop","Deluxe Coop"], //要求农场目前正在建造其中一栋建筑。
+"RequireAllBuildings": false, //如果为真，则要求“建筑物”列表中的所有建筑物当前都在农场建造。默认值为false。
+"MailReceived": ["jojaVault","ccVault"], //要求已收到其中一封邮件。游戏列表还包含其他非邮件的东西，比如社区中心的旗帜。
+"RequireAllMailReceived": false, //如果为真，则要求“已收到邮件”列表中的所有邮件均已收到。默认值为false。
+"MailNotReceived": ["jojaVault","ccVault"], //要求邮件尚未收到。游戏列表还包含其他非邮件的东西，比如社区中心的旗帜。
+"EventsSeen": [ "4", "32423" ], //要求玩家看过其中一个事件。应该是字符串，但也可以作为整数使用，以实现向后兼容性。
+"RequireAllEventsSeen": false, //如果为真，则要求“已看到的事件”列表中的所有事件都已被玩家看到。默认值为false。
+"HasMods": [ "SMAPI.ConsoleCommands", "SMAPI.SaveBackup" ], //需要加载其中一个模组。应该是mod唯一ID。
+"RequireAllMods": false, //如果为真，则要求“有模组”列表中的所有模组都已加载。默认值为false。
+"EventsNotSeen": [ "4", "32423" ], //要求玩家没有看到这些事件。应该是字符串，但也可以作为整数使用，以实现向后兼容性。
+"RecipeKnown": ["Pizza","Survival Burger"], //要求玩家已经学习了其中一个食谱。
+"RequireAllRecipeKnown": false, //如果为真，则要求玩家已经学习了“已知食谱”列表中的所有食谱。默认值为false。
+"RecipeNotKnown": ["Wild Bait"] //要求玩家没有学习过食谱。
+    }
 
   -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------

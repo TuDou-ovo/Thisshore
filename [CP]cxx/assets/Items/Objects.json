@@ -6,6 +6,22 @@
   "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"},
 
 
+{"LogName": "标志",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.welcome":
+{"Name": "cxx.welcome", 
+  "Displayname": "{{i18n:cxx.welcome.name}}",
+  "Description": "{{i18n:cxx.welcome.de}}",
+  "Type": "objects",
+  "Category": -17,
+  "Price": 1215,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 201}}},
+
+
 //作物类 id 0-100
 
 {"LogName":"蛇果",
