@@ -1,0 +1,26 @@
+{"Changes": [
+
+
+{"LogName": "乌鸦",
+  "Action": "EditData",
+  "Target": "Data/FarmAnimals",
+  "Entries": 
+{"DisplayName":"cxx.wuya",//名字
+"House":"",//住的
+"Gender":"MaleOrFemale",//默认性别
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+]}

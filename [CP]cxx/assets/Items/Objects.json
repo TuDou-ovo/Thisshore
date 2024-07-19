@@ -967,33 +967,38 @@
   "Texture": "Mods/potato.cxxcp/Objects",
   "SpriteIndex": 314}}},
 
-//其他 id 401-500
+//其他*有属性的道具 id 401-500
 
-{"LogName":"土豆戒指",
+{"LogName": "传送图腾",
   "Action": "EditData",
   "Target": "Data/Objects",
+  "Entries":
+{"cxx.warp": 
+{"Name": "cxx.warp",
+ "DisplayName": "{{i18n:cxx.warp.name}}",
+ "Description": "{{i18n:cxx.warp.description}}",
+ "Type": "Crafting",
+ "Category": 0,
+ "Price": 20,
+ "Texture": "Mods/potato.cxxcp/Objects",
+ "SpriteIndex": 22,
+ "Edibility": -300,
+ "IsDrink": false,
+ "Buff": null,
+ "GeodeDropsDefaultItems": false,
+ "GeodeDrops": null,
+ "ArtifactSpotChances": null,
+ "ContextTags": ["color_brown","not_placeable","totem_item"],//颜色//不可放置//图腾_项目
+ "CustomFields": {}}}},
+
+{"LogName": "传送图腾点",
+  "Action": "EditData",
+  "Target": "spacechase0.SpaceCore/ObjectExtensionData",
   "Entries": 
-{"cxx.potatoRing": 
-{"Name": "cxx.potatoRing",
-  "DisplayName": "{{i18n:cxx.potatoRing.name}}",
-  "Description": "{{i18n:cxx.potatoRing.de}}",
-  "Type": "Ring",
-  "Category": -96,
-  "Price": 1215,
-  "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 401,
-  "Buffs": null,
-  "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": true,
-  "ExcludeFromRandomSale": true,
- "CustomFields": 
-{"PeacefulEnd.CustomCompanions/Companions/Variety": 1,
-  "PeacefulEnd.CustomCompanions/Companions/0/Id": "PotatoCat",
-  "PeacefulEnd.CustomCompanions/Companions/0/NumberToSummon": 1}}}}
-
-
-
-
+{"cxx.warp": 
+{"TotemWarp": 
+{"Location": "cxxmap.RES1",
+"Position": "24, 97"}}}}
 
 
 

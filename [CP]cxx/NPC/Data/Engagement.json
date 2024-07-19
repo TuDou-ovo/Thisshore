@@ -6,7 +6,9 @@
  "Target": "Data/EngagementDialogue",
  "Entries":
 {"cxx.Tangf0": "对话1",
- "cxx.Tangf1": "对话2"}},
+ "cxx.Tangf1": "对话2",
+ "cxx.Dolll0": "对话1",
+ "cxx.Dolll1": "对话2"}},
 
 
 {"LogName":"吃醋对话",

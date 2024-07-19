@@ -1,0 +1,60 @@
+{
+  "Name": "PotatoCat",
+  "Type": "Walking",
+  "FrameSizeWidth": 16,
+  "FrameSizeHeight": 32,
+  "TravelSpeed": 4,
+  "SpawnOffsetX": -64,
+  "SpawnOffsetY": 0,
+  "MaxIdleDistance": -1,
+  "MaxDistanceBeforeTeleport": 640,
+  "IdleBehaviour": "Nothing",
+
+  "UpAnimation": {
+    "StartingFrame": 8,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+        "StartingFrame": 8,
+        "NumberOfFrames": 1,
+        "Duration": 500
+    }
+  },
+
+  "RightAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+        "StartingFrame": 4,
+        "NumberOfFrames": 1,
+        "Duration": 500
+    }
+  },
+
+  "DownAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+      "StartingFrame": 0,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  },
+
+  "LeftAnimation": {
+    "StartingFrame": 12,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+        "StartingFrame": 12,
+        "NumberOfFrames": 1,
+        "Duration": 500
+    }
+  }
+}

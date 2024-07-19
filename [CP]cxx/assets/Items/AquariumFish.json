@@ -1,0 +1,28 @@
+{"Changes": [
+
+
+
+{"LogName": "鱼缸贴图",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/AquariumFish",
+  "FromFile": "assets/Objects/AquariumFish.png"},
+
+
+{"LogName": "鱼缸数据",
+ "Action": "EditData",
+  "Target": "Data/AquariumFish",
+  "Entries": 
+  
+{"cxx.zhidaishuimu": "0/crawl/////Mods/potato.cxxcp/AquariumFish",
+ "cxx.dayan": "1/float/////Mods/potato.cxxcp/AquariumFish",
+ "cxx.haituz": "2/crawl/////Mods/potato.cxxcp/AquariumFish",
+ "cxx.eel": "3/crawl/////Mods/potato.cxxcp/AquariumFish"
+ 
+ }}
+
+
+
+
+
+
+]}

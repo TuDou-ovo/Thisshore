@@ -15,20 +15,20 @@
 {"Name": "cxx.YihsBass",
   "DisplayName": "{{i18n:cxx.YihsBass.name}}",
   "Description": "{{i18n:cxx.YihsBass.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 60,
+  "MaxDamage": 80,
+  "Knockback": 1,
+  "Speed": -1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 2,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 0}}},
 
 
@@ -40,20 +40,20 @@
 {"Name": "cxx.Jiydagger",
   "DisplayName": "{{i18n:cxx.Jiydagger.name}}",
   "Description": "{{i18n:cxx.Jiydagger.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 40,
+  "MaxDamage": 60,
+  "Knockback": 0,
+  "Speed": 0,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 1,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 1}}},
 
 
@@ -65,20 +65,20 @@
 {"Name": "cxx.Yunyknife",
   "DisplayName": "{{i18n:cxx.Yunyknife.name}}",
   "Description": "{{i18n:cxx.Yunyknife.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 60,
+  "MaxDamage": 80,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 2}}},
 
 
@@ -90,20 +90,20 @@
 {"Name": "cxx.Baiqystaff",
   "DisplayName": "{{i18n:cxx.Baiqystaff.name}}",
   "Description": "{{i18n:cxx.Baiqystaff.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 20,
+  "MaxDamage": 30,
+  "Knockback": 0,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 1,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 3}}},
 
 
@@ -115,20 +115,20 @@
 {"Name": "cxx.catabacus",
   "DisplayName": "{{i18n:cxx.catabacus.name}}",
   "Description": "{{i18n:cxx.catabacus.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 80,
+  "MaxDamage": 90,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 1,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 4}}},
 
 
@@ -140,20 +140,20 @@
 {"Name": "cxx.Weiyumbrella",
   "DisplayName": "{{i18n:cxx.Weiyumbrella.name}}",
   "Description": "{{i18n:cxx.Weiyumbrella.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 60,
+  "MaxDamage": 80,
+  "Knockback": 1,
+  "Speed": 0,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 5}}},
 
 
@@ -165,20 +165,20 @@
 {"Name": "cxx.Mijneedle",
   "DisplayName": "{{i18n:cxx.Mijneedle.name}}",
   "Description": "{{i18n:cxx.Mijneedle.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 20,
+  "MaxDamage": 60,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 1,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 6}}},
 
 
@@ -190,20 +190,20 @@
 {"Name": "cxx.yoyoknife",
   "DisplayName": "{{i18n:cxx.yoyoknife.name}}",
   "Description": "{{i18n:cxx.yoyoknife.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 60,
+  "MaxDamage": 90,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 3,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 7}}},
 
 
@@ -215,20 +215,20 @@
 {"Name": "cxx.Xiaozlmicrophone",
   "DisplayName": "{{i18n:cxx.Xiaozlmicrophone.name}}",
   "Description": "{{i18n:cxx.Xiaozlmicrophone.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 50,
+  "MaxDamage": 70,
+  "Knockback": 1,
+  "Speed": 0,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 2,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 1,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 8}}},
 
 
@@ -240,20 +240,20 @@
 {"Name": "cxx.Qiusshammer",
   "DisplayName": "{{i18n:cxx.Qiusshammer.name}}",
   "Description": "{{i18n:cxx.Qiusshammer.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 60,
+  "MaxDamage": 75,
+  "Knockback": 1,
+  "Speed": -1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 2,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 9}}},
 
 
@@ -265,20 +265,20 @@
 {"Name": "cxx.IssTarot",
   "DisplayName": "{{i18n:cxx.IssTarot.name}}",
   "Description": "{{i18n:cxx.IssTarot.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
-  "Type": 3,
+  "MinDamage": 20,
+  "MaxDamage": 45,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
+  "Type": 1,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 10}}},
 
 
@@ -290,20 +290,20 @@
 {"Name": "cxx.Liuqysword",
   "DisplayName": "{{i18n:cxx.Liuqysword.name}}",
   "Description": "{{i18n:cxx.Liuqysword.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 80,
+  "MaxDamage": 90,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 11}}},
 
 
@@ -315,20 +315,20 @@
 {"Name": "cxx.ShangflDusting",
   "DisplayName": "{{i18n:cxx.ShangflDusting.name}}",
   "Description": "{{i18n:cxx.ShangflDusting.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 10,
+  "MaxDamage": 90,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 1,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 12}}},
 
 
@@ -340,20 +340,20 @@
 {"Name": "cxx.Moyfan",
   "DisplayName": "{{i18n:cxx.Moyfan.name}}",
   "Description": "{{i18n:cxx.Moyfan.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 60,
+  "MaxDamage": 90,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 13}}},
 
 
@@ -365,20 +365,20 @@
 {"Name": "cxx.Yuanxpen",
   "DisplayName": "{{i18n:cxx.Yuanxpen.name}}",
   "Description": "{{i18n:cxx.Yuanxpen.de}}",
-  "MinDamage": 1,//最小伤害
-  "MaxDamage": 2,//最大伤害
-  "Knockback": 1,//击退数值
-  "Speed": 1,//速度
-  "Precision": 0,//精确
-  "Defense": 1,//防御
+  "MinDamage": 40,
+  "MaxDamage": 60,
+  "Knockback": 1,
+  "Speed": 1,
+  "Precision": 0,
+  "Defense": 1,
   "Type": 3,
   "MineBaseLevel": 0,
-  "MineMinLevel": -1,//矿井多少层掉落负数就不掉
-  "AreaOfEffect": 3,//攻击范围
-  "CritChance": 0.6,//暴击概率
-  "CritMultiplier": 3.0,//爆伤
-  "CanBeLostOnDeath": true,//死亡会不会掉落
-  "Texture": "Mods/potato.cxxcp/Objects/Weapons",//贴图
+  "MineMinLevel": -1,
+  "AreaOfEffect": 2,
+  "CritChance": 0.6,
+  "CritMultiplier": 3.0,
+  "CanBeLostOnDeath": false,
+  "Texture": "Mods/potato.cxxcp/Objects/Weapons",
   "SpriteIndex": 14}}}
 
 

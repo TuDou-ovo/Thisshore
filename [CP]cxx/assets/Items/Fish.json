@@ -1,0 +1,26 @@
+{"Changes": [
+
+
+{"LogName": "鱼数据",
+  "Action": "EditData",
+  "Target": "Data/Fish",
+  "Entries":
+
+{"cxx.zhidaishuimu": "cxx.zhidaishuimu/15/mixed/18/40/600 2400/spring/both/690 .4 685 .1/4/.3/.5/0",
+ "cxx.dayan": "cxx.dayan/15/mixed/18/40/600 2400/spring/both/690 .4 685 .1/4/.3/.5/0",
+ "cxx.haituz": "cxx.haituz/15/mixed/18/40/600 2400/spring/both/690 .4 685 .1/4/.3/.5/0",
+ "cxx.eel": "cxx.eel/15/mixed/18/40/600 2400/spring/both/690 .4 685 .1/4/.3/.5/0",
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+]}

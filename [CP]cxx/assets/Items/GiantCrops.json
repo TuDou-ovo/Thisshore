@@ -1,0 +1,47 @@
+{"Changes": [
+
+
+{"LogName": "作物贴图位置",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/Crops",
+  "FromFile": "assets/Objects/Crops.png"},
+
+
+{"LogName": "涸玫作物",
+ "Action": "EditData",
+ "Target": "Data/GiantCrops",
+ "Entries": 
+{"cxx.rosey": 
+{"FromItemId": "(O)cxx.rosey",
+"HarvestItems": [
+{"Chance": 1.0,
+"ForShavingEnchantment": null,
+"ScaledMinStackWhenShaving": 2,
+"ScaledMaxStackWhenShaving": 2,
+"Condition": null,
+"Id": "(O)cxx.rosey",
+"ItemId": "(O)cxx.rosey",
+"RandomItemId": null,
+"MinStack": 3,
+"MaxStack": 9,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack"}],
+"Texture": "Mods/potato.cxxcp/Crops",
+"TexturePosition": {"X": 128,"Y": 64},
+"TileSize": {"X": 3,"Y": 3},
+"Health": 3,
+"Chance": 0.01,
+"Condition": null,
+"CustomFields": {}}}}
+
+
+
+
+]}

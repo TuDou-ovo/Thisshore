@@ -1,0 +1,17 @@
+{"Name": "PotatoRing",
+"Companions":
+{"PotatoCat": 
+{"NumberToSummon": 1}},
+"Description": "能召唤猫猫形态的作者......意义不明.",
+"Category": "Ring",
+"CategoryTextOverride": "Friendship",
+"Edibility": -300,
+"CanSell": false,
+"CanTrash": false,
+"Recipe": null,
+"Price": 0,
+"CanPurchase": false,
+"NameLocalization": 
+{"zh": "土豆戒指"},
+"DescriptionLocalization":
+{"zh": "能召唤猫猫形态的作者......意义不明"}}

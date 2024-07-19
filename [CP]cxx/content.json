@@ -1,9 +1,7 @@
-{
-"Format": "2.0.0",
+{"Format": "2.0.0",
 
-"ConfigSchema": {
-  
- "Cropss": //选项名字
+"ConfigSchema": 
+{"Cropss": //选项名字
 {"AllowValues": "true, false",//开关
  "Default": "false",//默认
  "Section": "这是不同选项的分割线",
@@ -25,156 +23,176 @@
 },
 
 
- "Changes":[
+"Changes":[
 
 
-{"LogName": "链接·人物节庆位置",
-  "Action": "Include",
-  "FromFile": "NPC/Festivals/station.json"},
-	 
-
-{"LogName": "链接·人物节庆对话",
-  "Action": "Include",
-  "FromFile": "NPC/Festivals/Dialogue.json"},
-	 
-
-{"LogName": "链接·人物设定",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Disposition.json"},
-	 
-
-{"LogName": "链接·人物喜好",
-  "Action": "Include",
-  "FromFile": "NPC/Data/NPCGiftTastes.json"},
-
-
-{"LogName": "链接·人物动作",
-  "Action": "Include",
-  "FromFile": "NPC/Data/NPCanimation.json"},
-	 
-
-{"LogName": "链接·人物肖像",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Portraits.json"},
-	 
-
-{"LogName": "链接·人物行走图",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Sprites.json"},
-	 
-
-{"LogName": "链接·人物对话",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Dialogue.json"},
-	 
-
-{"LogName": "链接·人物婚后对话",
-  "Action": "Include",
-  "FromFile": "NPC/Data/MarriageDialogue.json"},
-	 
-
-{"LogName": "链接·人物行程",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Schedules.json"},
-
-
-{"LogName": "链接·人物电影对话",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Movies.json"},
-
-
-{"LogName": "链接·人物电影零食喜好",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Movieslove.json"},
-
-
-{"LogName": "链接·特殊对话",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Engagement.json"},
-
-
-{"LogName": "链接·事件",
+{"LogName": "Data·事件",
   "Action": "Include",
   "FromFile": "assets/Data/Events.json"},
 
+{"LogName": "Data·怪物",
+  "Action": "Include",
+  "FromFile": "assets/Data/Monsters.json"},
 
-{"LogName": "链接·任务",
+{"LogName": "Data任务",
   "Action": "Include",
   "FromFile": "assets/Data/Quests.json"},
 
-
-{"LogName": "链接·地图数据",
+{"LogName": "Data·商店",
   "Action": "Include",
-  "FromFile": "map/AA/Maps.json"},
+  "FromFile": "assets/Data/Shop.json"},
 
-
-{"LogName": "链接·地图传送点",
+{"LogName": "Data·特殊任务",
   "Action": "Include",
-  "FromFile": "map/AA/Mapsadd.json"},
+  "FromFile": "assets/Data/SpecialOrders.json"},
 
-
-{"LogName": "链接·地图配偶房",
+{"LogName": "Data·特殊任务文本",
   "Action": "Include",
-  "FromFile": "map/AA/SpouseRooms.json"},
+  "FromFile": "assets/Data/SpecialOrderStrings.json"},
 
 
-{"LogName": "链接·地图交互点",
+
+
+{"LogName": "Items·鱼缸",
   "Action": "Include",
-  "FromFile": "map/AA/MapsMessage.json"},
+  "FromFile": "assets/Items/AquariumFish.json"}, 
 
+{"LogName": "Items·家具",
+  "Action": "Include",
+  "FromFile": "assets/Items/BigCraftables.json"},  
 
-{"LogName": "链接·物品",
+{"LogName": "Items·料理配方",
+  "Action": "Include",
+  "FromFile": "assets/Items/CookingRecipes.json"},
+
+{"LogName": "Items·物品配方",
+  "Action": "Include",
+  "FromFile": "assets/Items/CraftingRecipes.json"},
+
+{"LogName": "Items·植株",
+  "Action": "Include",
+  "FromFile": "assets/Items/Crops.json"}, 
+
+{"LogName": "Items·农场动物",
+  "Action": "Include",
+  "FromFile": "assets/Items/Animals.json"}, 
+
+{"LogName": "Items·鱼数据",
+  "Action": "Include",
+  "FromFile": "assets/Items/Fish.json"},
+
+{"LogName": "Items·鱼塘",
+  "Action": "Include",
+  "FromFile": "assets/Items/FishPondData.json"},
+
+{"LogName": "Items·果树",
+  "Action": "Include",
+  "FromFile": "assets/Items/FruitTrees.json"},
+
+{"LogName": "Items·巨型植株",
+  "Action": "Include",
+  "FromFile": "assets/Items/GiantCrops.json"}, 
+
+{"LogName": "Items·帽子",
+  "Action": "Include",
+  "FromFile": "assets/Items/Hats.json"},
+ 
+{"LogName": "Items·物品",
   "Action": "Include",
   "FromFile": "assets/Items/Objects.json"},
 
-
-{"LogName": "链接·物品-帽子",
-  "Action": "Include",
-  "FromFile": "assets/Items/Hats.json"},
-
-
-{"LogName": "链接·物品-武器",
+{"LogName": "Items·武器",
   "Action": "Include",
   "FromFile": "assets/Items/Weapons.json"},
 
 
-{"LogName": "链接·物品-家具",
+
+
+{"LogName": "Map·新地图",
   "Action": "Include",
-  "FromFile": "assets/Items/BigCraftables.json"},
+  "FromFile": "map/AA/Maps.json"},
 
-
-{"LogName": "链接·配方-料理",
+{"LogName": "Map·钓鱼点",
   "Action": "Include",
-  "FromFile": "assets/Items/CookingRecipes.json"},
+  "FromFile": "map/AA/MapsFish.json"},
 
-
-{"LogName": "链接·配方-物品",
+{"LogName": "Map·交互点",
   "Action": "Include",
-  "FromFile": "assets/Items/CraftingRecipes.json"},
+  "FromFile": "map/AA/MapsMessage.json"},
 
-
-{"LogName": "链接·植株",
+{"LogName": "Map·传送点",
   "Action": "Include",
-  "FromFile": "assets/Items/Crops.json"},
+  "FromFile": "map/AA/MapsWarp.json"},
 
-
-{"LogName": "链接·鱼塘",
+{"LogName": "Map·配偶房",
   "Action": "Include",
-  "FromFile": "assets/Items/FishPond.json"},
+  "FromFile": "map/AA/SpouseRooms.json"},
 
-
-{"LogName": "链接·果树",
+{"LogName": "Map·世界地图",
   "Action": "Include",
-  "FromFile": "assets/Items/FruitTrees.json"},
+  "FromFile": "map/AA/WorldMap.json"},
 
-{"LogName": "链接-怪物",
+
+
+
+{"LogName": "NPC·节庆位置",
   "Action": "Include",
-  "FromFile": "assets/Data/Monsters.json"},
-
-
-{"LogName": "链接-商店",
+  "FromFile": "NPC/Festivals/station.json"},
+	 
+{"LogName": "NPC·节庆对话",
   "Action": "Include",
-  "FromFile": "assets/Data/Shop.json"},
+  "FromFile": "NPC/Festivals/Dialogue.json"},
+	 
+{"LogName": "NPC·设定",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Disposition.json"},
+	 
+{"LogName": "NPC·喜好",
+  "Action": "Include",
+  "FromFile": "NPC/Data/NPCGiftTastes.json"},
+
+{"LogName": "NPC·动作",
+  "Action": "Include",
+  "FromFile": "NPC/Data/NPCanimation.json"},
+	 
+{"LogName": "NPC·肖像",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Portraits.json"},
+	 
+{"LogName": "NPC·行走图",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Sprites.json"},
+	 
+{"LogName": "NPC·对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Dialogue.json"},
+	 
+{"LogName": "NPC·婚后对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/MarriageDialogue.json"},
+	 
+{"LogName": "NPC·行程",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Schedules.json"},
+
+{"LogName": "NPC·电影对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Movies.json"},
+
+{"LogName": "NPC·电影零食喜好",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Movieslove.json"},
+
+{"LogName": "NPC·特殊对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Engagement.json"}
+
+
+
+
+
+
+
 
 
 ]}

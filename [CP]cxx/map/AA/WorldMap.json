@@ -1,0 +1,106 @@
+{"Changes": [
+
+
+{"LongName": "添加世界地图",
+ "Action": "EditData",
+ "Target": "Data/WorldMap",
+ "Entries": 
+{"地图统称": 
+{"BaseTexture": [
+{"Id": "Default",
+ "Texture": "{{InternalAssetKey: assets/ginger-island.png}}"}],
+ "MapAreas": [//岛南（码头）区
+{"Id": "港岛南区",// 地图中该区域的基本信息
+ "PixelArea": { "X": 105, "Y": 105, "Width": 231, "Height": 240 },
+ "ScrollText": "Dock码头", // 仅作为示例，通常应进行翻译
+
+//将鼠标悬停在地图上的区域时显示的工具提示
+ "Tooltips": [
+{"Id": "Dock码头",
+ "Text": "Dock码头" // 仅作为示例，通常应进行翻译
+}],
+
+//如果度假村已解锁，请在默认的姜岛地图上叠加自定义纹理
+ "Textures": [
+{"Id": "Resort",
+ "Texture": "{{InternalAssetKey: assets/resort.png}}",
+ "Condition": "PLAYER_HAS_FLAG Any Island_Resort"}],
+
+//属于此世界地图区域的游戏内位置
+ "WorldPositions": [
+{"LocationName": "IslandSouth港岛南区"}]}]}},
+
+//世界地图
+"WorldPositions": [
+{"Id": "Quarry",
+"LocationName": "Mountain",
+"TileArea": { "X": 95, "Y": 11, "Width": 36, "Height": 24 },
+"ExtendedTileArea": { "X": 95, "Y": 0, "Width": 255, "Height": 255 },
+"MapPixelArea": { "X": 236, "Y": 29, "Width": 28, "Height": 19 }},
+
+{"Id": "Lake_Guild",
+"LocationName": "Mountain",
+"TileArea": { "X": 73, "Y": 5, "Width": 22, "Height": 30 },
+"ExtendedTileArea": { "X": 73, "Y": 0, "Width": 22, "Height": 255 },
+"MapPixelArea": { "X": 227, "Y": 29, "Width": 9, "Height": 19 }},
+
+{"Id": "Lake_BetweenGuildAndMine",
+"LocationName": "Mountain",
+"TileArea": { "X": 57, "Y": 5, "Width": 16, "Height": 32 },
+"ExtendedTileArea": { "X": 57, "Y": 0, "Width": 16, "Height": 255 },
+"MapPixelArea": { "X": 224, "Y": 29, "Width": 3, "Height": 19 }},
+
+{"Id": "Lake_Mine",
+"LocationName": "Mountain",
+"TileArea": { "X": 52, "Y": 5, "Width": 5, "Height": 30 },
+"ExtendedTileArea": { "X": 52, "Y": 0, "Width": 5, "Height": 255 },
+"MapPixelArea": { "X": 220, "Y": 29, "Width": 4, "Height": 19 }},
+
+{"Id": "Lake_MineBridge",
+"LocationName": "Mountain",
+"TileArea": { "X": 44, "Y": 5, "Width": 8, "Height": 30 },
+"ExtendedTileArea": { "X": 44, "Y": 0, "Width": 8, "Height": 255 },
+"MapPixelArea": { "X": 210, "Y": 29, "Width": 10, "Height": 19 }},
+
+{"Id": "West",
+"LocationName": "Mountain",
+"TileArea": { "X": 0, "Y": 5, "Width": 44, "Height": 30 },
+"ExtendedTileArea": { "X": 0, "Y": 0, "Width": 44, "Height": 255 },
+"MapPixelArea": { "X": 175, "Y": 29, "Width": 35, "Height": 19 }},
+
+{"Id": "Default",
+"LocationName": "Mountain"},
+//固定位置
+{"Id": "East_NearJojaMart",
+"LocationName": "Town",
+        "TileArea": { "X": 85, "Y": 0, "Width": 255, "Height": 68 },
+        "MapPixelArea": { "X": 225, "Y": 81, "Width": 1, "Height": 1 }},
+    {
+        "Id": "East_NearMuseum",
+        "LocationName": "Town",
+        "TileArea": { "X": 81, "Y": 68, "Width": 255, "Height": 255 },
+        "MapPixelArea": { "X": 220, "Y": 108, "Width": 1, "Height": 1 }},
+    {
+        "Id": "West_North",
+        "LocationName": "Town",
+        "TileArea": { "X": 0, "Y": 0, "Width": 85, "Height": 43 },
+        "MapPixelArea": { "X": 178, "Y": 64, "Width": 1, "Height": 1 }},
+    {
+        "Id": "West_Center",
+        "LocationName": "Town",
+        "TileArea": { "X": 0, "Y": 43, "Width": 85, "Height": 33 },
+        "MapPixelArea": { "X": 175, "Y": 88, "Width": 1, "Height": 1 }},
+    {
+        "Id": "West_South",
+        "LocationName": "Town",
+        "MapPixelArea": { "X": 182, "Y": 109, "Width": 0, "Height": 0 }}
+]}
+
+
+
+
+
+
+
+
+]}

@@ -120,8 +120,10 @@
 
 
 //其他
-"cxx.potatoRing.name":"土豆戒指",
-"cxx.potatoRing.de":"可以召唤猫猫形态的作者...意义不明",
+"cxx.warp.name":"土豆图腾",
+"cxx.warp.de":"测试用传送",
+"cxx.Dolllspring.name":"发条",
+"cxx.Dolllspring.de":"在梦中之地深处获得的发条，是玩偶丢失的那个...",
 
 //家具
 "cxx.Teatable.name":"茶水台",

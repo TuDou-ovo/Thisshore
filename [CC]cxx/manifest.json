@@ -1,0 +1,12 @@
+﻿{"Name": "此岸-CC",
+ "Author": "土豆",
+ "Version": "1.1.0",
+ "Description": "模组内容均为作者个人设计的世界观内容~该文件夹是cc+ja前置内容所在~",
+ "UniqueID": "potato.cxxcc",
+ "UpdateKeys": [],
+ "Dependencies": [
+{"UniqueID": "spacechase0.JsonAssets",
+ "IsRequired": true}],
+ "ContentPackFor": 
+{"UniqueID": "PeacefulEnd.CustomCompanions",
+ "MinimumVersion": "1.6.3"}}
