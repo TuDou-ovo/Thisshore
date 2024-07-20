@@ -1,7 +1,7 @@
 {
   "Name": "PotatoCat",
   "Type": "Walking",
-  "FrameSizeWidth": 16,
+  "FrameSizeWidth": 32,
   "FrameSizeHeight": 32,
   "TravelSpeed": 4,
   "SpawnOffsetX": -64,
