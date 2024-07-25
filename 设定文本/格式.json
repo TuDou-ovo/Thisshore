@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
-插入地图
+//插入地图
 
 {"LogName": "替换",
   "Action": "EditMap",
@@ -13,11 +13,10 @@
   "Action": "EditMap",
   "Target": "Maps/地图名字",
   "AddWarps":["1 10 cxxmap.TangfHome1 7 14"],
-
  "MapProperties":
 {"NPCWarp": "1 10 cxxmap.TangfHome1 7 14"}}
 
-加载地图
+//加载地图
 
 {"LogName": "加载",
   "Action": "Load",
@@ -28,12 +27,10 @@
   "Action": "EditData",
   "Target": "Data/Locations",
   "Entries":
-
 {"cxxmap.地图名字":
 {"CreateOnLoad": 
 {"MapPath":"Maps/cxxmap.地图名字"},
  "FormerLocationNames":["Custom_cxxmap.地图名字"]}},
-
  "MapProperties":
 {"NPCWarp": "3 13 cxxmap.RES5 70 41"}},
 -------------------------------------------------------------------------------------------
@@ -47,7 +44,6 @@
   "Action": "EditData",
   "Target": "Data/NPCGiftTastes",
   "Entries": 
-  
 {"角色英文名": "{{i18n:角色英文名.LoveGift0}}/id/{{i18n:角色英文名.LikeGift0}}/id/{{i18n:角色英文名.DisGift0}}/id/{{i18n:角色英文名.HateGift0}}/id/{{i18n:角色英文名.NeuGift0}}/id/"},
  "When": {"Hearts:角色英文名": "0,1,2"}},
 
@@ -55,7 +51,6 @@
   "Action": "EditData",
   "Target": "Data/NPCGiftTastes",
   "Entries": 
-  
 {"角色英文名": "{{i18n:角色英文名.LoveGift1}}/id/{{i18n:角色英文名.LikeGift1}}/id/{{i18n:角色英文名.DisGift1}}/id/{{i18n:角色英文名.HateGift1}}/id/{{i18n:角色英文名.NeuGift1}}/id/"},
  "When": {"Hearts:角色英文名": "3,4,5,6,7,8,9,10"}}
 -------------------------------------------------------------------------------------------
@@ -69,7 +64,6 @@
   "Action": "EditData",
   "Target": "Strings/StringsFromCSFiles",
   "Entries": 
-
 {"NPC.cs.3985": "{{i18n:角色英文名.cccc}}"},
  "When":
 {"Relationship:角色英文名":"Engaged, Married"}}
@@ -83,12 +77,10 @@
 {"角色英文名": 
 {"NPCName": "角色英文名",
  "Reactions": [
-
 {"LogName": "谁的电影对话关于小树苗",
   "Tag": "spring_movie_0",
   "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
   "Whitelist": [],
-
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:角色英文名.BeforeMovie2}}"},
@@ -102,7 +94,6 @@
   "Tag": "summer_movie_0",
   "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
   "Whitelist": [],
-
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:角色英文名.BeforeMovie3}}"},
@@ -116,7 +107,6 @@
   "Tag": "fall_movie_0",
   "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
   "Whitelist": [],
-
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:角色英文名.BeforeMovie4}}"},
@@ -130,7 +120,6 @@
   "Tag": "winter_movie_0",
   "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
   "Whitelist": [],
-
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:角色英文名.BeforeMovie5}}"},
@@ -144,7 +133,6 @@
   "Tag": "spring_movie_1",
   "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
   "Whitelist": [],
-
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:角色英文名.BeforeMovie6}}"},
@@ -158,7 +146,6 @@
   "Tag": "summer_movie_1",
   "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
   "Whitelist": [],
-
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:角色英文名.BeforeMovie7}}"},
@@ -172,7 +159,6 @@
   "Tag": "fall_movie_1",
   "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
   "Whitelist": [],
-
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:角色英文名.BeforeMovie8}}"},
@@ -186,7 +172,6 @@
   "Tag": "winter_movie_1",
   "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
   "Whitelist": [],
-
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:角色英文名.BeforeMovie9}}"},
@@ -201,7 +186,7 @@
   "Action": "EditData",
   "Target": "Data/ConcessionTastes",
   "Entries": 
-  
+
 {"角色英文名": 
 {"Name": "角色英文名",
   "LovedTags": [ 最爱的 ],
@@ -213,7 +198,7 @@
   "Action": "EditData",
   "Target": "Data/Characters",
   "Entries": 
-  
+
 {"角色英文名": 
 {"DisplayName": "{{i18n:角色英文名.name}}",
   "BirthSeason": 0123,//春夏秋冬
@@ -245,7 +230,6 @@
 {"亲友英文名":"{{i18n:角色英文名.family}}"},//朋友和家人
   "UnlockConditions": null,//解锁条件
   "SpawnIfMissing": true,//如果丢失则繁殖
-
  "Home": [
 {"Id": "Default",
   "Location": "cxxmap.地图名字",
@@ -261,35 +245,47 @@
   "HiddenProfileEmoteFrameDuration": 200.0,
   "FestivalVanillaActorIndex": 0,
   "CustomFields": {},
-
  "SpouseRoom":
 {"MapAsset": "cxx.SpouseRooms",
  "MapSourceRect":{ "X": 0, "Y": 0, "Width": 6, "Height": 9 }},//起始坐标
-				
  "SpousePatio": 
 {"MapAsset": "cxx.SpousePatios",
  "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 }}}}},//起始坐标
 
- -------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 
+{"LongName": "添加新任务",
+ "Action": "EditData",
+ "Target": "Data/Quests",
+ "Entries":
 
-{"LogName":"添加室友物品",
-  "Action": "EditData",
-  "Target": "Data/ObjectContextTags",
- "TextOperations": [
+{
+"1215522001":"类型/这是用于测试的任务标题/这是用于测试的任务内容文本/你做些什么去完成这个测试任务/此处见注释/下一个任务的id-1是无/报酬多少/-1未使用/true可取消/交付任务后角色说什么",
 
-{"Operation": "Append",
- "Target": ["Entries","物品id"],
- "Value": "propose_roommate_角色英文名",
- "Delimiter": ", ",
- "When": {条件}}]},
+}}
 
+//任务类型 
+//Location        位置      在注释处填需要去的地图  
+//Basic           基础      填null  
+//ItemHarvest     获取     (O)物品id 数量
+//Building        建筑     建筑名称  
+//Crafting        制造     (BC)物品id
+//Social          社交     不清楚用处...
+//Monster         杀怪     怪物名称 数量
+//SecretLostItem  隐藏丢失  角色名 (O)物品id 100 129
+//LostItem        丢失     角色 (O)物品 地图 x y
+//Fishing         钓鱼     原版填的-1...
+//ItemDelivery    交付     角色 (O)物品 数量
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 {"LogName": "室友邀请对话",
  "Action": "EditData",
  "Target": "Data/EngagementDialogue",
  "Entries":
+
 {"角色Roommate0": "对话1",
  "角色Roommate1": "对话2"}},
    
@@ -297,6 +293,7 @@
   "Action": "EditData",
   "Target": "Strings/StringsFromCSFiles",
   "Entries":
+
 {"英文名_EngagedRoommate": "对话11"}},
 
  -------------------------------------------------------------------------------------------
@@ -304,8 +301,18 @@
 when条件
 "When": 
 {
-"HasSeenEvent |contains=事件id": "true",
-"配置名": "false"
+"HasSeenEvent |contains=事件id": "true",//事件
+"HasSeenEvent":"事件id",//看过事件
+"配置名": "false",//配置菜单
+"Relationship:角色":"Engaged, Married",//关系
+"Hearts:角色": "0,1,2",//好感度
+"Weather": "Rain,Storm,Snow",//天气
+"Time": "{{Range: 600, 2600}}",//时间
+"Year": "1",//第一年
+"Year |contains=1": "false",//第一年以外
+"Year |contains=2,4,6,8,10": "true",//奇数或者偶数年
+"DayOfWeek":"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday",//星期
+"HasMod |contains=模组id": true,//模组启用
       }
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
@@ -320,6 +327,133 @@ when条件
   "FromFile": "NPC/Sprites/另一个文件名.png"}
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
+
+{"LongName": "添加新特殊任务",
+ "Action": "EditData",
+ "Target": "Data/SpecialOrders",
+ "Entries":
+
+{"角色": 
+{"Name": "[订单名称]",//新的订单
+"Requester": "角色",
+"Duration": "Week",//订单时间Day, ThreeDays, Week, TwoWeeks,  Month.
+"Repeatable": "False",//订单能不能重复完成
+"RequiredTags"://出现的条件 没有就留空
+"season_季节,event_事件,mail_邮件,rule_指定规则↓,dropbox_指定的这个正在被使用↓,island姜岛解锁,knows_已经认识了哪个角色",
+"OrderType": "",//空白或者Qi
+"SpecialRule": "",//此订单应用的特殊规则列表
+//DROP_QI_BEANS可以找到齐豆LEGENDARY_FAMILY重置鱼王LEGENDARY_FAMILY提高矿洞难度LEGENDARY_FAMILY下矿不许吃饭
+"Text": "[任务内容]",//我发布了一个新任务，谁来帮帮咱~~
+"ItemToRemoveOnEnd": null,//从所有库存和容器中删除指定物料ID的所有实例。用来防止持有任务物品。
+"MailToRemoveOnEnd": null,//将指定的邮件设置为未读。
+"RandomizedElements": null,//随机元素
+
+"Objectives": [
+//AcceptedContextTags字段指定必需项的上下文标记。它由以下格式的字符串组成：
+
+//玩家必须获得与AcceptedContextTags字段匹配的物品。物品必须从未出现在玩家物品栏中。
+//这适用于收集物品的任何方法（例如，收割庄稼，杀死怪物，从机器上收集，烹饪菜肴等）
+//对如何收集物品没有限制;例如，祖母绿的特殊订单将同样发现与宝石中发现的矿山或生产的水晶。
+{"Type": "Collect",
+ "Text": "[该做些什么]",//收集一些虫肉。
+ "RequiredCount": "100",//数量
+ "Data": 
+{"AcceptedContextTags": "item_物品英文名"}},//空格用_替代
+
+//玩家必须将与AcceptedContextTags字段匹配的物品给予给定的角色。
+//这不计入角色的礼物限制。
+{"Type": "Deliver",
+//这段同上
+ "Data": 
+},
+
+//相当于收集，但只计算通过钓鱼找到的物品。
+{"Type": "Fish",
+//这段同上
+"Data": 
+},
+
+//玩家必须将与AcceptedContextTags字段匹配的物品给予给定的角色。
+//这将计入角色的礼物限制。参数可以包括最低礼品品味水平。
+{"Type": "Gift",
+//这段同上
+"Data": 
+},
+
+//玩家必须达到至少给定的Junimo卡丁车分数。
+//这将跟踪特殊订单处于活动状态时达到的最高分数。
+{"Type": "JKScore",
+//这段同上
+"Data": 
+},
+
+//在特殊命令处于活动状态时，玩家必须到达或超过矿井或骷髅洞的指定楼层（取决于骷髅洞区域）。
+{"Type": "ReachMineFloor",
+//这段同上
+"Data": 
+},
+
+//玩家必须通过符合AcceptedContextTags字段的运输箱运输物品。
+//任务目标是在物品被收集起来的时候进行的，而不是在它们被放进垃圾桶的时候。
+//玩家仍然可以像往常一样从运送的物品中获得金钱。可将“运费值”字段（默认为“假”）设置为“真”，
+//以要求运送一定金额的物品，而不是一定数量的物品。
+{"Type": "Ship",
+//这段同上
+"Data": 
+},
+
+//玩家必须将与AcceptedContextTags字段匹配的项目添加到哪里
+{"Type": "Donate",
+ "Text": "[Willy_Objective_1_Text]",
+ "RequiredCount": "100",
+ "Data": 
+{"DropBox": "添加的名字",
+ "DropBoxGameLocation": "地图",
+ "DropBoxIndicatorLocation": "x y",
+ "AcceptedContextTags": "item_物品"}},
+
+//玩家必须在特殊命令生效时杀死最少数量的给定名称的怪物。
+{"Type": "Slay",
+//这段同上
+"Data": 
+},
+
+],
+
+ "Rewards": [
+
+//增加友谊的数量，默认为250点（1颗心），并为请求的NPC。如果指定，单位是根据友谊点的数量，而不是心。
+{"Type": "Friendship",
+ "Data": 
+{"Amount": "250", //整数
+ "TargetName": "角色名" }},// string
+
+ //齐钻
+{"Type": "Gems",
+ "Data": 
+{"Amount": "数量" }},//整数
+
+
+ //“NoLetter”控制是否存在与邮件标志相对应的实际信件，默认为true（不发送邮件）。
+ //(TODO：验证这一点。）“主机”默认为false。
+{"Type": "Mail",
+ "Data": 
+{"MailReceived": "邮件id", //
+ "NoLetter": "true/false"}},
+
+//总金额为金额 * 乘数。
+{"Type": "Money",
+ "Data": 
+{"Amount": "3000"}},
+
+//从玩家看到的事件ID列表中删除事件ID，从而使事件可重复。
+{"Type": "ResetEvent",
+ "Data": 
+{"ResetEvents": "事件id 事件id 事件id" // 空格隔开的整数
+}}]}}}
+    
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 {"LogName": "怪物贴图",
   "Action": "Load",
   "Target": "Characters/Monsters/怪物英文名",
@@ -329,7 +463,6 @@ when条件
   "Action": "EditData",
   "Target": "Data/Monsters",
   "Entries":
-
 {"怪物英文名": "血量/攻击/最小硬币下降0/最大硬币下降0/飞行怪物false-true/随机运动持续时间1000/要删除的对象766 .75 766 .05 153 .1 66 .015 92 .15 96 .005 99 .001/防御1/神经过敏？？.01/仇恨距离格4/速度2/攻击机会缺失.00/无论是“矿怪”true/战斗经验3/{{i18n:怪物英文名.name}}"}}
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
@@ -337,7 +470,6 @@ when条件
   "Action": "EditData",
   "Target": "Data/CraftingRecipes",
   "Entries": 
-
 {"物品英文名": "物品id 数量 物品英文名 数量/Home/物品英文名/false-不可拆解/Foraging 数量/{{i18n:物品英文名.name}}",//开局解锁
  "物品英文名": "物品id 数量 物品英文名 数量/Home/物品英文名/false-不可拆解/Foraging 数量/{{i18n:物品英文名.name}}"}}
 -------------------------------------------------------------------------------------------
@@ -346,7 +478,6 @@ when条件
   "Action": "EditData",
   "Target": "Data/CookingRecipes",
   "Entries":
-
 {"英文名": "物品id 数量 物品英文名 数量/10 10/料理英文名/f 角色英文名 好感度心级/{{i18n:料理英文名.name}}",//好感度解锁//绑定信件
  "英文": "物品id 数量 物品英文名 数量/10 10/料理英文/default/{{i18n料理.name}}",}}
 -------------------------------------------------------------------------------------------
@@ -358,21 +489,17 @@ when条件
  
 {"商店英文名": 
 {"Owners": [
-
 {"Name": "店主英文名",
  "Dialogues": [
 {"Id": "商店英文名Open",
  "Dialogue": "{{i18n:商店英文名.de}}"}]},
-
 {"Name": "None是没角色",
  "ClosedMessage": "{{i18n:商店英文名.cde}}"}],
-
  "Items": [
 {"Id": "物品id",
   "Price": 价格,
   "ItemId": "(O)物品id",
   "Condition": "SEASON 春spring夏summer秋fall冬winter"},
-
 {"Id": "id",
   "Price": 500,
   "ItemId": "(O)id",
@@ -399,7 +526,6 @@ when条件
   "Action": "EditData",
   "Target": "Data/Fish",
   "Entries":
-
 {"鱼英文名": "鱼英文名/频率15-100/小游戏浮标行为mixed、smooth、floater、sinker,dart/最小尺寸*2.54是厘米/最大尺寸*2.54是厘米/可以钓的600 2400/季节春spring夏summer秋fall冬winter/晴雨天both*rainy/这一串是概率什么的要算有点辅助还是看wiki吧690 .4 685 .1/4/.3/.5/0最低捕鱼水平出现",
  "鱼英文名": "鱼英文名/频率15-100/小游戏浮标行为mixed、smooth、floater、sinker,dart/最小尺寸*2.54是厘米/最大尺寸*2.54是厘米/可以钓的600 2400/季节春spring夏summer秋fall冬winter/晴雨天both*rainy/这一串是概率什么的要算有点辅助还是看wiki吧690 .4 685 .1/4/.3/.5/0最低捕鱼水平出现",}},
  -------------------------------------------------------------------------------------------
@@ -408,7 +534,6 @@ when条件
   "Action": "EditData",
   "Target": "Data/Locations",
   "Fields": 
-
 {"地图名字": 
 {"Fish": [
 {"ItemId": "鱼王英文名",
@@ -441,7 +566,6 @@ when条件
 {"RequiredTags": ["item_鱼英文名"],
   "Precedence": 0,//优先级
   "SpawnTime": -1,//繁殖时间
-
  "ProducedItems": [//产出物品
 {"RequiredPopulation": 10,//鱼塘鱼数量
   "Chance": 0.00,//概率
@@ -463,7 +587,6 @@ when条件
   "ItemID": 物品id,
   "MinQuantity": 最小数量,
   "MaxQuantity": 最大数量}],
-
  "PopulationGates": 
 {"2": ["id 数量"],
  "4": ["id 数量"],

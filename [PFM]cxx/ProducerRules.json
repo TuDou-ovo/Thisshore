@@ -12,7 +12,31 @@
   "Sounds": [ "thudStep" ]},
 
 
-//魔法研钵 贴图测试
+ //奶茶*没写
+ {"ProducerQualifiedItemId": "(BC)cxx.Teatable",
+ "InputIdentifier": "815", 
+ "InputStack": 1,
+ "FuelIdentifier": "cxx.antea",
+ "FuelStack": 1,
+ "MinutesUntilReady": 600,
+ "OutputIdentifier": "(O)cxx.blacktea", 
+ "OutputPriceIncrement": 528,
+ "Sounds": [ "thudStep" ]},
+
+
+ //花茶*没写
+ {"ProducerQualifiedItemId": "(BC)cxx.Teatable",
+ "InputIdentifier": "815", 
+ "InputStack": 1,
+ "FuelIdentifier": "cxx.antea",
+ "FuelStack": 1,
+ "MinutesUntilReady": 600,
+ "OutputIdentifier": "(O)cxx.blacktea", 
+ "OutputPriceIncrement": 528,
+ "Sounds": [ "thudStep" ]},
+
+
+//魔法研钵*没写
 {"ProducerQualifiedItemId": "(BC)cxx.mortar",
   "InputIdentifier": "815", 
   "InputStack": 1,
@@ -24,7 +48,7 @@
   "Sounds": [ "thudStep" ]},
 
 
-//液压器 贴图测试
+//液压器*没写
 {"ProducerQualifiedItemId": "(BC)cxx.compress",
   "InputIdentifier": "815", 
   "InputStack": 1,

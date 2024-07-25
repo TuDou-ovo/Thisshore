@@ -1,135 +1,56 @@
 {"Changes": [
 
 
-{"LongName": "添加新特殊任务",
+{"LongName": "长乐的茶叶需求",
  "Action": "EditData",
  "Target": "Data/SpecialOrders",
  "Entries":
 
-{"角色": 
-{"Name": "[订单名称]",//新的订单
-"Requester": "角色",
-"Duration": "Week",//订单时间Day, ThreeDays, Week, TwoWeeks,  Month.
-"Repeatable": "False",//订单能不能重复完成
-"RequiredTags"://出现的条件 没有就留空
-"season_季节,event_事件,mail_邮件,rule_指定规则↓,dropbox_指定的这个正在被使用↓,island姜岛解锁,knows_已经认识了哪个角色",
-"OrderType": "",//空白或者Qi
-"SpecialRule": "",//此订单应用的特殊规则列表
-//DROP_QI_BEANS可以找到齐豆LEGENDARY_FAMILY重置鱼王LEGENDARY_FAMILY提高矿洞难度LEGENDARY_FAMILY下矿不许吃饭
-"Text": "[任务内容]",//我发布了一个新任务，谁来帮帮咱~~
-"ItemToRemoveOnEnd": null,//从所有库存和容器中删除指定物料ID的所有实例。用来防止持有任务物品。
-"MailToRemoveOnEnd": null,//将指定的邮件设置为未读。
-"RandomizedElements": null,//随机元素
+{"cxx.Ancl": 
+{"Name": "[cxx.Ancl.SpecialOrders.Name]",
+"Requester": "cxx.Ancl",
+"Duration": "TwoWeeks",
+"Repeatable": "true",
+"RequiredTags":"knows_cxx.Ancl",
+"OrderType": "",
+"SpecialRule": "",
+"Text": "[cxx.Ancl.SpecialOrders.Text]",
+"ItemToRemoveOnEnd": null,
+"MailToRemoveOnEnd": null,
+"RandomizedElements": null,
 
 "Objectives": [
-//AcceptedContextTags字段指定必需项的上下文标记。它由以下格式的字符串组成：
-
-//玩家必须获得与AcceptedContextTags字段匹配的物品。物品必须从未出现在玩家物品栏中。
-//这适用于收集物品的任何方法（例如，收割庄稼，杀死怪物，从机器上收集，烹饪菜肴等）
-//对如何收集物品没有限制;例如，祖母绿的特殊订单将同样发现与宝石中发现的矿山或生产的水晶。
 {"Type": "Collect",
- "Text": "[该做些什么]",//收集一些虫肉。
- "RequiredCount": "100",//数量
+ "Text": "[cxx.Ancl.SpecialOrders.Objective0]",
+ "RequiredCount": "50",
  "Data": 
-{"AcceptedContextTags": "item_物品英文名"}},//空格用_替代
+{"AcceptedContextTags": "item_Tea_Leaves"}},
 
-//玩家必须将与AcceptedContextTags字段匹配的物品给予给定的角色。
-//这不计入角色的礼物限制。
-{"Type": "Deliver",
-//这段同上
- "Data": 
-},
-
-//相当于收集，但只计算通过钓鱼找到的物品。
-{"Type": "Fish",
-//这段同上
-"Data": 
-},
-
-//玩家必须将与AcceptedContextTags字段匹配的物品给予给定的角色。
-//这将计入角色的礼物限制。参数可以包括最低礼品品味水平。
-{"Type": "Gift",
-//这段同上
-"Data": 
-},
-
-//玩家必须达到至少给定的Junimo卡丁车分数。
-//这将跟踪特殊订单处于活动状态时达到的最高分数。
-{"Type": "JKScore",
-//这段同上
-"Data": 
-},
-
-//在特殊命令处于活动状态时，玩家必须到达或超过矿井或骷髅洞的指定楼层（取决于骷髅洞区域）。
-{"Type": "ReachMineFloor",
-//这段同上
-"Data": 
-},
-
-//玩家必须通过符合AcceptedContextTags字段的运输箱运输物品。
-//任务目标是在物品被收集起来的时候进行的，而不是在它们被放进垃圾桶的时候。
-//玩家仍然可以像往常一样从运送的物品中获得金钱。可将“运费值”字段（默认为“假”）设置为“真”，
-//以要求运送一定金额的物品，而不是一定数量的物品。
-{"Type": "Ship",
-//这段同上
-"Data": 
-},
-
-//玩家必须将与AcceptedContextTags字段匹配的项目添加到哪里
 {"Type": "Donate",
- "Text": "[Willy_Objective_1_Text]",
+ "Text": "[cxx.Ancl.SpecialOrders.Objective1]",
  "RequiredCount": "100",
  "Data": 
-{"DropBox": "添加的名字",
- "DropBoxGameLocation": "地图",
- "DropBoxIndicatorLocation": "x y",
- "AcceptedContextTags": "item_物品"}},
+{"DropBox": "茶水台的抽屉",
+ "DropBoxGameLocation": "cxxmap.RES1",
+ "DropBoxIndicatorLocation": "1 1",
+ "AcceptedContextTags": "item_Tea_Leaves"}},
 
-//玩家必须在特殊命令生效时杀死最少数量的给定名称的怪物。
-{"Type": "Slay",
-//这段同上
-"Data": 
-},
-
-],
-
- "Rewards": [
-
-//增加友谊的数量，默认为250点（1颗心），并为请求的NPC。如果指定，单位是根据友谊点的数量，而不是心。
 {"Type": "Friendship",
  "Data": 
-{"Amount": "250", //整数
- "TargetName": "角色名" }},// string
+{"Amount": "250", 
+ "TargetName": "cxx.Ancl" }},
 
- //齐钻
-{"Type": "Gems",
- "Data": 
-{"Amount": "数量" }},//整数
-
-
- //“NoLetter”控制是否存在与邮件标志相对应的实际信件，默认为true（不发送邮件）。
- //(TODO：验证这一点。）“主机”默认为false。
-{"Type": "Mail",
- "Data": 
-{"MailReceived": "邮件id", //
- "NoLetter": "true/false"}},
-
-//总金额为金额 * 乘数。
 {"Type": "Money",
  "Data": 
-{"Amount": "3000"}},
-
-//从玩家看到的事件ID列表中删除事件ID，从而使事件可重复。
-{"Type": "ResetEvent",
- "Data": 
-{"ResetEvents": "事件id 事件id 事件id" // 空格隔开的整数
-}}]}}}
-    
-    
-    
+{"Amount": "3000"}}]}}}
     
     
     
     
 
-    ]}
+
+    
+    
+    
+
+]}

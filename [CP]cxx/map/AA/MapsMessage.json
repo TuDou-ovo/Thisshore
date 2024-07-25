@@ -6,8 +6,13 @@
   "Target": "Strings/StringsFromMaps",
   "Entries":
 
-{"RES3.1":"{{i18n:RES3.1}}",
-  "RES1.1":"{{i18n:RES1.1}}"}}
+{
+"RES3.1":"{{i18n:RES3.1}}",
+"RES1.1":"{{i18n:RES1.1}}"
+
+
+
+}}
 
 
 

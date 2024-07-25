@@ -1,0 +1,33 @@
+{"Changes":[
+
+
+{"LogName":"枫-单数年-月光水母站位",
+  "Action": "EditData",
+  "Target": "Data/Festivals/summer28",
+  "TextOperations": [
+{"Operation": "Append",
+  "Target": ["Entries","Set-Up_additionalCharacters"],
+  "Value": "cxx.Tangf 32 55 2"}],
+ "When": 
+{"Year |contains=2,4,6,8,10": "false"}},
+
+
+{"LogName":"枫-偶数年-月光水母站位",
+  "Action": "EditData",
+  "Target": "Data/Festivals/summer28",
+  "TextOperations": [
+{"Operation": "Append",
+  "Target": ["Entries","Set-Up_additionalCharacters"],
+  "Value": "cxx.Tangf 32 55 2"}],
+ "When": 
+{"Year |contains=2,4,6,8,10": "true"}},
+
+
+
+
+
+
+
+
+
+]}

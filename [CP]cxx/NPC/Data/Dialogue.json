@@ -1,15 +1,19 @@
 {"Changes":[
   
 
-{"LogName": "Load Empty",
+{"LogName": "虽然不知道Empty是干什么的但大家都写了我也写一个叭",
   "Action": "Load",
   "Target": "Characters/Dialogue/cxx.Tangf,Characters/Dialogue/cxx.Dolll,",
   "FromFile": "NPC/Data/Empty.json"},
    
 
-{"LogName": "角色对话文件",
+{"LogName": "唐枫对话文件",
   "Action": "Include",
-  "FromFile": "NPC/Dialogue/Tangf.json,NPC/Dialogue/Dolll.json,"}  
+  "FromFile": "NPC/Dialogue/Tangf.json"},
+   
+{"LogName": "玩偶对话文件",
+  "Action": "Include",
+  "FromFile": "NPC/Dialogue/Dolll.json,"}  
    
    
 

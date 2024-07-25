@@ -4,7 +4,7 @@
 {"LogName": "作物贴图位置",
   "Action": "Load",
   "Target": "Mods/potato.cxxcp/Crops",
-  "FromFile": "assets/Objects/Crops.png"},
+  "FromFile": "assets/Objects/GiantCrops.png"},
 
 
 {"LogName": "涸玫作物",
@@ -33,9 +33,9 @@
 "StackModifierMode": "Stack",
 "QualityModifiers": null,
 "QualityModifierMode": "Stack"}],
-"Texture": "Mods/potato.cxxcp/Crops",
-"TexturePosition": {"X": 128,"Y": 64},
-"TileSize": {"X": 3,"Y": 3},
+"Texture": "Mods/potato.cxxcp/GiantCrops",
+"TexturePosition": {"X": 0,"Y": 0},
+"TileSize": {"X": 3,"Y": 4},
 "Health": 3,
 "Chance": 0.01,
 "Condition": null,

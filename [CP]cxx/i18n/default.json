@@ -11,7 +11,8 @@
 "cxxp.shibing.name":"柿饼配方",
 "cxxp.tanghl.name":"糖葫芦配方",
 
-///作物
+
+//果树
 "cxx.Snakefruit.name":"蛇果",
 "cxx.Snakefruit.de":"一种和苹果很像的水果",
 "cxx.SnakefruitBasic.name":"蛇果树苗",
@@ -37,7 +38,7 @@
 "cxx.WineButterflyseed.name":"酒蝶树树苗",
 "cxx.WineButterflyseed.de":"28天成熟为成年酒蝶树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
-
+//植株
 "cxx.Tianxinghua.name":"天星花",
 "cxx.Tianxinghua.de":"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
 "cxx.Tianxinghuaseed.name":"天星花种子",
@@ -119,19 +120,28 @@
 "cxx.Yuanxpen.de":"和她本人一样，系着蝴蝶结，但是和手臂一样长的画笔真的能好好画画吗？",
 
 
+//怪物
+"cxx.Rabbithat":"兔儿帽",
+
+
 //其他
 "cxx.warp.name":"土豆图腾",
 "cxx.warp.de":"测试用传送",
 "cxx.Dolllspring.name":"发条",
 "cxx.Dolllspring.de":"在梦中之地深处获得的发条，是玩偶丢失的那个...",
 
-//家具
+//机器
 "cxx.Teatable.name":"茶水台",
 "cxx.Teatable.de":"木制的柜子上放着蓝色的茶台,把茶叶放进去可以泡出茶,试试长乐给你寄来的茶叶吧",
 "cxx.mortar.name":"魔法研钵",
 "cxx.mortar.de":"放进原料就会自己运作起来，方便且省事",
 "cxx.compress.name":"液压器",
 "cxx.compress.de":"能把原料压缩，话说脑袋上那个像兔儿一样的东西为什么会动？",
+
+//家具
+//肖像
+"cxx.TangfPortrait.name":"唐枫的肖像",
+"cxx.DolllPortrait.name":"玩偶的肖像",
 
 //菜品
 "cxx.toast.name":"一片吐司",
@@ -140,8 +150,8 @@
 "cxx.Pineapplebun.de":"每周会在食堂出售两天的饭后小甜点,想尝尝的话要早点去排队了",
 "cxx.hudiejiu.name":"蝴蝶酿",
 "cxx.hudiejiu.de":"虽然某个人说了这是酒,但是喝下去倒是不会感觉醉呢",
-"cxx.sugartea.name":"全糖不加料奶茶",
-"cxx.sugartea.de":"甜过头了,但是不由自主的想起了某个很喜欢甜食的家伙",
+"cxx.sugartea.name":"奶盖奶茶",
+"cxx.sugartea.de":"加了过量的糖，某个人一定会非常喜欢",
 "cxx.blacktea.name":"*红茶*",
 "cxx.blacktea.de":"长乐每天都在喝的东西,据她所说只是稍微加了些对身体好的成分,但味道......",
 "cxx.capsule.name":"能量胶囊",

@@ -1,0 +1,29 @@
+{"Changes": [
+
+{"LogName": "CJB菜单",
+ "Action": "EditData",
+ "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+ "Entries":
+{"potato.cxxMapSection": {
+ "Id": "potato.cxxMapSection",
+ "DisplayName": "此岸地图"}}},
+
+
+{"LogName": "CJB菜单传送点",
+ "Action": "EditData",
+ "Target": "Mods/CJBok.CheatsMenu/Warps",
+ "Entries": 
+{
+
+"cxxmap.RES1": 
+{"Id": "cxxmap.RES1",
+ "SectionId": "potato.cxxMapSection",
+ "DisplayName": "研究院主区",
+ "Location": "cxxmap.RES1",
+ "Tile": "0,0"}}}
+
+
+
+
+
+]}

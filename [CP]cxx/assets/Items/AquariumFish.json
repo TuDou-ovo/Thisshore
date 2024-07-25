@@ -13,12 +13,17 @@
   "Target": "Data/AquariumFish",
   "Entries": 
   
-{"cxx.zhidaishuimu": "0/crawl/////Mods/potato.cxxcp/AquariumFish",
- "cxx.dayan": "1/float/////Mods/potato.cxxcp/AquariumFish",
- "cxx.haituz": "2/crawl/////Mods/potato.cxxcp/AquariumFish",
- "cxx.eel": "3/crawl/////Mods/potato.cxxcp/AquariumFish"
+{
+ "cxx.zhidaishuimu": "0/crawl/////Mods\\potato.cxxcp\\AquariumFish",
+ "cxx.dayan": "1/float/////Mods\\potato.cxxcp\\AquariumFish",
+ "cxx.haituz": "2/crawl/////Mods\\potato.cxxcp\\AquariumFish",
+ "cxx.eel": "3/crawl/////Mods\\potato.cxxcp\\AquariumFish"
  
- }}
+
+
+
+
+}}
 
 
 

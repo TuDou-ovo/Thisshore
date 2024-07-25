@@ -1,0 +1,30 @@
+
+{"Changes": [
+
+{"LogName": "肖像画贴图位置",
+ "Action": "Load",
+ "Target": "Mods/potato.cxxcp/PortraitFrames",
+ "FromFile": "assets/Objects/PortraitFrames.png"},
+
+ 
+{"LogName": "角色肖像画",
+  "Action": "EditData",
+  "Target": "Data/Furniture",
+ "Entries": 
+ 
+{
+"cxx.TangfPortrait": "cxx.TangfPortrait/painting/2 2/2 2/1/999/-1/{{i18n:cxx.TangfPortrait.name}}/0/Mods\\potato.cxxcp\\PortraitFrames",
+"cxx.DolllPortrait": "cxx.DolllPortrait/painting/2 2/2 2/1/999/-1/{{i18n:cxx.DolllPortrait.name}}/2/Mods\\potato.cxxcp\\PortraitFrames",
+              
+
+
+
+
+}}
+
+
+
+
+
+
+]}

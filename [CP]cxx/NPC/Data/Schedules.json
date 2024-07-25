@@ -1,17 +1,19 @@
 {"Changes": [
 
 
-{"LogName": "Load Empty",
+{"LogName": "虽然不知道Empty是干什么的但大家都写了我也写一个叭",
   "Action": "Load",
   "Target": "Characters/Schedules/cxx.Tangf,Characters/Schedules/cxx.Dolll,",
   "FromFile": "NPC/Data/Empty.json"},
 	
 
-{"LogName":"角色行程",
+{"LogName":"唐枫-行程",
   "Action": "Include",
-  "FromFile":"NPC/Schedules/Tangf.json,NPC/Schedules/Dolll.json,"}
+  "FromFile":"NPC/Schedules/Tangf.json"},
 
-
+{"LogName":"玩偶-行程",
+  "Action": "Include",
+  "FromFile":"NPC/Schedules/Dolll.json,"}
 
 
 

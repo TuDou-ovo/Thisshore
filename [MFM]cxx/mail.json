@@ -28,15 +28,25 @@
  "UpperRightCloseButton": null},
 
 
-{"Id": "cxx.Jiy4",
- "GroupID": "cxx.Jiy4",
- "Title": "花种...",
- "Text": "小可爱...^你应该对花也是感兴趣的吧^收下这个吧，是我精心培育的品种，一定能给你一个惊喜的^呵呵...养大后记得带它来找我哟^^——姬月",
+{"Id": "1215521",
+ "GroupID": "1215521",
+ "Title": "邀约...",
+ "Text": "最近过的怎么样，希望你好好的，我倒是有些忙碌^你或许知道“浮云甜品店”？里面的蛋糕很好吃，而且经常会有新品^嗯...因为忙所以最近没时间去看所以，能不能拜托帮忙...帮我代购一下...呢^没时间的话就算了不麻烦你的或者，等我闲下来去看看新品然后再，再，两个人一起试试吧...^当然是你有时间的情况下^^——唐枫",
+ "Repeatable": false,
+ "LetterBG": "Tangf.png",
+ "UpperRightCloseButton": null},
+
+
+{"Id": "1215521",
+ "GroupID": "1215521",
+ "Title": "救救...",
+ "Text": "@，我在地府很想你...^啊啊啊啊啊啊不知道为什么我没法回魂了现在卡在下面了救救救救救救！！！！！！^@快来急急急急急！！！！！！^^——尚茯苓…^信纸在你看完后消散了....",
  "Repeatable": false,
  "LetterBG": "cxx.png",
- "UpperRightCloseButton": null}
+ "UpperRightCloseButton": null},
 
  
+
 
 
  

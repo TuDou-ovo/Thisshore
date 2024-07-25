@@ -1,6 +1,17 @@
 {"Changes": [
 
 
+{"LogName": "兔儿帽贴图",
+  "Action": "Load",
+  "Target": "Characters/Monsters/cxx.Rabbithat",
+  "FromFile": "assets/Monsters/Rabbithat.png"},
+
+{"LogName": "兔儿帽",
+  "Action": "EditData",
+  "Target": "Data/Monsters",
+  "Entries":
+{"cxx.Rabbithat": "260/30/0/3/false/1000/768 .99 428 .2 428 .05 768 .15 243 .04 856 .01 99 .001 74 .001/0/.01/8/2/.0/true/20/{{i18n:cxx.Rabbithat.name}}"}}
+
 
 
 

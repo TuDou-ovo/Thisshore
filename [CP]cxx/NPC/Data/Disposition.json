@@ -79,13 +79,11 @@
   "FriendsAndFamily": {},
   "UnlockConditions": null,
   "SpawnIfMissing": true,
- 
 "Home": [
 {"Id": "Default",
   "Location": "cxxmap.DollHome",
   "Tile": {"X": 12,"Y": 5},
   "Direction": "2"}],
- 
  "TextureName": null,
  "Size": {"X": 16,"Y": 32},
  "Breather": false,

@@ -1,25 +1,45 @@
 {"Changes": [
 
 
-{"LogName": "复活节角色对话",
-  "Action": "EditData",
-  "Target": "Data/Festivals/spring13",
-  "Entries": 
-
-{"cxx.Tangf": "看起来好有趣,但是好多人...",
- "cxx.Tangf_spouse": "想和@一起玩..."}},
+{"LogName": "复活节对话",
+  "Action": "Include",
+  "Target": "Data/Festivals/spring13.json"},
 
 
-{"LogName": "花舞节角色对话",
-  "Action": "EditData",
-  "Target": "Data/Festivals/spring24",
-  "Entries": 
-
-{"cxx.Tangf": "我会不太会跳舞,而且,好多人...",
- "cxx.Tangf_spouse": "我,我会努力的,要一起吗"}}
+{"LogName": "花舞节对话",
+  "Action": "Include",
+  "Target": "Data/Festivals/spring24.json"},
 
 
-             
+{"LogName": "夏威夷盛会对话",
+  "Action": "Include",
+  "Target": "Data/Festivals/summer11.json"},
+
+
+{"LogName": "月光水母对话",
+  "Action": "Include",
+  "Target": "Data/Festivals/summer28.json"},
+
+
+{"LogName": "展览对话",
+  "Action": "Include",
+  "Target": "Data/Festivals/fall16.json"},
+
+
+{"LogName": "万圣对话",
+  "Action": "Include",
+  "Target": "Data/Festivals/fall27.json"},
+
+
+{"LogName": "冰钓对话",
+  "Action": "Include",
+  "Target": "Data/Festivals/winter8.json"},
+
+
+{"LogName": "圣诞对话",
+  "Action": "Include",
+  "Target": "Data/Festivals/winter25.json"}
+  
 
 
 ]}

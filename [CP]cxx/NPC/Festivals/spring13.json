@@ -1,0 +1,24 @@
+{"Changes": [
+
+
+{"LogName": "枫-单数年-复活节对话",
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "Entries":
+{"cxx.Tangf": "{{i18n:cxx.Tangf.spring13}}",
+ "cxx.Tangf_spouse": "{{i18n:cxx.Tangf_spouse.fallspring1327}}"},
+ "When": 
+{"Year |contains=2,4,6,8,10": "false"}},
+
+
+{"LogName": "枫-偶数年-复活节对话",
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "Entries":
+{"cxx.Tangf": "{{i18n:cxx.Tangf.spring13}}",
+ "cxx.Tangf_spouse": "{{i18n:cxx.Tangf_spouse.spring13}}"},
+ "When": 
+{"Year |contains=2,4,6,8,10": "true"}},
+
+
+]}

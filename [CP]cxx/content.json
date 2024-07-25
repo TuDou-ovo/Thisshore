@@ -16,9 +16,18 @@
 {"AllowValues": "true, false",
  "Default": "false",
  "AllowBlank": false,//允许空白
- "Description": "描述"}
-  
+ "Description": "描述"},
 
+"Ridgeside Village":
+{"AllowValues": "true, false",
+ "Default": "false",
+ "Section": "其他模组的节日",
+ "Description": "角色是否出现在里奇塞德村的节日上"},
+  
+"East Scarp": 
+{"AllowValues": "true, false",
+ "Default": "false",
+ "Description": "角色是否出现在东斯卡普的节日上"}
   
 },
 
@@ -26,15 +35,18 @@
 "Changes":[
 
 
-{"LogName": "Data·事件",
+{"LogName": "CJB",
   "Action": "Include",
-  "FromFile": "assets/Data/Events.json"},
+  "FromFile": "assets/Data/CJB.json",
+ "When":
+{"HasMod |contains=CJBok.CheatsMenu": true}},
+
 
 {"LogName": "Data·怪物",
   "Action": "Include",
   "FromFile": "assets/Data/Monsters.json"},
 
-{"LogName": "Data任务",
+{"LogName": "Data·任务",
   "Action": "Include",
   "FromFile": "assets/Data/Quests.json"},
 
@@ -51,6 +63,9 @@
   "FromFile": "assets/Data/SpecialOrderStrings.json"},
 
 
+{"LogName": "Events·事件",
+  "Action": "Include",
+  "FromFile": "assets/Events/Events.json"},
 
 
 {"LogName": "Items·鱼缸",
@@ -85,9 +100,17 @@
   "Action": "Include",
   "FromFile": "assets/Items/FishPondData.json"},
 
+{"LogName": "Items·菜品",
+  "Action": "Include",
+  "FromFile": "assets/Items/Foods.json"},
+
 {"LogName": "Items·果树",
   "Action": "Include",
   "FromFile": "assets/Items/FruitTrees.json"},
+
+{"LogName": "Items·肖像画",
+  "Action": "Include",
+  "FromFile": "assets/Items/Furnitures.json"},
 
 {"LogName": "Items·巨型植株",
   "Action": "Include",
@@ -134,58 +157,68 @@
 
 
 
-
-{"LogName": "NPC·节庆位置",
-  "Action": "Include",
-  "FromFile": "NPC/Festivals/station.json"},
-	 
-{"LogName": "NPC·节庆对话",
-  "Action": "Include",
-  "FromFile": "NPC/Festivals/Dialogue.json"},
-	 
-{"LogName": "NPC·设定",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Disposition.json"},
-	 
-{"LogName": "NPC·喜好",
-  "Action": "Include",
-  "FromFile": "NPC/Data/NPCGiftTastes.json"},
-
-{"LogName": "NPC·动作",
-  "Action": "Include",
-  "FromFile": "NPC/Data/NPCanimation.json"},
-	 
-{"LogName": "NPC·肖像",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Portraits.json"},
-	 
-{"LogName": "NPC·行走图",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Sprites.json"},
-	 
 {"LogName": "NPC·对话",
   "Action": "Include",
   "FromFile": "NPC/Data/Dialogue.json"},
 	 
-{"LogName": "NPC·婚后对话",
+{"LogName": "NPC·节庆对话",
   "Action": "Include",
-  "FromFile": "NPC/Data/MarriageDialogue.json"},
-	 
-{"LogName": "NPC·行程",
-  "Action": "Include",
-  "FromFile": "NPC/Data/Schedules.json"},
+  "FromFile": "NPC/Festivals/Dialogue.json"},
 
-{"LogName": "NPC·电影对话",
+{"LogName": "NPC·节庆位置",
   "Action": "Include",
-  "FromFile": "NPC/Data/Movies.json"},
+  "FromFile": "NPC/Festivals/Stations/Astation.json"},
 
-{"LogName": "NPC·电影零食喜好",
+{"LogName": "NPC·设定",
   "Action": "Include",
-  "FromFile": "NPC/Data/Movieslove.json"},
+  "FromFile": "NPC/Data/Disposition.json"},
 
 {"LogName": "NPC·特殊对话",
   "Action": "Include",
-  "FromFile": "NPC/Data/Engagement.json"}
+  "FromFile": "NPC/Data/Engagement.json"},
+
+{"LogName": "NPC·婚后对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/MarriageDialogue.json"},
+
+{"LogName": "NPC·电影对话",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Movies.json"},  
+
+{"LogName": "NPC·电影零食喜好",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Movieslove.json"},  
+
+{"LogName": "NPC·动作",
+  "Action": "Include",
+  "FromFile": "NPC/Data/NPCanimation.json"},  
+
+{"LogName": "NPC·喜好",
+  "Action": "Include",
+  "FromFile": "NPC/Data/NPCGiftTastes.json"},
+
+{"LogName": "NPC·肖像",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Portraits.json"},
+
+{"LogName": "NPC·行程",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Schedules.json"},	 
+
+{"LogName": "NPC·行走图",
+  "Action": "Include",
+  "FromFile": "NPC/Data/Sprites.json"},
+	 
+
+	 
+
+	 
+
+
+
+
+
+
 
 
 

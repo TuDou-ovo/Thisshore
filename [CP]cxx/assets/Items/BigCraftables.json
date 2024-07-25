@@ -1,6 +1,19 @@
 {"Changes": [
 
 
+{"LogName":"家具贴图",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/BigCraftables",
+  "FromFile": "assets/Objects/BigCraftables.png"},
+
+  
+{"LogName":"机器动画",
+  "Action": "Load",
+  "Target": "Mods/potato.cxxcp/animation",
+  "FromFile": "assets/Objects/animation.png"},
+
+
+
 {"LogName": "茶水台",
   "Action": "EditData",
   "Target": "Data/BigCraftables",
@@ -48,15 +61,6 @@
 
 
 
-{"LogName":"家具贴图",
-  "Action": "Load",
-  "Target": "Mods/potato.cxxcp/BigCraftables",
-  "FromFile": "assets/Objects/BigCraftables.png"},
-
-{"LogName":"机器动画",
-  "Action": "Load",
-  "Target": "Mods/potato.cxxcp/animation",
-  "FromFile": "assets/Objects/animation.png"}
 
 
 

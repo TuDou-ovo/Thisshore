@@ -1,0 +1,24 @@
+{"Changes": [
+
+
+{"LogName": "枫-单数年-展览会对话",
+  "Action": "EditData",
+  "Target": "Data/Festivals/fall16",
+  "Entries":
+{"cxx.Tangf": "{{i18n:cxx.Tangf.fall16}}",
+ "cxx.Tangf_spouse": "{{i18n:cxx.Tangf_spouse.fall16}}"},
+ "When": 
+{"Year |contains=2,4,6,8,10": "false"}},
+
+
+{"LogName": "枫-偶数年-展览会对话",
+  "Action": "EditData",
+  "Target": "Data/Festivals/fall16",
+  "Entries":
+{"cxx.Tangf": "{{i18n:cxx.Tangf.fall16}}",
+ "cxx.Tangf_spouse": "{{i18n:cxx.Tangf_spouse.fall16}}"},
+ "When": 
+{"Year |contains=2,4,6,8,10": "true"}},
+
+
+]}
