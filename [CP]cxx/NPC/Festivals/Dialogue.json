@@ -3,42 +3,42 @@
 
 {"LogName": "复活节对话",
   "Action": "Include",
-  "Target": "Data/Festivals/spring13.json"},
+  "FromFile": "NPC/Festivals/spring13.json"},
 
 
 {"LogName": "花舞节对话",
   "Action": "Include",
-  "Target": "Data/Festivals/spring24.json"},
+  "FromFile": "NPC/Festivals/spring24.json"},
 
 
 {"LogName": "夏威夷盛会对话",
   "Action": "Include",
-  "Target": "Data/Festivals/summer11.json"},
+  "FromFile": "NPC/Festivals/summer11.json"},
 
 
 {"LogName": "月光水母对话",
   "Action": "Include",
-  "Target": "Data/Festivals/summer28.json"},
+  "FromFile": "NPC/Festivals/summer28.json"},
 
 
 {"LogName": "展览对话",
   "Action": "Include",
-  "Target": "Data/Festivals/fall16.json"},
+  "FromFile": "NPC/Festivals/fall16.json"},
 
 
 {"LogName": "万圣对话",
   "Action": "Include",
-  "Target": "Data/Festivals/fall27.json"},
+  "FromFile": "NPC/Festivals/fall27.json"},
 
 
 {"LogName": "冰钓对话",
   "Action": "Include",
-  "Target": "Data/Festivals/winter8.json"},
+  "FromFile": "NPC/Festivals/winter8.json"},
 
 
 {"LogName": "圣诞对话",
   "Action": "Include",
-  "Target": "Data/Festivals/winter25.json"}
+  "FromFile": "NPC/Festivals/winter25.json"}
   
 
 

@@ -3,42 +3,42 @@
 
 {"LogName": "复活节站位",
   "Action": "Include",
-  "Target": "Data/Festivals/Stations/spring13.json"},
+  "FromFile": "NPC/Festivals/Stations/spring13.json"},
 
 
 {"LogName": "花舞节站位",
   "Action": "Include",
-  "Target": "Data/Festivals/Stations/spring24.json"},
+  "FromFile": "NPC/Festivals/Stations/spring24.json"},
 
 
 {"LogName": "夏威夷盛会站位",
   "Action": "Include",
-  "Target": "Data/Festivals/Stations/summer11.json"},
+  "FromFile": "NPC/Festivals/Stations/summer11.json"},
 
 
 {"LogName": "月光水母节站位",
   "Action": "Include",
-  "Target": "Data/Festivals/Stations/summer28.json"},
+  "FromFile": "NPC/Festivals/Stations/summer28.json"},
 
 
 {"LogName": "展览站位",
   "Action": "Include",
-  "Target": "Data/Festivals/Stations/fall16.json"},
+  "FromFile": "NPC/Festivals/Stations/fall16.json"},
 
 
 {"LogName": "万圣节站位",
   "Action": "Include",
-  "Target": "Data/Festivals/Stations/fall27.json"},
+  "FromFile": "NPC/Festivals/Stations/fall27.json"},
 
 
 {"LogName": "冰钓节站位",
   "Action": "Include",
-  "Target": "Data/Festivals/Stations/winter8.json"},
+  "FromFile": "NPC/Festivals/Stations/winter8.json"},
 
 
 {"LogName": "圣诞节站位",
   "Action": "Include",
-  "Target": "Data/Festivals/Stations/winter25.json"}
+  "FromFile": "NPC/Festivals/Stations/winter25.json"}
 
 
 

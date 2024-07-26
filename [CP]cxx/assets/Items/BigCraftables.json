@@ -6,58 +6,6 @@
   "Target": "Mods/potato.cxxcp/BigCraftables",
   "FromFile": "assets/Objects/BigCraftables.png"},
 
-  
-{"LogName":"机器动画",
-  "Action": "Load",
-  "Target": "Mods/potato.cxxcp/animation",
-  "FromFile": "assets/Objects/animation.png"},
-
-
-
-{"LogName": "茶水台",
-  "Action": "EditData",
-  "Target": "Data/BigCraftables",
-  "Entries": {
- "cxx.Teatable": 
-{"Name": "cxx.Teatable",
- "DisplayName": "{{i18n:cxx.Teatable.name}}",
- "Description": "{{i18n:cxx.Teatable.de}}",
- "Price": 500,
- "CanBePlacedOutDoors": true,
- "CanBePlacedIndoors": true,
- "Texture": "Mods/potato.cxxcp/animation",
- "SpriteIndex": 0}}},
-
-
-{"LogName": "研磨",
-  "Action": "EditData",
-  "Target": "Data/BigCraftables",
-  "Entries": {
- "cxx.mortar": 
-{"Name": "cxx.mortar",
- "DisplayName": "{{i18n:cxx.mortar.name}}",
- "Description": "{{i18n:cxx.mortar.de}}",
- "Price": 500,
- "CanBePlacedOutDoors": true,
- "CanBePlacedIndoors": true,
- "Texture": "Mods/potato.cxxcp/animation",
- "SpriteIndex": 8}}},
-
-
-{"LogName": "液压",
-  "Action": "EditData",
-  "Target": "Data/BigCraftables",
-  "Entries": {
- "cxx.compress": 
-{"Name": "cxx.compress",
- "DisplayName": "{{i18n:cxx.compress.name}}",
- "Description": "{{i18n:cxx.compress.de}}",
- "Price": 500,
- "CanBePlacedOutDoors": true,
- "CanBePlacedIndoors": true,
- "Texture": "Mods/potato.cxxcp/animation",
- "SpriteIndex": 16}}},
-
 
 
 

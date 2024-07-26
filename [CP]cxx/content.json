@@ -27,6 +27,7 @@
 "East Scarp": 
 {"AllowValues": "true, false",
  "Default": "false",
+ "Section": "其他模组的节日",
  "Description": "角色是否出现在东斯卡普的节日上"}
   
 },
@@ -37,9 +38,7 @@
 
 {"LogName": "CJB",
   "Action": "Include",
-  "FromFile": "assets/Data/CJB.json",
- "When":
-{"HasMod |contains=CJBok.CheatsMenu": true}},
+  "FromFile": "assets/Data/CJB.json"},
 
 
 {"LogName": "Data·怪物",
@@ -67,6 +66,10 @@
   "Action": "Include",
   "FromFile": "assets/Events/Events.json"},
 
+
+{"LogName": "Items·机器",
+  "Action": "Include",
+  "FromFile": "assets/Items/Animation.json"}, 
 
 {"LogName": "Items·鱼缸",
   "Action": "Include",

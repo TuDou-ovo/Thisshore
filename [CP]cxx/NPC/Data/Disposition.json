@@ -99,6 +99,76 @@
   "MapSourceRect":{ "X": 0, "Y": 9, "Width": 6, "Height": 9 }},
  "SpousePatio": 
 {"MapAsset": "cxx.SpousePatios",
-  "MapSourceRect": { "X": 8, "Y": 4, "Width": 4, "Height": 4 }}}}}
+  "MapSourceRect": { "X": 8, "Y": 4, "Width": 4, "Height": 4 }}}}},
+
+
+{"LogName":"墨",
+  "Action": "EditData",
+  "Target": "Data/Characters",
+  "Entries": 
+{"cxx.Luom": 
+{"DisplayName": "{{i18n:cxx.Luom.name}}",
+  "BirthSeason": 0,
+  "BirthDay": 6,
+  "HomeRegion": "Other",
+  "Language": 0,
+  "Gender": 1,
+  "Age": 2,
+  "Manner": "neutral",
+  "SocialAnxiety": "neutral",
+  "Optimism": "neutral",
+  "IsDarkSkinned": false,
+  "CanBeRomanced": false,
+  "LoveInterest": "",
+  "Calendar": "0",
+  "SocialTab": "0",
+  "CanSocialize": true,
+  "CanReceiveGifts": true,
+  "CanGreetNearbyCharacters": false,
+  "CanCommentOnPurchasedShopItems": false,
+  "SocializeConditions": null,
+  "CanVisitIsland": true,
+  "CanVisitIslandCondition": null,
+  "ExcludeFromIntroductionsQuest": false,
+  "ExcludeFromPerfectionScore": false,
+  "EndSlideShow": 1,
+  "WinterStarParticipant": false,
+ "FriendsAndFamily": {},
+  "UnlockConditions": null,
+  "SpawnIfMissing": true,
+ "Home": [
+{"Id": "Default",
+  "Location": "cxxmap.地图名字",
+  "Tile": {"X": 坐标,"Y": 坐标},
+  "Direction": "上0下2左3右1"}],
+  "TextureName": null,
+  "Size": {"X": 16,"Y": 32},
+  "Breather": true,//呼吸
+  "HiddenProfileEmoteSound": null,
+  "HiddenProfileEmoteDuration": -1,
+  "HiddenProfileEmoteStartFrame": 16,
+  "HiddenProfileEmoteFrameCount": 4,
+  "HiddenProfileEmoteFrameDuration": 200.0,
+  "FestivalVanillaActorIndex": 0,
+  "CustomFields": {}}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ]}
