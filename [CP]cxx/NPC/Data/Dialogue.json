@@ -1,8 +1,7 @@
 {"Changes":[
   
 
-{"LogName": "虽然不知道Empty是干什么的但大家都写了我也写一个叭",
-  "Action": "Load",
+{"Action": "Load",
   "Target": "Characters/Dialogue/cxx.Tangf,Characters/Dialogue/cxx.Dolll,",
   "FromFile": "NPC/Data/Empty.json"},
    

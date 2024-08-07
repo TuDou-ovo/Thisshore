@@ -2,187 +2,231 @@
 
 
 //CJB菜单
+"cxx.cjb":"传送到此岸地图",
+"cxx.RES1":"研究院主区",
+"cxx.RES3":"研究院实验区入口",
+"cxx.RES5":"研究院边缘区",
+"cxx.DOlll":"玩偶的住处",
+
 
 //怪物
-"cxx.Rabbithat":"兔儿帽",
+"cxx.Rabbithat_name":"兔儿帽",
 
 //任务
+"cxx.1215522001":"少女的邀约",
+"cxx.1215522001_1":"信件字里行间能感受到少女的小心翼翼",
+"cxx.1215522001_2":"带着柠檬乳酪蛋糕去唐枫的宿舍",
+
 
 //商店
+"cxx.":"",
 
 //特殊订单
+"cxx.Ancl_SpecialOrders_Name":"需要茶叶",
+"cxx.Ancl_SpecialOrders_Text":"或许有哪位亲爱的能帮我带来一些茶叶？50份就够了，谢谢咯",
+"cxx.Ancl_SpecialOrders_Objective0":"收集一些茶叶",
+"cxx.Ancl_SpecialOrders_Objective1":"把茶叶放进安长乐茶水台的抽屉里",
 
 //事件
 
 //机器
-"cxx.Teatable.name":"茶水台",
-"cxx.Teatable.de":"木制的柜子上放着蓝色的茶台,把茶叶放进去可以泡出茶,试试长乐给你寄来的茶叶吧",
-"cxx.mortar.name":"魔法研钵",
-"cxx.mortar.de":"放进原料就会自己运作起来，方便且省事",
-"cxx.compress.name":"液压器",
-"cxx.compress.de":"能把原料压缩，话说脑袋上那个像兔儿一样的东西为什么会动？",
+"cxx.Teatable_name":"茶水台",
+"cxx.Teatable_de":"木制的柜子上放着蓝色的茶台,把茶叶放进去可以泡出茶,试试长乐给你寄来的茶叶吧",
+"cxx.mortar_name":"魔法研钵",
+"cxx.mortar_de":"放进原料就会自己运作起来，方便且省事",
+"cxx.compress_name":"液压器",
+"cxx.compress_de":"能把原料压缩，话说脑袋上那个像兔儿一样的东西为什么会动？",
 
 //家具
 
 //菜谱
-"cxxp.shibing.name":"柿饼配方",
-"cxxp.tanghl.name":"糖葫芦配方",
+"cxxp.shibing_name":"柿饼配方",
+"cxxp.tanghl_name":"糖葫芦配方",
 
 //配方
 
 //农场动物
 
 //菜品
-"cxx.toast.name":"一片吐司",
-"cxx.toast.de":"只是一片普通的吐司,没有夹心,没有配料,只是静静的站在那里,当然,倒下也不会把你压扁",
-"cxx.Pineapplebun.name":"食堂特供点心菠萝包",
-"cxx.Pineapplebun.de":"每周会在食堂出售两天的饭后小甜点,想尝尝的话要早点去排队了",
-"cxx.hudiejiu.name":"蝴蝶酿",
-"cxx.hudiejiu.de":"虽然某个人说了这是酒,但是喝下去倒是不会感觉醉呢",
-"cxx.sugartea.name":"奶盖奶茶",
-"cxx.sugartea.de":"加了过量的糖，某个人一定会非常喜欢",
-"cxx.blacktea.name":"*红茶*",
-"cxx.blacktea.de":"长乐每天都在喝的东西,据她所说只是稍微加了些对身体好的成分,但味道......",
-"cxx.capsule.name":"能量胶囊",
-"cxx.capsule.de":"如果不想吃饭的话可以去领一颗,完全够身体机能正常维持,但...隔壁就是打餐窗口哦?",
-"cxx.yaya.name":"流心鸭鸭",
-"cxx.yayade.de":"外观是很可爱的小鸭子,里面是芒果酱,不快点吃掉就会融化了鸭",
-"cxx.PUFF.name":"奶油泡芙",
-"cxx.PUFF.de":"小巧可爱的泡芙,适合一口炫了",
-"cxx.condensedmilk.name":"一罐炼乳",
-"cxx.condensedmilk.de":"虽然都用来作为原料,但也不是不能直接喝",
-"cxx.tanghl.name":"糖葫芦",
-"cxx.tanghl.de":"山楂串起来裹上糖浆,酸酸甜甜的",
-"cxx.shibing.name":"柿饼",
-"cxx.shibing.de":"草柿饼什么味来着好久没吃了先放着",
-"cxx.SWISSROLL.name":"瑞士卷",
-"cxx.SWISSROLL.de":"顶上是草莓奶油,还放了颗樱桃,可爱又美味!",
-"cxx.nmrldg.name":"柠檬乳酪蛋糕",
-"cxx.nmrldg.de":"1",
-"cxx.Chocolatecoins.name":"金币巧克力",
-"cxx.Chocolatecoins.de":"金...等等,这个是巧克力...怪不得他要把手里那个塞回口袋...",
+"cxx.toast_name":"一片吐司",
+"cxx.toast_de":"只是一片普通的吐司,没有夹心,没有配料,只是静静的站在那里,当然,倒下也不会把你压扁",
+"cxx.Pineapplebun_name":"菠萝包",
+"cxx.Pineapplebun_de":"每周会在食堂出售两天的饭后小甜点,想尝尝的话要早点去排队了",
+"cxx.hudiejiu_name":"蝴蝶酿",
+"cxx.hudiejiu_de":"虽然某个人说了这是酒,但是喝下去倒是不会感觉醉呢",
+"cxx.sugartea_name":"奶盖奶茶",
+"cxx.sugartea_de":"加了过量的糖，某个人一定会非常喜欢",
+"cxx.blacktea_name":"*红茶*",
+"cxx.blacktea_de":"长乐每天都在喝的东西,据她所说只是稍微加了些对身体好的成分,但味道......",
+"cxx.milkytea_name":"奶茶",
+"cxx.milkytea_de":"牛奶加上茶叶煮出来的，加点其他小料也未尝不可",
+"cxx.scentedtea_name":"花茶",
+"cxx.scentedtea_de":"加了干花泡出来的茶，有淡淡的香味",
+"cxx.capsule_name":"能量胶囊",
+"cxx.capsule_de":"如果不想吃饭的话可以去领一颗,完全够身体机能正常维持,但...隔壁就是打餐窗口哦?",
+"cxx.yaya_name":"流心鸭鸭",
+"cxx.yayade_de":"外观是很可爱的小鸭子,里面是芒果酱,不快点吃掉就会融化了鸭",
+"cxx.PUFF_name":"奶油泡芙",
+"cxx.PUFF_de":"小巧可爱的泡芙,适合一口炫了",
+"cxx.condensedmilk_name":"一罐炼乳",
+"cxx.condensedmilk_de":"虽然都用来作为原料,但也不是不能直接喝",
+"cxx.tanghl_name":"糖葫芦",
+"cxx.tanghl_de":"山楂串起来裹上糖浆,酸酸甜甜的",
+"cxx.shibing_name":"柿饼",
+"cxx.shibing_de":"草柿饼什么味来着好久没吃了先放着",
+"cxx.SWISSROLL_name":"瑞士卷",
+"cxx.SWISSROLL_de":"顶上是草莓奶油,还放了颗樱桃,可爱又美味!",
+"cxx.nmrldg_name":"柠檬乳酪蛋糕",
+"cxx.nmrldg_de":"1",
+"cxx.Chocolatecoins_name":"金币巧克力",
+"cxx.Chocolatecoins_de":"等等,这个是巧克力...怪不得他要把手里那个塞回口袋...",
+"cxx.Thickfishstew_name":"稠鱼烧",
+"cxx.Thickfishstew_de":"",
+"cxx.cocoa_name":"热可可",
+"cxx.cocoa_de":"最适合冬天喝了",
+"cxx.Candycane_name":"拐杖糖",
+"cxx.Candycane_de":"节日的象征~",
+"cxx.Mungbeansoup_name":"绿豆汤",
+"cxx.Mungbeansoup_de":"1",
+"cxx.ricedumpling_name":"汤圆",
+"cxx.ricedumpling_de":"1",
 
 //肖像画
-"cxx.TangfPortrait.name":"唐枫的肖像",
-"cxx.DolllPortrait.name":"玩偶的肖像",
+"cxx.TangfPortrait":"唐枫的肖像",
+"cxx.DolllPortrait":"玩偶的肖像",
 //帽子
 
 
 //果树
-"cxx.Snakefruit.name":"蛇果",
-"cxx.Snakefruit.de":"一种和苹果很像的水果",
-"cxx.SnakefruitBasic.name":"蛇果树苗",
-"cxx.SnakefruitBasic.de":"28天成熟为成年蛇果树,3天结果,只有在附近8块地块都空置的情况下才会成长",
+"cxx.Snakefruit_name":"蛇果",
+"cxx.Snakefruit_de":"一种和苹果很像的水果",
+"cxx.SnakefruitBasic_name":"蛇果树苗",
+"cxx.SnakefruitBasic_de":"28天成熟为成年蛇果树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
-"cxx.hawthorn.name":"山楂",
-"cxx.hawthorn.de":"红色的水果,直接吃很酸,推荐做成糖葫芦",
-"cxx.hawthornseed.name":"山楂树苗",
-"cxx.hawthornseed.de":"28天成熟为山楂树,3天结果,只有在附近8块地块都空置的情况下才会成长",
+"cxx.hawthorn_name":"山楂",
+"cxx.hawthorn_de":"红色的水果,直接吃很酸,推荐做成糖葫芦",
+"cxx.hawthornseed_name":"山楂树苗",
+"cxx.hawthornseed_de":"28天成熟为山楂树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
-"cxx.persimmon.name":"柿子",
-"cxx.persimmon.de":"橙色的水果,可以做成好吃的柿饼",
-"cxx.persimmonseed.name":"柿子树苗",
-"cxx.persimmonseed.de":"28天成熟为成年柿子树,3天结果,只有在附近8块地块都空置的情况下才会成长",
+"cxx.persimmon_name":"柿子",
+"cxx.persimmon_de":"橙色的水果,可以做成好吃的柿饼",
+"cxx.persimmonseed_name":"柿子树苗",
+"cxx.persimmonseed_de":"28天成熟为成年柿子树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
-"cxx.FlowingMoon.name":"流月果",
-"cxx.FlowingMoon.de":"紫色的月牙形果子，坠着几缕金丝",
-"cxx.FlowingMoonseed.name":"流月树树苗",
-"cxx.FlowingMoonseed.de":"28天成熟为成年流月树,3天结果,只有在附近8块地块都空置的情况下才会成长",
+"cxx.FlowingMoon_name":"流月果",
+"cxx.FlowingMoon_de":"紫色的月牙形果子，坠着几缕金丝",
+"cxx.FlowingMoonseed_name":"流月树树苗",
+"cxx.FlowingMoonseed_de":"28天成熟为成年流月树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
-"cxx.WineButterfly.name":"酒蝶",
-"cxx.WineButterfly.de":"虽然名字是蝴蝶，其实也就是长得像蝴蝶的水果而已",
-"cxx.WineButterflyseed.name":"酒蝶树树苗",
-"cxx.WineButterflyseed.de":"28天成熟为成年酒蝶树,3天结果,只有在附近8块地块都空置的情况下才会成长",
+"cxx.WineButterfly_name":"酒蝶",
+"cxx.WineButterfly_de":"虽然名字是蝴蝶，其实也就是长得像蝴蝶的水果而已",
+"cxx.WineButterflyseed_name":"酒蝶树树苗",
+"cxx.WineButterflyseed_de":"28天成熟为成年酒蝶树,3天结果,只有在附近8块地块都空置的情况下才会成长",
 
 //植株
-"cxx.Tianxinghua.name":"天星花",
-"cxx.Tianxinghua.de":"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
-"cxx.Tianxinghuaseed.name":"天星花种子",
-"cxx.Tianxinghuaseed.de":"夏天和秋天播种,10天成熟",
+"cxx.Tianxinghua_name":"天星花",
+"cxx.Tianxinghua_de":"如繁星点点散落在大地的白色花丛,自己种植后才知道随处可见的小花还有药用功效",
+"cxx.Tianxinghuaseed_name":"天星花种子",
+"cxx.Tianxinghuaseed_de":"夏天和秋天播种,10天成熟",
 
-"cxx.rosey.name":"涸玫",
-"cxx.rosey.de":"阿月培育的特殊品种玫瑰，虽然不知道这个名字是什么意思，但确实好看",
-"cxx.roseyseed.name":"涸玫种子",
-"cxx.roseyseed.de":"冬天播种,15天成熟，可以长成巨大作物",
+"cxx.rosey_name":"涸玫",
+"cxx.rosey_de":"阿月培育的特殊品种玫瑰，虽然不知道这个名字是什么意思，但确实好看",
+"cxx.roseyseed_name":"涸玫种子",
+"cxx.roseyseed_de":"冬天播种,15天成熟，可以长成巨大作物",
+
+"cxx.Wisteria_name":"紫藤",
+"cxx.Wisteria_de":"1",
+"cxx.Wisteriaseed_name":"紫藤种子",
+"cxx.Wisteriaseed_de":"夏天播种，10天成熟，之后持续产出",
+
+"cxx.badminton_name":"羽球果",
+"cxx.badminton_de":"1",
+"cxx.badmintonseed_name":"羽球果种子",
+"cxx.badmintonseed_de":"春天播种,8天成熟",
 
 ///鱼
-"cxx.zhidaishuimu.name":"纸袋水母",
-"cxx.zhidaishuimu.de":"无论外观和手感都只像是一个从水里捞出来的普通纸袋,但倒过来看里面会发现外面的纸壳也是身体的一部分...",
-"cxx.dayan.name":"大眼鱼",
-"cxx.dayan.de":"这东西...看起来不太聪明",
-"cxx.haituz.name":"海兔子",
-"cxx.haituz.de":"和另一个物种同名,不过这个在外观上就完全契合名字呢...它真的是海洋生物吗?",
-"cxx.eel.name":"悬灯鳗鳗",
-"cxx.eel.de":"挂着一个几乎和身体同样大小的灯，鱼身用处不大，但脑袋上的灯是好东西",
+"cxx.zhidaishuimu_name":"纸袋水母",
+"cxx.zhidaishuimu_de":"无论外观和手感都只像是一个从水里捞出来的普通纸袋,但倒过来看里面会发现外面的纸壳也是身体的一部分...",
+"cxx.dayan_name":"大眼鱼",
+"cxx.dayan_de":"这东西...看起来不太聪明",
+"cxx.haituz_name":"海兔子",
+"cxx.haituz_de":"和另一个物种同名,不过这个在外观上就完全契合名字呢...它真的是海洋生物吗?",
+"cxx.eel_name":"悬灯鳗鳗",
+"cxx.eel_de":"挂着一个几乎和身体同样大小的灯，鱼身用处不大，但脑袋上的灯是好东西",
+"cxx.gua_name":"呱呱",
+"cxx.gua_de":"咕——↖呱——↙",
 
 
 //物品
-"cxx.welcome.name":"此岸",
-"cxx.welcome.de":"欢迎来到此岸，亲爱的。它会在梦醒时分派上用场的",
-"cxx.species.name":"金币",
-"cxx.species.de":"云杉抛给你的金币,随意的像是丢出了一块石头",
-"cxx.MetalRose.name":"铜制玫瑰",
-"cxx.MetalRose.de":"铜锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
-"cxx.MetalRose1.name":"铁制玫瑰",
-"cxx.MetalRose1.de":"铁锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
-"cxx.MetalRose2.name":"金制玫瑰",
-"cxx.MetalRose2.de":"金锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
-"cxx.MetalRose3.name":"依玫瑰",
-"cxx.MetalRose3.de":"依锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
-"cxx.antea.name":"长乐的特制茶包",
-"cxx.antea.de":"外观...很难说这东西是和茶有关的,是联想到对方的性格会忍不住觉得她是故意做成这种样子的程度...",
-"cxx.crystal.name":"水晶",
-"cxx.crystal.de":"一颗半透明的水晶",
-"cxx.Pocketwatch.name":"星竹的怀表",
-"cxx.Pocketwatch.de":"......",
-"cxx.snowball.name":"雪球",
-"cxx.snowball.de":"只是一个雪团成的圆球，又白又圆",
-"cxx.Mengcui.name":"梦萃",
-"cxx.Mengcui.de":"看起来像珍珠的光泽，却一触即破",
-"cxx.Yanjing.name":"炎晶",
-"cxx.Yanjing.de":"红叶兽体内的东西，怪不得长着一副植物的样子却是用火的呢",
-"cxx.eeld.name":"鳗鳗灯丝",
-"cxx.eeld.de":"每次看到这东西都觉得悬灯鳗鳗的构造真的很神奇，灯居然是可以一整个抽出来的...",
-
+"cxx.species_name":"金币",
+"cxx.species_de":"云杉抛给你的金币,随意的像是丢出了一块石头",
+"cxx.MetalRose_name":"铜制玫瑰",
+"cxx.MetalRose_de":"铜锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose1_name":"铁制玫瑰",
+"cxx.MetalRose1_de":"铁锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose2_name":"金制玫瑰",
+"cxx.MetalRose2_de":"金锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.MetalRose3_name":"依玫瑰",
+"cxx.MetalRose3_de":"依锭在他手里绽放,成为一朵闪着光泽的玫瑰...真是很会讨人欢心呢",
+"cxx.antea_name":"长乐的特制茶包",
+"cxx.antea_de":"外观...很难说这东西是和茶有关的,是联想到对方的性格会忍不住觉得她是故意做成这种样子的程度...",
+"cxx.crystal_name":"水晶",
+"cxx.crystal_de":"一颗半透明的水晶",
+"cxx.Pocketwatch_name":"星竹的怀表",
+"cxx.Pocketwatch_de":"......",
+"cxx.snowball_name":"雪球",
+"cxx.snowball_de":"只是一个雪团成的圆球，又白又圆",
+"cxx.Mengcui_name":"梦萃",
+"cxx.Mengcui_de":"看起来像珍珠的光泽，却一触即破",
+"cxx.energy_name":"能量块",
+"cxx.energy_de":"1",
+"cxx.eeld_name":"鳗鳗灯丝",
+"cxx.eeld_de":"每次看到这东西都觉得悬灯鳗鳗的构造真的很神奇，灯居然是可以一整个抽出来的...",
+"cxx.Pocketwatch1_name":"云杉的怀表",
+"cxx.Pocketwatch1_de":"虽然已经完全坏掉了，但是还是能看出来和星竹那个是一对",
+"cxx.horn_name":"哀角兽的角",
+"cxx.horn_de":"1",
+"cxx.mushroom_name":"鳗鳗灯丝",
+"cxx.mushroom_de":"1",
+"cxx.warp_name":"土豆图腾",
+"cxx.warp_de":"测试用传送",
+"cxx.Dolllspring_name":"发条",
+"cxx.Dolllspring_de":"1",
 
 //武器
-"cxx.YihsBass.name":"伊华岁的贝斯",
-"cxx.YihsBass.de":"不是木制的，应该不会敲碎吧...",
-"cxx.Jiydagger.name":"姬月的匕首",
-"cxx.Jiydagger.de":"刀刃比平常的匕首长些，护手的一半是玫瑰型的",
-"cxx.Yunyknife.name":"云瑜的另一把刀",
-"cxx.Yunyknife.de":"人被施灵拎走了，但是刀落下了，有时间去一拜访一趟还回去吧...",
-"cxx.Baiqystaff.name":"白巧颜的*法杖*",
-"cxx.Baiqystaff.de":"其实只是普通工艺品，并不能用来流通魔法或者其他的什么，小心别折断了",
-"cxx.catabacus.name":"狸奴的翡翠算盘",
-"cxx.catabacus.de":"翡翠做的算盘，看起来就很贵，等等，你真的要学狸奴用它扇人吗？？",
-"cxx.Weiyumbrella.name":"未央的伞",
-"cxx.Weiyumbrella.de":"和她本人手里拿把还是有区别的，她那把是千机伞，这个只是结实一点的油纸伞而已",
-"cxx.Mijneedle.name":"蜜酒的针管",
-"cxx.Mijneedle.de":"*谨防蜜蜂蛰人*",
-"cxx.yoyoknife.name":"莫优优的唐刀",
-"cxx.yoyoknife.de":"浅蓝色的刀刃闪着寒光，但上面挂着的星星很可爱",
-"cxx.Xiaozlmicrophone.name":"夏真籁的麦克风",
-"cxx.Xiaozlmicrophone.de":"最棒的偶像当然用的是质量最好的麦克风",
-"cxx.Qiusshammer.name":"秋生生的萝卜锤",
-"cxx.Qiusshammer.de":"一个可爱的萝卜，嗯，真的只是萝卜",
-"cxx.IssTarot.name":"伊斯的金属塔罗牌",
-"cxx.IssTarot.de":"压在他水晶球下面的塔罗牌，上面只有一个不认识的紫色标记",
-"cxx.Liuqysword.name":"柳清源的长剑",
-"cxx.Liuqysword.de":"。。宝你的剑我居然一时间想不出来形容",
-"cxx.ShangflDusting.name":"尚茯苓的拂尘",
-"cxx.ShangflDusting.de":"茯苓天天抱在怀里的拂尘，被打一下感觉脑子晕乎乎的，好像有什么东西要从身体里跑出去了...",
-"cxx.Moyfan.name":"莫邪的扇子",
-"cxx.Moyfan.de":"扇子上有一把冰刀，为什么不会融化呢？",
-"cxx.Yuanxpen.name":"元晞的画笔",
-"cxx.Yuanxpen.de":"和她本人一样，系着蝴蝶结，但是和手臂一样长的画笔真的能好好画画吗？",
+"cxx.YihsBass_name":"伊华岁的贝斯",
+"cxx.YihsBass_de":"不是木制的，应该不会敲碎吧...",
+"cxx.Jiydagger_name":"姬月的匕首",
+"cxx.Jiydagger_de":"刀刃比平常的匕首长些，护手的一半是玫瑰型的",
+"cxx.Yunyknife_name":"云瑜的另一把刀",
+"cxx.Yunyknife_de":"人被施灵拎走了，但是刀落下了，有时间去一拜访一趟还回去吧...",
+"cxx.Baiqystaff_name":"白巧颜的*法杖*",
+"cxx.Baiqystaff_de":"其实只是普通工艺品，并不能用来流通魔法或者其他的什么，小心别折断了",
+"cxx.catabacus_name":"狸奴的翡翠算盘",
+"cxx.catabacus_de":"翡翠做的算盘，看起来就很贵，等等，你真的要学狸奴用它扇人吗？？",
+"cxx.Weiyumbrella_name":"未央的伞",
+"cxx.Weiyumbrella_de":"和她本人手里拿把还是有区别的，她那把是千机伞，这个只是结实一点的油纸伞而已",
+"cxx.Mijneedle_name":"蜜酒的针管",
+"cxx.Mijneedle_de":"*谨防蜜蜂蛰人*",
+"cxx.yoyoknife_name":"莫优优的唐刀",
+"cxx.yoyoknife_de":"浅蓝色的刀刃闪着寒光，但上面挂着的星星很可爱",
+"cxx.Xiaozlmicrophone_name":"夏真籁的麦克风",
+"cxx.Xiaozlmicrophone_de":"最棒的偶像当然用的是质量最好的麦克风",
+"cxx.Qiusshammer_name":"秋生生的萝卜锤",
+"cxx.Qiusshammer_de":"一个可爱的萝卜，嗯，真的只是萝卜",
+"cxx.IssTarot_name":"伊斯的金属塔罗牌",
+"cxx.IssTarot_de":"压在他水晶球下面的塔罗牌，上面只有一个不认识的紫色标记",
+"cxx.Liuqysword_name":"柳清源的长剑",
+"cxx.Liuqysword_de":"。。宝你的剑我居然一时间想不出来形容",
+"cxx.ShangflDusting_name":"尚茯苓的拂尘",
+"cxx.ShangflDusting_de":"茯苓天天抱在怀里的拂尘，被打一下感觉脑子晕乎乎的，好像有什么东西要从身体里跑出去了...",
+"cxx.Moyfan_name":"莫邪的扇子",
+"cxx.Moyfan_de":"扇子上有一把冰刀，为什么不会融化呢？",
+"cxx.Yuanxpen_name":"元晞的画笔",
+"cxx.Yuanxpen_de":"和她本人一样，系着蝴蝶结，但是和手臂一样长的画笔真的能好好画画吗？",
 
 
-//其他
-"cxx.warp.name":"土豆图腾",
-"cxx.warp.de":"测试用传送",
-"cxx.Dolllspring.name":"发条",
-"cxx.Dolllspring.de":"在梦中之地深处获得的发条，是玩偶丢失的那个...",
+
 
 
 
@@ -192,20 +236,31 @@
 //钓鱼点
 
 //交互点
-"RES3.1":"远远的好像能看到奇怪的生物在游荡...",
-"RES1.1":"普通的花坛植物,叶片圆圆的",
+"RES3_1":"远远的好像能看到奇怪的生物在游荡...",
+"RES1_1":"普通的花坛植物,叶片圆圆的",
 
 //世界地图
 
 
 ///////角色相关
 
-///枫
 //信息
-"Tangf.name":"枫",
+"Tangf_name":"唐枫",
+"Dolll_name":"玩偶",
+"Luom_name":"罗墨",
 
-//杂项
-"Tangf.3985":"可以,不和别人太亲近吗",
+
+//订婚
+"Tangf0":"嗯，我很开心的，可以和你一直在一起",
+"Tangf1":"1",
+
+//吃醋
+"Tangf_3985":"你，不会离开的，对吧",
+
+//动作
+"Tangf_1":"我在想今天要吃哪个甜点...你要一起吗？",
+"Tangf_2":"1",
+"Tangf_3":"1",
 
 //电影
 
@@ -224,7 +279,7 @@
 "Tangf.DumpsterDiveComment":"?",
 "Tangf.GreenRain":"啊...是苔藓雨不是酸雨啊",
 "Tangf.MovieInvitation":"唔?电影?谢谢你邀请我呀",
-"Tangf.AcceptBirthdayGift_Loved":"嗯嗯?谢谢哎,我好喜欢...#$b#嘿嘿...",
+"Tangf.AcceptBirthdayGift.Loved":"嗯嗯?谢谢哎,我好喜欢...#$b#嘿嘿...",
 
 //婚后
 
@@ -232,12 +287,10 @@
 
 
 
-///长乐的翻译
-"Ancl.name":"长乐",
 
 
-///玩偶的翻译
-"Dolll.name":"玩偶",
+
+
 "Dolll.Introduction":"%你看到了一个小小的木制人偶,精致,但没什么特别的#$b#......",
 "Dolll.4heart":"%小小的玩偶摆动了一下,算是对你的回应",
 "Dolll.6heart":"%它木制的手臂向着你轻轻挥动了几下",
@@ -250,11 +303,11 @@
 "Dolll.DisGift":"%它的脑袋歪了歪,似乎是不太理解",
 "Dolll.HateGift":"%它一点反应都没做出",
 "Dolll.NeuGift":"%它只扬起脑袋看了你一眼",
-"Dolll.AcceptBirthdayGift_Loved":"...$1#$b$%它木制的身体发出咯吱咯吱的摩擦声,看来是很喜欢这份礼物了",
-"Dolll.AcceptBirthdayGift_Liked":"...$1#$b$%它从你手里接过礼物,轻轻的放进了小箱子里",
-"Dolll.AcceptBirthdayGift_Hated":"%它一动不动,似乎完全不想做出反应",
-"Dolll.AcceptBirthdayGift_Disliked":"...#$b#%它把脑袋转了过去",
-"Dolll.AcceptGift_(O)StardropTea":"...!$1#$b#%它看起来很开心,但给一只玩偶送茶水真的没问题吗?",
+"Dolll.AcceptBirthdayGift.Loved":"...$1#$b$%它木制的身体发出咯吱咯吱的摩擦声,看来是很喜欢这份礼物了",
+"Dolll.AcceptBirthdayGift.Liked":"...$1#$b$%它从你手里接过礼物,轻轻的放进了小箱子里",
+"Dolll.AcceptBirthdayGift.Hated":"%它一动不动,似乎完全不想做出反应",
+"Dolll.AcceptBirthdayGift.Disliked":"...#$b#%它把脑袋转了过去",
+"Dolll.AcceptGift.(O)StardropTea":"...!$1#$b#%它看起来很开心,但给一只玩偶送茶水真的没问题吗?",
 
 "Dolll.MovieInvitation":"...?#$b#%它似乎不太理解你为什么要邀请一个玩偶去电影院,但依旧把电影票好好的收了起来",
 "Dolll.BeforeMovie9":"%它观察着盆栽",

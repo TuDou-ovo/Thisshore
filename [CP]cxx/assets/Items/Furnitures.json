@@ -13,8 +13,8 @@
  "Entries": 
  
 {
-"cxx.TangfPortrait": "cxx.TangfPortrait/painting/2 2/2 2/1/999/-1/{{i18n:cxx.TangfPortrait.name}}/0/Mods\\potato.cxxcp\\PortraitFrames",
-"cxx.DolllPortrait": "cxx.DolllPortrait/painting/2 2/2 2/1/999/-1/{{i18n:cxx.DolllPortrait.name}}/2/Mods\\potato.cxxcp\\PortraitFrames",
+"cxx.TangfPortrait": "cxx.TangfPortrait/painting/2 2/2 2/1/999/-1/{{i18n:cxx.TangfPortrait}}/0/Mods\\potato.cxxcp\\PortraitFrames",
+"cxx.DolllPortrait": "cxx.DolllPortrait/painting/2 2/2 2/1/999/-1/{{i18n:cxx.DolllPortrait}}/2/Mods\\potato.cxxcp\\PortraitFrames",
               
 
 

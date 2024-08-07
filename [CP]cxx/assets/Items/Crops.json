@@ -19,10 +19,52 @@
   "HarvestItemId": "cxx.Tianxinghua",
   "HarvestMethod": "0",
   "Texture": "Mods/potato.cxxcp/Crops",
-  "SpriteIndex": 0}}}
+  "SpriteIndex": 0}}},
 
 
+{"LogName": "1",
+  "Action": "EditData",
+  "Target": "Data/Crops",
+  "Entries": 
+{"cxx.Wisteriaseed":
+{"DaysInPhase": [2,2,2,2,2],
+  "Seasons": ["summer","fall"],
+  "RegrowDays": 2,
+  "IsRaised": false,
+  "HarvestItemId": "cxx.Wisteria",
+  "HarvestMethod": "0",
+  "Texture": "Mods/potato.cxxcp/Crops",
+  "SpriteIndex": 1}}},
 
+
+{"LogName": "1",
+  "Action": "EditData",
+  "Target": "Data/Crops",
+  "Entries": 
+{"cxx.badmintonseed":
+{"DaysInPhase": [3,3,3,2,2],
+  "Seasons": ["summer","fall"],
+  "RegrowDays": -1,
+  "IsRaised": false,
+  "HarvestItemId": "cxx.badminton",
+  "HarvestMethod": "0",
+  "Texture": "Mods/potato.cxxcp/Crops",
+  "SpriteIndex": 2}}},
+
+
+{"LogName": "冬",
+  "Action": "EditData",
+  "Target": "Data/Crops",
+  "Entries": 
+{"cxx.roseyseed":
+{"DaysInPhase": [3,3,3,2],
+  "Seasons": ["summer","fall"],
+  "RegrowDays": -1,
+  "IsRaised": false,
+  "HarvestItemId": "cxx.rosey",
+  "HarvestMethod": "0",
+  "Texture": "Mods/potato.cxxcp/Crops",
+  "SpriteIndex": 3}}}
 
 
 

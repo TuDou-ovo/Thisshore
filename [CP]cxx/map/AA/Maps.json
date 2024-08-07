@@ -12,7 +12,29 @@
 {"LogName": "枫的临时住处",
   "Action": "Load",
   "Target": "Maps/cxxmap.TangfHome1",
-  "FromFile": "map/TangfHome1.tmx"},
+  "FromFile": "map/TangfHome.tmx"},
+
+
+//时间 
+{"LogName": "设置时间变化",
+"Action": "EditMap",
+"Target": "Maps/cxxmap.TangfHome1",
+"FromFile": "map/TangfHome1_night.tmx",
+"PatchMode": "Overlay",//这条就是覆盖原地图 按着条件切换
+"When": {
+"Time": "{{Range: 1800, 2600}}"//时间 600-2600之间 1400-1800一般是黄昏 1800-2600夜晚
+},
+"Update": "OnTimeChange"},
+//天气 加上这个是放着天气变了地图没变
+{"LogName": "设置天气变化",
+"Action": "EditMap",
+"Target": "Maps/cxxmap.TangfHome1",
+"FromFile": "map/TangfHome1_night.tmx",
+"PatchMode": "Overlay",
+"When": {
+"Weather": "Rain,Storm,Snow"
+},
+"Update": "OnTimeChange"},
 
 
 {"LogName": "玩偶的住处",

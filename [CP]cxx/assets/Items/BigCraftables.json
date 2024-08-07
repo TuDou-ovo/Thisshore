@@ -4,7 +4,7 @@
 {"LogName":"家具贴图",
   "Action": "Load",
   "Target": "Mods/potato.cxxcp/BigCraftables",
-  "FromFile": "assets/Objects/BigCraftables.png"},
+  "FromFile": "assets/Objects/BigCraftables.png"}
 
 
 

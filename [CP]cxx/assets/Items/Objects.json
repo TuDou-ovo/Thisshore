@@ -6,22 +6,6 @@
   "FromFile": "assets/Objects/Objects.png"},
 
 
-{"LogName": "标志",
-  "Action": "EditData",
-  "Target": "Data/Objects",
-  "Entries":
-{"cxx.welcome":
-{"Name": "cxx.welcome", 
-  "Displayname": "{{i18n:cxx.welcome.name}}",
-  "Description": "{{i18n:cxx.welcome.de}}",
-  "Type": "objects",
-  "Category": -17,
-  "Price": 1215,
-  "Edibility": -300,
-  "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 201}}},
-
-
 //果树+果实 id 0-100
 
 {"LogName":"蛇果",
@@ -30,8 +14,8 @@
   "Entries":
 {"cxx.Snakefruit": 
 {"Name": "cxx.Snakefruit", 
-  "Displayname": "{{i18n:cxx.Snakefruit.name}}",
-  "Description": "{{i18n:cxx.Snakefruit.de}}",
+  "Displayname": "{{i18n:cxx.Snakefruit_name}}",
+  "Description": "{{i18n:cxx.Snakefruit_de}}",
   "Type": "Basic",
   "Category": -79,
   "Price": 120,
@@ -47,8 +31,8 @@
   "Entries": 
 {"cxx.SnakefruitBasic": 
 {"Name": "cxx.SnakefruitBasic", 
-  "Displayname": "{{i18n:cxx.SnakefruitBasic.name}}",
-  "Description": "{{i18n:cxx.SnakefruitBasic.de}}",
+  "Displayname": "{{i18n:cxx.SnakefruitBasic_name}}",
+  "Description": "{{i18n:cxx.SnakefruitBasic_de}}",
   "Type": "Objects",
   "Category": -74,
   "Price": 1200,
@@ -64,8 +48,8 @@
   "Entries": 
 {"cxx.hawthorn": 
 {"Name": "cxx.hawthorn", 
-  "Displayname": "{{i18n:cxx.hawthorn.name}}",
-  "Description": "{{i18n:cxx.hawthorn.de}}",
+  "Displayname": "{{i18n:cxx.hawthorn_name}}",
+  "Description": "{{i18n:cxx.hawthorn_de}}",
   "Type": "Basic",
   "Category": -79,
   "Price": 100,
@@ -80,8 +64,8 @@
   "Entries": 
 {"cxx.hawthornseed": 
 {"Name": "cxx.hawthornseed", 
-  "Displayname": "{{i18n:cxx.hawthornseed.name}}",
-  "Description": "{{i18n:cxx.hawthornseed.de}}",
+  "Displayname": "{{i18n:cxx.hawthornseed_name}}",
+  "Description": "{{i18n:cxx.hawthornseed_de}}",
   "Type": "Basic",
   "Category": -74,
   "Price": 1000,
@@ -97,8 +81,8 @@
   "Entries": 
 {"cxx.persimmon": 
 {"Name": "cxx.persimmon", 
-  "Displayname": "{{i18n:cxx.persimmon.name}}",
-  "Description": "{{i18n:cxx.persimmon.de}}",
+  "Displayname": "{{i18n:cxx.persimmon_name}}",
+  "Description": "{{i18n:cxx.persimmon_de}}",
   "Type": "Basic",
   "Category": -79,
   "Price": 80,
@@ -113,8 +97,8 @@
   "Entries": 
 {"cxx.persimmonseed": 
 {"Name": "cxx.persimmonseed", 
-  "Displayname": "{{i18n:cxx.persimmonseed.name}}",
-  "Description": "{{i18n:cxx.persimmonseed.de}}",
+  "Displayname": "{{i18n:cxx.persimmonseed_name}}",
+  "Description": "{{i18n:cxx.persimmonseed_de}}",
   "Type": "Basic",
   "Category": -74,
   "Price": 800,
@@ -130,8 +114,8 @@
   "Entries": 
 {"cxx.FlowingMoon": 
 {"Name": "cxx.FlowingMoon", 
-  "Displayname": "{{i18n:cxx.FlowingMoon.name}}",
-  "Description": "{{i18n:cxx.FlowingMoon.de}}",
+  "Displayname": "{{i18n:cxx.FlowingMoon_name}}",
+  "Description": "{{i18n:cxx.FlowingMoon_de}}",
   "Type": "Basic",
   "Category": -79,
   "Price": 200,
@@ -146,8 +130,8 @@
   "Entries": 
 {"cxx.FlowingMoonseed": 
 {"Name": "cxx.FlowingMoonseed", 
-  "Displayname": "{{i18n:cxx.FlowingMoonseed.name}}",
-  "Description": "{{i18n:cxx.FlowingMoonseed.de}}",
+  "Displayname": "{{i18n:cxx.FlowingMoonseed_name}}",
+  "Description": "{{i18n:cxx.FlowingMoonseed_de}}",
   "Type": "Basic",
   "Category": -74,
   "Price": 2000,
@@ -163,8 +147,8 @@
   "Entries": 
 {"cxx.WineButterfly": 
 {"Name": "cxx.WineButterfly", 
-  "Displayname": "{{i18n:cxx.WineButterfly.name}}",
-  "Description": "{{i18n:cxx.WineButterfly.de}}",
+  "Displayname": "{{i18n:cxx.WineButterfly_name}}",
+  "Description": "{{i18n:cxx.WineButterfly_de}}",
   "Type": "Basic",
   "Category": -79,
   "Price": 150,
@@ -179,8 +163,8 @@
   "Entries": 
 {"cxx.WineButterflyseed": 
 {"Name": "cxx.WineButterflyseed", 
-  "Displayname": "{{i18n:cxx.WineButterflyseed.name}}",
-  "Description": "{{i18n:cxx.WineButterflyseed.de}}",
+  "Displayname": "{{i18n:cxx.WineButterflyseed_name}}",
+  "Description": "{{i18n:cxx.WineButterflyseed_de}}",
   "Type": "Basic",
   "Category": -74,
   "Price": 1500,
@@ -197,14 +181,14 @@
   "Entries": 
 {"cxx.Tianxinghua": 
 {"Name": "cxx.Tianxinghua", 
-  "Displayname": "{{i18n:cxx.Tianxinghua.name}}",
-  "Description": "{{i18n:cxx.Tianxinghua.de}}",
+  "Displayname": "{{i18n:cxx.Tianxinghua_name}}",
+  "Description": "{{i18n:cxx.Tianxinghua_de}}",
   "Type": "Basic",
   "Category": -80,
   "Price": 100,
   "Edibility": 10,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 50}}},
+  "SpriteIndex": 101}}},
 
 
 {"LogName":"天星花种子",
@@ -213,15 +197,15 @@
   "Entries": 
 {"cxx.Tianxinghuaseed": 
 {"Name": "cxx.Tianxinghuaseed", 
-  "Displayname": "{{i18n:cxx.Tianxinghuaseed.name}}",
-  "Description": "{{i18n:cxx.Tianxinghuaseed.de}}",
+  "Displayname": "{{i18n:cxx.Tianxinghuaseed_name}}",
+  "Description": "{{i18n:cxx.Tianxinghuaseed_de}}",
   "Type": "Basic",
   "Category": -74,
   "Price": 50,
   "Edibility": -300,
   "IsDrink": false,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 51}}},
+  "SpriteIndex": 102}}},
 
 
 {"LogName":"涸玫",
@@ -230,14 +214,14 @@
   "Entries": 
 {"cxx.rosey": 
 {"Name": "cxx.rosey", 
-  "Displayname": "{{i18n:cxx.rosey.name}}",
-  "Description": "{{i18n:cxx.rosey.de}}",
+  "Displayname": "{{i18n:cxx.rosey_name}}",
+  "Description": "{{i18n:cxx.rosey_de}}",
   "Type": "Basic",
   "Category": -80,
   "Price": 100,
   "Edibility": 10,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 52}}},
+  "SpriteIndex": 103}}},
 
 
 {"LogName":"涸玫种子",
@@ -246,15 +230,81 @@
   "Entries": 
 {"cxx.roseyseed": 
 {"Name": "cxx.roseyseed", 
-  "Displayname": "{{i18n:cxx.roseyseed.name}}",
-  "Description": "{{i18n:cxx.roseyseed.de}}",
+  "Displayname": "{{i18n:cxx.roseyseed_name}}",
+  "Description": "{{i18n:cxx.roseyseed_de}}",
   "Type": "Basic",
   "Category": -74,
   "Price": 50,
   "Edibility": -300,
   "IsDrink": false,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 53}}},
+  "SpriteIndex": 104}}},
+
+
+{"LogName":"紫藤",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.Wisteria": 
+{"Name": "cxx.Wisteria", 
+  "Displayname": "{{i18n:cxx.Wisteria_name}}",
+  "Description": "{{i18n:cxx.Wisteria_de}}",
+  "Type": "Basic",
+  "Category": -80,
+  "Price": 100,
+  "Edibility": 10,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 105}}},
+
+
+{"LogName":"紫藤花种子",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.Wisteriaseed": 
+{"Name": "cxx.Wisteriaseed", 
+  "Displayname": "{{i18n:cxx.Wisteriaseed_name}}",
+  "Description": "{{i18n:cxx.Wisteriaseed_de}}",
+  "Type": "Basic",
+  "Category": -74,
+  "Price": 50,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 106}}},
+
+
+{"LogName":"羽球果",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.badminton": 
+{"Name": "cxx.badminton", 
+  "Displayname": "{{i18n:cxx.badminton_name}}",
+  "Description": "{{i18n:cxx.badminton_de}}",
+  "Type": "Basic",
+  "Category": -80,
+  "Price": 100,
+  "Edibility": 10,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 107}}},
+
+
+{"LogName":"羽球果种子",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": 
+{"cxx.badmintonseed": 
+{"Name": "cxx.badmintonseed", 
+  "Displayname": "{{i18n:cxx.badmintonseed_name}}",
+  "Description": "{{i18n:cxx.badmintonseed_de}}",
+  "Type": "Basic",
+  "Category": -74,
+  "Price": 50,
+  "Edibility": -300,
+  "IsDrink": false,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 108}}},
 
 //鱼 id 201-300
 
@@ -264,14 +314,14 @@
   "Entries":
 {"cxx.zhidaishuimu":
 {"Name": "cxx.zhidaishuimu", 
-  "Displayname": "{{i18n:cxx.zhidaishuimu.name}}",
-  "Description": "{{i18n:cxx.zhidaishuimu.de}}",
+  "Displayname": "{{i18n:cxx.zhidaishuimu_name}}",
+  "Description": "{{i18n:cxx.zhidaishuimu_de}}",
   "Type": "Fish",
   "Category": -4,
   "Price": 200,
   "Edibility": 50,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 101}}},
+  "SpriteIndex": 201}}},
 
 
 {"LogName": "大眼鱼",
@@ -280,14 +330,14 @@
   "Entries":
 {"cxx.dayan": 
 {"Name": "cxx.dayan",
-  "DisplayName": "{{i18n:cxx.dayan.name}}",
-  "Description": "{{i18n:cxx.dayan.de}}",
+  "DisplayName": "{{i18n:cxx.dayan_name}}",
+  "Description": "{{i18n:cxx.dayan_de}}",
   "Type": "Fish",
   "Category": -4,
   "Price": 250,
   "Edibility":50,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": "102"}}},
+  "SpriteIndex": "202"}}},
 
 
 {"LogName": "海兔子",
@@ -296,14 +346,14 @@
   "Entries":
 {"cxx.haituz": 
 {"Name": "cxx.haituz",
-  "DisplayName": "{{i18n:cxx.haituz.name}}",
-  "Description": "{{i18n:cxx.haituz.de}}",
+  "DisplayName": "{{i18n:cxx.haituz_name}}",
+  "Description": "{{i18n:cxx.haituz_de}}",
   "Type": "Fish",
   "Category": -4,
   "Price": 300,
   "Edibility": 50,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": "103"}}},
+  "SpriteIndex": "203"}}},
 
 
 {"LogName": "悬灯鳗鳗",
@@ -312,14 +362,47 @@
   "Entries":
 {"cxx.eel": 
 {"Name": "cxx.eel",
-  "DisplayName": "{{i18n:cxx.eel.name}}",
-  "Description": "{{i18n:cxx.eel.de}}",
+  "DisplayName": "{{i18n:cxx.eel_name}}",
+  "Description": "{{i18n:cxx.eel_de}}",
   "Type": "Fish",
   "Category": -4,
   "Price": 500,
   "Edibility": 30,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": "104"}}},
+  "SpriteIndex": "204"}}},
+
+
+{"LogName": "呱呱",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.gua": 
+{"Name": "cxx.gua",
+  "DisplayName": "{{i18n:cxx.gua_name}}",
+  "Description": "{{i18n:cxx.gua_de}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 500,
+  "Edibility": 30,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": "205"}}},
+
+
+{"LogName": "猫鱿",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.catsquid": 
+{"Name": "cxx.gua",
+  "DisplayName": "{{i18n:cxx.catsquid_name}}",
+  "Description": "{{i18n:cxx.catsquid_de}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 500,
+  "Edibility": 30,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": "206"}}},
+
 
 //各类物品 id 301+
 
@@ -329,14 +412,14 @@
   "Entries":
 {"cxx.species":
 {"Name": "cxx.species", 
-  "Displayname": "{{i18n:cxx.species.name}}",
-  "Description": "{{i18n:cxx.species.de}}",
+  "Displayname": "{{i18n:cxx.species_name}}",
+  "Description": "{{i18n:cxx.species_de}}",
   "Type": "objects",
   "Category": -17,
   "Price": 5000,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 201}}},
+  "SpriteIndex": 301}}},
 
 
 {"LogName": "铜玫瑰",
@@ -345,14 +428,14 @@
   "Entries":
 {"cxx.MetalRose":
 {"Name": "cxx.MetalRose", 
-  "Displayname": "{{i18n:cxx.MetalRose.name}}",
-  "Description": "{{i18n:cxx.MetalRose.de}}",
+  "Displayname": "{{i18n:cxx.MetalRose_name}}",
+  "Description": "{{i18n:cxx.MetalRose_de}}",
   "Type": "objects",
   "Category": -17,
   "Price": 100,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 202}}},
+  "SpriteIndex": 302}}},
 
 
 {"LogName": "铁玫瑰",
@@ -361,14 +444,14 @@
   "Entries":
 {"cxx.MetalRose1":
 {"Name": "cxx.MetalRose1", 
-  "Displayname": "{{i18n:cxx.MetalRose1.name}}",
-  "Description": "{{i18n:cxx.MetalRose1.de}}",
+  "Displayname": "{{i18n:cxx.MetalRose1_name}}",
+  "Description": "{{i18n:cxx.MetalRose1_de}}",
   "Type": "objects",
   "Category": -17,
   "Price": 180,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 203}}},
+  "SpriteIndex": 303}}},
 
 
 {"LogName": "金玫瑰",
@@ -377,14 +460,14 @@
   "Entries":
 {"cxx.MetalRose2":
 {"Name": "cxx.MetalRose2", 
-  "Displayname": "{{i18n:cxx.MetalRose2.name}}",
-  "Description": "{{i18n:cxx.MetalRose2.de}}",
+  "Displayname": "{{i18n:cxx.MetalRose2_name}}",
+  "Description": "{{i18n:cxx.MetalRose2_de}}",
   "Type": "objects",
   "Category": -17,
   "Price": 300,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 204}}},
+  "SpriteIndex": 304}}},
 
 
 {"LogName": "依玫瑰",
@@ -393,14 +476,14 @@
   "Entries":
 {"cxx.MetalRose3":
 {"Name": "cxx.MetalRose3", 
-  "Displayname": "{{i18n:cxx.MetalRose3.name}}",
-  "Description": "{{i18n:cxx.MetalRose3.de}}",
+  "Displayname": "{{i18n:cxx.MetalRose3_name}}",
+  "Description": "{{i18n:cxx.MetalRose3_de}}",
   "Type": "objects",
   "Category": -17,
   "Price": 1500,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 205}}},
+  "SpriteIndex": 305}}},
 
 
 {"LogName": "长乐的茶包",
@@ -409,14 +492,14 @@
   "Entries":
 {"cxx.antea":
 {"Name": "cxx.antea", 
-  "Displayname": "{{i18n:cxx.antea.name}}",
-  "Description": "{{i18n:cxx.antea.de}}",
+  "Displayname": "{{i18n:cxx.antea_name}}",
+  "Description": "{{i18n:cxx.antea_de}}",
   "Type": "Basic",
   "Category": -26,
   "Price": 10,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 206}}},
+  "SpriteIndex": 306}}},
 
 
 {"LogName": "水晶",
@@ -425,14 +508,14 @@
   "Entries":
 {"cxx.crystal":
 {"Name": "cxx.crystal", 
-  "Displayname": "{{i18n:cxx.crystal.name}}",
-  "Description": "{{i18n:cxx.crystal.de}}",
+  "Displayname": "{{i18n:cxx.crystal_name}}",
+  "Description": "{{i18n:cxx.crystal_de}}",
   "Type": "Basic",
   "Category": -2,
   "Price": 10,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 207}}},
+  "SpriteIndex": 307}}},
 
 
 {"LogName": "星竹的怀表",
@@ -441,14 +524,14 @@
   "Entries":
 {"cxx.Pocketwatch":
 {"Name": "cxx.Pocketwatch", 
-  "Displayname": "{{i18n:cxx.Pocketwatch.name}}",
-  "Description": "{{i18n:cxx.Pocketwatch.de}}",
+  "Displayname": "{{i18n:cxx.Pocketwatch_name}}",
+  "Description": "{{i18n:cxx.Pocketwatch_de}}",
   "Type": "Objects",
   "Category": -17,
   "Price": 0,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 208}}},
+  "SpriteIndex": 308}}},
   
 
 {"LogName": "雪球",
@@ -457,14 +540,14 @@
   "Entries":
 {"cxx.snowball":
 {"Name": "cxx.snowball", 
-  "Displayname": "{{i18n:cxx.snowball.name}}",
-  "Description": "{{i18n:cxx.snowball.de}}",
+  "Displayname": "{{i18n:cxx.snowball_name}}",
+  "Description": "{{i18n:cxx.snowball_de}}",
   "Type": "Basic",
   "Category": -26,
   "Price": 50,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 209}}},
+  "SpriteIndex": 309}}},
   
 
 {"LogName": "梦萃",
@@ -473,30 +556,30 @@
   "Entries":
 {"cxx.Mengcui":
 {"Name": "cxx.Mengcui", 
-  "Displayname": "{{i18n:cxx.Mengcui.name}}",
-  "Description": "{{i18n:cxx.Mengcui.de}}",
+  "Displayname": "{{i18n:cxx.Mengcui_name}}",
+  "Description": "{{i18n:cxx.Mengcui_de}}",
   "Type": "Objects",
   "Category": -17,
   "Price": 1000,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 210}}},
+  "SpriteIndex": 310}}},
 
 
-{"LogName": "炎晶",
+{"LogName": "能量块",
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries":
-{"cxx.Yanjing":
-{"Name": "cxx.Yanjing", 
-  "Displayname": "{{i18n:cxx.Yanjing.name}}",
-  "Description": "{{i18n:cxx.Yanjing.de}}",
+{"cxx.energy":
+{"Name": "cxx.energy", 
+  "Displayname": "{{i18n:cxx.energy_name}}",
+  "Description": "{{i18n:cxx.energy_de}}",
   "Type": "Basic",
   "Category": -28,
   "Price": 200,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 211}}},
+  "SpriteIndex": 311}}},
 
 
 {"LogName": "鳗鳗灯丝",
@@ -505,16 +588,96 @@
   "Entries":
 {"cxx.eeld":
 {"Name": "cxx.eeld", 
-  "Displayname": "{{i18n:cxx.eeld.name}}",
-  "Description": "{{i18n:cxx.eeld.de}}",
+  "Displayname": "{{i18n:cxx.eeld_name}}",
+  "Description": "{{i18n:cxx.eeld_de}}",
   "Type": "Objects",
   "Category": -26,
   "Price": 800,
   "Edibility": -300,
   "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 212}}},
+  "SpriteIndex": 312}}},
+
+
+{"LogName": "云杉的怀表",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Pocketwatch1":
+{"Name": "cxx.Pocketwatch1", 
+  "Displayname": "{{i18n:cxx.Pocketwatch1_name}}",
+  "Description": "{{i18n:cxx.Pocketwatch1_de}}",
+  "Type": "Objects",
+  "Category": -26,
+  "Price": 800,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 313}}},
+
+
+{"LogName": "哀角兽的角",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.horn":
+{"Name": "cxx.horn", 
+  "Displayname": "{{i18n:cxx.horn_name}}",
+  "Description": "{{i18n:cxx.horn_de}}",
+  "Type": "Objects",
+  "Category": -26,
+  "Price": 800,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 314}}},
+
+
+{"LogName": "荧荧幽菇",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.mushroom":
+{"Name": "cxx.mushroom", 
+  "Displayname": "{{i18n:cxx.mushroom_name}}",
+  "Description": "{{i18n:cxx.mushroom_de}}",
+  "Type": "Objects",
+  "Category": -26,
+  "Price": 800,
+  "Edibility": -300,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 315}}},
+
+
+{"LogName": "乌鸦蛋",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.crowegg":
+{"Name": "cxx.crowegg", 
+  "Displayname": "{{i18n:cxx.crowegg_name}}",
+  "Description": "{{i18n:cxx.crowegg_de}}",
+  "Type": "Basic",
+  "Category": -5,
+  "Price": 800,
+  "Edibility": 20,
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 316}}},
 
 //其他*有属性的道具 id 401-500
+
+{"LogName": "发条",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Dolllspring":
+{"Name": "cxx.Dolllspring", 
+  "Displayname": "{{i18n:cxx.Dolllspring_name}}",
+  "Description": "{{i18n:cxx.Dolllspring_de}}",
+  "Type": "0",
+  "Category": 0,
+  "Price": 100,
+  "Edibility": -50,
+  "ContextTags": ["propose_roommate_cxx.Dolll"],
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 401}}},
 
 {"LogName": "传送图腾",
   "Action": "EditData",
@@ -522,13 +685,13 @@
   "Entries":
 {"cxx.warp": 
 {"Name": "cxx.warp",
- "DisplayName": "{{i18n:cxx.warp.name}}",
- "Description": "{{i18n:cxx.warp.description}}",
+ "DisplayName": "{{i18n:cxx.warp_name}}",
+ "Description": "{{i18n:cxx.warp_description}}",
  "Type": "Crafting",
  "Category": 0,
  "Price": 20,
  "Texture": "Mods/potato.cxxcp/Objects",
- "SpriteIndex": 22,
+ "SpriteIndex": 401,
  "Edibility": -300,
  "IsDrink": false,
  "Buff": null,
@@ -549,21 +712,7 @@
 
 
 
-{"LogName": "发条",
-  "Action": "EditData",
-  "Target": "Data/Objects",
-  "Entries":
-{"cxx.Dolllspring":
-{"Name": "cxx.Dolllspring", 
-  "Displayname": "{{i18n:cxx.Dolllspring.name}}",
-  "Description": "{{i18n:cxx.Dolllspring.de}}",
-  "Type": "0",
-  "Category": 0,
-  "Price": 100,
-  "Edibility": -50,
-  "ContextTags": ["propose_roommate_cxx.Dolll"],
-  "Texture": "Mods/potato.cxxcp/Objects",
-  "SpriteIndex": 314}}},
+
 
 
 

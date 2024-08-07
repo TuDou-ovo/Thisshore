@@ -93,7 +93,7 @@
 
 {"LogName": "Items·农场动物",
   "Action": "Include",
-  "FromFile": "assets/Items/Animals.json"}, 
+  "FromFile": "assets/Items/FarmAnimals.json"}, 
 
 {"LogName": "Items·鱼数据",
   "Action": "Include",

@@ -3,8 +3,8 @@
  <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="游戏素材-场景/spring_outdoorsTileSheet.png" width="400" height="1264"/>
  </tileset>
- <tileset firstgid="1976" name="spring_map111" tilewidth="16" tileheight="16" tilecount="1440" columns="36">
-  <image source="me/spring_map111.png" width="576" height="640"/>
+ <tileset firstgid="1976" name="spring_map1" tilewidth="16" tileheight="16" tilecount="1440" columns="36">
+  <image source="me/spring_map1.png" width="576" height="640"/>
  </tileset>
  <layer id="1" name="Back" width="3" height="4">
   <properties>
@@ -24,7 +24,7 @@
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Front" width="3" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFr9gZ8AIAHkkA8g==
+   eJxjYEAFr9gRbD4OBgwAAB/5AQg=
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>

@@ -6,7 +6,7 @@
   "Target": "Data/Characters",
   "Entries": 
 {"cxx.Tangf": 
-{"DisplayName": "{{i18n:Tangf.name}}",
+{"DisplayName": "{{i18n:Tangf_name}}",
   "BirthSeason": 0,
   "BirthDay": 14,
   "HomeRegion": "Other",
@@ -58,7 +58,7 @@
   "Target": "Data/Characters",
   "Entries": {
   "cxx.Dolll": {
-  "DisplayName": "{{i18n:Dolll.name}}",
+  "DisplayName": "{{i18n:Dolll_name}}",
   "HomeRegion": "Other",
   "Language": 0,
   "Gender": 1,
@@ -107,7 +107,7 @@
   "Target": "Data/Characters",
   "Entries": 
 {"cxx.Luom": 
-{"DisplayName": "{{i18n:cxx.Luom.name}}",
+{"DisplayName": "{{i18n:cxx.Luom_name}}",
   "BirthSeason": 0,
   "BirthDay": 6,
   "HomeRegion": "Other",

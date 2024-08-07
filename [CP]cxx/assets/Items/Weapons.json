@@ -13,8 +13,8 @@
   "Entries":
 {"cxx.YihsBass":
 {"Name": "cxx.YihsBass",
-  "DisplayName": "{{i18n:cxx.YihsBass.name}}",
-  "Description": "{{i18n:cxx.YihsBass.de}}",
+  "DisplayName": "{{i18n:cxx.YihsBass_name}}",
+  "Description": "{{i18n:cxx.YihsBass_de}}",
   "MinDamage": 60,
   "MaxDamage": 80,
   "Knockback": 1,
@@ -38,8 +38,8 @@
   "Entries":
 {"cxx.Jiydagger":
 {"Name": "cxx.Jiydagger",
-  "DisplayName": "{{i18n:cxx.Jiydagger.name}}",
-  "Description": "{{i18n:cxx.Jiydagger.de}}",
+  "DisplayName": "{{i18n:cxx.Jiydagger_name}}",
+  "Description": "{{i18n:cxx.Jiydagger_de}}",
   "MinDamage": 40,
   "MaxDamage": 60,
   "Knockback": 0,
@@ -63,8 +63,8 @@
   "Entries":
 {"cxx.Yunyknife":
 {"Name": "cxx.Yunyknife",
-  "DisplayName": "{{i18n:cxx.Yunyknife.name}}",
-  "Description": "{{i18n:cxx.Yunyknife.de}}",
+  "DisplayName": "{{i18n:cxx.Yunyknife_name}}",
+  "Description": "{{i18n:cxx.Yunyknife_de}}",
   "MinDamage": 60,
   "MaxDamage": 80,
   "Knockback": 1,
@@ -88,8 +88,8 @@
   "Entries":
 {"cxx.Baiqystaff":
 {"Name": "cxx.Baiqystaff",
-  "DisplayName": "{{i18n:cxx.Baiqystaff.name}}",
-  "Description": "{{i18n:cxx.Baiqystaff.de}}",
+  "DisplayName": "{{i18n:cxx.Baiqystaff_name}}",
+  "Description": "{{i18n:cxx.Baiqystaff_de}}",
   "MinDamage": 20,
   "MaxDamage": 30,
   "Knockback": 0,
@@ -113,8 +113,8 @@
   "Entries":
 {"cxx.catabacus":
 {"Name": "cxx.catabacus",
-  "DisplayName": "{{i18n:cxx.catabacus.name}}",
-  "Description": "{{i18n:cxx.catabacus.de}}",
+  "DisplayName": "{{i18n:cxx.catabacus_name}}",
+  "Description": "{{i18n:cxx.catabacus_de}}",
   "MinDamage": 80,
   "MaxDamage": 90,
   "Knockback": 1,
@@ -138,8 +138,8 @@
   "Entries":
 {"cxx.Weiyumbrella":
 {"Name": "cxx.Weiyumbrella",
-  "DisplayName": "{{i18n:cxx.Weiyumbrella.name}}",
-  "Description": "{{i18n:cxx.Weiyumbrella.de}}",
+  "DisplayName": "{{i18n:cxx.Weiyumbrella_name}}",
+  "Description": "{{i18n:cxx.Weiyumbrella_de}}",
   "MinDamage": 60,
   "MaxDamage": 80,
   "Knockback": 1,
@@ -163,8 +163,8 @@
   "Entries":
 {"cxx.Mijneedle":
 {"Name": "cxx.Mijneedle",
-  "DisplayName": "{{i18n:cxx.Mijneedle.name}}",
-  "Description": "{{i18n:cxx.Mijneedle.de}}",
+  "DisplayName": "{{i18n:cxx.Mijneedle_name}}",
+  "Description": "{{i18n:cxx.Mijneedle_de}}",
   "MinDamage": 20,
   "MaxDamage": 60,
   "Knockback": 1,
@@ -188,8 +188,8 @@
   "Entries":
 {"cxx.yoyoknife":
 {"Name": "cxx.yoyoknife",
-  "DisplayName": "{{i18n:cxx.yoyoknife.name}}",
-  "Description": "{{i18n:cxx.yoyoknife.de}}",
+  "DisplayName": "{{i18n:cxx.yoyoknife_name}}",
+  "Description": "{{i18n:cxx.yoyoknife_de}}",
   "MinDamage": 60,
   "MaxDamage": 90,
   "Knockback": 1,
@@ -213,8 +213,8 @@
   "Entries":
 {"cxx.Xiaozlmicrophone":
 {"Name": "cxx.Xiaozlmicrophone",
-  "DisplayName": "{{i18n:cxx.Xiaozlmicrophone.name}}",
-  "Description": "{{i18n:cxx.Xiaozlmicrophone.de}}",
+  "DisplayName": "{{i18n:cxx.Xiaozlmicrophone_name}}",
+  "Description": "{{i18n:cxx.Xiaozlmicrophone_de}}",
   "MinDamage": 50,
   "MaxDamage": 70,
   "Knockback": 1,
@@ -238,8 +238,8 @@
   "Entries":
 {"cxx.Qiusshammer":
 {"Name": "cxx.Qiusshammer",
-  "DisplayName": "{{i18n:cxx.Qiusshammer.name}}",
-  "Description": "{{i18n:cxx.Qiusshammer.de}}",
+  "DisplayName": "{{i18n:cxx.Qiusshammer_name}}",
+  "Description": "{{i18n:cxx.Qiusshammer_de}}",
   "MinDamage": 60,
   "MaxDamage": 75,
   "Knockback": 1,
@@ -263,8 +263,8 @@
   "Entries":
 {"cxx.IssTarot":
 {"Name": "cxx.IssTarot",
-  "DisplayName": "{{i18n:cxx.IssTarot.name}}",
-  "Description": "{{i18n:cxx.IssTarot.de}}",
+  "DisplayName": "{{i18n:cxx.IssTarot_name}}",
+  "Description": "{{i18n:cxx.IssTarot_de}}",
   "MinDamage": 20,
   "MaxDamage": 45,
   "Knockback": 1,
@@ -288,8 +288,8 @@
   "Entries":
 {"cxx.Liuqysword":
 {"Name": "cxx.Liuqysword",
-  "DisplayName": "{{i18n:cxx.Liuqysword.name}}",
-  "Description": "{{i18n:cxx.Liuqysword.de}}",
+  "DisplayName": "{{i18n:cxx.Liuqysword_name}}",
+  "Description": "{{i18n:cxx.Liuqysword_de}}",
   "MinDamage": 80,
   "MaxDamage": 90,
   "Knockback": 1,
@@ -313,8 +313,8 @@
   "Entries":
 {"cxx.ShangflDusting":
 {"Name": "cxx.ShangflDusting",
-  "DisplayName": "{{i18n:cxx.ShangflDusting.name}}",
-  "Description": "{{i18n:cxx.ShangflDusting.de}}",
+  "DisplayName": "{{i18n:cxx.ShangflDusting_name}}",
+  "Description": "{{i18n:cxx.ShangflDusting_de}}",
   "MinDamage": 10,
   "MaxDamage": 90,
   "Knockback": 1,
@@ -338,8 +338,8 @@
   "Entries":
 {"cxx.Moyfan":
 {"Name": "cxx.Moyfan",
-  "DisplayName": "{{i18n:cxx.Moyfan.name}}",
-  "Description": "{{i18n:cxx.Moyfan.de}}",
+  "DisplayName": "{{i18n:cxx.Moyfan_name}}",
+  "Description": "{{i18n:cxx.Moyfan_de}}",
   "MinDamage": 60,
   "MaxDamage": 90,
   "Knockback": 1,
@@ -363,8 +363,8 @@
   "Entries":
 {"cxx.Yuanxpen":
 {"Name": "cxx.Yuanxpen",
-  "DisplayName": "{{i18n:cxx.Yuanxpen.name}}",
-  "Description": "{{i18n:cxx.Yuanxpen.de}}",
+  "DisplayName": "{{i18n:cxx.Yuanxpen_name}}",
+  "Description": "{{i18n:cxx.Yuanxpen_de}}",
   "MinDamage": 40,
   "MaxDamage": 60,
   "Knockback": 1,

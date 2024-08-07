@@ -13,8 +13,8 @@
   "Entries":
 {"cxx.toast":
 {"Name": "cxx.toast", 
-  "Displayname": "{{i18n:cxx.toast.name}}",
-  "Description": "{{i18n:cxx.toast.de}}",
+  "Displayname": "{{i18n:cxx.toast_name}}",
+  "Description": "{{i18n:cxx.toast_de}}",
   "Type": "Basic",
   "Category": -7,
   "Price": 100,
@@ -29,8 +29,8 @@
   "Entries":
 {"cxx.Pineapplebun":
 {"Name": "cxx.Pineapplebun", 
-  "Displayname": "{{i18n:cxx.Pineapplebun.name}}",
-  "Description": "{{i18n:cxx.Pineapplebun.de}}",
+  "Displayname": "{{i18n:cxx.Pineapplebun_name}}",
+  "Description": "{{i18n:cxx.Pineapplebun_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 200,
@@ -64,8 +64,8 @@
   "Entries":
 {"cxx.hudiejiu":
 {"Name": "cxx.hudiejiu", 
-  "Displayname": "{{i18n:cxx.hudiejiu.name}}",
-  "Description": "{{i18n:cxx.hudiejiu.de}}",
+  "Displayname": "{{i18n:cxx.hudiejiu_name}}",
+  "Description": "{{i18n:cxx.hudiejiu_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 400,
@@ -99,8 +99,8 @@
   "Entries":
 {"cxx.sugartea":
 {"Name": "cxx.sugartea", 
-  "Displayname": "{{i18n:cxx.sugartea.name}}",
-  "Description": "{{i18n:cxx.sugartea.de}}",
+  "Displayname": "{{i18n:cxx.sugartea_name}}",
+  "Description": "{{i18n:cxx.sugartea_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 500,
@@ -134,8 +134,8 @@
   "Entries":
 {"cxx.blacktea":
 {"Name": "cxx.blacktea", 
-  "Displayname": "{{i18n:cxx.blacktea.name}}",
-  "Description": "{{i18n:cxx.blacktea.de}}",
+  "Displayname": "{{i18n:cxx.blacktea_name}}",
+  "Description": "{{i18n:cxx.blacktea_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 1528,
@@ -167,13 +167,13 @@
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries":
-{"cxx.blacktea":
-{"Name": "cxx.blacktea", 
-  "Displayname": "{{i18n:cxx.blacktea.name}}",
-  "Description": "{{i18n:cxx.blacktea.de}}",
+{"cxx. milkytea":
+{"Name": "cxx.milkytea", 
+  "Displayname": "{{i18n:cxx.milkytea_name}}",
+  "Description": "{{i18n:cxx.milkytea_de}}",
   "Type": "objects",
   "Category": -7,
-  "Price": 1528,
+  "Price": 200,
   "Edibility": 100,
   "IsDrink": true,
   "Buffs": [
@@ -202,10 +202,10 @@
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries":
-{"cxx.blacktea":
-{"Name": "cxx.blacktea", 
-  "Displayname": "{{i18n:cxx.blacktea.name}}",
-  "Description": "{{i18n:cxx.blacktea.de}}",
+{"cxx.scentedtea":
+{"Name": "cxx.scentedtea", 
+  "Displayname": "{{i18n:cxx.scentedtea_name}}",
+  "Description": "{{i18n:cxx.scentedtea_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 1528,
@@ -239,8 +239,8 @@
   "Entries":
 {"cxx.capsule":
 {"Name": "cxx.capsule", 
-  "Displayname": "{{i18n:cxx.capsule.name}}",
-  "Description": "{{i18n:cxx.capsule.de}}",
+  "Displayname": "{{i18n:cxx.capsule_name}}",
+  "Description": "{{i18n:cxx.capsule_de}}",
   "Type": "Basic",
   "Category": -7,
   "Price": 1000,
@@ -274,8 +274,8 @@
   "Entries":
 {"cxx.yaya":
 {"Name": "cxx.yaya", 
-  "Displayname": "{{i18n:cxx.yaya.name}}",
-  "Description": "{{i18n:cxx.yaya.de}}",
+  "Displayname": "{{i18n:cxx.yaya_name}}",
+  "Description": "{{i18n:cxx.yaya_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 1200,
@@ -309,8 +309,8 @@
   "Entries":
 {"cxx.PUFF":
 {"Name": "cxx.PUFF", 
-  "Displayname": "{{i18n:cxx.PUFF.name}}",
-  "Description": "{{i18n:cxx.PUFF.de}}",
+  "Displayname": "{{i18n:cxx.PUFF_name}}",
+  "Description": "{{i18n:cxx.PUFF_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 500,
@@ -344,8 +344,8 @@
   "Entries":
 {"cxx.condensedmilk":
 {"Name": "cxx.condensedmilk", 
-  "Displayname": "{{i18n:cxx.condensedmilk.name}}",
-  "Description": "{{i18n:cxx.condensedmilk.de}}",
+  "Displayname": "{{i18n:cxx.condensedmilk_name}}",
+  "Description": "{{i18n:cxx.condensedmilk_de}}",
   "Type": "objects",
   "Category": -26,
   "Price": 700,
@@ -379,8 +379,8 @@
   "Entries":
 {"cxx.tanghl":
 {"Name": "cxx.tanghl", 
-  "Displayname": "{{i18n:cxx.tanghl.name}}",
-  "Description": "{{i18n:cxx.tanghl.de}}",
+  "Displayname": "{{i18n:cxx.tanghl_name}}",
+  "Description": "{{i18n:cxx.tanghl_de}}",
   "Type": "Basic",
   "Category": -7,
   "Price": 400,
@@ -414,8 +414,8 @@
   "Entries":
 {"cxx.shibing":
 {"Name": "cxx.shibing", 
-  "Displayname": "{{i18n:cxx.shibing.name}}",
-  "Description": "{{i18n:cxx.shibing.de}}",
+  "Displayname": "{{i18n:cxx.shibing_name}}",
+  "Description": "{{i18n:cxx.shibing_de}}",
   "Type": "Basic",
   "Category": -7,
   "Price": 150,
@@ -449,8 +449,8 @@
   "Entries":
 {"cxx.SWISSROLL":
 {"Name": "cxx.SWISSROLL", 
-  "Displayname": "{{i18n:cxx.SWISSROLL.name}}",
-  "Description": "{{i18n:cxx.SWISSROLL.de}}",
+  "Displayname": "{{i18n:cxx.SWISSROLL_name}}",
+  "Description": "{{i18n:cxx.SWISSROLL_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 1500,
@@ -484,8 +484,8 @@
   "Entries":
 {"cxx.nmrldg":
 {"Name": "cxx.nmrldg", 
-  "Displayname": "{{i18n:cxx.nmrldg.name}}",
-  "Description": "{{i18n:cxx.nmrldg.de}}",
+  "Displayname": "{{i18n:cxx.nmrldg_name}}",
+  "Description": "{{i18n:cxx.nmrldg_de}}",
   "Type": "objects",
   "Category": -7,
   "Price": 800,
@@ -519,8 +519,8 @@
   "Entries":
 {"cxx.Chocolatecoins":
 {"Name": "cxx.Chocolatecoins", 
-  "Displayname": "{{i18n:cxx.Chocolatecoins.name}}",
-  "Description": "{{i18n:cxx.Chocolatecoins.de}}",
+  "Displayname": "{{i18n:cxx.Chocolatecoins_name}}",
+  "Description": "{{i18n:cxx.Chocolatecoins_de}}",
   "Type": "Basic",
   "Category": -7,
   "Price": 100,
@@ -546,6 +546,186 @@
   "CustomFields": null}],
   "Texture": "Mods/potato.cxxcp/Foods",
   "SpriteIndex": 15}}},
+
+
+{"LogName": "稠鱼烧",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Thickfishstew":
+{"Name": "cxx.Thickfishstew", 
+  "Displayname": "{{i18n:cxx.Thickfishstew_name}}",
+  "Description": "{{i18n:cxx.Thickfishstew_de}}",
+  "Type": "objects/Basic",//有蓝底/没有
+  "Category": -7,//物品标签
+  "Price": 0,//价格
+  "Edibility": 50,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+{"Id": "Food",//类别
+  "BuffId": null,
+  "Duration": 0,//持续时间/游戏内时间
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+ "CustomAttributes": 
+{"FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 0,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 16}}},
+
+
+{"LogName": "热可可",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.cocoa":
+{"Name": "cxx.cocoa", 
+  "Displayname": "{{i18n:cxx.cocoa_name}}",
+  "Description": "{{i18n:cxx.cocoa_de}}",
+  "Type": "objects/Basic",//有蓝底/没有
+  "Category": -7,//物品标签
+  "Price": 0,//价格
+  "Edibility": 50,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+{"Id": "Food",//类别
+  "BuffId": null,
+  "Duration": 0,//持续时间/游戏内时间
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+ "CustomAttributes": 
+{"FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 0,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 17}}},
+
+
+{"LogName": "拐杖糖",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Candycane":
+{"Name": "cxx.Candycane", 
+  "Displayname": "{{i18n:cxx.Candycane_name}}",
+  "Description": "{{i18n:cxx.Candycane_de}}",
+  "Type": "objects/Basic",//有蓝底/没有
+  "Category": -7,//物品标签
+  "Price": 0,//价格
+  "Edibility": 50,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+{"Id": "Food",//类别
+  "BuffId": null,
+  "Duration": 0,//持续时间/游戏内时间
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+ "CustomAttributes": 
+{"FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 0,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 18}}},
+
+
+{"LogName": "绿豆汤",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.Mungbeansoup":
+{"Name": "cxx.Mungbeansoup", 
+  "Displayname": "{{i18n:cxx.Mungbeansoup_name}}",
+  "Description": "{{i18n:cxx.Mungbeansoup_de}}",
+  "Type": "objects/Basic",//有蓝底/没有
+  "Category": -7,//物品标签
+  "Price": 0,//价格
+  "Edibility": 50,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+{"Id": "Food",//类别
+  "BuffId": null,
+  "Duration": 0,//持续时间/游戏内时间
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+ "CustomAttributes": 
+{"FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 0,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 19}}},
+
+
+{"LogName": "汤圆",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"cxx.ricedumpling":
+{"Name": "cxx.ricedumpling", 
+  "Displayname": "{{i18n:cxx.ricedumpling_name}}",
+  "Description": "{{i18n:cxx.ricedumpling_de}}",
+  "Type": "objects/Basic",//有蓝底/没有
+  "Category": -7,//物品标签
+  "Price": 0,//价格
+  "Edibility": 50,//可食性
+  "IsDrink": false,//是饮料
+  "Buffs": [
+{"Id": "Food",//类别
+  "BuffId": null,
+  "Duration": 0,//持续时间/游戏内时间
+  "IsDebuff": false,//是负面buff
+  "GlowColor": null,//发光颜色
+ "CustomAttributes": 
+{"FarmingLevel": 0,//耕种
+  "FishingLevel": 0,//钓鱼
+  "MiningLevel": 0,//挖掘
+  "LuckLevel": 0,//幸运
+  "ForagingLevel": 0,//觅食
+  "MaxStamina": 0,//体力
+  "MagneticRadius": 0,//磁力
+  "Speed": 0,//速度
+  "Defense": 0,//防御
+  "Attack": 0},//攻击
+  "CustomFields": null}],//自定义
+  "Texture": "Mods/potato.cxxcp/Objects",
+  "SpriteIndex": 20}}},
+
+
+
+
+
 
 
 

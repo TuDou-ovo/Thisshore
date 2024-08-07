@@ -7,27 +7,27 @@
  "Entries":
 
 {"cxx.Ancl": 
-{"Name": "[cxx.Ancl.SpecialOrders.Name]",
+{"Name": "[cxx.Ancl_SpecialOrders_Name]",
 "Requester": "cxx.Ancl",
 "Duration": "TwoWeeks",
 "Repeatable": "true",
 "RequiredTags":"knows_cxx.Ancl",
 "OrderType": "",
 "SpecialRule": "",
-"Text": "[cxx.Ancl.SpecialOrders.Text]",
+"Text": "[cxx.Ancl_SpecialOrders_Text]",
 "ItemToRemoveOnEnd": null,
 "MailToRemoveOnEnd": null,
 "RandomizedElements": null,
 
 "Objectives": [
 {"Type": "Collect",
- "Text": "[cxx.Ancl.SpecialOrders.Objective0]",
+ "Text": "[cxx.Ancl_SpecialOrders_Objective0]",
  "RequiredCount": "50",
  "Data": 
 {"AcceptedContextTags": "item_Tea_Leaves"}},
 
 {"Type": "Donate",
- "Text": "[cxx.Ancl.SpecialOrders.Objective1]",
+ "Text": "[cxx.Ancl_SpecialOrders_Objective1]",
  "RequiredCount": "100",
  "Data": 
 {"DropBox": "茶水台的抽屉",

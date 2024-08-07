@@ -1,26 +1,107 @@
 {"Changes": [
 
 
-{"LogName": "乌鸦",
+
+{"LogName": "乌鸦商店图标",
+  "Action": "Load",
+  "Target": "assets/cxx.crowShopIcon",
+  "FromFile": "assets/Animals/crowShopIcon.png"},
+
+{"LogName": "乌鸦崽行走图",
+  "Action": "Load",
+  "Target": "assets/cxx.crowbaby0",
+  "FromFile": "assets/Animals/crowbaby.png"},
+
+{"LogName": "乌鸦行走图",
+  "Action": "Load",
+  "Target": "assets/cxx.crow0",
+  "FromFile": "assets/Animals/crow.png"},
+
+
+
+{"LogName": "乌鸦崽崽",
   "Action": "EditData",
   "Target": "Data/FarmAnimals",
   "Entries": 
-{"DisplayName":"cxx.wuya",//名字
-"House":"",//住的
-"Gender":"MaleOrFemale",//默认性别
+{"cxx.crowbaby": 
+{"DisplayName": "{{i18n:cxx.crowbaby}}",//显示名称
+ "House": "Coop",//住的
+ "Gender": "Male",//性别
+ "PurchasePrice": 600,//购买价格
+ "SellPrice": 400,//售价 随好感变化
+ "ShopTexture": "Animals/cxx.crowShopIcon",//商店纹理
+ "ShopSourceRect": {"X": 0,"Y": 0,"Width": 16,"Height": 16},//贴图尺寸
+ "RequiredBuilding": "Coop",//所需建筑
+ "ShopDisplayName": "{{i18n:cxx.crowbaby.name}}",
+ "ShopDescription": "{{i18n:cxx.crowbaby.de}}",	
+
+ "AlternatePurchaseTypes": [//变体
+{"Condition": null,//单一
+ "AnimalIds": ["cxx.crowbaby"]}],//可选
+ "DaysToMature": "5",//生长天数
+ "CanGetPregnant": false,//可以怀孕
+
+ "EggItemIds":"object.IsIncubator(176)",//蛋
+ "IncubationTime":"9000",//孵化时间
+ "IncubatorParentSheetOffset":"1",
+ "BirthText":"{{i18n:cxx.crow0}}",//孵化了一只新的**
+
+ "ProduceItemIds": [//产出 
+{"Id": "Default",//蛋
+ "Condition": null,
+ "MinimumFriendship": 0,//需要的好感
+ "ItemId": "cxx.crowegg"},
+
+{"Id": "Default",//钻石
+ "Condition": null,
+ "MinimumFriendship": 5,
+ "ItemId": "72"}],
+
+ "DeluxeProduceItemIds": [],
+ "DaysToProduce": "1",//产出间隔
+ "HarvestType": "DropOvernight",//收获 
+ "HarvestTool": null,//收获的工具
+
+ "FriendshipForFasterProduce": -1,//好感 -
+ "DeluxeProduceMinimumFriendship": 600,//最低
+ "DeluxeProduceCareDivisor": 1200.0,
+ "DeluxeProduceLuckMultiplier": 0.0,//好感比例的物品生产概率我是懒狗我用默认
+ 
+ "ProfessionForHappinessBoost": 2,
+ "ProfessionForQualityBoost": 2,
+ "ProfessionForFasterProduce": -1,
+
+ "Sound": "croak",//声音
+ "BabySound": "croak",//声音 崽子
+
+ "Texture": "Animals/cxx.crow0",//贴图
+ "HarvestedTexture": "Animals/cxx.crow0",//差分 羊那种
+ "BabyTexture": "Animals/cxx.crowbaby0",//崽子
+ "UseFlippedRightForLeft": true,//翻转
+ "SpriteWidth": "16",
+ "SpriteHeight": "16",//尺寸
+//SleepFrame 睡觉  选了翻转直接默认12号
+
+ "ShadowWhenBabySwims": {"Visible":false},
+ "ShadowWhenBaby": {"Visible":true},
+ "ShadowWhenAdultSwims": {"Visible":false},
+ "ShadowWhenAdult": {"Visible":true},//阴影
+
+ "CanSwim": false,//游泳
+ "BabiesFollowAdults": true,//崽子跟随大的
+ "GrassEatAmount": 3,//吃草量 默认2  0ban
+//HappinessDrain 加热器什么的
+ "ShowInSummitCredits": false}}}//完美过场动画
 
 
 
-
-
-
-
-
-
-}
 
 
 
 
 
 ]}
+
+
+
+

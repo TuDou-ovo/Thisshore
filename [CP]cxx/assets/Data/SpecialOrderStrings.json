@@ -7,10 +7,10 @@
  "Entries":
 
 {
- "cxx.Ancl.SpecialOrders.Name": "需要茶叶",
- "cxx.Ancl.SpecialOrders.Text": "或许有哪位亲爱的能帮我带来一些茶叶？50份就够了，谢谢咯",
- "cxx.Ancl.SpecialOrders.Objective0": "收集一些茶叶。",
- "cxx.Ancl.SpecialOrders.Objective1": "把茶叶放进安长乐茶水台的抽屉里。"
+ "cxx.Ancl_SpecialOrders_Name": "{{i18n:cxx.Ancl_SpecialOrders_Name}}",
+ "cxx.Ancl_SpecialOrders_Text": "{{i18n:cxx.Ancl_SpecialOrders_Text}}",
+ "cxx.Ancl_SpecialOrders_Objective0": "{{i18n:cxx.Ancl_SpecialOrders_Objective0}}",
+ "cxx.Ancl_SpecialOrders_Objective1": "{{i18n:cxx.Ancl_SpecialOrders_Objective1}}"
 
 
    
